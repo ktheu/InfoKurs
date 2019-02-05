@@ -1,0 +1,76 @@
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+  <script>
+
+    let xmin = -2.5;
+    let ymin = -1;
+    let w = 4;
+    let h = 2;
+    let img;
+
+    /*
+    let xmin = -1.5;
+    let ymin = -.1;
+    let w = 0.30;
+    let h = 0.15;
+    */
+    let maxiterations = 1;
+    function setup() {
+      createCanvas(860, 430);
+      img = createImage(width, height);
+    }
+
+    function draw() {
+      img.loadPixels();
+
+      // x geht von xmin bis xmax, y von ymin bis ymax
+      let xmax = xmin + w;
+      let ymax = ymin + h;
+
+      // Berechnen der Schrittweite, die einem Pixel entspricht
+      let dx = (xmax - xmin) / (width);
+      let dy = (ymax - ymin) / (height);
+
+      let y = ymin;
+      for (let j = 0; j < height; j++) {
+        let x = xmin;
+        for (let i = 0; i < width; i++) {
+
+          let a = x;
+          let b = y;
+          let n = 0;
+          while (n < maxiterations && a*a + b*b <= 4.0) {
+            let aa = a * a;
+            let bb = b * b;
+            let twoab = 2.0 * a * b;
+            a = aa - bb + x;
+            b = twoab + y;
+            n++;
+          }
+
+          if (n == maxiterations)
+            img.set(i, j, color(0, 0, 0));
+          else
+            img.set(i, j, color(255, 255, 255));
+          x += dx;
+        }
+        y += dy;
+      }
+      img.updatePixels();
+      image(img, 0, 0);
+      text(maxiterations,50,50);
+      noLoop();
+    }
+
+    function mousePressed() {
+      loop();
+      maxiterations += 1;
+
+    }
+
+  </script>
+</head>
+<body>
+</body>
+</html>
