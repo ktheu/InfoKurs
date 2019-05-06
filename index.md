@@ -5,7 +5,8 @@
 
 ___________________________________________________________________
 
-__[Endliche Automaten und Formale Sprachen](./Automaten/Inhalte/automaten.html)__ -
+__[Endliche Automaten und Formale Sprachen](./Automaten/Inhalte/automaten.html)__
+
 
 
 -------------------------------------------------------------
