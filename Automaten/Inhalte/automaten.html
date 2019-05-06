@@ -11,19 +11,95 @@
 <body>
 <h2>Endliche Automaten und reguläre Sprachen</h2>
 
-<p>Ein endliches <em>Alphabet</em> \( \Sigma \) ist eine endliche Menge von Symbolen, z.B:  \( \Sigma  = \{0,1\}\). </p>
+<h4>Alphabet, Wort, Sprache</h4>
+
+<p>Ein endliches <em>Alphabet</em> \( \Sigma \) ist eine endliche Menge von Symbolen, z.B: \( \Sigma = \{0,1\}\). </p>
 
 
-<p>Eine endliche Folge von Symbolen aus  \( \Sigma \) heißt <em>Wort</em>, z.B: \(w = 010010 \).
+<p>Eine endliche Folge von Symbolen aus \( \Sigma \) heißt <em>Wort</em>, z.B: \(w = 010010 \).
 
-<!--Die Menge aller Wörter über $\Sigma$ heißt $\aSigma^*$ . \pause
+<p>Die Menge aller Wörter über \( \Sigma \) heißt \( \Sigma^*.\) </p>
 
-Die Anzahl der Symbole von w ist die \textbf{Länge} von w: $\left|w\right|$   \pause
+<p>Die Anzahl der Symbole von w ist die <em>Länge</em> von w: \( \left|w\right|\) </p>
 
-Das \textbf{leere Wort} heißt $\epsilon$ ($\left|\epsilon\right|$ = 0). Es gilt:  $\epsilon \in \Sigma^*$ für jedes $\Sigma$. \pause
+<p>Das <em>leere Wort</em> heißt \(\epsilon \). Es gilt \( \left|\epsilon\right| = 0\).</p>
 
-Eine (formale) \textbf{Sprache} $L$ über $\Sigma$  ist eine Teilmenge von $\Sigma^*$, z.B. die Menge der Worte über
-$\{0,1\}$, die keine zwei aufeinanderfolgenden Einsen haben. \\
-$L = \{ \epsilon,0,1,00,01,10,001,010,100,101,... \}$ -->
+<p>Eine (formale) <em>Sprache</em> \(L\) über \( \Sigma \) ist eine Teilmenge von \( \Sigma^*\), z.B. die Menge der
+  Worte über
+  \( \{0,1\} \), die keine zwei aufeinanderfolgenden Einsen haben.
+  \(L = \{ \epsilon,0,1,00,01,10,001,010,100,101,... \}.\)</p>
+
+<h4>DEA</h4>
+
+<p>Ein <em>deterministischer endlicher Automat (DEA) </em> besteht aus :
+
+<ol>
+  <li> \( Q \), einer endlichen Menge von Zuständen</li>
+  <li> \( \Sigma \), einem endlichen Eingabe-Alphabet</li>
+  <li> \( \delta \), einer Übergangsfunktion</li>
+  <li> \( s \in Q \), einem Startzustand</li>
+  <li> \( F \subseteq Q\), einer Menge von Endzuständen</li>
+
+</ol>
+</p>
+
+<p>
+  Die Übergangsfunktion ermittelt aus einem Zustand und einem Eingabesymbol einen Folgezustand.
+</p>
+<p>
+  \( \delta(q,a) = \)
+  der Zustand, in den der DEA geht, wenn er im Zustand \( q \) das Eingabesymbol \( a \) liest.
+
+  Ein DEA <em>erkennt</em> oder <em>akzeptiert</em> ein Wort \( w, \)
+  wenn er nach dem Abarbeiten der Symbole von \( w \) in einem Endzustand ist.
+
+<h4>Beispiel</h4>
+
+<p><img src="bild1.png" , width="400"></p>
+
+<p>Die 5 Bestandteile des DEA:
+<ol>
+  <li> \( Q  =  \{q_0, q_1, q_2\}\)</li>
+  <li> \( \Sigma = \{0,1\}\)</li>
+  <li> \( \delta \) = gegeben durch die Pfeile</li>
+  <li> \( s = q_0 \), Startzustand, symbolisiert durch das Dreieck (oder Startpfeil)</li>
+  <li> \( F = \{q_0,q_1\} \), Endzustände, symbolisiert durch den Doppelkreis</li>
+</ol>
+</p>
+
+<p>Welche Wörter werden durch diesen Automaten akzeptiert?  <button onclick="myFunction(1)">Show</button></p>
+
+<div style="display:none" id="answer1">
+  Alle Wörter über \( \{0,1\}\), die keine zwei aufeinanderfolgenden Einsen haben.
+</div>
+
+<h4>Die Sprache eines Automaten</h4>
+
+Die <em>Sprache \( L \) eines Automaten \( A \) </em> ist die Menge der Wörter,
+die \( A \) akzeptiert. Man sagt auch: <em>\( A \) akzeptiert \( L \).</em>
+
+<h4>Übungen</h4>
+
+<p>1. Konstruiere einen DEA über \( \Sigma = \{a\} \),
+  der die Sprache der Wörter mit einer ungeraden Anzahl von a's akzeptiert. <button onclick="myFunction(2)">Show</button> </p>
+
+<div style="display:none" id="answer2">
+  <img src="bild2.png" , width="300">
+</div>
+
+<script>
+  function myFunction(nr) {
+    var x = document.getElementById("answer"+nr);
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+
+
 </body>
+
+
 </html>
