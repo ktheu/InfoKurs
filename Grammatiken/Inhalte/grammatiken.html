@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="../../kurs.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+  </script>
+  <title>Informatik</title>
+</head>
+<body>
+<h2>Grammatiken</h2>
+
+<h4>Formale Grammatik</h4>
+
+<p>Eine <em>formale Grammatik</em> besteht aus <br>
+ 1. \(V\), einer endlichen Menge von syntaktischen Variablen. <br>
+ 2. \(\Sigma\), einem endlichen Alphabet mit \(\Sigma \cap V = \emptyset \) <br>
+ 3. \(P\), einer endlichen Menge von Produktionsregeln <br>
+ 4. \(S\), einer Startvariablen aus \(V\).
+</p>
+
+<p>Die Symbole aus  \( \Sigma \) werden <em>Terminale</em> genannt,
+  die Symbole aus \(V \) <em>Nichtterminale</em>.</p>
+
+<p>Die Grammatik definiert eine formale Sprache aus allen Wörtern, die nur Terminale
+  enthalten und ausgehend von S durch eine endlichen Anzahl von Anwendungen
+  von Regeln aus P abgeleitet werden können.
+</p>
+
+<h4>Beispiel</h4>
+<p>Welche Sprache wird durch die folgende Grammatik erzeugt? <button onclick="myFunction(1)">Show</button><br>
+
+  \(V =  \{S\}, ~~ \Sigma = \{0,1\} \) <br>
+  Produktionsregeln: \( S \rightarrow 01, ~~ S \rightarrow 0S1 \)</p>
+
+<div style="display:none" id="answer1">
+   \(L = \{0^i1^i | i \ge 0\} \)
+</div>
+
+<hr>
+Produktionsregeln mit gleicher linker Seite fasst man mit  \(| \) zusammen:  \(S \rightarrow 01~|~ 0S1 \)
+
+<h4>Übung</h4>
+
+<p>
+ Leite das Wort \(aababa\) aus der folgenden Grammatik ab: <button onclick="myFunction(2)">Show</button><br>
+ \(V =  \{S,A,B\}, ~~ \Sigma = \{a,b\}\) <br>
+ \(P: S \rightarrow AB, ~A \rightarrow aS|a, ~B \rightarrow bA \)</p>
+
+<div style="display:none" id="answer2">
+  \(S \rightarrow AB \rightarrow aSB \rightarrow aABB \rightarrow aaBB \rightarrow aabAB \rightarrow aabaB
+  \rightarrow aababA \rightarrow aababa \)
+</div>
+
+<h4>Die Chomsky Hierarchie</h4>
+<p>
+  Jede Grammatik ist automatisch vom <em>Typ 0</em>, d.h. die Produktionsregeln
+  sind keiner Beschränkung unterworfen.  </p>
+
+<p>  Eine Grammatik ist vom <em>Typ 1</em> oder <em>kontextsensitiv</em>, wenn für alle
+  Produktionsregeln \(w_1 \rightarrow w_2\) gilt:
+  \(\left|w_1\right| \le \left|w_2\right|\).  </p>
+
+<p>  Eine Grammatik ist vom <em>Typ 2</em> oder <em>kontextfrei</em>, wenn jede Produktionsregel die Form hat
+  \(A \rightarrow  w \), d.h. die linke Seite besteht aus einem Nichtterminal. </p>
+
+<p>  Eine Grammatik ist vom <em>Typ 3</em> oder <em>regulär</em>, wenn die Produktionsregeln die Form
+  \(A \rightarrow  bC | b \) haben, d.h. die rechte Seite besteht entweder
+  aus einem Terminal oder aus einem Terminal+Nichtterminal (rechtslinear).
+</p>
+
+<hr>
+
+<p>Typ-3 Sprachen sind die regulären Sprachen, die durch einen DEA erkannt
+  bzw durch einen regulären Ausdruck beschrieben werden können.</p>
+
+
+<p>Typ-2 Sprachen sind die kontextfreien Sprachen, die von einer kontextfreien
+  Grammatik erzeugt werden und durch einen Kellerautomaten erkannt werden.</p>
+
+<p> Programmiersprachen sind in der Regel kontextfrei. Die Produktionsregeln für
+  Programmiersprachen werden häufig in Form von Syntaxdiagrammen oder in der
+  erweiterten Backus-Naur-Form (EBNF) geschrieben.</p>
+
+<h4>EBNF</h4>
+<p>In der <em>erweiterten Backus-Naur-Form (EBNF) </em> wird der Produktionspfeil
+  durch  ::=  ersetzt und alle Zeichenketten aus Terminalsymbolen werden in Hochkommata gesetzt.
+  Außerdem gibt es weitere Ausdrucksmittel für Wiederholungen und Optionen.</p>
+
+<p><pre class="codef">
+A?    : A optional,
+A+    : mindestens ein A, sonst beliebig
+A*    : beliebig viele
+A B   : Konkatenation
+A | B : A oder B (aber nicht beide)
+</pre></p>
+
+<h4>Syntaxdiagramme</h4>
+<p> <em>Syntaxdiagramme (Eisenbahndiagramme) </em> stellen die Regeln der Grammatik durch Graphen dar.
+  Die  Knoten mit abgerundeten Ecken stehen für Terminale,
+  die rechteckigen für Nichtterminale. Jeder mögliche Pfad durch
+  das Diagramm entspricht einer Ableitung. </p>
+
+<h4>Railroad Diagram Generator</h4>
+<p><a href="http://bottlecaps.de/rr/ui">Der Railroad Diagram Generator</a>
+wandelt eine eingegebene EBNF in
+  ein Syntax-Diagramm um.</p>
+
+<p><img src="sy01.png" , width="600"></p>
+<p><img src="sy02.png" , width="600"></p>
+<p><img src="sy03.png" , width="650"></p>
+<p><img src="sy04.png" , width="500"></p>
+
+<h4>Übung</h4>
+<p> Entwirf eine kontextfreie Grammatik, die die Sprache
+  \( \{a^jb^kc^l~|~j,k,l \in \mathbb{N}_0, j > l\} \) über dem Alphabet
+   \(\Sigma = \{a,b,c\} \) erzeugt.  <br>
+Gib dazu die Produktionsregeln, EBNF und Syntaxdiagramm an.  <button onclick="myFunction(3)">Show</button></p>
+
+<div style="display:none" id="answer3">
+  <p>
+  Produktionsregeln: <br>
+  \(S \rightarrow aA \) <br>
+  \(A \rightarrow aA|aAc|B\) <br>
+  \(B \rightarrow \epsilon|bB\) <br></p>
+
+  <p>
+    EBNF: <br>
+  S ::= 'a' A <br>
+  A ::= 'a' A | 'a' A 'c' | B <br>
+  B ::=   | 'b' B <br>
+  </p>
+
+  <p>
+    Syntaxdiagramm: <br>
+    <img src="grammatik_02a.png" , width="200"><br>
+    <img src="grammatik_02d.png" , width="300">
+  </p>
+</div>
+
+<h4>Tracery</h4>
+<p>Das Python package tracery (pip install tracery) erlaubt das Generieren
+zulässiger Wörter zu einer Grammatik: <a href="https://repl.it/@ktest/Grammatik01">Beispiel</a> </p>
+
+<h4>Links</h4>
+<ul>
+  <li> <a href="http://tracery.io/">Tracery</a></li>
+  <li> <a href="https://www.brettwitty.net/tracery-in-python.html">Tracery Tutorial</a></li>
+</ul>
+
+
+<script>
+  function myFunction(nr) {
+    var x = document.getElementById("answer"+nr);
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+</body>
+
+
+</html>

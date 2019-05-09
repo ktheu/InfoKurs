@@ -87,6 +87,141 @@ die \( A \) akzeptiert. Man sagt auch: <em>\( A \) akzeptiert \( L \).</em>
   <img src="bild2.png" , width="300">
 </div>
 
+
+<p>2. Konstruiere einen DEA über \( \Sigma = \{a,b\} \),
+  der die Sprache der Wörter mit einer geraden Anzahl von a's und mindestens
+  3 b's akzeptiert. <button onclick="myFunction(3)">Show</button> </p>
+
+<div style="display:none" id="answer3">
+  <img src="bild3.png" , width="450">
+</div>
+
+<h4>NEA</h4>
+<p>Ein <em>nichtdeterministischer endlicher Automat (NEA)</em> unterscheidet sich von einem DEA
+  in der Übergangsfunktion \( \delta. \) </p> <p> \(\delta(q,a) \) ist eine Menge von Zuständen.
+Wenn der NEA im Zustand  \(q\) das Eingabesymbol \(a\) liest, kann er in einen
+der Zustände aus dieser Menge wechseln. Außerdem kann ein NEA auch ohne Lesen einer Eingabe
+seinen Zuständ wechseln. Dies nennt man \( \epsilon \)-Übergang (manchmal wird dafür auch \( \lambda \) verwendet).
+</p>
+<p>
+Ein NEA akzeptiert ein Wort \(w\), wenn es mindestens eine Möglichkeit für ihn gibt,
+nach der Abarbeitung in einem Endzustand zu sein.
+</p>
+
+<h4>Beispiel</h4>
+<p>Welche Sprache akzeptiert dieser NEA? <button onclick="myFunction(4)">Show</button></p>
+
+<p><img src="bild4.png" , width="500"></p>
+
+<div style="display:none" id="answer4">
+  Alle Wörter, die mit mindestens einem a beginnen, gefolgt von mindestens
+  einem b und bei denen danach nach einem a kein einzelnes b vorkommt.
+</div>
+
+<h4>Übung</h4>
+
+<p>Konstruiere einen NEA über \( \Sigma = \{0,1\} \), der alle Wörter akzeptiert,
+  in der die Folge \(010\) enthalten ist. <button onclick="myFunction(5)">Show</button> </p>
+
+<div style="display:none" id="answer5">
+  <img src="bild5.png" , width="400">
+</div>
+
+<h4>Umwandlung von NEA in DEA</h4>
+<p>Es gilt: Jeder NEA kann in einen DEA umgewandelt werden. Der folgende DEA akzeptiert die gleiche
+Sprache wie der aus der letzten Übung</p>
+
+<p><img src="bild6.png" , width="500"></p>
+
+<p>Der Algorithmus zum Umwandeln eines NEAs in einen DEA heißt <em>Potenzmengenkonstruktion.</em></p>
+
+<p><img src="bild7.png" , width=300">&nbsp;&nbsp;
+ <img src="bild8.png" , width=300"></p>
+
+<p><img src="bild9.png" , width=500"></p>
+
+<p>Das Ergebnis der Potenzmengenkonstruktion muss nicht der
+  kleinste äquivalente DEA sein. Der folgende DEA akzeptiert die gleiche Sprache und
+  hat weniger Zustände.</p>
+
+<p><img src="bild9a.png" , width=380"></p>
+
+<h4>Reguläre Sprachen</h4>
+
+<p>Eine Sprache heißt <em>regulär</em>, wenn es einen DEA gibt, der genau diese Sprache akzeptiert. </p>
+
+<p>Eine reguläre Sprache kann durch einen <em>regulären Ausdruck</em> beschrieben werden.
+  Reguläre Ausdrücke bilden wir mit den Zeichen des Alphabets,
+  \( \epsilon \), Klammern, Konkatenation, \( \cup \) und dem Kleene-Stern *.</p>
+
+<h4>Beispiele</h4>
+<p> \( \Sigma = \{a,b\} \).
+Der reguläre Ausdruck  \(ab \cup aab \) beschreibt die Sprache  \( L =\{ab,aab\} \)   </p>
+<p> \( a(b \cup a)aab, ~~~ L = \{abaab,aaaab\} \)  </p>
+<p> \( (ab)(aab), ~~~ L = \{abaab\} \)  </p>
+<p> \( (ab)^*,  ~~~L = \) alle Wörter, die aus beliebig vielen (auch 0) ab's bestehen.    </p>
+<p> \( b^*b, ~~~  L = \) alle Wörter, die aus beliebig vielen, aber mindestens einem b bestehen.  </p>
+<p> \( (a \cup ba)^*(\epsilon \cup b), ~~~ L = \) alle Wörter in denen keine zwei b's aufeinander folgen  </p>
+<p> Auswertungsreihenfolge: Klammern, *, Konkatenation, \(\cup \)</p>
+
+<p>Die Sprachen, die von regulären Ausdrücken erzeugt werden, sind genau die regulären Sprachen.</p>
+
+<h4>Übungen</h4>
+<p> \( \Sigma = \{a,b\} \).  Gib einen regulären Ausdruck für folgende Sprachen an: </p>
+
+<p> \( L_1 \) = alle Wörter, die mit einem a beginnen:  <button onclick="myFunction(6)">Show</button>
+<span style="display:none" id="answer6">\(a(a \cup b)^*\)</span></p>
+
+<p> \( L_2 \) = alle Wörter mit einer geraden Anzahl b's:  <button onclick="myFunction(7)">Show</button>
+  <span style="display:none" id="answer7"> \( (ba^*b \cup a)^* \)</span></p>
+
+<p> \( L_3 \) = alle Wörter, deren erstes und letztes Zeichen übereinstimmen:
+  <button onclick="myFunction(8)">Show</button>
+  <span style="display:none" id="answer8"> \(   a(a \cup b)^*a \cup b(a \cup b)^*b \cup a \cup b \)</span></p>
+
+<p> \( L_4 \) = alle Wörter mit einer geraden Anzahl b's:  <button onclick="myFunction(9)">Show</button>
+  <span style="display:none" id="answer9"> \(  a^*b (ba^*b \cup a )^*  \)</span></p>
+
+<h4>Das Pumping Lemma für reguläre Sprachen</h4>
+
+<p>Zu jeder regulären Sprache \( L \) kann man einen minimalen DEA konstruieren
+  (d.h. einen DEA mit möglichst wenig Zuständen).
+  Die minimale Anzahl der Zustände ist die pumping-Länge \( p \) von \(L\). Jedes Wort \(w\) aus \(L\)
+  mit  \( \left|w\right| \ge p \) muss in der Abarbeitung einen Zyklus erzeugen.
+  Mit diesem Zyklus kann man das Wort beliebig aufpumpen und es bleibt in \(L\).</p>
+
+<p>
+<em>Pumping Lemma</em>:
+Für jede reguläre Sprache \(L\) gibt es eine natürliche Zahl \(p\),
+  so dass für jedes Wort \(w\) aus \(L\) mit \( \left|w\right| \ge p \)
+gilt:  <br>
+w = xyz mit:<br>
+1. \( \left|xy\right| \le p \). <br>
+2. \( \left|y\right| > 0 \).  <br>
+3. \( xy^iz \) ist in \(L\) für alle \( i \ge 0 \)
+</p>
+
+<h4>Beispiele</h4>
+<p><img src="bild10.png" , width=600"></p>
+<hr>
+<p><img src="bild11.png" , width=600"></p>
+
+<h4>Anwendung des Pumping Lemmas</h4>
+<p>In manchen Fällen lässt sich mit dem Pumping Lemma zeigen, dass Sprachen nicht regulär sind.</p>
+<p> Behauptung: Die Sprache  \( L = \{0^i1^i | i \ge 0\} \) ist nicht regulär.  </p>
+<p> Beweis: Annahme \(L\) ist regulär und \(p\) die pumping Länge von \(L\), z.B. \(p = 20\).
+  Dann müsste das Wort  \(0^{40}1^{40}\) darstellbar sein als \(xyz\) und aufpumpbar sein mit
+  einem \(y\) für das gilt: \(\left|xy\right| \le 20 \).
+  Also sind in einer möglichen Pump-Region nur Nullen.
+  Das aufgepumpte Wort ist dann nicht mehr in \(L\). Das ist ein Widerspruch zum Pumping-Lemma.  </p>
+
+<h4>Grenzen des DEA und der regulären Sprachen</h4>
+<p>Ein DEA kann sich nur endlich viele Dinge merken, weil er nur endlich viele Zustände hat.
+Sprachen, die nur erkannt werden können, wenn man sich beliebig viele Dinge merkt, sind deshalb nicht regulär.
+</p>
+
+<p>
+  Ein DEA kann nicht beliebig weit zählen.</p>
 <script>
   function myFunction(nr) {
     var x = document.getElementById("answer"+nr);
@@ -97,8 +232,6 @@ die \( A \) akzeptiert. Man sagt auch: <em>\( A \) akzeptiert \( L \).</em>
     }
   }
 </script>
-
-
 </body>
 
 
