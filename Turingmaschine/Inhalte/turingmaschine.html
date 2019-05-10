@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="../../kurs.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+  </script>
+  <title>Informatik</title>
+</head>
+<body>
+<h2>Turingmaschinen und Berechenbarkeit</h2>
+
+<h4>Turingmaschine</h4>
+
+<p>Eine <em>Turingmaschine (TM) </em> besteht aus
+ <ul>
+  <li> Einem unendlich langen Speicherband.  </li>
+  <li> Einem freibeweglichen Lese-/Schreibkopf. </li>
+  <li> Einer endlichen Kontrolle.</li>
+</ul>
+</p>
+<p>Die endliche Kontrolle steuert die Turingmaschine: Ausgehend von dem aktuellen
+Zustand liest die TM das Zeichen auf dem Band, geht in einen Folgezustand über, überschreibt
+ggf. das Zeichen auf dem Band und kann dann den Lese/Schreibkopf nach links oder rechts bewegen.</p>
+
+
+<img src="bild1.png", width="400">
+
+<p>Eine <em>deterministischer Turingmaschine </em> besteht aus :
+
+<ol>
+  <li> \( Q \), einer endlichen Menge von Zuständen.</li>
+  <li> \( \Sigma \), einem endlichen Eingabe-Alphabet.</li>
+  <li> \( \sqcup \), einem Blanksymbol, das nicht Teil des Eingabe-Alphabets ist.</li>
+  <li> \( \Gamma \), einem endlichen Bandalphabet, das aus dem Eingabe-Alphabet, dem Blanksymbol und ggf. weiteren
+    Zeichen besteht.</li>
+  <li> \( s \in Q \), einem Startzustand.</li>
+  <li> \( \delta \), einer Übergangsfunktion.</li>
+  <li> \( F \subseteq Q\), einer Menge von Endzuständen.</li>
+
+</ol>
+</p>
+
+<h4>Notation und Vereinbarungen</h4>
+<p> <img src="bild2.png", width="150"> <br>
+ Die TM ist im Zustand q, liest auf dem Band a, überschreibt dies mit b, geht eins nach links und wechselt
+  in den Zustand p  </p>
+
+<p>Die Turingmaschine startet im Zustand s am linkesten Eingabezeichen.
+    Sie stoppt, wenn sie zum ersten Mal in einen Endzustand kommt oder wenn sie in einem Zustand ein
+  Symbol liest, das Symbol wieder hinschreibt, den Zustand nicht wechselt und den Lese/Schreibkopf nicht bewegt.
+  Sie akzeptiert eine Eingabe \(w\), wenn sie nach Abarbeitung von \(w\) in einem Endzustand stoppt. </p>
+ <p>
+  Eine TM akzeptiert (erkennt) eine Sprache \(L\) wenn sie genau die Worte aus \(L\) akzeptiert. Für Worte, die
+   nicht aus \(L\) sind gibt es zwei Möglichkeiten: entweder die TM stoppt in einem Zustand, der kein Endzustand ist,
+   oder sie stoppt gar nicht.
+  </p>
+
+<p>Das folgende Beispiel zeigt, wie wir die Abarbeitung eines Wortes verfolgen.</p>
+<p></p>
+
+<h4>Beispiel</h4>
+
+<p>Was erkennt diese Turingmaschine? <button onclick="myFunction(1)">Show</button><br>
+ Gibt es Eingaben, für die die TM niemals stoppt? <button onclick="myFunction(2)">Show</button></p>
+<p><img src="bild3.png" width="350"></p>
+
+<div style="display:none" id="answer1">
+  Die TM erkennt alle Wörter über \( \{0,1\}^*\), die mit einer Eins beginnen.
+</div>
+
+<div style="display:none" id="answer2">
+  Die TM stoppt nicht, falls das Wort nicht mit einer Eins beginnt.
+</div>
+
+<h4>Übung</h4>
+<h4>Church'sche These</h4>
+
+
+<script>
+  function myFunction(nr) {
+    var x = document.getElementById("answer"+nr);
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+
+</body>
+</html>
