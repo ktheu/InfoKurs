@@ -60,7 +60,15 @@ ggf. das Zeichen auf dem Band und kann dann den Lese/Schreibkopf nach links oder
 <p>Das folgende Beispiel zeigt, wie wir die Abarbeitung eines Wortes verfolgen.</p>
 <p></p>
 
-<h4>Beispiel</h4>
+<h4>Beispiel 1</h4>
+<p>Die Notation der Übergänge in JFLAP ist etwas anders, aber leicht zu übertragen.</p>
+<p> <img src="bild4.png", width="500"> <br>
+
+<p> Die Abarbeitung des Wortes \(100\) verfolgen wir auf dem Papier wie folgt:</p>
+<p> <img src="bild5.png", width="200"> <br>
+
+
+<h4>Beispiel 2</h4>
 
 <p>Was erkennt diese Turingmaschine? <button onclick="myFunction(1)">Show</button><br>
  Gibt es Eingaben, für die die TM niemals stoppt? <button onclick="myFunction(2)">Show</button></p>
@@ -75,7 +83,31 @@ ggf. das Zeichen auf dem Band und kann dann den Lese/Schreibkopf nach links oder
 </div>
 
 <h4>Übung</h4>
+<p>
+Für die folgende Turingmaschine gilt: \( \Sigma = \{0,1\} \), im Bandalphabet steht noch das Zeichen \(X\) zur
+Verfügung. <br>
+1. Dokumentiere die Berechnung des Wortes \(01101\) <br>
+2. Was macht diese Turingmaschine?  <br>
+3. Gib eine äquivalente TM mit höchstens 3 Zuständen an.
+</p>
+<p><img src="bild6.png" width="500"></p>
+
+
 <h4>Church'sche These</h4>
+<p>Turingmaschinen haben eine Eingabe und (bei Stop) eine Ausgabe. Sie berechnen (partielle) Funktionen.</p>
+<p><em>Church'sche These: </em>Die Menge der (Turing-)berechenbaren Funktionen ist genau die Menge
+  der im intuitiven Sinne überhaupt berechenbaren Funktionen.</p>
+
+<p>Alle Versuche, die im intuitiven Sinne berechenbaren Funktionen formal zu präzisieren, haben bisher auf
+die Menge der (Turing-)berechenbaren Funktionen geführt. Deshalb ist allgemein anerkannt: <p>
+
+
+<p>Die Turingmaschinen sind die formalen Modelle für Algorithmen. Kein Verfahren kann algorithmisch
+ genannt werden, wenn es nicht von einer Turingmaschine ausführbar ist.   </p>
+
+<h4> Links </h4>
+<p><a href="https://turingmachinesimulator.com/">Turing Machine Simulator (Ugarte)</a>  <br>
+ <a href="http://morphett.info/turing/turing.html">Turing Machine Simulator (Morphett)</a> </p>
 
 
 <script>
@@ -87,6 +119,8 @@ ggf. das Zeichen auf dem Band und kann dann den Lese/Schreibkopf nach links oder
       x.style.display = "none";
     }
   }
+
+
 </script>
 
 </body>
