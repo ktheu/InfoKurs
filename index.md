@@ -16,7 +16,8 @@ __[Aufgaben](./Grammatiken/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Grammatiken/Test/Musteraufgaben_Loesung.pdf)__
 
 __[Turingmaschine und Berechenbarkeit](Turingmaschinen/Inhalte/turingmaschinen.html)__
-
+__[Aufgaben](./Turingmaschinen/Test/Musteraufgaben.pdf)__ - 
+__[Lösungen](./Turingmaschinen/Test/Musteraufgaben_Loesung.pdf)__
 
 
 -------------------------------------------------------------
