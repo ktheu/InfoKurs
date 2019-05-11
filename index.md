@@ -21,4 +21,4 @@ __[Turingmaschine und Berechenbarkeit](./Turingmaschine/Inhalte/turingmaschine.h
 
 
 
--------------------------------------------------------------
+
