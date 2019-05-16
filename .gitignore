@@ -1,4 +1,3 @@
-
 *.aux
 *.log
 *.nav
@@ -7,3 +6,4 @@
 *.gz
 *.toc
 *.vrb
+.idea/workspace.xml
