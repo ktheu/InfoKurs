@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="../../kurs.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+  </script>
+  <title>Informatik</title>
+</head>
+<body>
+
+<h4>Mächtigkeit von Mengen</h4>
+
+<p>Zwei endliche
+  Mengen sind <em>gleichmächtig</em>, wenn sie die gleiche Anzahl von Elementen haben.</p>
+
+<p>Unendliche Mengen sind gleichmächtig, wenn man eine 1:1-Beziehung zwischen ihren Elementen
+  herstellen kann (=wenn es eine bijektive Abbildung zwischen den Mengen gibt).</p>
+
+<h4>Beispiele</h4>
+
+<p>1. Sind die Mengen \(\mathbb{N}\) und \(\mathbb{N_0}\) gleichmächtig?
+  <button onclick="myFunction(1)">Show</button>
+<div style="display:none" id="answer1">
+  Ja <br>
+  <img src="bild1.png" , width="500">
+</div>
+</p>
+
+
+<p>2. Sind die Mengen \(\mathbb{N}\) und \(\mathbb{Z}\) gleichmächtig?
+  <button onclick="myFunction(2)">Show</button>
+<div style="display:none" id="answer2">
+  Ja. <br>
+  <img src="bild2.png" , width="500">
+</div>
+</p>
+
+<p>3. Sind die Mengen \(\mathbb{N}\) und \(\mathbb{Q^+}\) gleichmächtig?
+  <button onclick="myFunction(3)">Show</button>
+<div style="display:none" id="answer3">
+  Ja. <br>
+  <img src="bild3.png" , width="500">
+</div>
+</p>
+
+
+<p>4. Sind die Mengen \(\mathbb{N}\) und \(\mathbb{Q}\) gleichmächtig?
+  <button onclick="myFunction(4)">Show</button>
+  <div style="display:none" id="answer4">
+    Ja. <br>
+<p><img src="bild4.png" , width="600"></p>
+<p><img src="bild5.png" , width="500"></p>
+</div>
+</p>
+
+<p>5. Sind die Mengen \(\{x \in \mathbb{R} ~|~ 0 < x < 1 \}\) und \(\mathbb{Q}\) gleichmächtig?
+  <button onclick="myFunction(5)">Show</button>
+<div style="display:none" id="answer5">
+  Nein. <br>
+  <img src="bild6.png" , width="800">
+  <small>aus: Wikipedia</small>
+</div>
+</p>
+
+
+<p>6. Sind die Mengen \(\{x \in \mathbb{R} ~|~ 0 < x < 1 \}\) und \(\mathbb{R}\) gleichmächtig?
+  <button onclick="myFunction(6)">Show</button>
+<div style="display:none" id="answer6">
+  Ja.
+  Eine bijektive Abbildung ist gegeben durch \(f(x) = \tan(\pi*x + \frac{\pi}{2}) \) <br>
+  <img src="bild7.png" , width="200">
+</div>
+<p>
+
+<hr>
+<p>\(\mathbb{N}\), \(\mathbb{Z}\) und \(\mathbb{Q}\) sind <em>abzählbar unendlich</em>,
+  \(\mathbb{R}\) ist <em>überabzählbar unendlich.</em></p>
+
+
+  <script>
+    function myFunction(nr) {
+      var x = document.getElementById("answer" + nr);
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+
+</html>

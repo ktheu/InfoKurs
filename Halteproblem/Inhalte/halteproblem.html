@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="../../kurs.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+  </script>
+  <title>Informatik</title>
+</head>
+<body>
+
+<h4>Das Halteproblem</h4>
+
+<p>Das <em>Halteproblem</em> ist die Frage, ob ein Algorithmus zu einem Ende gelangt. <br>
+  Das Halteproblem ist <em>algorithmisch nicht entscheidbar</em>, d.h. es
+  gibt keinen Algorithmus, der dies für alle Algorithmen und beliebige Eingaben entscheiden kann.
+</p>
+
+<p><pre class="codef">
+def haltetest(pgm,inp):
+  # returned True, wenn pgm angesetzt auf inp hält
+  # sonst False
+
+def quer(x):
+  if haltetest(x,x):
+    while True: pass
+</pre></p>
+
+<p>
+Annahme: es gäbe eine eine Funktion haltetest,
+die das Halteproblem löst. Die Frage, ob quer(quer) hält, führt dann zum Widerspruch.
+</p>
+
+<h4>Das Postsche Korrespondenzproblem (PKP)</h4>
+
+<p>Gegeben sind endliche viele Typen von Dominosteinen auf denen oben und unten ein Wort
+  (z.B. 01-Folge) aufgedruckt ist.
+Von jedem Typ stehen beliebig viele Steine zur Verfügung.
+  Kann man eine Folge von Dominosteine finden, so dass sich oben und
+unten das gleiche Gesamtwort ergibt? </p>
+
+<h4>Beispiele</h4>
+<p>Welche Reihenfolge löst das PKP-Problem? <button onclick="myFunction(1)">Show</button><br>
+<p><pre class="codef">
+ 1: (1,101), 2: (10,00), 3: (011,11)
+</pre></p>
+<div style="display:none" id="answer1">
+  Mit der Folge 1,3,2,3 ergibt sich oben und unten: 101110011
+</div>
+
+<p>Welche Reihenfolge löst das PKP-Problem? <button onclick="myFunction(2)">Show</button><br>
+<p><pre class="codef">
+ 1: (001,0), 2: (01,011), 3: (01,101), 4: (10,001)
+</pre></p>
+<div style="display:none" id="answer2">
+  Eine kürzeste Lösung besteht schon aus 66 Paaren:<br>
+
+  2,4,3,4,4,2,1,2,4,3,4,3,4,4,3,4,4,2,1,4,4,2,1,3,4,1,1,3,4,4,4,2,1,2,1,1,1,3,4,3,4,1,2,1,4,4,2,1,4,1,1,3,4,1,1,3,1,1,3,1,2,1,4,1,1,3
+
+</div>
+
+<p><em>Unentscheidbarkeit von PKP:</em> Es gibt keinen Algorithmus, der für beliebige PKP-Instanzen entscheiden kann, ob es eine Lösung gibt.</p>
+
+<h4> Wie viele Probleme sind algorithmisch nicht lösbar?</h4>
+<p>
+  Jeder Algorithmus ist eine endliche Folge von Zeichen, die als binäre Zahl interpretiert werden kann.
+  d.h. es gibt höchstens so viele Algorithmen wie es natürliche Zahlen gibt: abzählbar unendlich viele.
+  <a href="./maechtigkeit.html">(Mächtigkeit von Mengen) </a>
+</p>
+<p>
+  Betrachte die Menge der Entscheidungsprobleme, die jeder natürlichen Zahl entweder 1 oder 0 zuordnet (JA/NEIN). Davon gibt es so viele, wie es Teilmengen von natürlichen Zahlen gibt, also überabzählbar unendlich viele.
+</p>
+<p>
+  Die Menge der Algorithmen ist so groß wie \(\mathbb{N}\).
+  Die Menge der Entscheidungsprobleme ist so groß wie \(\mathbb{R}\).
+</p>
+<p>
+  Also: Für fast alle Entscheidungsprobleme gibt es keine Algorithmen.
+</p>
+
+
+
+
+
+<script>
+  function myFunction(nr) {
+    var x = document.getElementById("answer"+nr);
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+</body>
+
+
+</html>
