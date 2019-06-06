@@ -6,7 +6,7 @@
 ___________________________________________________________________
 
 __[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/Folien/Sort.pdf)__ -
-__[Code](sort.ipynb)__
+__[Code](./sort.ipynb)__
 
 __[HeapSort](./HeapSort/Folien/HeapSort.pdf)__
 
