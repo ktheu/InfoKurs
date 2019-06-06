@@ -5,6 +5,8 @@
 
 ___________________________________________________________________
 
+__[Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf)__ --
+
 __[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/folien/Sort.pdf)__ -
 __[HeapSort](./HeapSort/Folien/HeapSort.pdf)__ --
 __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/280_sort.ipynb)__ --
