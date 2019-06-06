@@ -6,7 +6,7 @@
 ___________________________________________________________________
 
 __[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/Folien/Sort.pdf)__ -
-__[Code]("https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/280_sort.ipynb")__
+__[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/280_sort.ipynb)__
 
 __[HeapSort](./HeapSort/Folien/HeapSort.pdf)__
 
