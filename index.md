@@ -5,7 +5,8 @@
 
 ___________________________________________________________________
 
-__[Selection-,Bubble-,Merge-,Quick-Sort](./Sort/Folien/sort.pdf)__ 
+__[Selection-,Bubble-,Merge-,Quick-Sort](./Sort/Folien/sort.pdf)__
+
 ___________________________________________________________________
 
 __[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)__
