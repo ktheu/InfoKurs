@@ -5,7 +5,8 @@
 
 ___________________________________________________________________
 
-__[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/Folien/Sort.pdf)__ - 
+__[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/Folien/Sort.pdf)__
+ 
 __[HeapSort](./HeapSort/Folien/HeapSort.pdf)__
 
 ___________________________________________________________________
