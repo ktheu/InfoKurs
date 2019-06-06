@@ -9,7 +9,7 @@ __[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/Folien/Sort.pdf)__ -
 __[Code](./Sort/sort.ipynb)__
 
 __[HeapSort](./HeapSort/Folien/HeapSort.pdf)__
-Sort/
+ 
 ___________________________________________________________________
 
 __[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)__
