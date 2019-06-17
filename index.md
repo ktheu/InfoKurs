@@ -21,6 +21,11 @@ __[Sort in Python](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/
 __[Aufgaben](./Sort_In_Python/test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Sort_In_Python/test/Musteraufgaben_Loesung.pdf)__
 
+___________________________________________________________________
+
+__[Klassen und Objekte](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/290_klassen.ipynb)__ --
+__[Aufgaben](./Klassen/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./Klassen/Test/Musteraufgaben_Loesung.pdf)__
 
 ___________________________________________________________________
 
