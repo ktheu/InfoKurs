@@ -13,7 +13,8 @@ __[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/folien/Sort.pdf)__  -
 __[HeapSort](./HeapSort/Folien/HeapSort.pdf)__ 
 * __[Aufgaben](./Sort/test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)__
-* __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/280_sort.ipynb)__ --
+__[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/280_sort.ipynb)__ ----
+
 
 __[Sort in Python](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/282_sort_in_python.ipynb)__ 
 * __[Aufgaben](./Sort_In_Python/test/Musteraufgaben.pdf)__ -
