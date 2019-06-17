@@ -12,7 +12,7 @@ __[Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf)__
 __[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/folien/Sort.pdf)__  -
 __[HeapSort](./HeapSort/Folien/HeapSort.pdf)__ 
 * __[Aufgaben](./Sort/test/Musteraufgaben.pdf)__ -
-__[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)__ ---- 
+__[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)__ --- 
 __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/280_sort.ipynb)__ 
 
 
