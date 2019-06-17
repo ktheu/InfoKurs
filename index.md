@@ -15,6 +15,9 @@ __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/280
 __[Aufgaben](./Sort/test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)__
 
+__[Sort in Python](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/282_sort_in_python.ipynb)__ --
+__[Aufgaben](./Sort/test/Musteraufgaben.pdf)__ -
+__[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)__
 ___________________________________________________________________
 
 __[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)__
