@@ -5,9 +5,9 @@
 
 ___________________________________________________________________
 
-__[Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf)__ --
+__[Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf)__ 
 * __[Aufgaben](./Komplexitaet/Test/Musteraufgaben.pdf)__ -
-* __[Lösungen](./Komplexitaet/Test/Musteraufgaben_Loesung.pdf)__
+  __[Lösungen](./Komplexitaet/Test/Musteraufgaben_Loesung.pdf)__
 
 __[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/folien/Sort.pdf)__ -
 __[HeapSort](./HeapSort/Folien/HeapSort.pdf)__ --
