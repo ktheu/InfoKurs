@@ -31,7 +31,7 @@ ___________________________________________________________________
 
 
 __[ADT Liste](./Liste/Folien/Komplexitaet.pdf)__ -
-__[Keller und Schlange](./KellerUndSchlange/Folien/Komplexitaet.pdf)__ -
+__[Keller und Schlange](./KellerUndSchlange/Folien/KellerSchlange.pdf)__ -
 __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/300_liste.ipynb)__ --
 __[Aufgaben](./Liste/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Liste/Test/Musteraufgaben_Loesung.pdf)__
