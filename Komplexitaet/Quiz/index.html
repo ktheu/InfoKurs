@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Komplexität</title>
+  <link href="../../kurs.css" rel="stylesheet">
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+  </script>
+
+</head>
+
+<body>
+  <h4>Komplexitätsklassen</h4>
+
+  <ol>
+    <li>\( O(1) \)</li>
+    <li>\( O(log(n)) \)</li>
+    <li>\( O(n) \)</li>
+    <li>\( O(n \cdot log(n)) \)</li>
+    <li>\( O(n^2) \)</li>
+    <li>\( O(n^3) \)</li>
+    <li>\( O(2^n) \)</li>
+    <li>\( O(3^n) \)</li>
+  </ol>
+  <h4>Aufgabe 1</h4>
+  <p>Es sei f(n) die Laufzeit eines Algorithmus in Abhängigkeit
+    von der Eingabe n. Gib die Nummer der zugehörigen Komplexitätsklasse ein. </p>
+
+  <p>a. \( f(n) = n^2 + 2n \cdot \log n \) &nbsp; &nbsp; Komplexität: <input id="q1" size="1"></p>
+  <p>b. \( f(n) = 3n^2 \cdot \log n + 0.5 \cdot 2^n \) &nbsp; &nbsp; Komplexität: <input id="q2" size="1"></p>
+  <p>c. \( f(n) = \frac{\log n ^2}{3} \) &nbsp; &nbsp; Komplexität: <input id="q3" size="1"></p>
+  <p>d. \( f(n) = \log n + n \) &nbsp; &nbsp; Komplexität: <input id="q4" size="1"></p>
+
+  <button type="button" onclick="check1()">Check</button>&nbsp;<span id="a1"></span></p>
+
+  <h4>Aufgabe 2</h4>
+  <p>Es sei a ein Liste mit ganzen Zahlen. In welcher Komplexitätsklasse ist die Laufzeit der
+    Funktion foo in Abhängigkeit von der Länge
+    n der übergebenen Liste a. Gib die Nummer der zugehörigen Komplexitätsklasse ein. </p>
+  <pre class="codef">
+  def foo(a):
+    n = len(a)
+    for i in range(n):
+        if a[i] == 7:
+            for j in range(n):
+                for k in range(n):
+                    print("hello")
+  </pre>
+  <p>best case: &nbsp; &nbsp; Komplexität: <input id="q21" size="1"></p>
+  <p>worst case: &nbsp; &nbsp; Komplexität: <input id="q22" size="1"></p>
+
+  <button type="button" onclick="check2()">Check</button>&nbsp;<span id="a2"></span></p>
+
+
+
+
+  <h4>Aufgabe 3</h4>
+  <p>Es sei a ein Liste mit ganzen Zahlen. In welcher Komplexitätsklasse ist die Laufzeit der
+    Funktion foo in Abhängigkeit von der Länge
+    n der übergebenen Liste a. Gib die Nummer der zugehörigen Komplexitätsklasse ein. </p>
+  <pre class="codef">
+  def foo(a):
+    n = len(a)
+    for i in range(n-1):
+        for j in range(i+1,n):
+            if a[i] == a[j]:
+                return True
+    return False
+  </pre>
+  <p>best case: &nbsp; &nbsp; Komplexität: <input id="q31" size="1"></p>
+  <p>worst case: &nbsp; &nbsp; Komplexität: <input id="q32" size="1"></p>
+
+  <button type="button" onclick="check3()">Check</button>&nbsp;<span id="a3"></span></p>
+</body>
+<script type="text/javascript" src="check01_ob.js"></script>
+
+</html>
