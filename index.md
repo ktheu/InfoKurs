@@ -29,6 +29,14 @@ __[Lösungen](./Klassen/Test/Musteraufgaben_Loesung.pdf)__
 
 ___________________________________________________________________
 
+
+__[ADT Liste](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/300_liste.ipynb)__ --
+__[Aufgaben](./Liste/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./Liste/Test/Musteraufgaben_Loesung.pdf)__
+
+___________________________________________________________________
+
+
 __[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)__
 
 __[Endliche Automaten und Formale Sprachen](./Automaten/Inhalte/automaten.html)__ --
