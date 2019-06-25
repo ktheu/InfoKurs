@@ -56,5 +56,4 @@ __[Lösungen](./Turingmaschinen/Test/Musteraufgaben_Loesung.pdf)__
 
 -------------------------------------------------------------
 __[Codingame](codingame.html)__ - 
-
 __[Links](links.md)__ - __[News](news.md)__ 
