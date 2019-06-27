@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sort</title>
+  <link href="../../kurs.css" rel="stylesheet">
+
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+  </script>
+
+</head>
+
+<body>
+
+  <h4>Aufgabe 1</h4>
+
+  <p> Sortiere die Zahlenfolge mit SelectionSort.
+    Schreibe für die ersten drei Durchgänge je eine Zeile.</p>
+
+  <pre class="codef">13 4 92 42 11 7 12</pre>
+
+  <p>1. Durchgang <input id="q00" size="30"></p>
+  <p>2. Durchgang <input id="q01" size="30"></p>
+  <p>3. Durchgang <input id="q02" size="30"></p>
+
+  <button type="button" onclick="checkanswer(0)">Check</button>&nbsp;<span id="a0"></span></p>
+
+
+  <h4>Aufgabe 2</h4>
+
+  <p> Sortiere die Zahlenfolge mit BubbleSort.
+    Schreibe für die ersten drei Durchgänge je eine Zeile.</p>
+
+  <pre class="codef">2 22 14 25 1 13 9</pre>
+
+  <p>1. Durchgang <input id="q10" size="30"></p>
+  <p>2. Durchgang <input id="q11" size="30"></p>
+  <p>3. Durchgang <input id="q12" size="30"></p>
+
+  <button type="button" onclick="checkanswer(1)">Check</button>&nbsp;<span id="a1"></span></p>
+
+  <h4>Aufgabe 3</h4>
+
+  <p>Die Liste wird mit dem rekursiven mergeSort-Algorithmus aus dem Unterricht sortiert.</p>
+
+  <pre class="codef">24, 4, 17, 88, 42, 12, 7</pre>
+
+  <p>Wieviel mal wird merge aufgerufen? <input id="q20" size="3"></p>
+  <p>Wieviel mal wird mergeSort aufgerufen? <input id="q21" size="3"></p>
+
+  <p>Bei jedem Aufruf von merge wird eine Liste zurückgegeben.
+    Notiere die Listen in der Reihenfolge, in der sie zurückgegeben werden.</p>
+
+  <p> <input id="q22" size="30"></p>
+  <p> <input id="q23" size="30"></p>
+  <p> <input id="q24" size="30"></p>
+  <p> <input id="q25" size="30"></p>
+  <p> <input id="q26" size="30"></p>
+  <p> <input id="q27" size="30"></p>
+
+  <button type="button" onclick="checkanswer(2)">Check</button>&nbsp;<span id="a2"></span></p>
+
+
+  <h4>Aufgabe 4</h4>
+
+  <p>Die Liste wird mit quickSort sortiert.
+    Notiere die ersten drei Protokollzeilen. Im rechten Feld mit blank getrennt 3 Zahlen: von-Index, bis-Index,
+    pivot-Element.</p>
+
+  <pre class="codef">10 5 67 18 3 22 7</pre>
+
+  <p> <input id="q30" size="30"> - <input id="q31" size="10"> </p>
+  <p> <input id="q32" size="30"> - <input id="q33" size="10"> </p>
+  <p> <input id="q34" size="30"> - <input id="q35" size="10"> </p>
+
+  <button type="button" onclick="checkanswer(3)">Check</button>&nbsp;<span id="a3"></span></p>
+
+  <h4>Aufgabe 5</h4>
+
+  <p>Die Liste wird mit quickSort sortiert.
+    Notiere die ersten drei Protokollzeilen. Im rechten Feld mit blank getrennt 3 Zahlen: von-Index, bis-Index,
+    pivot-Element.</p>
+
+  <pre class="codef">22 41 43 7 42 19</pre>
+
+  <p> <input id="q40" size="30"> - <input id="q41" size="10"> </p>
+  <p> <input id="q42" size="30"> - <input id="q43" size="10"> </p>
+  <p> <input id="q44" size="30"> - <input id="q45" size="10"> </p>
+
+  <button type="button" onclick="checkanswer(4)">Check</button>&nbsp;<span id="a4"></span></p>
+
+  <h4>Aufgabe 6</h4>
+
+  <p>Der nächste Quicksort-Durchgang bearbeitet die Liste von 0-3.
+    Notiere die Protokollzeilen vor und nach dem Durchgang. Im rechten Feld mit blank getrennt 3 Zahlen: von-Index, bis-Index,
+    pivot-Element.</p>
+
+  <pre class="codef">15 8 9 16 18 28 22 38 26</pre>
+
+  <p> <input id="q50" size="30"> - <input id="q51" size="10"> </p>
+  <p> <input id="q52" size="30"> - <input id="q53" size="10"> </p>
+
+  <button type="button" onclick="checkanswer(5)">Check</button>&nbsp;<span id="a5"></span></p>
+
+
+
+</body>
+<script type="text/javascript" src="check.js"></script>
+
+</html>
