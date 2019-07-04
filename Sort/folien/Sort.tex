@@ -261,6 +261,41 @@ nach demselben Verfahren.
 
 \end{frame}
 
+%----
+\begin{frame}[fragile]
+\begin{lstlisting} 
+def quick_sort(a,unten=0,oben=None):
+    if oben is None: oben = len(a)-1
+    i , j = unten, oben
+    mitte = (unten +  oben) // 2
+    pivot = a[mitte]
+    while i <= j:
+        while a[i] < pivot: i+=1
+        while a[j] > pivot: j-=1
+        if i <= j:
+            a[i],a[j]=a[j],a[i]
+            i, j = i+1, j-1
+    if unten < j: quick_sort(a,unten,j)
+    if i < oben: quick_sort(a,i,oben)
+\end{lstlisting} 
+\end{frame}
+
+\begin{frame}[fragile]
+Tausch mit sich selbst:
+\begin{lstlisting} 
+3 2 1 4  -$\pause$ 0-3, pivot=2
+1 2 3 4  - 2-3, pivot=3
+1 2 3 4
+\end{lstlisting} 
+
+Beispiel dafür, dass die Abfrage \texttt{if i <= j} notwendig ist: 
+\begin{lstlisting} 
+2 4 3 1  -$\pause$ 0-3, pivot=4
+2 1 4 3  - 0-1, pivot=2
+1 2 4 3   # falsches Resultat ohne die Abfrage
+\end{lstlisting}  \pause
+\end{frame}
+
 
 \begin{frame}[fragile]
 
@@ -300,6 +335,12 @@ def quick_sort(a,unten=0,oben=None):
 \end{frame}
 
 \begin{frame}[fragile]
+Tausch mit sich selbst
+\begin{lstlisting} 
+3 2 1 4  -$\pause$ 0-3, pivot=2
+1 2 3 4  - 2-3, pivot=3
+1 2 3 4
+\end{lstlisting} 
 
 Beispiel dafür, dass die Abfrage \texttt{if i <= j} notwendig ist: [2, 4, 3, 1]  \pause
 \begin{lstlisting} 
@@ -307,13 +348,6 @@ Beispiel dafür, dass die Abfrage \texttt{if i <= j} notwendig ist: [2, 4, 3, 1]
 2 1 4 3  - 0-1, pivot=2
 1 2 4 3   # falsches Resultat ohne die Abfrage
 \end{lstlisting}  \pause
-
-Tausch mit sich selbst
-\begin{lstlisting} 
-3 2 1 4  -$\pause$ 0-3, pivot=2
-1 2 3 4  - 2-3, pivot=3
-1 2 3 4
-\end{lstlisting} 
 \end{frame}
 
 
