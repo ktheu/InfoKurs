@@ -3,6 +3,10 @@
 
 ### Links
 
+* Python
+  * [Python Standard Library](https://docs.python.org/3/library/index.html#library-index)
+  * [W3C Python Tutorial](https://www.w3schools.com/python/default.asp)
+
 * Sort
    * [Obama at Google](https://www.youtube.com/watch?v=k4RRi_ntQc8)
    * [BubbleSort Dance](https://www.youtube.com/watch?v=lyZQPjUT5B4)
