@@ -20,7 +20,7 @@ __[Laufzeitmessung](./Sort/Quiz/laufzeitmessung.html)__ --
 __[Aufgaben](./Sort/test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)__
 
-__[Komplexität einer Python-Operationen](./Komplexitaet/operationen.md)__
+__[Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md)__
 
 __[Sort in Python](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/282_sort_in_python.ipynb)__ --
 __[Aufgaben](./Sort_In_Python/test/Musteraufgaben.pdf)__ -
