@@ -1,0 +1,24 @@
+\question[6]
+Durch die dictionaries \texttt{nxt} und \texttt{blatt} ist ein Spielbaum
+ gegeben mit der Wurzel \texttt{a} (max-Knoten).
+
+a. Zeichne den Spielbaum und kennzeichne die Min-Max Ebenen \\
+b. Gib an, in welcher Reihenfolge die Knoten besucht werden (Blätter müssen nicht aufgezählt werden)
+ und ergänze den Spielbaum mit den errechneten Werten. \\
+c. Welches ist der beste Zug für \texttt{a}? \\
+d. In welcher Reihenfolge besucht der Algorithmus mit alpha-beta pruning die Blätter? Notiere ein \#, wenn
+ein pruning erfolgt (auch ein leeres pruning). Hilfe: pruning bei $\alpha \ge^{\beta},  \beta \le^{\alpha}$
+
+\begin{lstlisting}
+nxt = {'a':list('bc'),'b':list('de'),'c':list('fg'),'d':list('hi'),
+    'e':list('jk'),'f':list('lm'),'g':list('no')}
+blatt = {'h':20,'i':-5,'j':32,'k':1,'l':7,'m':-6,'n':2,'o':8}
+\end{lstlisting}
+\begin{solutionbox}{10cm}
+\includegraphics[height=4cm]{\pfad/Spielbaum/Aufgaben/minmax_03/minmax_03.png}
+\begin{lstlisting}
+b. d:20 e:32 b:20 f:7 g:8 c:7 a:20
+c. Bester zug: b
+d. Reihenfolge des Blattbesuchs: h i j # l m #
+\end{lstlisting}
+\end{solutionbox}

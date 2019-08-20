@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<link href="../../CSS/kurs.css" rel="stylesheet" type="text/css" />
+<title>Informatik</title>
+</head>
+
+<h4>Der Minmax-Algorithmus </h4>
+
+<p>
+<pre class="codef">
+inf = float('inf')
+def maximize(state):
+    '''
+    state: Spielstellung
+    returns: (st, k), die Folgestellung st, die die höchste Utlity k hat
+    '''
+    if terminal_test(state):
+        return None,evaluation(state)
+
+    v, bestChild = -inf, None
+    for child in nextstates(state):
+        _,utility = minimize(child)
+        if utility > v:
+            bestChild,v = child,utility
+    return bestChild,v
+
+def minimize(state):
+    '''
+    state: Spielstellung
+    returns: (st, k), die Folgestellung st, die die niedrigste Utlity k hat
+    '''
+    if terminal_test(state):
+        return None,evaluation(state)
+
+    v, bestChild = inf, None
+    for child in nextstates(state):
+        _,utility = maximize(child)
+        if utility < v:
+            bestChild,v = child,utility
+    return bestChild,v
+
+def nextstates(state):
+    '''
+    state: Spielstellung
+    returns: Liste mit möglichen Folgestellungen
+    '''
+    pass
+
+
+def terminal_test(state):
+    '''
+    state: Spielstellung
+    returns: True, wenn Stellung ein Blatt ist
+    '''
+    pass
+
+def evaluation(state):
+    '''
+    state: Spielstellung
+    returns: Zahl, die den Wert der Stellung wiedergibt
+    '''
+    pass
+
+# st =  ...                  # Ausgangsstellung
+# print(maximize(st))        # der nächste Zug nach st für den Maximizer
+
+
+</pre>
+</p>
+
+<h4>Der Alpha-Beta-Algorithmus mit Bremse </h4>
+
+<p><pre class="codef">
+def maximize(state,alpha,beta,bremse):
+    '''
+    state: Stellung
+    returns: (st, k), die Folgestellung st, die die höchste
+    Utlity k hat
+    '''
+
+    if bremse >= BREMSE or terminal_test(state):
+        return None,evaluation(state)
+
+    v, bestChild = -inf, None
+    for child in nextstates(state):
+        _,utility = minimize(child,alpha,beta,bremse+1)
+        if utility > v:
+            bestChild, v = child, utility
+        if v >= beta:
+            break
+        if v > alpha:
+            alpha = v
+    return bestChild, v
+
+def minimize(state,alpha,beta,bremse):
+    '''
+    state: Stellung
+    returns: (st, k), die Folgestellung st, die die niedrigste
+    Utlity k hat
+    '''
+
+    if bremse >= BREMSE or terminal_test(state):
+        return None,evaluation(state)
+
+    v, minChild = inf, None
+    for child in nextstates(state):
+        _,utility = maximize(child,alpha,beta,bremse+1)
+        if utility < v:
+            minChild, v = child, utility
+        if v <= alpha:
+            break
+        if v < beta:
+            beta = v
+    return minChild, v
+
+def nextstates(state):
+    '''
+    state: Spielstellung
+    returns: Liste mit möglichen Folgestellungen
+    '''
+    pass
+
+
+def terminal_test(state):
+    '''
+    state: Spielstellung
+    returns: True, wenn Stellung ein Blatt ist
+    '''
+    pass
+
+def evaluation(state):
+    '''
+    state: Spielstellung
+    returns: Zahl, die den Wert der Stellung wiedergibt
+    '''
+    pass
+
+BREMSE = 8
+# st =  ...                  # Ausgangsstellung
+# print(maximize(st,-inf,inf,1))
+</pre> </p>
+
+
+<h4>Tic-Tac-Toe </h4>
+<p>Eine Teil-Implementierung, bei der die Bewertungsfunktion immer 0 zurückgibt. Dadurch wird auch
+das Spielende nicht erkannt.  </p>
+<p><pre class="codef">
+'''
+Eine Spielstellung ist eine Liste von Zahlen. Jede Zahl ist die
+Nummer eines Feldes.
+
+ x . .       0  1  2
+ . o .       3  4  5
+ . . .       6  7  8
+
+ist repräsentiert durch die Liste [0,4]. Der Maximizer (x) beginnt das Spiel
+
+'''
+inf = float('inf')
+def maximize(state):
+    '''
+    state: Spielstellung
+    returns: (st, k), die Folgestellung st, die die höchste Utlity k hat
+    '''
+    if terminal_test(state):
+        return None,evaluation(state)
+
+    v, bestChild = -inf, None
+    for child in nextstates(state):
+        _,utility = minimize(child)
+        if utility > v:
+            bestChild,v = child,utility
+    return bestChild,v
+
+def minimize(state):
+    '''
+    state: Spielstellung
+    returns: (st, k), die Folgestellung st, die die niedrigste Utlity k hat
+    '''
+    if terminal_test(state):
+        return None,evaluation(state)
+
+    v, bestChild = inf, None
+    for child in nextstates(state):
+        _,utility = maximize(child)
+        if utility < v:
+            bestChild,v = child,utility
+    return bestChild,v
+
+def nextstates(state):
+    '''
+    state: Spielstellung
+    returns: Liste mit möglichen Folgestellungen
+    '''
+    stateset = set(state)
+    temp = []
+    for i in range(9):
+        if i not in stateset:
+            nxt = state[:]
+            nxt.append(i)
+            temp.append(nxt)
+    return temp
+
+def terminal_test(state):
+    '''
+    state: Stellung
+    returns: True, wenn Stellung ein Blatt ist
+    '''
+    w = evaluation(state)
+    return w == 1 or w == -1 or len(state) >= 9
+
+def evaluation(state):
+    '''
+    state: Stellung
+    returns: Zahl, die den Wert der Stellung wiedergibt
+       +1 Maximizer gewinnt, -1 Minimizer gewinnt, 0 Unentschieden
+    '''
+
+    return 0                    # unentschieden
+
+def show(state):
+    '''
+    state: Spielstellung
+    returns: None, printed die Stellung
+    '''
+    m= [list('...'),list('...'),list('...')]
+
+    for i in range(len(state)):
+        if i % 2 == 0:
+            c = 'x'
+        else:
+            c = 'o'
+
+        zeile = state[i] // 3
+        spalte = state[i] % 3
+
+        m[zeile][spalte] = c
+
+    for z in range(0,3):
+        for s in range(0,3):
+            print(m[z][s],end=' ')
+        print()
+
+def showMuster():
+    '''
+    Hilfsfunktion, die die Nummerierung der Felder zeigt
+    '''
+    for z in range(0,9):
+        if z % 3 == 0:
+            print()
+        print(z,end=' ')
+    print()
+
+st = []
+print('Spieler beginnt mit x ...  ')
+while not terminal_test(st):
+    print('-----')
+    show(st)
+    showMuster()
+    zahl = int(input("Bitte Zahl eingeben (0-8): "))
+    st.append(zahl)
+    if not terminal_test(st):
+        st,_ = minimize(st)
+
+show(st)
+if evaluation(st) == 1: print("Spieler x hat gewonnen")
+elif evaluation(st) == -1: print("Spieler o (= Computer) hat gewonnen")
+else: print("Unentschieden")
+
+</pre> </p>
+<p>Möglicher Dialog bei korrekter Implementation der Bewertungsfunktion</p>
+<p><pre class="codef">
+Spieler beginnt mit x ...
+-----
+. . .
+. . .
+. . .
+
+0 1 2
+3 4 5
+6 7 8
+Bitte Zahl eingeben (0-8): 0
+-----
+x . .
+. o .
+. . .
+
+0 1 2
+3 4 5
+6 7 8
+Bitte Zahl eingeben (0-8): 6
+-----
+x . .
+o o .
+x . .
+
+0 1 2
+3 4 5
+6 7 8
+Bitte Zahl eingeben (0-8): 5
+-----
+x o .
+o o x
+x . .
+
+0 1 2
+3 4 5
+6 7 8
+Bitte Zahl eingeben (0-8): 7
+-----
+x o .
+o o x
+x x o
+
+0 1 2
+3 4 5
+6 7 8
+Bitte Zahl eingeben (0-8): 2
+x o x
+o o x
+x x o
+Unentschieden
+</pre> </p>
+
+<h4>Connect4</h4>
+<p>Das Spiel besteht aus 7 Spalten, die jeweils mit bis zu 6 Steinen
+gefüllt werden können. Vorschlag:
+Eine Stellung wird repräsentiert durch eine Liste von Zahlen
+von 0 bis 6, die jeweils angeben, in welcher Reihenfolge Steine
+in welche Spalte geworfen wurden.
+
+Die Liste [2,3,2,4] repräsentiert also die folgende Stellung:</p>
+<p><pre class="codef">
+    x
+    x o o
+. . . . . . .
+</pre> </p>
+
+<p>Möglicher Dialog bei einer halbwegs passablen Bewertungsfunktion und einer Rekursionbremse = 8 mit dem
+Alpha-Beta-Algorithmus:</p>
+<p><pre class="codef">
+Spieler beginnt mit x ...
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 3
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . o x . . .
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 3
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . o . . .
+. . . x . . .
+. . o x . . .
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 2
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . o o . . .
+. . x x . . .
+. . o x . . .
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 5
+. . . . . . .
+. . . . . . .
+. . . o . . .
+. . o o . . .
+. . x x . . .
+. . o x . x .
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 5
+. . . . . . .
+. . . o . . .
+. . . o . . .
+. . o o . . .
+. . x x . x .
+. . o x . x .
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 3
+. . . x . . .
+. . . o . . .
+. . . o . . .
+. . o o . . .
+. . x x . x .
+. . o x . x o
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 0
+. . . x . . .
+. . . o . . .
+. . o o . . .
+. . o o . . .
+. . x x . x .
+x . o x . x o
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 2
+. . . x . . .
+. . x o . . .
+. . o o . . .
+. . o o . o .
+. . x x . x .
+x . o x . x o
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 2
+. . x x . . .
+. . x o . . .
+. . o o . o .
+. . o o . o .
+. . x x . x .
+x . o x . x o
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 0
+. . x x . . .
+. . x o . . .
+. . o o . o .
+. . o o . o .
+x . x x . x o
+x . o x . x o
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 0
+. . x x . . .
+. . x o . . .
+o . o o . o .
+x . o o . o .
+x . x x . x o
+x . o x . x o
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 6
+. . x x . . .
+. . x o . o .
+o . o o . o .
+x . o o . o x
+x . x x . x o
+x . o x . x o
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 5
+. . x x . x .
+. . x o . o .
+o . o o . o o
+x . o o . o x
+x . x x . x o
+x . o x . x o
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 0
+o . x x . x .
+x . x o . o .
+o . o o . o o
+x . o o . o x
+x . x x . x o
+x . o x . x o
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 6
+o . x x . x o
+x . x o . o x
+o . o o . o o
+x . o o . o x
+x . x x . x o
+x . o x . x o
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 1
+o . x x . x o
+x . x o . o x
+o . o o . o o
+x . o o . o x
+x o x x . x o
+x x o x . x o
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 4
+o . x x . x o
+x . x o . o x
+o . o o . o o
+x . o o . o x
+x o x x o x o
+x x o x x x o
+==============
+0 1 2 3 4 5 6
+
+Bitte eine Zahl eingeben (Spalte von 0-6): 4
+o . x x . x o
+x . x o . o x
+o . o o o o o
+x . o o x o x
+x o x x o x o
+x x o x x x o
+==============
+0 1 2 3 4 5 6
+Spieler o (= Computer) hat gewonnen
+</pre> </p>
+</body></html>
