@@ -1,0 +1,8 @@
+Bei dieser Aufgabe enthält jede Datei mit Beispieleingaben die Wunschlisten mehrerer Schülerinnen.  Jede Wunschliste wird in drei Zeilen beschrieben:
+
+In der ersten Zeile steht der Name der Schülerin.
+Die zweite Zeile enthält die Positivliste:  Auf ein + folgen (evtl. null) Namen anderer Schülerinnen.
+Die dritte Zeile enthält die Negativliste:  Auf ein - folgen (evtl. null) Namen anderer Schülerinnen.
+Zwei Wunschlisten sind durch eine leere Zeile voneinander getrennt.
+
+Die Dateien zimmerbelegung1.txt und zimmerbelegung2.txt beschreiben die Beispiele aus der Aufgabenstellung.
