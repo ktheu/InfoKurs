@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<link href="../../CSS/kurs.css" rel="stylesheet" type="text/css" />
+<title>Informatik</title>
+</head>
+<body>
+<h3>Baum</h3>
+
+
+<p><pre class="codef">
+# baum.py
+class Knoten:
+    def __init__(self,x = None):
+        self.inhalt = x
+        self.links = None
+        self.rechts = None
+
+    def __str__(self):
+        return self.inhalt.__str__()
+
+class Baum:
+    def __init__(self,x = None,l = None,r = None):
+        self.wurzel = None
+        if x is not None:
+           self.wurzel = Knoten(x)
+        if l is not None:
+            self.wurzel.links = l.wurzel
+        if r is not None:
+            self.wurzel.rechts = r.wurzel
+
+    def empty(self):
+        return self.wurzel is None
+
+    def value(self):
+        if self.empty(): raise RuntimeError("Fehler: Baum ist leer")
+        return self.wurzel.inhalt
+
+    def left(self):
+        if self.empty(): raise RuntimeError("Fehler: Baum ist leer")
+        temp = Baum()
+        temp.wurzel = self.wurzel.links
+        return temp
+
+    def right(self):
+        if self.empty(): raise RuntimeError("Fehler: Baum ist leer")
+        temp = Baum()
+        temp.wurzel = self.wurzel.rechts
+        return temp
+
+    def __str__(self):
+        if self.empty(): return ""
+        s = self.baumString(0)
+        if len(s) > 0:
+            s = s[:-1]
+        return s
+
+    def baumString(self,tiefe):
+        s = ""
+        punkte = "." * tiefe
+        if not self.right().empty():
+            s = s + self.right().baumString(tiefe + 1)
+        if self.value() is None:
+            s = s + punkte + "leer\n"
+        else:
+            s = s + punkte + str(self.value().__str__()) + "\n"
+        if not self.left().empty():
+            s = s + self.left().baumString(tiefe + 1)
+        return s
+</pre></p>
+
+
+
+</pre></p>
+<h3>Traversierungen</h3>
+
+<p>
+<pre class="codef">
+# traversierung.py
+from baum import Baum
+from adt import Keller, Schlange
+
+def inorder(b):
+    if b.empty(): return
+    inorder(b.left())
+    print(b.value(),end=" ")
+    inorder(b.right())
+
+def preorder(b):
+    if b.empty(): return
+    print(b.value(),end=" ")
+    preorder(b.left())
+    preorder(b.right())
+
+def postorder(b):
+    if b.empty(): return
+    postorder(b.left())
+    postorder(b.right())
+    print(b.value(),end=" ")
+
+def tiefensuche(baum):
+    k = Keller()
+    if not baum.empty():
+        k.push(baum)
+    while not k.empty():
+        b = k.top()
+        k.pop()
+        while not b.empty():
+            print(b.value(),end=' ')
+            if not b.right().empty():
+                k.push(b.right())
+            b = b.left()
+
+def breitensuche(baum):
+    s = Schlange()
+    if not baum.empty():
+        s.enq(baum)
+    while not s.empty():
+        b = s.front()
+        s.deq()
+        print(b.value(),end=' ')
+        if not b.left().empty():
+            s.enq(b.left())
+        if not b.right().empty():
+            s.enq(b.right())
+</pre>
+</p>
+
+<h3>Aufgabe: Rechteckbaum</h3>
+
+<p><pre class="codef">
+from turtle import *
+import random
+
+'''
+Es wird ein Rechteck gezeichnet, dann werden innerhalb des Rechtecks
+zwei weitere Rechtecke erzeugt, die die Kinder des äußeren Rechtecks sind.
+Solange die längere Seite des Rechtecks nicht kleiner als MIN_GROESSE ist
+wird entlang dieser Seite der Platz zufällig für die beiden Kind-Rechtecke aufgeteilt
+
+Diese Kinder erzeugen weitere Kind-Rechtecke. Dadurch entsteht ein Baum
+von Rechtecken. Die Methode displayPreorder zeichnet die Rechtecke durch
+eine preorder-Traversierung des Baums.
+
+Implementiere die Methoden displayPostorder und displayInorder für die
+entsprechenden Traversierungen und lasse die drei Arten hintereinander
+laufen.
+
+Nutze zum Test speed(3) um die Reihenfolge der Rechteckerzeugung
+genau mitzuverfolgen.
+
+'''
+
+
+class Rechteck:
+
+    MARGIN = 5
+    MIN_GROESSE = 2
+    COLORS = ["red", "white", "yellow", "green", "blue",
+        "orange", "brown", "pink", "gray", "violet"]
+
+    def __init__(self,x,y,breite,hoehe):
+        self.x = x
+        self.y = y
+        self.breite = breite
+        self.hoehe = hoehe
+        self.farbe = random.choice(Rechteck.COLORS)
+        self.kind1 = None
+        self.kind2 = None
+
+    def displayPreorder(self):
+
+        up()
+        color(self.farbe)
+        goto(self.x,self.y)
+        setheading(0)
+        down()
+        for i in range(2):
+            fd(self.breite)
+            right(90)
+            fd(self.hoehe)
+            right(90)
+        if self.kind1 != None:
+            self.kind1.displayPreorder()
+        if self.kind2 != None:
+            self.kind2.displayPreorder()
+
+    def displayPostorder(self):
+        pass # your code here
+
+    def displayInorder(self):
+        pass # your code here
+
+
+    def erzeugeKinder(self):
+
+        maxBreite = self.breite - 3 * Rechteck.MARGIN - Rechteck.MIN_GROESSE;
+        maxHoehe  = self.hoehe - 3 * Rechteck.MARGIN - Rechteck.MIN_GROESSE;
+
+        if maxBreite < Rechteck.MIN_GROESSE or maxHoehe < Rechteck.MIN_GROESSE: return
+
+        if self.breite >= self.hoehe:
+
+          breite1 = random.uniform(Rechteck.MIN_GROESSE, maxBreite);
+          hoehe1 = self.hoehe - 2 * Rechteck.MARGIN;
+          breite2 = self.breite - breite1 - (3 * Rechteck.MARGIN);
+          hoehe2 = hoehe1;
+
+          x1 = self.x + Rechteck.MARGIN;
+          y1 = self.y - Rechteck.MARGIN;
+          x2 = self.x + 2*Rechteck.MARGIN + breite1;
+          y2 = self.y - Rechteck.MARGIN;
+
+        else:
+
+          hoehe1 = random.uniform(Rechteck.MIN_GROESSE, maxHoehe);
+          breite1 = self.breite - 2 * Rechteck.MARGIN;
+          hoehe2 = self.hoehe - hoehe1 - (3 * Rechteck.MARGIN);
+          breite2 = breite1;
+
+          x1 = self.x + Rechteck.MARGIN;
+          y1 = self.y - Rechteck.MARGIN;
+          x2 = self.x + Rechteck.MARGIN;
+          y2 = self.y - hoehe1 - 2 * Rechteck.MARGIN;
+
+
+        self.kind1 =  Rechteck(x1, y1, breite1, hoehe1);
+        self.kind2 =  Rechteck(x2, y2, breite2, hoehe2);
+
+        self.kind1.erzeugeKinder();
+        self.kind2.erzeugeKinder();
+
+
+
+setup(420,420,startx=0,starty=0)
+bgcolor('black')
+hideturtle()
+speed(0)
+
+r = Rechteck(-200,200,400,400)
+r.erzeugeKinder()
+
+title('Rechteckbaum - preorder')
+r.displayPreorder()
+#clear()
+#title('Rechteckbaum - postorder')
+#r.displayPostorder()
+#clear()
+#title('Rechteckbaum - inorder')
+#r.displayInorder()
+</pre>
+</p>
+</body>
+</html>

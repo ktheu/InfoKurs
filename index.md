@@ -41,6 +41,11 @@ __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/300
 __[Aufgaben](./Liste/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Liste/Test/Musteraufgaben_Loesung.pdf)__
 
+__[ADT Baum](./Baum/Folien/Baum.pdf)__ -
+__[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/310_Baum.ipynb)__ --
+__[Aufgaben](./Baum/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./Baum/Test/Musteraufgaben_Loesung.pdf)__
+
 ___________________________________________________________________
 
 
