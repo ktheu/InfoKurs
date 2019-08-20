@@ -56,6 +56,7 @@ __[Lösungen](./Spielbaum/Test/Musteraufgaben_Loesung.pdf)__
 
 ___________________________________________________________________
 
+
 __[Search: bfs, dfs, greedy, A*](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/340_Search.ipynb)__ --
 __[Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb)__ --
 __[Aufgaben](./Search/Test/Musteraufgaben.pdf)__ -
@@ -65,6 +66,9 @@ __[BWInf](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/34
 ___________________________________________________________________
 
 
+__[P = NP?](./NP/Folien/NP.pdf)__ 
+
+___________________________________________________________________
 
 __[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)__
 
