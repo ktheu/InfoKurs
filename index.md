@@ -108,7 +108,14 @@ __[Turingmaschine und Berechenbarkeit](Turingmaschinen/Inhalte/turingmaschinen.h
 __[Aufgaben](./Turingmaschinen/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Turingmaschinen/Test/Musteraufgaben_Loesung.pdf)__
 
--------------------------------------------------------------
+___________________________________________________________________
+
+
+__[Datenbanken](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/601_db_entwurf.ipynb)__ -
+__[SQL](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/602_db_sqlite.ipynb)__ -
+__[Aufgaben](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/605_db_aufgaben.ipynb)__
+
+___________________________________________________________________
 __[Codingame](codingame.html)__ 
 
 __[Repl Infokurs1](https://repl.it/classroom/invite/WvS5KA7)__ - __[Repl 115 Übungen](https://repl.it/classroom/invite/WvQZMq1)__
