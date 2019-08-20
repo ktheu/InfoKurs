@@ -3,10 +3,11 @@
 
 ### Inhalte
 
+__[QR-Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/235_qrcode.ipynb)__
 
 __[Die Lochkarte](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/240_lochkarte.ipynb)__
 
-__[Huffman-Algorithmus](./Huffman/Folien/Huffman.pdf)__
+__[Huffman-Algorithmus](./Huffman/Folien/Huffman.pdf)__ --
 __[Aufgaben](./Huffman/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Huffman/Test/Musteraufgaben_Loesung.pdf)__
 
