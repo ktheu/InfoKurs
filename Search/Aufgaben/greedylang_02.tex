@@ -1,0 +1,28 @@
+\question[2]
+% maze_04.txt
+Zeichne in das Szenario Wände so ein, dass greedy (mindestens) doppelt so
+lange benötigt wie der optimale Weg.
+\begin{lstlisting}
+xxxxxxxxxxx
+x.........x
+x.........x
+x.........x
+x.........x
+x........Ex
+x.S.......x
+x.........x
+xxxxxxxxxxx
+\end{lstlisting}
+\begin{solutionbox}{4cm}
+\begin{lstlisting}
+xxxxxxxxxxx
+x         x
+x    xxx  x
+x      x  x
+x      x  x
+x      x Ex
+x Sxxxxx  x
+x         x
+xxxxxxxxxxx  greedy = 20, optimal = 10
+\end{lstlisting}
+\end{solutionbox}

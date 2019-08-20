@@ -1,0 +1,24 @@
+\question[2]
+Wie werden die Zustände (3,8) und (6,9) vom A*-Algorithmus
+bewertet, wenn für die Fortwärtskosten die euklidsche Distanz zum Ziel verwendet
+wird? Runde die Ergebnisse auf 2 Dezimalstellen.
+(S = Start, E = Ziel, x = Wand, die Punkte sollen das Abzählen erleichtern.)
+
+Hinweis zu den Koordinaten: (0,0) ist das obere linke Eck. Die erste Zahl
+ist die Zeile, die zweite die Spalte, d.h. im Beispiel ist das E an der Koordinate (1,12).
+\begin{lstlisting}
+xxxxxxxxxxxxxxxxxx
+x...........E....x
+x................x
+x..xxxxx.xxxxx...x
+x.....Sx.....x...x
+x......xx........x
+x................x
+xxxxxxxxxxxxxxxxxx
+\end{lstlisting}
+\begin{solutionbox}{2cm}
+\begin{lstlisting}
+(3, 8) 13.47
+(6, 9) 10.83
+\end{lstlisting}
+\end{solutionbox}

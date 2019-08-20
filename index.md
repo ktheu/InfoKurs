@@ -56,6 +56,14 @@ __[Lösungen](./Spielbaum/Test/Musteraufgaben_Loesung.pdf)__
 
 ___________________________________________________________________
 
+__[Search: bfs, dfs, greedy, A*]([./Spielbaum/Folien/Spielbaum.pdf](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/340_Search.ipynb))__ -
+__[Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb)__ --
+__[Aufgaben](./Search/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./Search/Test/Musteraufgaben_Loesung.pdf)
+
+___________________________________________________________________
+
+
 
 __[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)__
 
