@@ -3,6 +3,12 @@
 
 ### Inhalte
 
+
+ __[ASCII, Unicode und UTF-8](./Unicode/Folien/Unicode.pdf)__ --
+ __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/230_unicode.ipynb)__ --
+ __[Aufgaben](./Unicode/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./Unicode/Test/Musteraufgaben_Loesung.pdf)__
+
 __[QR-Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/235_qrcode.ipynb)__
 
 __[Die Lochkarte](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/240_lochkarte.ipynb)__
