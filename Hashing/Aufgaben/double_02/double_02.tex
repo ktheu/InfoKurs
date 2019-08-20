@@ -1,0 +1,22 @@
+
+\renewcommand{\arraystretch}{2.0}
+\setlength{\tabcolsep}{14pt}
+\question[4]
+Gegeben seien die beiden Hashfunktionen $f_1(x) = x \% 10$ und $f_2(x) = (2x+3) \% 10$
+Füge die Zahlenfolge
+\texttt{18 19 28 29 30 35 21}  in die Hashtabelle ein.
+Benutze als Sondierungsverfahren Doublehashing.
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline f(x) & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\
+\hline x     &   &    &    &   &   &    &    &   &   & \\
+\hline
+\end{tabular}
+
+\ifprintanswers
+Lösung:
+\begin{lstlisting}
+0   1   2   3   4   5   6   7   8   9
+29  21   .  30   .  35   .  28  18  19
+\end{lstlisting}
+\fi

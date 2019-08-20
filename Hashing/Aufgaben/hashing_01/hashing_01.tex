@@ -1,0 +1,27 @@
+
+\renewcommand{\arraystretch}{2.0}
+\setlength{\tabcolsep}{14pt}
+\question[5]
+Gegeben sei die Hashfunktion $f(x) = x \% 10$.
+Betrachte die Hashtabelle mit den eingetragenen Werten:
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline f(x) & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\
+\hline x     & 36 & 20 & 62 & 22 &   &    & 42 & 37 & 12 & \\
+\hline
+\end{tabular}
+
+a. Durch welche Art von Hashing wurde die Hashtabelle erzeugt?
+\begin{solutionbox}{1cm}
+geschlossenes Hashing mit quadratischem Sondieren
+\end{solutionbox}
+
+b. Schreibe eine mögliche Reihenfolge des Einfügens auf.
+\begin{solutionbox}{3cm}
+\begin{lstlisting}
+62 22 42 37 36 20 12
+62 22 37 42 36 20 12
+62 37 22 42 36 20 12
+37 62 22 42 36 20 12
+\end{lstlisting}
+\end{solutionbox}

@@ -70,6 +70,14 @@ __[P = NP?](./NP/Folien/NP.pdf)__
 
 ___________________________________________________________________
 
+
+__[Hashing](./Hashing/Folien/Hashing.pdf)__ -
+__[Aufgaben](./Hashing/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./Hashing/Test/Musteraufgaben_Loesung.pdf)__
+
+
+___________________________________________________________________
+
 __[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)__
 
 __[Endliche Automaten und Formale Sprachen](./Automaten/Inhalte/automaten.html)__ --

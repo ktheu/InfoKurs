@@ -1,0 +1,22 @@
+
+\renewcommand{\arraystretch}{2.0}
+\setlength{\tabcolsep}{14pt}
+\question[2]
+Gegeben sei die Hashfunktion $f(x) = x \% 10$.
+Füge die Zahlenfolge
+\texttt{18 19 28 29 30 35 21}  in die Hashtabelle ein.
+Benutze dabei lineares Sondieren.
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline f(x) & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\
+\hline x     &   &    &    &   &   &    &    &   &   & \\
+\hline
+\end{tabular}
+
+\ifprintanswers
+Lösung:
+\begin{lstlisting}
+0   1   2   3   4   5   6   7   8   9
+28  29  30  21   .  35   .   .  18  19
+\end{lstlisting}
+\fi

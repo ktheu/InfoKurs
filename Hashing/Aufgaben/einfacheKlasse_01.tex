@@ -1,0 +1,22 @@
+\question[4]
+Die Klasse Ding hat die Attribute name und wert. Implementiere die Klasse
+Ding. Folgender Dialog soll möglich sein:
+
+\begin{lstlisting}
+d = Ding("A",100)
+print(d)
+
+Das Ding A hat den Wert 100
+\end{lstlisting}
+
+\begin{solutionbox}{5cm}
+\begin{lstlisting}
+class Ding:
+    def __init__(self,name,wert):
+        self.name = name
+        self.wert = wert
+
+    def __str__(self):
+        return "Das Ding {:} hat den Wert {:}".format(self.name,self.wert)
+\end{lstlisting}
+\end{solutionbox}
