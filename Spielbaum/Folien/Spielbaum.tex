@@ -1,5 +1,5 @@
 %\documentclass[12pt,handout]{beamer}
-%\documentclass{beamer}
+\documentclass{beamer}
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
@@ -49,17 +49,16 @@ In einem \textbf{Mehrwegebaum} kann jeder Knoten eine variable Anzahl von Söhne
 
 \begin{frame}[fragile]
 Ein \textbf{Spielbaum} ist ein Mehrwegebaum mit zwei Typen von Knoten: Minimum-Knoten und
-Maximum-Knoten.  \pause
+Maximum-Knoten.  
 
-Die Knoten repräsentieren Spielstellungen. 
-
-Die Kanten zwischen den Knoten repräsentieren Spielzüge. \pause
+Die Knoten repräsentieren Spielstellungen. \\
+Die Kanten zwischen den Knoten repräsentieren Spielzüge.  \pause
 
 Der Spielbaum eignet sich für Zwei-Personen Nullsummenspiele wie Schach, Dame, TicTacToe, wo 2 Personen
  abwechselnd ziehen und der Gewinn des einen Spielers dem Verlust des anderen Spielers entspricht. \pause
  
 Der Wert eines Minimum-Knotens ist das Minimum der Werte seiner Söhne. 
-Der Wert eines Maximum-Knotens ist das Maximum der Werte seiner Söhne.   \pause
+Der Wert eines Maximum-Knotens ist das Maximum der Werte seiner Söhne.    
 
 Der Wert eines Blattes wird bestimmt durch eine statische Stellungsbewertung.
 \end{frame}
@@ -252,37 +251,12 @@ Der Alpha-Beta Algorithmus versucht Teile des Baumes abzuschneiden (pruning), di
 \end{frame}
 
 \begin{frame}[fragile]
-\includegraphics[width=12cm]{bild13.png}  \pause
+\includegraphics[width=12cm]{bild13.png}   
 
 Dazu wird jedem Knoten ein $\alpha$  und ein $\beta$-Wert mitgegeben, die im Verlauf des Algorithmus upgedated
 werden und die es gestatten, ein Kriterium zu formulieren, wann das pruning erfolgen kann.
 \end{frame}
 
-%\begin{frame}[fragile]
-%Der Alpha-Beta-Algorithmus
-%\begin{lstlisting}[basicstyle=\tiny]
-%def maximize(state,$\alpha, \beta$):
-%    '''
-%    state: Spielstellung
-%    $\alpha$ die beste bisher Bewertung entlang des Pfads zur Wurzel für den Maximizer. 
-%    $\beta$ die beste bisher Bewertung entlang des Pfads zur Wurzel für den Minimizer. 
-%    returns: (st, k), die Folgestellung, die die höchste Bewertung k hat
-%    '''
-%    Falls state ein Blatt, wird keine Folgestellung sondern nur die 
-%        Stellungsbewertung zurückgegeben.
-%    
-%    Von allen Kindern von state wird das mit der höchsten
-%        Bewertung des Minimizers gesucht. 
-%        Falls sich während dieser Suche herausstellt, das die Bewertung 
-%        des Minimizers >= $\beta$, dann wird gepruned
-%        Falls sich herausstellt, dass die Bewertung > $\alpha$, dann wird $\alpha$ upgedated
-% 
-% 
-%    
-%st =  ...                               # Ausgangsstellung
-%besterZug, k = maximize(st,-inf,inf)    # der beste Zug nach st für den Maximizer
-%\end{lstlisting} 
-%\end{frame}
 
 \begin{frame}[fragile]
 Der Alpha-Beta-Algorithmus \\
@@ -321,15 +295,6 @@ def minimize(state,alpha,beta):
 bestnext, _ = maximize(state,-inf,inf)
 \end{lstlisting}  
 \end{minipage} 
-%\begin{minipage}[t]{4cm}
-%alpha: die beste bisher untersuchte Option entlang des Pfads zur Wurzel für den Maximizer. 
-%~~\\~~\\
-%beta: die beste bisher untersuchte Option entlang des Pfads zur Wurzel  für den Minimizer.
-%~~\\~~\\
-%pruning: \\
-%bei max, wenn $v \ge \beta$ \\
-%bei min, wenn $v \le \alpha$
-%\end{minipage} 
 \end{frame}
 
 \begin{frame}[fragile]
