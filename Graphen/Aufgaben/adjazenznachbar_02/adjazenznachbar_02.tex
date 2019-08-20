@@ -1,0 +1,14 @@
+﻿\question[3]
+In der Variablen G sei ein gewichteter Graph als Adjazenzmatrix implementiert.
+Die Knoten a,b,c... sind auf die Indizes 0,1,2... abgebildet.
+Schreibe eine Anweisung, die in der Variablen \texttt{nb} eine Liste mit
+allen Buchstaben speichert, die Nachbarn von a sind.
+Hinweis: die Funktion \texttt{chr(y+97)} ordnet den Zahlen y=0,1,2,... die Buchstaben
+a,b,c, ... zu.
+
+\begin{solutionbox}{2cm}
+\begin{lstlisting}
+nb = [chr(y+97) for y in range(len(G)) if y != 0 and G[0][y] < inf]
+
+\end{lstlisting}
+\end{solutionbox}

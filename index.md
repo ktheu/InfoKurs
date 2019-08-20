@@ -75,8 +75,18 @@ __[Hashing](./Hashing/Folien/Hashing.pdf)__ -
 __[Aufgaben](./Hashing/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Hashing/Test/Musteraufgaben_Loesung.pdf)__
 
+___________________________________________________________________
+
+
+__[Graphen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/360_Graphen.ipynb)__ -
+__[Aufgaben](./Graphen/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./Graphen/Test/Musteraufgaben_Loesung.pdf)__ -- 
+__[BWInf](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/361_GraphenAufgaben.ipynb)__ --
+__[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHVtFQLF07HdrmbLI7dARgs)__
 
 ___________________________________________________________________
+
+
 
 __[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)__
 

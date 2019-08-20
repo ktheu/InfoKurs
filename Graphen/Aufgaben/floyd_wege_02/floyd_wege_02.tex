@@ -1,0 +1,33 @@
+﻿\question[4]
+
+Der gewichtete Graph G ist mit einer Adjazenzmatrix implementiert.
+Die Knoten a,b,c,.. sind auf die Indizes 0,1,2,... abgebildet.
+Der Floyd-Algorithmus berechnet die abgebildeten Kosten- und Wegematrizen.
+Ermittle die Länge des kürzesten Weges von d nach e und gib die Länge der Teilstrecken an.
+\begin{lstlisting}
+(Der Punkt steht für $\infty$)
+Berechnete Kostenmatrix:
+0   11  8   18  3   2
+1   0   8   7   4   3
+4   3   0   10  7   6
+5   4   1   0   8   7
+.   .   .   .   0   .
+.   .   .   .   1   0
+Berechnete Wegematrix:
+0   2   0   1   5   0
+1   1   3   1   5   0
+1   2   2   1   5   0
+1   2   3   3   5   0
+4   4   4   4   4   4
+5   5   5   5   5   5
+\end{lstlisting}
+
+\begin{solutionbox}{4cm}
+
+\begin{lstlisting}
+Kürzester Weg von d nach e
+(Kosten der Teilstrecken in Klammern)
+d - c (1)  - b (3)  - a (1)  - f (2)  - e (1)
+Gesamtkosten = 8
+\end{lstlisting}
+\end{solutionbox}
