@@ -46,8 +46,8 @@ __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/310
 __[Aufgaben](./Baum/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Baum/Test/Musteraufgaben_Loesung.pdf)__
 
-__[Suchbaum](./Suchbaum/Folien/Baum.pdf)__ -
-__[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/320_Suchbaum.ipynb)__ --
+__[Suchbaum](./Suchbaum/Folien/Suchbaum.pdf)__ -
+__[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/320_Suchbaum.ipynb)__ 
 
 ___________________________________________________________________
 
