@@ -84,8 +84,14 @@ __[Lösungen](./Graphen/Test/Musteraufgaben_Loesung.pdf)__ --
 __[BWInf](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/361_GraphenAufgaben.ipynb)__ --
 __[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHVtFQLF07HdrmbLI7dARgs)__
 
+__[TSP](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/370_TSP.ipynb)__
+
 ___________________________________________________________________
 
+
+__[Backtracking](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/380_backtracking.ipynb)__
+
+___________________________________________________________________
 
 
 __[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)__
