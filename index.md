@@ -59,7 +59,7 @@ ___________________________________________________________________
 __[Search: bfs, dfs, greedy, A*](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/340_Search.ipynb))__ --
 __[Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb)__ --
 __[Aufgaben](./Search/Test/Musteraufgaben.pdf)__ -
-__[Lösungen](./Search/Test/Musteraufgaben_Loesung.pdf)
+__[Lösungen](./Search/Test/Musteraufgaben_Loesung.pdf)__
 
 ___________________________________________________________________
 
