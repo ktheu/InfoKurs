@@ -3,8 +3,14 @@
 
 ### Inhalte
 
-___________________________________________________________________
 
+__[Die Lochkarte](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/240_lochkarte.ipynb)__
+
+__[Huffman-Algorithmus](./Huffman/Folien/Huffman.pdf)__
+__[Aufgaben](./Huffman/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./Huffman/Test/Musteraufgaben_Loesung.pdf)__
+
+___________________________________________________________________
 
 
 __[Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf)__ --
