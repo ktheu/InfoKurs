@@ -160,8 +160,7 @@ __[SQL](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/602_
 __[Aufgaben](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/605_db_aufgaben.ipynb)__
 
 ___________________________________________________________________
-__[Codingame](codingame.html)__ 
 
-__[Repl Infokurs1](https://repl.it/classroom/invite/WvS5KA7)__ - __[Repl 115 Übungen](https://repl.it/classroom/invite/WvQZMq1)__
+__[Codingame](https://www.codingame.com/home)__ 
 
 __[Links](links.md)__ - __[News](news.md)__ 

@@ -69,6 +69,11 @@ __[Das Modul turtle: Turtle-Grafik](https://nbviewer.jupyter.org/github/ktheu/Ku
 
 ***
 
+__[Repl Infokurs1](https://repl.it/classroom/invite/WvS5KA7)__ - __[Repl 115 Übungen](https://repl.it/classroom/invite/WvQZMq1)__
+
+__[Codingame]([codingame.html](https://www.codingame.com/home))__ 
+
+***
 Links
 
 __[The Python Tutorial (python.org)](https://docs.python.org/3/tutorial/)__
