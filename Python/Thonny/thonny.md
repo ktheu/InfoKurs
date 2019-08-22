@@ -8,4 +8,4 @@ Installiere __[Thonny](https://thonny.org)__ . Durch die Installation wird eine 
 Thonny öffnet sich mit einem Fenster für Programmcode und einer shell.
 
 
-<p><img src="bild1.png" width="60%" height="60%"></p>
+<p><img src="bild1.png" width="70%" height="70%"></p>
