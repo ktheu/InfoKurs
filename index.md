@@ -2,6 +2,16 @@
 
 
 ### Inhalte
+___________________________________________________________________
+
+
+__[Mandelbrot-Menge](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/215_mandelbrot.ipynb)__ --
+__[Aufgaben](./Mandelbrot/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./Mandelbrot/Test/Musteraufgaben_Loesung.pdf)__ -
+__[Videos]("https://www.youtube.com/watch?v=vfVT_xom8Cc")__ -
+__[Xaos](./Xaos/Xaos.zip)__
+
+___________________________________________________________________
 
 
 __[Codierung ganzer Zahlen](./Codierung/Folien/Codierung.pdf)__ --
