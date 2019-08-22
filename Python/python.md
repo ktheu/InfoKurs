@@ -22,6 +22,11 @@ __[Funktionen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/mast
 __[Aufgaben](./functions/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./functions/Test/Musteraufgaben_Loesung.pdf)__ 
 
+__[Stringvergleich, Königssuche](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/031_Stringvergleich.ipynb)__ --
+__[Aufgaben](./stringvergleich/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./stringvergleich/Test/Musteraufgaben_Loesung.pdf)__ 
+
+
 
 
 
