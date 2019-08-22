@@ -67,20 +67,11 @@ __[Das Modul datetime: Datum und Zeit](https://nbviewer.jupyter.org/github/ktheu
 __[Das Modul turtle: Turtle-Grafik](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/090_turtle.ipynb)__
 
 
-***
 
-__[Repl Infokurs1](https://repl.it/classroom/invite/WvS5KA7)__ - __[Repl 115 Übungen](https://repl.it/classroom/invite/WvQZMq1)__
 
-__[Codingame]([codingame.html](https://www.codingame.com/home))__ 
 
-***
-Links
 
-__[The Python Tutorial (python.org)](https://docs.python.org/3/tutorial/)__
 
-__[Python-Kurs (python-kurs.eu)](http://www.python-kurs.eu/python3_kurs.php)__
-
-__[PythonTutor](http://www.pythontutor.com)__
 
 
 
