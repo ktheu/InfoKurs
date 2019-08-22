@@ -1,0 +1,16 @@
+\question[6] Was erscheint auf der Konsole?  
+Notiere die einzelnen Ausgaben aus Platzgründen horizontal mit Komma getrennt,
+schreibe \texttt{Leerzeile} für eine Leerzeile.
+\begin{lstlisting}
+m = {'a':'abba','b':'bob','d':'b'}
+print(len(m))
+m['a'] = 'bab'
+print(m['b'])
+print(m['a'])
+print('bob' in m)
+print('bob' in m.keys())
+print(m['d'] in m['a'])
+\end{lstlisting}
+\begin{solutionbox}{1cm}
+\texttt{3, bob, bab, False, False, True}
+\end{solutionbox}

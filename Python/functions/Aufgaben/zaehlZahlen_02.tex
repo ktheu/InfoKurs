@@ -1,0 +1,20 @@
+\question[4] Schreibe eine Funktion \texttt{zaehl02}, der zwei natürliche Zahlen
+übergeben werden und die zurückgibt, wieviele Vielfache von 7 zwischen diesen
+Zahlen (einschließlich) liegen.
+\begin{lstlisting}
+>>> zaehl02(4,17)
+2
+>>> zaehl02(0,21)
+4
+\end{lstlisting}
+\begin{solutionbox}{4cm}
+\begin{lstlisting}
+def zaehl02(a, b):
+    zaehl = 0
+    for k in range(a, b+1):
+        if k % 7 $==$ 0 :
+            zaehl+=1
+    return zaehl
+
+\end{lstlisting}
+\end{solutionbox}

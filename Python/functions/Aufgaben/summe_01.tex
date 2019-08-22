@@ -1,0 +1,12 @@
+\question[3] Schreibe eine Funktion summe01, die die Summe aller Vielfachen
+von 7 zwischen 100 und 1000 zurückgibt.
+\begin{solutionbox}{4cm}
+\begin{lstlisting}
+def summe01():
+    summe = 0
+    for k in range(100,1000):
+        if k % 7 == 0:
+            summe+=k
+    return summe
+\end{lstlisting}
+\end{solutionbox}

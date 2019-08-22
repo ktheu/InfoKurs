@@ -1,0 +1,14 @@
+\question[3]
+Was erscheint auf der Konsole?
+\begin{lstlisting}
+a = [1,2]
+b = a
+c = b[:]
+a.append(3)
+b.append(4)
+c.append(5)
+print(a,b,c)
+\end{lstlisting}
+\begin{solutionbox}{3cm}
+[1, 2, 3, 4] [1, 2, 3, 4] [1, 2, 5]
+\end{solutionbox}

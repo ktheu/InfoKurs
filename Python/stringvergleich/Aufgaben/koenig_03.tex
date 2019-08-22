@@ -1,0 +1,30 @@
+\question[5]  Implementiere die Funktion.
+
+\begin{lstlisting}
+def groessterRest(s):
+    '''
+    s: String mit Ziffern, mindestens Länge 2
+    returns: int, Index an dem der zweistellige Teilstring beginnt
+        der den größten Rest bei der Division durch 7 ergibt.
+
+    Beispiel:
+    >>> groessterRest('532343456')
+    3
+    denn bei Index 3 beginnt die zweistellige Zahl 34,
+       die bei Division durch 7 den Rest 6 hat.
+    '''
+\end{lstlisting}
+\begin{solutionbox}{10cm}
+\begin{lstlisting}
+def groessterRest(s):
+    king = 0
+    kingRest = int(s[:2]) % 7
+
+    for i in range(1,len(s)-1):
+        teil = int(s[i:i+2])
+        if teil % 7 > kingRest:
+            king = i
+            kingRest = teil % 7
+    return king
+\end{lstlisting}
+\end{solutionbox}

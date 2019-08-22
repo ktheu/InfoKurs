@@ -1,0 +1,21 @@
+\question[4]
+Schreibe eine Funktion \texttt{suche}, der eine nicht leere Liste mit mindestens
+zwei ganzen Zahlen übergeben wird und die die Zahl in der Liste findet,
+die zu ihrem linken Nachbarn den geringsten Abstand hat. Die erste
+Zahl muss nicht berücksichtigt werden. Hinweis: den Abstand zwischen zwei
+Zahlen x und y kann man mit \texttt{abs(x-y)} berechnen.
+Beispiel: Für die Liste \texttt{a = [4, 9, 8, 12]} gibt die Funktion
+die Zahl \texttt{8} zurück.
+
+\begin{solutionbox}{9cm}
+\begin{lstlisting}
+def suche(a):
+    best = a[1]
+    bestAbstand = abs(a[0]-a[1])
+    for i in range(1,len(a)):
+        if abs(a[i]-a[i-1]) < bestAbstand:
+            best = a[i]
+            bestAbstand = abs(a[i]-a[i-1])
+    return best
+\end{lstlisting}
+\end{solutionbox}

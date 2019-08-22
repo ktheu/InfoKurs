@@ -1,0 +1,24 @@
+\question[4] Implementiere die Funktion \texttt{gerade}
+\begin{lstlisting}
+def gerade(g):
+    '''
+    g: dictionary, das Buchstaben ganze Zahlen zuordnet.
+    returns: sortierte Liste aller vorkommenden geraden values.
+
+    z.B:
+    >>> G = {'a':3, 'c':7, 'D':10, 'e':8, 'B':7}
+    >>> gerade(G)
+    [8, 10]
+    '''
+
+\end{lstlisting}
+\begin{solutionbox}{8cm}
+\begin{lstlisting}
+def gerade(g):
+    tmp = []
+    for x in g.values():
+        if x%2 $==$ 0:
+            tmp.append(x)
+    return sorted(tmp)
+\end{lstlisting}
+\end{solutionbox}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<link href="../../CSS/kurs.css" rel="stylesheet" type="text/css" />
+<title>Informatik</title>
+</head>
+<body>
+<h3>Funktionen</h3>
+<p>Funktionen beginnen mit dem Schlüsselwort <em>def</em>. Sie haben</p>
+<ul>
+  <li>einen Namen</li>
+  <li>Parameter ( 0 oder mehr)</li>
+  <li>einen docstring (optional, aber empfohlen)</li>
+  <li>einen Funktionsrumpf (body)</li>
+</ul>
+
+<p>Mit return können Funktionen einen Wert zurückgeben. Fehlt return,
+wird None zurückgegeben.</p>
+
+
+<p>Funktionen ohne return:</p>
+<pre class="codef">
+def sterne():
+    print('*****')
+
+>>> sterne()
+*****
+</pre>
+
+<pre class="codef">
+def sterne(k):          # k ist der formale Parameter
+    for i in range(k):
+        print('*',end='')
+
+>>> sterne(10)          # 10 ist der aktuelle Parameter
+**********
+</pre>
+
+<pre class="codef">
+def sterne(k=3):        # k ist optionaler Parameter mit default-Wert 3
+    for i in range(k):
+        print('*',end='')
+
+>>> sterne()
+***
+>>> sterne(7)
+*******
+>>> a = sterne(1)       # eine Funktion ohne return gibt None zurück
+*
+>>> a
+>>>
+>>> print(a)
+None
+</pre>
+
+Funktionen mit return:
+<pre class="codef">
+def sterne():
+    return '*****'
+
+>>> a = sterne()
+>>> a
+*****
+</pre>
+
+<pre class="codef">
+def sterne(k=3):
+    tmp = ''
+    for i in range(k):
+        tmp = tmp + '*'
+    return tmp
+
+>>> a = sterne()
+>>> a
+***
+>>> a = sterne(12)
+>>> a
+************
+</pre>
+
+<h4>PythonTutor</h4>
+<p>
+Beim Aufruf der Funktion wird der formale Parameter mit dem Objekt verbunden (binding), auf den der aktuelle Parameter zeigt und kann in der Funktion als lokale Variable benutzt werden. Innerhalb des global frame entsteht ein neuer frame, relativ zu dem die lokalen Variablen ihre Werte erhalten. Dies lässt sich gut im <a href="http://pythontutor.com/">PythonTutor</a> verfolgen.</p>
+<pre class="codef">
+def aufsum(x, y):
+    summe = 0
+    while x <= y:
+        summe += x
+        x += 1
+    return summe
+
+
+x = 4
+z = 7
+y = aufsum(x,z)
+print(y)
+</pre>
+
+
+<h4>Dokumentation / Spezifikation</h4>
+Die Spezifikation ist ein Kontrakt zwischen dem Implementierer der Funktion und dem Anwender. Es werden die Voraussetzungen für
+die Anwendung der Funktion aufgelistet, meist betrifft das die Werte, die die Parameter annehmen können. Es wird beschrieben, was unter diesen Voraussetzungen die Funktion tut und zurückliefert. In Python nutzen wir dazu den <em>docstring</em>.
+
+
+
+<pre class="codef">
+def is_even(n):
+    '''
+    n: positive ganze Zahl
+    returns: True, wenn n gerade, sonst False
+    '''
+    return n % 2 == 0
+
+>>> help(is_even)
+Help on function is_even in module __main__:
+
+is_even(n)
+    n: positive ganze Zahl
+    returns: True, wenn n gerade, sonst False
+</pre>
+
+<h4>Warum Funktionen?</h4>
+<ul>
+  <li><strong>Abstraktion</strong>: wir müssen nicht wissen, wie die Funktion ihr Ziel erreicht, sondern nur, wie man sie anwendet (wir müssen das Interface beherrschen). Die Abstraktion wird durch einen Kontrakt ermöglicht. </li>
+  <li><strong>Dekomposition</strong> (= Modularisierung): das Problem wird in verschiedene, eigenständige Teile aufgeteilt, die getrennt erstellt und getestet werden können und die auch an verschiedenen Stellen  eingesetzt werden können (reusable). </li>
+</ul>
+
+
+<h4>Return und print</h4>
+<ul>
+<li>Return kann nur innerhalb einer Funktion benutzt werden, print kann auch außerhalb vorkommen. </li>
+<li>In einer Funktion kann es mehrere return Anweisungen geben, aber bei der ersten Ausführung von return wird die Funktion sofort verlassen.</li>
+<li>Return gibt einen Wert an den Aufrufer zurück, den man beim Aufruf in einer Variablen speichern kann, print gibt keinen Wert zurück, sondern schreibt etwas auf die Konsole.</li>
+</ul>
+In einer Aufgabenstellung wie
+<pre class="codef">
+# Schreibe eine Funktion, die ... zurückgibt
+</pre>
+ist immer ein return gemeint, kein print.
+
+<h4>Funktionen als Argumente</h4>
+<p>Die Argumente von Funktionen können beliebige Typen sein, auch andere Funktionen.</p>
+
+<pre class="codef">
+def betrag(x):
+    if x > 0: return x
+    return -x
+
+def plus10(x):
+    return x+10
+
+def verknuepf(f1,f2,k):
+    return f1(f2(k))
+
+>>> verknuepf(betrag,plus10,-5)
+5
+>>> verknuepf(plus10,betrag,-5)
+15
+</pre>
+
+<p>(Quiz 7)</p>
+<h4>Globale Variablen</h4>
+<p>Globale Variablen sind außerhalb der Funktionen definiert. Funktionen können auf globale Variablen lesend zugreifen.</p>
+
+<pre class="codef">
+x = 10      # globale Variable
+def f(k):
+    return k + x
+
+>>> f(1)
+11
+</pre>
+
+<p>Lokale Variablen verdecken gleichnamige globale Variablen.</p>
+
+<pre class="codef">
+x = 10       # globale Variable
+def f(k):
+    x = 5    # lokale Variable
+    return k + x
+
+>>> f(1)
+6
+>>> x
+10
+</pre>
+
+<p>Innerhalb einer Funktion kann man eine globale Variable nicht verändern, es sei denn, man erklärt sie explizit als global</p>
+
+<pre class="codef">
+x = 10
+def f():
+    global x    # x ist globale Variable
+    x = 11
+
+>>> f()
+>>> x
+11
+</pre>
+
+<p>Globale Variablen sollten möglichst sparsam eingesetzt werden. Sie erschweren den Test von Funktionen als abgeschlossene Einheiten und können zu Seiteneffekten führen. Funktionen sollten alles, was sie für ihre Arbeit benötigen, über die Parameter erhalten. Manchmal sind globale Variablen aber nützlich. </p>
+
+<p>&nbsp;</p>
+</body>
+</html>

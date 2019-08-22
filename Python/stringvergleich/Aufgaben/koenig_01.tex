@@ -1,0 +1,21 @@
+\question[3] Implementiere die Funktion. Die eingebauten Python-Funktionen min
+und max dürfen nicht verwendet werden.
+
+\begin{lstlisting}
+def minZahl(a,b,c,d,e):
+    '''
+    a,b,c,d,e: Zahlen (ints oder floats)
+    returns: das Minimum der Zahlen.
+    '''
+\end{lstlisting}
+\begin{solutionbox}{8cm}
+\begin{lstlisting}
+def minZahl(a,b,c,d,e):
+    king = a
+    if b < king: king = b
+    if c < king: king = c
+    if d < king: king = d
+    if e < king: king = e
+    return king
+\end{lstlisting}
+\end{solutionbox}

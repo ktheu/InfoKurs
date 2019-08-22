@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<link href="../../CSS/kurs.css" rel="stylesheet" type="text/css" />
+<title>Informatik</title>
+</head>
+<body>
+
+<h3>Dictionaries</h3>
+
+<p><a href="https://www.tutorialspoint.com/python3/python_dictionary.htm">TutorialsPoint</a> </p>
+
+<p>Informationen über Schülernoten könnte man in zwei Listen abspeichern.
+Für Änderungen müssten beide Listen gepflegt werden. In Listen ist
+der Index immer ein int-Wert.</p>
+
+<pre class="codef">
+namen = ['Thorben', 'Soeren', 'Maike']
+noten = [1, 3, 2]
+
+def gibNote(s):
+    k = namen.index(s)
+    return noten[k]
+
+>>> gibNote('Maike')
+2
+</pre>
+<p>
+Mit Dictionaries kann der Index auch ein anderer Datentyp sein. Wir benötigen dann keine
+zwei Listen mehr, sondern nur noch eine Datenstruktur.</p>
+<img src="bild1.png" width="400">
+<p>Ein Dictionary speichert key-value Paare. </p>
+
+<pre class="codef">
+>>> noten = {}                          # leeres dictionary
+>>> noten = {'Thorben':2, 'Soeren':3, 'Maike':2}
+>>> noten
+{'Maike': 2, 'Thorben': 2, 'Soeren': 3}
+>>> noten['Maike']                      # lookup mit key als Index
+2
+>>> noten.get('Maike')                  # lookup mit get
+2
+>>> noten['Lena']                       # Fehler wenn key nicht vorhanden
+Traceback (most recent call last):
+  File "", line 1, in <module>
+    noten['Lena']
+KeyError: 'Lena'
+
+>>> noten.get('Lena')                   # kein Rückgabewert, kein Fehler wenn key nicht vorhanden                                        #
+
+>>> noten['Lena'] = 1                   # Eintrag hinzufügen
+>>> noten
+{'Maike': 2, 'Thorben': 2, 'Soeren': 3, 'Lena': 1}
+
+>>> 'Meike' in noten                     # key vorhanden?
+False
+>>> 'Maike' in noten
+True
+
+>>> del(noten['Soeren'])                 # Eintrag löschen
+>>> noten
+{'Maike': 2, 'Thorben': 2, 'Lena': 1}
+
+>>> noten.keys()                         # die Menge aller keys
+dict_keys(['Maike', 'Thorben', 'Lena'])
+
+>>> for x in noten.keys():               # ist iterierbar
+	print(x)
+Maike
+Thorben
+Lena
+
+>>> list(noten.keys())                   # und kann in Liste verwandelt werden
+['Maike', 'Thorben', 'Lena']
+
+>>> noten.values()                       # auch die Menge aller Werte
+dict_values([2, 2, 1])                   # ist iterierbar und kann in
+>>> list(noten.values())			     # Liste verwandelt werden
+[2, 2, 1]
+
+>>> for k in noten.items():              # items gibt key-value-Tupel zurück
+	print(k)
+
+('Thorben', 2)
+('Maike', 2)
+('Lena', 1)
+</pre>
+
+<ul>
+  <li>
+
+    values: kann jeder Datentyp sein, auch doppelte Werte ok.  </li>
+  <li>keys: müssen eindeutig sein, wir verwenden zunächst nur immutable Typen: int, float, string, tuple, boolean (eigentliche Bedingung: die Typen müssen hashable sein).</li>
+  <li>weder für keys noch für values ist eine Anordnung garantiert.</li>
+</ul>
+<h4>&nbsp;</h4>
+
+<h4>Vorsicht bei floats als keys  </h4>
+<pre class="codef">
+m = {0.3: 'A'}
+>>> 0.3 in m
+True
+>>> 0.1+0.1+0.1 in m
+False
+>>> 0.1+0.1+0.1
+0.30000000000000004
+>>>
+</pre>
+
+<h4>Beispiel: Zeichen in einem String zählen </h4>
+<pre class="codef">
+def zeichenZaehlen(s):
+    '''
+    s: String
+    returns: dictionary, das zu jedem in s vorkommenden Zeichen angibt,
+       wie oft es vorkommt
+    '''
+    tmp = {}
+    for c in s:
+        if c in tmp:
+            tmp[c]+=1
+        else:
+            tmp[c] = 1
+    return tmp
+
+
+>>> zz = zeichenZaehlen('abaa')
+>>> zz
+{'a': 3, 'b': 1}
+>>>
+</pre>
+
+<h3>Set</h3>
+Sets (Mengen) sind sehr schnell beim lookup. Eine Reihenfolge ist nicht garantiert.
+<pre class="codef">
+>>> s = set()
+>>> s
+set()
+>>> s = {5,3,2,3,9}
+>>> s
+{9, 2, 3, 5}
+>>> s.add(4)
+>>> s
+{2, 3, 4, 5, 9}
+>>> s.remove(5)
+>>> s
+{2, 3, 4, 9}
+>>> 2 in s      # lookup
+True
+>>> 10 not in s
+True
+>>>
+</pre>
+
+Mengenoperationen:
+<pre class="codef">
+>>> s = {1,2,3}
+>>> t = {2,3,4}
+>>> s | t       # Vereinigung
+{1, 2, 3, 4}
+>>> s & t       # Schnitt
+{2, 3}
+>>> s - t       # Differenz
+{1}
+>>> s ^ t       # Entweder-Oder
+{1, 4}
+>>>
+</pre>
+
+<h3>Iterierbare Datentypen</h3>
+<p> Iterierbare Datentypen können wir mit einer for-Schleife durchlaufen</p>
+
+<p><pre class="codef">
+s = 'abc'
+for x in s:     # &lt;class 'str'&gt;
+    print(x)
+
+a = [1,3,3]     # &lt;class 'list'&gt;
+for x in a:
+    print(x)
+
+b = (7,8,8)     # &lt;class 'tuple'&gt;
+for x in b:
+    print(x)
+
+r = range(3)    # &lt;class 'range'&gt;
+for x in r:
+    print(x)
+
+m = {5,7}       # &lt;class 'set'&gt;
+for x in m:
+    print(x)
+
+d = {'a':1, 'b':2}   # &lt;class 'dict'&gt;
+for x in d:          # x läuft durch die keys
+    print(x)
+
+for x in d.keys():   # &lt;class 'dict_keys'&gt;
+    print(x)
+
+for x in d.values(): # &lt;class 'dict_values'&gt;
+    print(x)
+
+for x in d.items():  # &lt;class 'dict_items'&gt;
+    print(x)
+</pre>
+</p>
+<p><em>list(y), tuple(y)</em> wandelt jeden dieser Datentypen in eine Liste bzw. Tupel um.
+  Alle diese Datentypen haben eine Länge <em>len(y)</em>. Auf Elemente von <em>str, list, tuple, range</em> kann mit einem Index zugegriffen werden.
+ <em> list, set, dict</em> sind mutable. Seiteneffekte können auftreten. Mit <em>deepcopy</em> können tiefe Kopien erstellt werden.</p>
+</body>
+</html>

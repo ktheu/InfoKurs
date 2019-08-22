@@ -1,0 +1,15 @@
+\question[4]
+In dieser Aufgabe soll, ausgehend von einer Liste a, mittels slicing oder
+indexing der angegebene Wert erreicht werden.
+Beispiel: \texttt{a = ['abc',(4,7)]}.
+ Der Wert \texttt{'ab'} kann mittels \texttt{a[0][0:2]} erreicht werden, der Wert
+\texttt{7} kann mittels \texttt{a[1][1]} erreicht werden.
+
+\texttt{a = [42,'abc',('de',102),['uvw']]} \\
+Mit welchem Ausdruck kann man, von a ausgehend, folgende Werte erreichen:   \\
+\begin{tabular}{lllll}
+a. 42 & b. 102 & c. 'c' & d. 'w' \\
+\end{tabular}
+\begin{solutionbox}{1cm}
+\texttt{a. a[0] ~~ b. a[2][1] ~~ c. a[1][2] ~~ d. a[3][0][2]}
+\end{solutionbox}

@@ -1,0 +1,29 @@
+\question[4] Was erscheint auf der Konsole? \\
+\begin{minipage}[c]{6cm}
+\begin{lstlisting}
+a.
+for i in range(10):
+    print(i,end=' ')
+    if i > 4: break
+print("Ende1")
+\end{lstlisting}
+\end{minipage}
+\begin{minipage}[c]{6cm}
+\begin{lstlisting}
+b.
+j = 0
+while j < 10:
+    j = j + 2
+    if j % 3 $==$ 0:
+        j+=1
+        continue
+    print(j,end=' ')
+print("Ende2")
+\end{lstlisting}
+\end{minipage}
+\begin{solutionbox}{2cm}
+\begin{lstlisting}
+a. 0 1 2 3 4 5 Ende1
+b. 2 4 Ende2
+\end{lstlisting}
+\end{solutionbox}

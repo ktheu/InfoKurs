@@ -1,0 +1,17 @@
+\question[2] Schreibe eine Funktion \texttt{pruef04}, der ein String s, ein Zeichen
+c und eine Zahl n übergeben werden und die prüft, ob c n-mal in s vorkommt.
+
+Beispiel:
+\begin{lstlisting}
+>>> print(pruef04('aabbccc','a',2))
+True
+>>> print(pruef04('aabbccc','a',3))
+False
+
+\end{lstlisting}
+\begin{solutionbox}{4cm}
+\begin{lstlisting}
+def pruef04(s,c,n):
+    return s.count(c) == n
+\end{lstlisting}
+\end{solutionbox}

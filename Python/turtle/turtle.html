@@ -1,0 +1,149 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="../styles/kurs.css" rel="stylesheet" type="text/css" />
+<title>Informatik</title>
+<body>
+<h3>Turtle</h3>
+
+
+<p><a href="https://docs.python.org/3.3/library/turtle.html?highlight=turtle">Python-Doc zur Turtle</a> </p>
+
+<p>Zum Ausprobieren der Turtle im interaktiven Modus</p>
+<pre class="codef">
+import turtle as t
+>>> t.reset()       # Anfangszustand 
+>>> dir(t)          # zeigt Attribute und Methoden der Turtle 
+>>> help(t.forward)  
+>>> t.fd(100)         
+>>> t.shape('turtle')
+>>> t.hideturtle()
+>>> t.showturtle()
+</pre>
+
+<pre class="codef">
+>>> t.reset()
+>>> for i in range(4):
+	t.fd(100)
+	t.lt(90)
+    
+>>> t.up()
+>>> t.setpos(100,-100)
+>>> t.down()
+>>> t.fd(100) 
+>>> t.clear()
+>>> t.home()
+>>> t.reset()
+</pre>
+
+<p>Die folgenden Beispiele rufen wir mit Run-Modul auf.</p> 
+<pre class="codef">   
+import turtle as t
+t.speed(1) # 0 = sehr schnell, 1-10 = langsam-schnell
+def square(k):
+    for i in range(4):
+        t.fd(k)
+        t.left(90)
+
+square(60)
+square(100)
+square(200)
+
+t.circle(100)
+t.circle(-50)
+</pre>
+
+<p>Ohne Turtle-Animation</p>
+<pre class="codef">	
+import turtle as t
+t.reset()
+t.hideturtle()
+t.tracer(0,0)
+
+def square(k):
+    for i in range(4):
+        t.fd(k)
+        t.left(90)
+
+square(60)
+square(100)
+square(200)
+t.update()
+</pre>
+
+<p>Farben, Stiftdicke, Füllungen, Bewegungsrichtung</p>
+<pre class="codef">	
+import turtle as t
+
+def square(x,y,k):
+    t.seth(0)
+    t.up()
+    t.setpos(x,y)
+    t.down()
+    for i in range(4):
+        t.fd(k)
+        t.left(90)
+        
+t.reset()
+t.hideturtle()
+t.tracer(0,0)
+
+t.bgcolor('yellow')
+t.pencolor('red')
+t.width(5)
+t.setheading(30)
+t.fd(80)
+t.update()
+
+square(50,100,30)
+t.fillcolor('green')
+t.begin_fill()
+square(50,-100,40)
+t.end_fill()
+t.color('brown','cyan')    # pencolor + fillcolor
+t.begin_fill()
+square(-50,-100,40)
+t.end_fill()
+       
+t.update()
+</pre>
+
+<p>Events, mainloop, colormode, rgb-Farben</p>
+<pre class="codef">	
+import turtle as t
+import random
+
+def square(x,y,k,farbe):
+    t.seth(0)
+    t.up()
+    t.setpos(x,y)
+    t.down()
+    t.color(farbe)
+    t.begin_fill()
+    for i in range(4):
+        t.fd(k)
+        t.left(90)
+    t.end_fill()
+
+def r_key():
+    t.reset()
+    t.hideturtle()
+    
+def leftmouse(x,y):
+    r = random.randint(0,255)
+    g = random.randint(0,255)
+    b = random.randint(0,255)
+    square(x,y,random.randint(80,200),((r,g,b)))
+    t.update()
+           
+t.reset()
+t.hideturtle()
+t.tracer(0,0)
+t.colormode(255)
+t.onscreenclick(leftmouse,btn=1)
+t.onkey(r_key,'r')
+t.listen()
+t.update()
+t.mainloop()
+</pre>
+</body>
+</html>

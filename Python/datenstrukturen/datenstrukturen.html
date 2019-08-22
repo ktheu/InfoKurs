@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../../CSS/kurs.css">
+  <title>Datenstrukturen in Python</title>
+</head>
+<body>
+<h3>Komplexität einiger Python Operationen</h3>
+<p><strong>Listen</strong></p>
+
+<pre class="codef">
+Operation      Beispiel    Komplexität (average case)
+
+index          a[i]              O(1)
+store          a[i] = 5          O(1)
+length         len(a)            O(1)
+append         a.append(4)       O(1)
+insert         a.insert(7,'A')   O(n)
+delete         a.delete('B')     O(n)
+contains       'C' in a          O(n)
+</pre>
+
+<p><strong>Set (Hashset)</strong></p>
+
+<pre class="codef">
+Operation      Beispiel    Komplexität (average case)
+
+store          s.add('Thorben')  O(1)
+delete         s.remove('Lena')  O(1)
+length         len(s)            O(1)
+contains       'Thorben' in s    O(1)
+</pre>
+
+<p><strong>Dictionary (Hashtable)</strong></p>
+
+<pre class="codef">
+Operation      Beispiel    Komplexität (average case)
+
+index          m['Lena']         O(1)
+store          m['Thorben'] = 2  O(1)
+length         len(m)            O(1)
+delete         del m['Thorben']  O(1)
+contains       'Lena' in m       O(1)
+</pre>
+
+<p><strong>Heap (PriorityQueue)</strong></p>
+
+<pre class="codef">
+Operation      Beispiel    Komplexität (average case)
+
+create         heapify(a)        O(n)
+store          heappush(a,42)    O(log(n))
+delete         heappop(a)        O(log(n))
+</pre>
+
+<p>weitere Infos zur Komplexität von Pythonoperationen: <a href="https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt">hier</a> und <a href="https://wiki.python.org/moin/TimeComplexity">hier</a></p>
+<p>&nbsp;</p>
+
+<h3>Code-Beispiele für Queue, Stack, Heap</h3>
+
+<h4>Queue, Schlange</h4>
+<pre class="codef">
+>>> from collections import deque
+>>> q = deque([1,2,3])   # 1 ist der Kopf der Schlange
+>>> q.append(4)          # append = enqueue  O(1)
+>>> q
+deque([1, 2, 3, 4])
+>>> q.popleft()          # popleft = deque   O(1)
+1
+>>> q
+deque([2, 3, 4])
+</pre>
+
+<h4>Stack, Keller</h4>
+<pre class="codef">
+>>> keller = [3,4,5]  # 5 ist top-Element
+>>> keller
+[3, 4, 5]
+>>> keller.append(6)  # append = push   O(1)
+>>> keller
+[3, 4, 5, 6]
+>>> keller.pop()      # O(1)
+6
+>>> keller
+[3, 4, 5]
+>>>
+</pre>
+
+<h4>Heap</h4>
+<pre class="codef">
+>>> from heapq import heapify, heappop, heappush
+>>> a =  [1, 13, 25, 7, 19, 2, 14, 6, 8, 0]
+>>> heapify(a)              # macht aus der Liste einen Heap in O(n)
+>>> a
+[0, 1, 2, 6, 13, 25, 14, 7, 8, 19]
+>>> heappop(a)              # O(log(n))
+0
+>>> a
+[1, 6, 2, 7, 13, 25, 14, 19, 8]
+>>> heappush(a,12)          # O(log(n))
+>>> a
+[1, 6, 2, 7, 12, 25, 14, 19, 8, 13]
+>>>
+</pre>
+
+<h3>Einige Zeitmessungen</h3>
+
+<h4>Lookup in list, set, dictionary</h4>
+<pre class="codef">
+"""
+In einer list/set/dictionary der Länge 10000/100000/1000000 wird 10000 mal
+ein lookup durchgeführt.
+"""
+import random, time
+
+def list_lookup(n,k):
+    a = [random.randint(-3*n,3*n) for i in range(n)]
+    gesamtzeit = 0
+    for i in range(k):
+        zahl = random.randint(-3*n,3*n)
+        tic = time.perf_counter()
+        zahl in a   # lookup
+        tac = time.perf_counter()
+        gesamtzeit += (tac-tic)
+    print('Zeit für {:6} lookups in einer Liste der Länge {:7}: {:9.5f} sec'.format(k,n,gesamtzeit))
+
+def set_lookup(n,k):
+    a = {random.randint(-3*n,3*n) for i in range(n)}
+    gesamtzeit = 0
+    for i in range(k):
+        zahl = random.randint(-3*n,3*n)
+        tic = time.perf_counter()
+        zahl in a   # lookup
+        tac = time.perf_counter()
+        gesamtzeit += (tac-tic)
+    print('Zeit für {:6} lookups in einem Set   der Länge {:7}: {:9.5f} sec'.format(k,n,gesamtzeit))
+
+def dict_lookup(n,k):
+    a = {random.randint(-3*n,3*n): True for i in range(n)}
+    gesamtzeit = 0
+    for i in range(k):
+        zahl = random.randint(-3*n,3*n)
+        tic = time.perf_counter()
+        zahl in a   # lookup
+        tac = time.perf_counter()
+        gesamtzeit += (tac-tic)
+    print('Zeit für {:6} lookups in einem Dict  der Länge {:7}: {:9.5f} sec'.format(k,n,gesamtzeit))
+
+list_lookup(10000,10000)
+list_lookup(100000,10000)
+list_lookup(1000000,10000)
+set_lookup(10000,10000)
+set_lookup(100000,10000)
+set_lookup(1000000,10000)
+dict_lookup(10000,10000)
+dict_lookup(100000,10000)
+dict_lookup(1000000,10000)
+</pre>
+<pre class="codef">
+Ausgabe:
+Zeit für  10000 lookups in einer Liste der Länge   10000:   1.41452 sec
+Zeit für  10000 lookups in einer Liste der Länge  100000:  14.11062 sec
+Zeit für  10000 lookups in einer Liste der Länge 1000000: 151.81383 sec
+Zeit für  10000 lookups in einem Set   der Länge   10000:   0.00134 sec
+Zeit für  10000 lookups in einem Set   der Länge  100000:   0.00209 sec
+Zeit für  10000 lookups in einem Set   der Länge 1000000:   0.00245 sec
+Zeit für  10000 lookups in einem Dict  der Länge   10000:   0.00178 sec
+Zeit für  10000 lookups in einem Dict  der Länge  100000:   0.00174 sec
+Zeit für  10000 lookups in einem Dict  der Länge 1000000:   0.00274 sec
+</pre>
+
+<h4>heap vs. sorted list</h4>
+<p>
+In einen Heap/Liste der Länge 1000/10000/100000 werden 1000 Runden durchgeführt.
+Eine Runde besteht darin, dass 100 zufällige Zahlen eingefügt werden und
+anschließend die niedrigsten 100 wieder entfernt werden.
+</p>
+
+<pre class="codef">
+import random, time
+from heapq import heapify, heappop, heappush
+
+def heap_runden(n,k):
+    a = [random.randint(-3*n,3*n) for i in range(n)]
+    heapify(a)
+    tic = time.perf_counter()
+    for i in range(k):
+        for i in range(100):
+            heappush(a,random.randint(-3*n,3*n))
+        for i in range(100):
+            mini = heappop(a)
+    tac = time.perf_counter()
+    gesamtzeit = tac-tic
+    print('Zeit für {:6} Runden in einem Heap  der Länge {:7}: {:9.5f} sec'.format(k,n,gesamtzeit))
+
+def list_runden(n,k):
+    a = [random.randint(-3*n,3*n) for i in range(n)]
+    tic = time.perf_counter()
+    for i in range(k):
+        for i in range(100):
+            a.append(random.randint(-3*n,3*n))
+        a.sort(reverse=True)
+        for i in range(100):
+            a.pop()
+    tac = time.perf_counter()
+    gesamtzeit = tac-tic
+    print('Zeit für {:6} Runden in einer Liste der Länge {:7}: {:9.5f} sec'.format(k,n,gesamtzeit))
+
+heap_runden(10000,1000)
+heap_runden(100000,1000)
+heap_runden(1000000,1000)
+list_runden(10000,1000)
+list_runden(100000,1000)
+list_runden(1000000,1000)
+</pre>
+
+<pre class="codef">
+Ausgabe:
+Zeit für   1000 Runden in einem Heap  der Länge   10000:   0.16732 sec
+Zeit für   1000 Runden in einem Heap  der Länge  100000:   0.18933 sec
+Zeit für   1000 Runden in einem Heap  der Länge 1000000:   0.25440 sec
+Zeit für   1000 Runden in einer Liste der Länge   10000:   0.32491 sec
+Zeit für   1000 Runden in einer Liste der Länge  100000:   1.95415 sec
+Zeit für   1000 Runden in einer Liste der Länge 1000000:  62.84779 sec
+</pre>
+</body>
+</html>

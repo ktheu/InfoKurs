@@ -1,0 +1,20 @@
+\question[4]
+a. Gegeben sei eine Liste \texttt{a} mit Strings.
+Erstelle daraus mit einer Comprehension eine Liste \texttt{b} von Tupeln,
+die in einen Heap einfügt werden können (mit der Länge des Strings als Vergleichswert).  \\
+b. Weise der Variablen \texttt{hp} einen leeren Heap zu. \\
+c. Fülle \texttt{hp} in einer Schleife mittels typischer Operationen mit den Elementen von
+\texttt{b}. \\
+d. Gehe in der typischen Schleife durch den Heap und gib den Inhalt aus.
+\begin{solutionbox}{5cm}
+\begin{lstlisting}
+from heapq import heappop, heappush
+b = [(len(x),x) for x in a]
+hp = []
+for s in b:
+    heappush(hp,s)
+
+while hp:
+    print(heappop(hp))
+\end{lstlisting}
+\end{solutionbox}

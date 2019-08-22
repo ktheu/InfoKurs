@@ -1,0 +1,32 @@
+%break and coninue A3 --------------------------
+\question[4] Was erscheint auf der Konsole? \\
+\begin{minipage}[c]{6cm}
+\begin{lstlisting}
+a.
+for i in range(5):
+    if i > 3:
+        break
+    print(i,end=' ')
+print("Ende1")
+\end{lstlisting}
+\end{minipage}
+\begin{minipage}[c]{6cm}
+\begin{lstlisting}
+b.
+j = 0
+while j < 9:
+    j = j + 2
+    if j % 4 $==$ 1:
+        continue
+    if j % 3 $==$ 0:
+        j+=1
+        print(j,end=' ')
+print("Ende2")
+\end{lstlisting}
+\end{minipage}
+\begin{solutionbox}{2cm}
+\begin{lstlisting}
+a. 0 1 2 3 Ende1
+b. 7 Ende2
+\end{lstlisting}
+\end{solutionbox}

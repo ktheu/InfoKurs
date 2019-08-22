@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<link href="../../../CSS/kurs.css" rel="stylesheet" type="text/css" />
+<title>Informatik</title>
+</head>
+<body>
+<h3> Strings, Ein/Ausgabe, Verzweigungen, Schleifen</h3>
+<p>
+<a href="../Test/Musteraufgaben.pdf">Aufgaben</a> &nbsp;&nbsp;&nbsp;
+<a href="../Test/Musteraufgaben_Loesung.pdf">Lösungen</a> &nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/playlist?list=PLWeMgMhRDsIELf6Acf6d-0GCsLjJtbYSg">Videos</a> &nbsp;&nbsp;&nbsp;
+
+
+</p>
+
+<p>Strings </p>
+<p>
+<pre class="codef">
+>>> hi = 'Hallo'
+>>> name = "Malte"
+>>> gruss = hi + " " + name + "!"   # Konkatenation
+>>> gruss
+'Hallo Malte!'
+>>> gruss * 3                       # Vervielfachen
+'Hallo Malte!Hallo Malte!Hallo Malte!'
+>>> len(name)                       # Länge
+5
+>>> name[1]                         # Indexing
+'a'
+>>> name[1:3]                       # Slicing
+'al'
+
+
+&gt;&gt;&gt; 'a' in name                     # Membership<br>True<br>&gt;&gt;&gt; 'al' in name<br>True<br>&gt;&gt;&gt; 'b' in name<br>False<br>&gt;&gt;&gt; 'lte' not in name<br>False</pre>
+</p>
+
+<p>Slicing</p>
+<p><pre class="codef">
+&gt;&gt;&gt; s = 'Python is Fun!'<br>&gt;&gt;&gt; s[1:5]<br>'ytho'<br>&gt;&gt;&gt; s[:5]<br>'Pytho'<br>&gt;&gt;&gt; s[1:]<br>'ython is Fun!'<br>&gt;&gt;&gt; s[:]<br>'Python is Fun!'
+</pre>
+</p>
+
+
+<p><pre class="codef">
+&gt;&gt;&gt; s = 'Python is Fun!'
+&gt;&gt;&gt; s[1:12:2]
+'yhni u'
+&gt;&gt;&gt; s[1:12:3]
+'yoiF'
+&gt;&gt;&gt; s[::2]
+'Pto sFn'
+</pre>
+</p>
+
+
+<p>
+<pre class="codef">
+&gt;&gt;&gt; s = 'habicht'<br>&gt;&gt;&gt; s[-1]<br>'t'<br>&gt;&gt;&gt; s[:-1]<br>'habich'<br>&gt;&gt;&gt; s[-2:]<br>'ht'
+&gt;&gt;&gt; s[-2:-4:-1]
+'hc'
+&gt;&gt;&gt; s[::-1]
+'thcibah'
+&gt;&gt;&gt; s = 'hannah'
+&gt;&gt;&gt; s == s[::-1]    # Palindrom?
+True
+</pre>
+</p>
+
+<p>Für eine Ausgabe
+auf der Konsole nutzen wir die Funktion print </p
+
+><p><pre class="codef">
+x = 12
+print(x)
+print('Das Ergebnis ist',x,'.','x =',x)
+print('Das Ergebnis ist '+str(x)+'. x =',x)
+</pre></p>
+
+<p><pre class="codef">
+Ausgabe auf der Konsole:
+12
+Das Ergebnis ist 12 . x = 12
+Das Ergebnis ist 12. x = 12
+>>>
+</pre></p>
+
+<p>Die Funktion input erwartet eine Eingabe von der Konsole und gibt diese Eingabe als String zurück. </p>
+<p><pre class="codef">
+eingabe = input("Bitte eine ganze Zahl eingeben: ")
+x = int(eingabe)
+print('2 hoch',x,'ist',2**x)
+</pre></p>
+
+<p><pre class="codef">
+Bitte eine ganze Zahl eingeben: 10
+2 hoch 10 ist 1024
+>>>
+</pre></p>
+
+<p> Mit bedingten Anweisungen können wir Verzweigungen im Programmfluss erreichen. Kommentare können
+einzeilig # oder mehrzeilig  ''' ... ''' sein.
+</p>
+<p><pre class="codef">
+'''
+ein einfaches Programm mit einer
+bedingten Anweisung
+'''
+x = int(input('Bitte eine Zahl eingeben: '))
+if x % 2 == 0:           # x gerade?
+    print('Gerade')
+else:                    # x ungerade
+    print('Ungerade')
+print()
+print('Ende')
+</pre></p>
+<p><pre class="codef">
+Bitte eine Zahl eingeben: 8
+Gerade
+
+Ende
+>>>
+</pre></p>
+
+Geschachtelte if-Anweisungen
+<p><pre class="codef">
+x = int(input('Bitte eine Zahl eingeben: '))
+if x % 2 == 0:
+    if x % 3 == 0:
+        print('Teilbar durch 2 und 3')
+    else:
+        print('Teilbar durch 2 aber nicht durch 3')
+elif x % 3 == 0:
+    print('Teilbar durch 3 aber nicht durch 2')
+</pre>
+</p>
+
+Verschiedene Formen von bedingten Anweisungen. Die Einrückungen sind wichtig, denn sie kennzeichnen die Anweisungsblöcke
+<p>
+<pre class="codef">
+if &lt;bedingung&gt;:
+   ...
+</pre>
+</p>
+<pre class="codef">
+if &lt;bedingung&gt;:
+   ...
+else:
+   ...
+</pre>
+<pre class="codef">
+if &lt;bedingung1&gt;:
+   ...
+elif &lt;bedingung2&gt;:
+   ...
+elif &lt;bedingung3&gt;:
+   ...
+else
+   ...
+</pre>
+
+<p>(Quiz 3)</p>
+<p>Die while-Schleife</p>
+<pre class="codef">
+x = 10
+while x >= 4:
+    print(x)
+    x -= 2
+print("Go")
+</pre>
+
+<pre class="codef">
+10
+8
+6
+4
+Go
+</pre>
+
+<p>Die for-Schleife. Der bis-Wert in der range-Funktion ist nicht eingeschlossen. </p>
+<pre class="codef">
+for i in range(2,6):
+    print(i)
+</pre>
+<pre class="codef">
+2
+3
+4
+5
+</pre>
+
+<pre class="codef">
+for i in range(3):
+    print(i)
+</pre>
+<pre class="codef">
+0
+1
+2
+</pre>
+
+<pre class="codef">
+for i in range(3,11,2):
+    print(i)
+</pre>
+<pre class="codef">
+3
+5
+7
+9
+</pre>
+
+
+<pre class="codef">
+for i in range(3,-1,-1):
+    print(i)
+</pre>
+<pre class="codef">
+3
+2
+1
+0
+</pre>
+<p>Die for-Schleife für Strings </p>
+<pre class="codef">
+# alle Zeichen eines Strings durchlaufen
+s = 'abc'
+for i in range(len(s)):
+	print(s[i])
+
+# oder
+for c in s:
+    print(c)
+</pre>
+<pre class="codef">
+a
+b
+c
+</pre>
+<p>Mit break verlassen wir die aktuelle Schleife. </p>
+<pre class="codef">
+x = 2
+while True:
+    print(x)
+    if x == 4: break
+    x+=1
+</pre>
+<pre class="codef">
+2
+3
+4
+</pre>
+
+<p>Mit continue wird wieder an den Beginn der Schleife gesprungen. Der Rest des
+aktuellen Durchgangs wird nicht mehr durchlaufen.</p>
+<pre class="codef">
+for i in range(8):
+    if i % 2 == 0: continue
+    print(i)
+</pre>
+<pre class="codef">
+1
+3
+5
+7
+</pre>
+
+<table width="800" border="1">
+  <tr>
+    <th width="400" scope="col">for-Schleife</th>
+   	<th width="400" scope="col">while-Schleife</th>
+  </tr>
+  <tr>
+    <td>Anzahl Durchgänge bekannt</td>
+    <td>Anzahl Durchgänge unbekannt</td>
+  </tr>
+  <tr>
+    <td>benutzt einen Zähler</td>
+    <td>kann einen Zähler benutzen, der muss vor der Schleife initialisiert und in der Scheife verändert werden</td>
+  </tr>
+  <tr>
+    <td>kann in eine while-Schleife umgewandelt werden</td>
+    <td>kann nicht immer in eine for-Schleife umgewandelt werden</td>
+  </tr>
+  <tr>
+    <td>kann durch break verlassen werden, continue beginnt nächsten Durchgang</td>
+    <td>kann durch break verlassen werden, continue beginnt nächsten Durchgang</td>
+  </tr>
+</table>
+
+<p>(Quiz 4, 5, 6)</p>
+</body>
+</html>

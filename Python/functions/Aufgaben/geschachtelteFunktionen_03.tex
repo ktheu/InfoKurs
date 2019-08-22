@@ -1,0 +1,16 @@
+\question[4] Was erscheint auf der Konsole?  
+\begin{lstlisting}
+def a(x,y):
+    return 2 * x - y
+def b(x):
+    return x - 4
+def c(x,y):
+    return x * y
+def d(x,y):
+    return x + 4 * y > 0
+z = c(a(1,7),b(6))
+print(d(2 * z,8),z)
+\end{lstlisting}
+\begin{solutionbox}{1cm}
+True -10
+\end{solutionbox}

@@ -1,0 +1,18 @@
+\question[3] Schreibe eine Funktion zaehl01, die einen nicht leeren String erhält und zurückgibt,
+wieviel mal das erste Zeichen in dem String vorkommt. Die Stringmethode count darf nicht benutzt werden.
+\begin{lstlisting}
+>>> zaehl01('abbaaeacde')
+4
+\end{lstlisting}
+\begin{solutionbox}{4cm}
+\begin{lstlisting}
+def zaehl01(s):
+    zaehl = 0
+    erster = s[0]
+    for c in s:
+        if c $==$ erster:
+            zaehl+=1
+    return zaehl
+
+\end{lstlisting}
+\end{solutionbox}

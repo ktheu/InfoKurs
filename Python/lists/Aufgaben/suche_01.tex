@@ -1,0 +1,18 @@
+\question[4]
+Schreibe eine Funktion \texttt{suche}, der eine nicht leere Liste
+mit ganzen Zahlen übergeben wird und die die Zahl in der Liste findet,
+die zur 42 den geringsten Abstand hat. Hinweis: den Abstand zwischen
+zwei Zahlen x und y kann man mit \texttt{abs(x-y)} berechnen.
+
+\begin{solutionbox}{9cm}
+\begin{lstlisting}
+def suche(a):
+    best = a[0]
+    bestAbstand = abs(a[0]-42)
+    for x in a:
+        if abs(x-42) < bestAbstand:
+            best = x
+            bestAbstand = abs(x-42)
+    return best
+\end{lstlisting}
+\end{solutionbox}

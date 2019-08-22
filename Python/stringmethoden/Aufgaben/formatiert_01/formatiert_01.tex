@@ -1,0 +1,17 @@
+\question[3] Ergänge den fehlenden Format-String
+\begin{lstlisting}
+s1, x1 = 'Alice', 5.7876
+s2, x2 = 'Bob', 14.4421
+f =
+print(f.format(s1,x1))
+print(f.format(s2,x2))
+
+Ausgabe: (blanks sind fürs Abzählen durch Punkte ersetzt)
+Da.ist.Alice...mit.der.Zahl...5.79
+Da.ist.Bob.....mit.der.Zahl..14.44
+\end{lstlisting}
+\begin{solutionbox}{2cm}
+\begin{lstlisting}
+f = 'Da ist {:7} mit der Zahl {:6.2f}'
+\end{lstlisting}
+\end{solutionbox}

@@ -1,0 +1,19 @@
+\question[7]
+Nimm an, wir haben folgende Zuweisungen gemacht:
+\begin{lstlisting}
+s1 = 'abcde'
+s2 = '4567'
+\end{lstlisting}
+Zu was werten sich die folgenden Ausdrücke aus? Wenn die Auswertung zu einem Fehler führt, notiere das
+Wort 'error'.
+
+\begin{lstlisting}
+a. s1[-2]   b. len(s2+s1)  c. s1 + len(s2)  d. s1[-len(s2)]
+e. (s1+s2)[2:]   f. s1 + s2[:2]   g. s1[:1:-1]
+
+\end{lstlisting}
+\begin{solutionbox}{2cm}
+\begin{lstlisting}
+a. 'd'   b. 9   c. error  d. 'b'  e. 'cde4567'  f. 'abcde45'  g. 'edc'
+\end{lstlisting}
+\end{solutionbox}

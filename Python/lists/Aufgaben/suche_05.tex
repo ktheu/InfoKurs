@@ -1,0 +1,15 @@
+\question[6]
+Schreibe eine Funktion \texttt{suche}, der eine nicht leere Liste mit
+Strings übergeben wird und die die Länge des längsten Strings in der Liste zurückgibt.
+Beispiel: Für die Liste \texttt{a = ['ab', 'cdef', 'a', 'cd']} gibt die Funktion
+die Zahl \texttt{4} zurück.
+\begin{solutionbox}{8cm}
+\begin{lstlisting}
+def suche(a):
+    bestlen = len(a[0])
+    for x in a:
+        if (len(x) > bestlen):
+            bestlen = len(x)
+    return bestlen
+\end{lstlisting}
+\end{solutionbox}

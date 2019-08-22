@@ -1,0 +1,22 @@
+\question[6]
+Abhängig von der Eingabe der Wochentagszahl soll die Anzahl der jeweiligen Schulstunden ausgegeben werden.
+Als Wochentagszahl legen wir fest: \\
+1 - Montag, 2 - Dienstag, ... , 7 - Sonntag \\
+Die Schulstunden sind wie folgt verteilt:
+Montag: 8 Stunden - Dienstag, Mittwoch, Freitag: 6 Stunden - Donnerstag: 5 Stunden.
+Bei Samstag und Sonntag soll die Meldung \texttt{Wochenende} erscheinen, sonst die Meldung \texttt{ungültiger Wochentag}
+\begin{solutionbox}{8cm}
+\begin{lstlisting}
+x = int(input('Bitte Wochentagszahl eingeben: '))
+if x $==$ 1:
+    print(8)
+elif x $==$ 2 or x $==$ 3 or x $==$ 5:
+    print(6)
+elif x $==$ 4:
+    print(5)
+elif x $==$ 6 or x $==$ 7:
+    print('Wocheende')
+else:
+    print('ungültiger Wochentag')
+\end{lstlisting}
+\end{solutionbox}

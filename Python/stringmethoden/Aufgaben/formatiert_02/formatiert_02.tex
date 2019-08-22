@@ -1,0 +1,17 @@
+\question[2] Ergänge den fehlenden Format-String
+\begin{lstlisting}
+s1, x1 = 'Alice', 5.7876
+s2, x2 = 'Bob', 14.4421
+f =
+print(f.format(s1,x1))
+print(f.format(s2,x2))
+
+Ausgabe: (blanks sind fürs Abzählen durch Punkte ersetzt)
+!......Alice.!.5.788...!
+!........Bob.!.14.442..!
+\end{lstlisting}
+\begin{solutionbox}{2cm}
+\begin{lstlisting}
+f = '! {:>10} ! {:<7.3f} !'
+\end{lstlisting}
+\end{solutionbox}

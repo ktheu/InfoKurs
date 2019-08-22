@@ -1,0 +1,19 @@
+\question[3] Was erscheint auf der Konsole, wenn das Programm nacheinander mit folgenden Eingaben gestartet wird?
+a. 15   ~~  b. 35 ~~ c. 50
+\begin{lstlisting}
+x = int(input())
+if x > 10:
+    print('A')
+elif x > 20:
+    print('B')
+if x > 30:
+    print('C')
+if x < 40:
+    print('D')
+else:
+    print('E')
+\end{lstlisting}
+
+\begin{solutionbox}{1cm}
+a. A, D ~~ b. A, C, D ~~ c. A, C, E
+\end{solutionbox}

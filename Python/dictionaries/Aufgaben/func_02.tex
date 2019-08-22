@@ -1,0 +1,23 @@
+\question[4] Implementiere die Funktion \texttt{summeKleine}
+\begin{lstlisting}
+def summeKleine(g):
+    '''
+    g: dictionary, das einem Buchstaben eine ganze Zahl zuordnet
+    returns: Summe aller values, die einem kleinen Buchstaben zugeordnet sind
+
+    z.B:
+    >>> G = {'a':3, 'c':7, 'D':8, 'e':10, 'B':7}
+    >>> summeKleine(G)
+    20
+    '''
+\end{lstlisting}
+\begin{solutionbox}{7cm}
+\begin{lstlisting}
+def summeKleine(g):
+    summe = 0
+    for x in g:
+        if x.islower():
+            summe+=g[x]
+    return summe
+\end{lstlisting}
+\end{solutionbox}

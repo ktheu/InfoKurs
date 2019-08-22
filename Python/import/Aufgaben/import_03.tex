@@ -1,0 +1,13 @@
+\question[3]  Die Dateien \texttt{mywork.py} und \texttt{sometools.py}
+liegen im selben Verzeichnis. In \texttt{sometools.py} gibt es eine Funktion \texttt{doit}.
+Welche import-Anweisungen erlauben den folgenden Aufruf von \texttt{doit} in \texttt{mywork.py}
+
+a. \texttt{st.doit()} \\
+b. \texttt{sometools.doit()} \\
+c. \texttt{doit()}    \\  ( zwei Möglichkeiten)
+\begin{solutionbox}{5cm}
+
+a. \texttt{import sometools as st} \\
+b. \texttt{import sometools}  \\
+c.  \texttt{from sometools import *}   oder  \texttt{from sometools import doit}
+\end{solutionbox}

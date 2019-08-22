@@ -1,0 +1,29 @@
+\question[4]
+Das Programm erhält zwei Zahlen als Eingabe und untersucht den Zahlbereich zwischen den
+beiden Zahlen (Grenzen eingeschlossen).
+Es gibt alle Zahlen aus, die Vielfache von 7 sind und die Ziffernfolge
+21 enthalten. Als letzte Ausgabe wird die Anzahl der gefundenen Zahlen ausgegeben.
+
+\begin{lstlisting}
+Eingabe1: 1
+Eingabe2: 1000
+21
+210
+217
+721
+4
+\end{lstlisting}
+
+\begin{solutionbox}{5cm}
+\begin{lstlisting}
+n = int(input('Eingabe1: '))
+m = int(input('Eingabe2: '))
+
+zaehl = 0
+for k in range(n,m+1):
+    if k % 7 $==$ 0 and '21' in str(k):
+         print(k)
+         zaehl+=1
+print(zaehl)
+\end{lstlisting}
+\end{solutionbox}

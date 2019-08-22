@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<link href="../../../CSS/kurs.css" rel="stylesheet" type="text/css" />
+<title>Informatik</title>
+</head>
+<body>
+<h3> Variablen, Typen, arithmetische und boolesche Operatoren</h3>
+
+<p>
+<a href="../Test/Musteraufgaben.pdf">Aufgaben</a> &nbsp;&nbsp;&nbsp;
+<a href="../Test/Musteraufgaben_Loesung.pdf">Lösungen</a> &nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/playlist?list=PLWeMgMhRDsIEWrOs_xzsUvMsEE4OX-b03">Videos</a> &nbsp;&nbsp;&nbsp;
+
+
+</p>
+
+
+<p>Eingaben in der Shell werden sofort ausgewertet.</p>
+
+<pre class="codef">
+>>> 8
+8
+>>> 3.2
+3.2
+>>> 'Hello'
+'Hello'
+>>> True
+True
+>>> None         # wertet sich zu nichts aus
+>>>
+</pre></p>
+
+<p>
+Jedes Objekt hat einen Typ.
+<pre class="codef">
+>>> type(8)
+&lt;class 'int'&gt;
+>>> type(3.2)
+&lt;class 'float'&gt;
+>>> type('Hello')
+&lt;class 'str'&gt;
+>>> type(True)
+&lt;class 'bool'&gt;
+>>> type(None)
+&lt;class 'NoneType'&gt;
+</pre></p>
+
+<p>
+Arithmetische Operatoren
+<pre class="codef">
+>>> 11+3,11*3,11/3
+(14, 33, 3.6666666666666665)
+>>> 11//3      # ganzzahlige Division = Division ohne Rest
+3
+>>> 11%3       # 11 modulo 3 = Rest der Division 11 durch 3
+2
+>>> 2**3       # Exponentiation: 2 hoch 3
+8
+>>>
+</pre>
+</p>
+
+<p>
+Auswertungsreihenfolge bei arithmetischen Ausdrücken: Klammern, **, {* / // %},{+ -},
+bei gleichwertigen Operatoren von links nach rechts, außer Exponentiation, die wird ohne
+Klammerung von rechts nach links ausgewertet.
+<pre class="codef">
+>>> 3*(4+1)-7
+8
+>>> 4+2*3**2/4
+8.5
+>>> 8%2*3
+0
+>>> 8*2%3
+1
+>>> 2**3**2
+512
+>>> (2**3)**2
+64
+>>>
+</pre>
+</p>
+
+(Quiz 1)
+<p>
+Mit einer Zuweisung wird einer Variablen ein Wert zugewiesen.
+
+<pre class="codef">
+>>> pi = 3.1415
+>>> radius = 2.2
+>>> flaeche = pi*(radius**2)
+>>> flaeche
+15.204860000000004
+</pre></p>
+<p>
+Wir können den Wert von Variablen durch erneute Zuweisung verändern.
+<pre class="codef">
+>>> x = 5
+>>> x = x + 1
+>>> x
+6
+</pre></p>
+<p>
+Kurzformen (erweiterte Zuweisung):
+<pre class="codef">
+x += 1    entspricht  x = x + 1
+x -= 1    entspricht  x = x - 1
+x *= 2    entspricht  x = x * 2 ... usw.
+</pre></p>
+<p>
+Variablennamen sind case-sensitiv. Nach mindestens einem führenden Buchstaben oder Unterstrich kann so ziemlich
+jedes Zeichen folgen. Wir schränken uns freiwillig ein und nehmen in der Regel nur Unterstrich, die Buchstaben des englischen Alphabets und
+die Ziffern.
+
+Wenn es der Lesbarkeit des Programms nicht schadet, erlauben wir uns kurze Variablennamen.
+<pre class="codef">
+>>> i = 0
+>>> s = 'Habicht'
+>>> b = True
+>>> x = 2.5
+</pre></p>
+Ansonsten nehmen wir sprechende Namen, beginnend mit einem kleinen Buchstaben. Zusammengesetze Namen entweder in camelCase oder mit Unterstrich verbunden.
+<pre class="codef">
+>>> zaehl = 1
+>>> radius = 2.2
+>>> anzahlTreffer = 5            # camelCase
+>>> entfernungZurWand = 3.2
+>>> anzahl_treffer = 5           # mit Unterstrich
+>>> entfernung_zur_wand = 3.2
+</pre></p>
+
+<p>
+Die Bedeutung eines Operators hängt von den Typen der beteiligten Objekte ab.
+<pre class="codef">
+>>> 3 + 4
+7
+>>> '3' + '4'
+'34'
+>>> 3 * 4
+12
+>>> '3' * 4
+'3333'
+>>> '3' * '4'
+Traceback (most recent call last):
+  ...
+TypeError: can't multiply sequence by non-int of type 'str'
+</pre></p>
+<p>
+Wenn es ein sinnvolles Ergebnis gibt, können unterschiedliche Typen ineinander umgewandelt werden (casting).
+<pre class="codef">
+>>> float(4)
+4.0
+>>> str(4)
+'4'
+>>> bool(4)      # alles ungleich 0 ergibt True
+True
+>>> int(3.2)
+3
+>>> str(3.2)
+'3.2'
+>>> bool(3.2)
+True
+>>> int('5')
+5
+>>> float('5')
+5.0
+>>> bool('5')
+True
+>>> bool('')     # nur der leere String ergibt False
+False
+>>> int('5.2')
+Traceback (most recent call last):
+  ...
+ValueError: invalid literal for int() with base 10: '5.2'
+</pre></p>
+
+<p>
+Vergleichsoperatoren für ints und floats.
+<pre class="codef">
+&gt;&gt;&gt; i = 5<br>&gt;&gt;&gt; j = 7<br>&gt;&gt;&gt; i&gt;j, i&gt;=j, i&lt;j, i&lt;=j, i==j, i!=j
+(False, False, True, True, False, True)
+</pre>
+</p>
+
+<p>
+Logische Operatoren für booleans.
+<pre class="codef">
+>>> a = True
+>>> b = False
+>>> a and b      # True wenn beide True
+False
+>>> a or b       # True wenn mindestens einer True
+True
+>>> not a        # True wenn a False
+False
+</pre>
+</p>
+
+<p>
+Ein boolescher Ausdruck wertet sich immer zu True oder False aus
+<pre class="codef">
+>>> a = 2
+>>> b = 3
+>>> (a*b > a+b) and (a % 2 == 0)
+True
+</pre>
+</p>(Quiz 2)
+
+
+<p> Mehrfachanweisungen und Vertauschung</p>
+<pre class="codef">
+>>> x,y = 2,7
+>>> x
+2
+>>> y
+7
+>>> x,y
+(2, 7)
+>>> x,y = y,x
+>>> x,y
+(7, 2)
+>>>
+</pre>
+
+</body>
+</html>

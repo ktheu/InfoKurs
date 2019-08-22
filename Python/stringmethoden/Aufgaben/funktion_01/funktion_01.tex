@@ -1,0 +1,23 @@
+\question[3] Implementiere die Funktion func.
+
+\begin{lstlisting}
+def func(s, teil):
+    '''
+    s, teil: Strings
+    returns True, wenn s mit teil beginnt oder endet und die Länge
+       von s nicht größer ist als die doppelte Länge von teil
+
+    Beispiele:
+    >>> func('abc','ab')
+    True
+    >>> func('abc','abcccc')
+    False
+
+    '''
+\end{lstlisting}
+\begin{solutionbox}{3cm}
+\begin{lstlisting}
+def func(s, teil):
+    return (s.startswith(teil) or s.endswith(teil)) and not len(s) > 2 * len(teil)
+\end{lstlisting}
+\end{solutionbox}

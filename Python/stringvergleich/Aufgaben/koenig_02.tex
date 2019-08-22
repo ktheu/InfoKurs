@@ -1,0 +1,37 @@
+\question[5] Die Quersumme einer Zahl ist die Summe ihrer Ziffern.
+Implementiere die Funktion maxQuer.
+
+\begin{lstlisting}
+def maxQuer(a,b,c,d):
+    '''
+    a,b,c,d: positive ganze Zahlen
+    returns: die Zahl mit der größten Quersumme.
+    '''
+\end{lstlisting}
+\begin{solutionbox}{10cm}
+\begin{lstlisting}
+def quersumme(k):
+    summe = 0
+    for c in str(k):
+        summe += int(c)
+    return summe
+
+def maxQuer(a,b,c,d):
+    '''
+    a,b,c,d: positive ganze Zahlen
+    returns: die Zahl mit der größten Quersumme.
+    '''
+    king = a
+    kingWert = quersumme(a)
+    if quersumme(b) > kingWert:
+        kingWert = quersumme(b)
+        king = b
+    if quersumme(c) > kingWert:
+        kingWert = quersumme(c)
+        king = c
+    if quersumme(d) > kingWert:
+        kingWert = quersumme(d)
+        king = d
+    return king
+\end{lstlisting}
+\end{solutionbox}

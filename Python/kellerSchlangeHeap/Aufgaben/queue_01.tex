@@ -1,0 +1,15 @@
+\question[3] a. Weise der Variablen \texttt{qu} eine leere Queue zu. \\
+b. Fülle die Queue (mittels typischer Operationen)
+nacheinander mit den Zahlen 5, 42, 17. \\
+c. Gehe in der typischen Schleife durch die Queue und gib den Inhalt aus.
+\begin{solutionbox}{5cm}
+\begin{lstlisting}
+from collections import deque
+qu = deque()
+qu.append(5)
+qu.append(42)
+qu.append(17)
+while qu:
+    print(qu.popleft())
+\end{lstlisting}
+\end{solutionbox}

@@ -1,0 +1,21 @@
+\question[5]
+a. Gegeben sei das dictionary \texttt{m = \{'a':5, 'b':42, 'c':17\}}
+Erstelle daraus mit einer Comprehension eine Liste \texttt{w} von Tupeln,
+die in einen Heap einfügt werden können (mit der Zahl als Vergleichswert).  \\
+b. Weise der Variablen \texttt{hp} einen leeren Heap zu. \\
+c. Fülle \texttt{hp} (mittels typischer Operationen) mit den Elementen von
+\texttt{w}. \\
+d. Gehe in der typischen Schleife durch den Heap und gib den Inhalt aus.
+\begin{solutionbox}{5cm}
+\begin{lstlisting}
+from heapq import heapify, heappop, heappush
+m = {'a':5, 'b':42, 'c':17}
+w = [(m[x],x) for x in m]
+hp = []
+for t in w:
+    heappush(hp,t)
+
+while hp:
+    print(heappop(hp))
+\end{lstlisting}
+\end{solutionbox}

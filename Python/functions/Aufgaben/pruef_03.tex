@@ -1,0 +1,18 @@
+\question[2] Schreibe eine Funktion \texttt{pruef03}, der ein String s und
+zwei Zeichen c1 und c2 übergeben werden und die prüft, ob c1 und c2 gleich
+häufig in svorkommen.
+
+Beispiel:
+\begin{lstlisting}
+>>> print(pruef03('aabbccc','a','b'))
+True
+>>> print(pruef03('aabbccc','a','c'))
+False
+
+\end{lstlisting}
+\begin{solutionbox}{4cm}
+\begin{lstlisting}
+def pruef03(s,c1,c2):
+    return s.count(c1) == s.count(c2)
+\end{lstlisting}
+\end{solutionbox}
