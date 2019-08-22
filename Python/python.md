@@ -26,6 +26,48 @@ __[Stringvergleich, Königssuche](https://nbviewer.jupyter.org/github/ktheu/Kurs
 __[Aufgaben](./stringvergleich/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./stringvergleich/Test/Musteraufgaben_Loesung.pdf)__ 
 
+__[String-Methoden](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/040_StringMethoden.ipynb)__ --
+__[Aufgaben](./stringmethoden/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./stringmethoden/Test/Musteraufgaben_Loesung.pdf)__ 
+
+
+__[Import](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/045_import.ipynb)__ --
+__[Aufgaben](./import/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./import/Test/Musteraufgaben_Loesung.pdf)__ 
+
+
+__[Tuples](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/050_tupel.ipynb)__ --
+__[Aufgaben](./tuples/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./tuples/Test/Musteraufgaben_Loesung.pdf)__ 
+
+__[Lists](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/060_lists.ipynb)__ --
+__[Aufgaben](./lists/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./lists/Test/Musteraufgaben_Loesung.pdf)__ 
+
+__[Dictionaries](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/070_dicts.ipynb)__ --
+__[Aufgaben](./dictionaries/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./dictionaries/Test/Musteraufgaben_Loesung.pdf)__
+
+
+__[Sets](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/075_sets.ipynb)__ --
+__[Aufgaben](./sets/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./sets/Test/Musteraufgaben_Loesung.pdf)__
+
+
+__[Comprehensions](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/080_comprehensions.ipynb)__ --
+__[Aufgaben](./comprehensions/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./comprehensions/Test/Musteraufgaben_Loesung.pdf)__
+
+***
+
+__[Das Modul random: Zufall](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/092_random.ipynb)__
+
+__[Das Modul datetime: Datum und Zeit](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/090_datetime.ipynb)__
+
+__[Das Modul turtle: Turtle-Grafik](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/090_turtle.ipynb)__
+
+
+
 
 
 
