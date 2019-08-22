@@ -5,9 +5,15 @@
 ___________________________________________________________________
 
 
-__[Rekursion](./Rekursion/Folien/Rekursion.pdf)__
-__[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/210_rekursion.ipynb)__
-__[rekursive Zeichnungen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/212_turtle_rekursion.ipynb)__
+
+__[Algorithmus und Programm](./Algorithmus/Folien/Algorithmus.pdf)__ -
+__[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/200_algorithmus.ipynb)__ --
+__[Aufgaben](./Algorithmus/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./Algorithmus/Test/Musteraufgaben_Loesung.pdf)__ -
+
+__[Rekursion](./Rekursion/Folien/Rekursion.pdf)__ -
+__[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/210_rekursion.ipynb)__ -
+__[rekursive Zeichnungen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/212_turtle_rekursion.ipynb)__ --
 __[Aufgaben](./Rekursion/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Rekursion/Test/Musteraufgaben_Loesung.pdf)__ -
 
