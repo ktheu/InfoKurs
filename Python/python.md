@@ -66,6 +66,8 @@ __[Das Modul datetime: Datum und Zeit](https://nbviewer.jupyter.org/github/ktheu
 
 __[Das Modul turtle: Turtle-Grafik](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/090_turtle.ipynb)__
 
+__[Das Modul re: Reguläre Ausdrücke](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/100_regulaereAusdruecke.ipynb)__
+
 
 
 
