@@ -5,7 +5,7 @@
 
 schriftlich - mündlich = 2 : 1
 
-Klausurbonus: 1 Notenpunkt für die Lösung einer zugelassenen Codingame-Aufgabe oder
+Klausurbonus, falls KlausurNP >= 5: 1 NP für die Lösung einer zugelassenen Codingame-Aufgabe oder
 die Lösung einer Aufgabe aus dem aktuellen Bundeswettbewerb Informatik.
 
 Nicht zugelassen sind z.B. folgende Codingame-Aufgaben:
