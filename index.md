@@ -62,7 +62,8 @@ __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/280
 __[Quiz](./Sort/Quiz/index.html)__ --
 __[Laufzeitmessung](./Sort/Quiz/laufzeitmessung.html)__ --
 __[Aufgaben](./Sort/test/Musteraufgaben.pdf)__ -
-__[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)__
+__[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)__ -
+__[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFjt8gEHQO--Am87hO0zfix)__
 
 __[Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md)__
 
