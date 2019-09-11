@@ -168,4 +168,4 @@ __[Repl Infokurs1](https://repl.it/classroom/invite/WvS5KA7)__ - __[Repl 115 Üb
 
 ***
 
-__[Links](links.md)__ - __[News](news.md)__ 
+__[Links](links.md)__ - __[News](news.md)__  - __[Bewertung](bewertung.md)__
