@@ -69,7 +69,8 @@ __[Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md)__
 
 __[Sort in Python](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/282_sort_in_python.ipynb)__ --
 __[Aufgaben](./Sort_In_Python/test/Musteraufgaben.pdf)__ -
-__[Lösungen](./Sort_In_Python/test/Musteraufgaben_Loesung.pdf)__
+__[Lösungen](./Sort_In_Python/test/Musteraufgaben_Loesung.pdf)__ -
+__[Repl](https://repl.it/classroom/invite/bKpWO7g)__
 
 ___________________________________________________________________
 
