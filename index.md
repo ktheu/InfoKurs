@@ -76,7 +76,8 @@ ___________________________________________________________________
 
 __[Klassen und Objekte](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/290_klassen.ipynb)__ --
 __[Aufgaben](./Klassen/Test/Musteraufgaben.pdf)__ -
-__[Lösungen](./Klassen/Test/Musteraufgaben_Loesung.pdf)__
+__[Lösungen](./Klassen/Test/Musteraufgaben_Loesung.pdf)__ -
+__[Repl](https://repl.it/classroom/invite/fEsya8a)__
 
 ___________________________________________________________________
 
@@ -165,7 +166,7 @@ ___________________________________________________________________
 
 __[Codingame](https://www.codingame.com/home)__  - __[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb-informatik/)__
 
-__[Repl Infokurs1](https://repl.it/classroom/invite/WvS5KA7)__ - __[Repl 115 Übungen](https://repl.it/classroom/invite/WvQZMq1)__
+__[Repl 115 Übungen](https://repl.it/classroom/invite/WvQZMq1)__
 
 ***
 
