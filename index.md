@@ -133,7 +133,7 @@ __[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHVtFQLF07HdrmbLI7dA
 
 __[TSP](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/370_TSP.ipynb)__
 
-__[Rucksack](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/375_Rucksack.ipynb)__
+__[Rucksack](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/375_Rucksack.ipynb)__ --
 __[Aufgaben](./Rucksack/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Rucksack/Test/Musteraufgaben_Loesung.pdf)__  
 
