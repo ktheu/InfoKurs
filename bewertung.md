@@ -9,5 +9,6 @@ Klausurbonus, falls KlausurNP >= 5: 1 NP für die Lösung einer Codingame-Aufgab
 die Lösung einer Aufgabe aus dem aktuellen Bundeswettbewerb Informatik.
 
 Codingame-Aufgaben, die nicht mehr gewählt werden können:
-Onboarding, Descent, Marslander 1, Temperatures, Horse-Racing Duals, The River 1
+Onboarding, Descent, Marslander 1, Temperatures, Horse-Racing Duals, The River 1,
+Power of Thor 1, Defibrillators
 
