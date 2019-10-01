@@ -10,5 +10,5 @@ die Lösung einer Aufgabe aus dem aktuellen Bundeswettbewerb Informatik.
 
 Codingame-Aufgaben, die nicht mehr gewählt werden können:
 Onboarding, Descent, Marslander 1, Temperatures, Horse-Racing Duals, The River 1,
-Power of Thor 1, Defibrillators
+Power of Thor 1, Defibrillators, rooks movement, lumen
 
