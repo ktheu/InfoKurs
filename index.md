@@ -78,6 +78,7 @@ __[Klassen und Objekte](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/
 __[Aufgaben](./Klassen/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Klassen/Test/Musteraufgaben_Loesung.pdf)__ -
 __[Repl](https://repl.it/classroom/invite/fEsya8a)__
+__[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnMqGKvnU0LZxYcmUQdb9o)__
 
 ___________________________________________________________________
 
