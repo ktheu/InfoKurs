@@ -170,6 +170,7 @@ __[Aufgaben](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master
 ___________________________________________________________________
 
 __[Codingame](https://www.codingame.com/home)__  - __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/085_codingame.ipynb)__
+
 __[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb-informatik/)__
 
 __[Repl 115 Übungen](https://repl.it/classroom/invite/WvQZMq1)__
