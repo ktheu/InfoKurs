@@ -26,7 +26,7 @@ Ausgabe: [['0', '0', '0', '0', '#'], ['#', '0', '#', '0', '0'], ['0', '0', '#', 
 > *grid* ist eine Liste von Listen. Der erste Index bezeichnet die Zeile, der zweite Index die Spalte.
 
 ```
-log(grid[1][0], (grid[1][1]))
+log(grid[1][0], grid[1][1])
 
 Ausgabe: # 0
 ```
