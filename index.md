@@ -169,7 +169,7 @@ __[Aufgaben](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master
 
 ___________________________________________________________________
 
-__[Codingame](https://www.codingame.com/home)__  - __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/085_codingame.ipynb)__
+__[Codingame](https://www.codingame.com/home)__  - __[Code](./codingame/index.md)__
 
 __[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb-informatik/)__
 

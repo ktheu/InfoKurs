@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sort - Laufzeitmessung</title>
+  <link href="../../kurs.css" rel="stylesheet">
+
+</head>
+
+<body>
+<h4>Laufzeitmessung</h4>
+
+<p> Kopiere aus dem Code-Abschnitt die Sortier-Algorithmen und die
+    Funktion zur Laufzeitmessung in eine Datei laufzeitmessung.py </p>
+    
+ <p> Für jeden Sortieralgorithmus werden drei
+     Werte ermittelt.
+    <ul>
+      <li> Wieviele Daten können in 15 sec sortiert werden? </li>
+      <li> Wie lange benötigt der Algorithmus bei Verdopplung dieser Datenmenge? </li>
+      <li> Um welchen Faktor hat sich die Laufzeit bei der Verdopplung erhöht? </li>
+    </ul>
+    Beispiel: Die Protokollzeile</p>
+  <pre>SelectionSort  20500  62.7  4.18 </pre>
+  <p>
+    bedeutet: SelectionSort kann in 15 sec eine Liste der Größe 20500 sortieren. Bei
+    einer Verdopplung dieser Eingabegröße benötigt SelectionSort 62.7 sec. Das ist
+    eine Erhöhung der Laufzeit um den Faktor 4.18.
+  </p>
+  <p>
+       Erstelle für jeden Sortieralgorithmus eine Protokollzeile.
+
+    <table border="1">
+        <tbody>
+            <tr align="center">
+            <td width="80">SelectionSort </td>
+            <td width="40"><input id="q0" size="20"></td>
+            <td width="20"><input id="q1" size="20"></td>
+            <td width="20"><input id="q2" size="20"></td>
+            </tr>
+            <tr align="center">
+            <td width="80">BubbleSort </td>
+            <td width="40"><input id="q3" size="20"></td>
+            <td width="20"><input id="q4" size="20"></td>
+            <td width="20"><input id="q5" size="20"></td>
+            </tr>
+            <tr align="center">
+            <td width="80">MergeSort </td>
+            <td width="40"><input id="q6" size="20"></td>
+            <td width="20"><input id="q7" size="20"></td>
+            <td width="20"><input id="q8" size="20"></td>
+            </tr>
+            <tr align="center">
+            <td width="80">QuickSort </td>
+            <td width="40"><input id="q9" size="20"></td>
+            <td width="20"><input id="q10" size="20"></td>
+            <td width="20"><input id="q11" size="20"></td>
+            </tr>
+            <tr align="center">
+            <td width="80">HeapSort </td>
+            <td width="40"><input id="q12" size="20"></td>
+            <td width="20"><input id="q13" size="20"></td>
+            <td width="20"><input id="q14" size="20"></td>
+            </tr>
+            <tr align="center">
+            <td width="80">TimSort</td>
+            <td width="40"><input id="q15" size="20"></td>
+            <td width="20"><input id="q16" size="20"></td>
+            <td width="20"><input id="q17" size="20"></td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="button" onclick="saveAnswer()">save</button> 
+</p>
+<script type="text/javascript" src="laufzeitmessung.js"></script> 
+<!--
+TimSort ist der in Python implementierte Sort.
+TimSort: 17 Millionen in 15 sec
+TimSort: 34 Millionen in 33 sec
+TimSort: Faktor = 2.2
+    -->
