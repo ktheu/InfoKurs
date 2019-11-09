@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Infokurs</title>
+    <link href="../../Css/github-markdown.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../Css/github-gist.css">
+    <script src="../../js/highlight.pack.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+
+    <style>
+        body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+    </style>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+
+<body>
+    <article class="markdown-body">
+
+
+        <h2>Abstrakte Datentypen - Keller und Schlange</h2>
+
+        <h4>ADT Keller (= Stapel, stack) </h4>
+
+        <p>Prinzip LIFO: Last in, First Out</p>
+        <p>Ein <em>Keller</em> ist eine (ggf. leere) Folge von Elementen zusammen mit einem so genannten
+            (ggf. undefinierten) <em>Top-Element</em> </p>
+
+
+        <h4>Schnittstelle des ADT Keller</h4>
+
+        <pre>
+empty :  liefert true, falls Keller leer  
+push  :  legt Element auf Keller  
+top   :  liefert oberstes Kellerelement 
+pop   :  entfernt oberstes Kellerelement 
+ </pre>
+
+        <h4>Implementationsidee</h4>
+        <p> Wir spendieren uns zur Verwaltung der Datenstruktur eine Variable <code>top</code>.</p>
+
+
+        <img src="./keller1.png" width="200">
+
+
+        <details>
+            <summary>Wie sollen wir verzeigern?</summary>
+            <p>
+
+                <img src="./keller2.png" width="200">
+        </details>
+        <h4>Implementation</h4>
+
+        <details>
+            <summary>Klasse Keller</summary>
+            <p>
+                <pre><code>class Keller:
+    def __init__(self):
+        self.tp = None
+
+    def empty(self):
+        return self.tp is None
+
+    def push(self, x):
+        hilf = Eintrag()
+        hilf.inhalt = x
+        hilf.next = self.tp
+        self.tp = hilf
+
+    def top(self):
+        if self.empty(): raise RuntimeError("Fehler: Keller ist leer")
+        return self.tp.inhalt
+
+    def pop(self):
+        if self.empty(): raise RuntimeError("Fehler: Keller ist leer")
+        self.tp = self.tp.next</code></pre>
+
+        </details>
+
+        <h4>Anwendungsbeispiel</h4>
+
+        <p>Korrektheit der Klammerung mittels Keller bestimmen.</p>
+
+
+        <p>\( (((a+b) \cdot c + (a+c) \cdot 2) -3) \cdot 5 \) &nbsp;&nbsp;&nbsp; korrekt </p>
+
+        <p>\( (((a+b) \cdot c + (a+c) \cdot 2)) -3) \cdot 5 \) &nbsp;&nbsp;&nbsp; nicht korrekt</p>
+
+
+        <h4>ADT Schlange (Queue)</h4>
+
+        <p>Eine <em>Schlange</em> ist eine (ggf. leere) Folge von Elementen zusammen mit einem so genannten
+            (ggf. undefinierten) <em>Front-Element</em> .</p>
+
+        <p>Prinzip FIFO: First in, First Out</p>
+
+        <h4>Schnittstelle des ADT Schlange</h4>
+
+        <pre>
+empty  :  liefert true, falls Schlange leer
+enq    :  fügt Element hinten ein
+front  :  liefert vorderstes Element
+deq    :  entfernt vorderstes Element
+</pre>
+
+        <h4>Implementationsidee</h4>
+
+        <p>Wir spendieren uns zur Verwaltung der Datenstruktur zwei Variablen <code>head</code> und <code>tail</code>
+        </p>
+
+
+
+        <img src="./schlange1.png" width="400">
+
+
+        <details>
+            <summary>Wie sollen wir verzeigern?</summary>
+            <p>
+
+                <img src="./schlange2.png" width="400">
+        </details>
+
+        <h4>Implementation</h4>
+
+        <details>
+            <summary>Klasse Schlange</summary>
+            <p>
+
+                <pre><code>class Schlange:
+    def __init__(self):
+        self.head = None
+        self.tail = None
+
+    def empty(self):
+        return self.head is None
+
+    def enq(self, x):
+        if self.empty():
+            self.head = Eintrag()
+            self.tail = self.head
+        else:
+            self.tail.next = Eintrag()
+            self.tail = self.tail.next
+        self.tail.inhalt = x
+        self.tail.next = None
+
+    def deq(self):
+        if self.empty(): raise RuntimeError("Fehler: Schlange ist leer")
+        self.head = self.head.next
+        if self.head is None:
+            self.tail = None
+
+    def front(self):
+        if self.empty(): raise RuntimeError("Fehler: Schlange ist leer")
+        return self.head.inhalt
+    </code></pre>
+
+            </p>
+        </details>
+
+    </article>
+</body>
+
+</html>
