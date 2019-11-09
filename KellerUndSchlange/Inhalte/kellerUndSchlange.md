@@ -62,11 +62,10 @@ class Keller:
 
 Korrektheit der Klammerung mittels Keller bestimmen.
      
-     
-|   |  Klammerung |
-| --- | --- |
-| $(((a+b) \cdot c + (a+c) \cdot 2) -3) \cdot 5$  |  korrekt   |
-| $(((a+b) \cdot c + (a+c) \cdot 2)) -3) \cdot 5$ |   nicht korrekt  |
+
+$(((a+b) \cdot c + (a+c) \cdot 2) -3) \cdot 5$   ->  korrekt  
+
+$(((a+b) \cdot c + (a+c) \cdot 2)) -3) \cdot 5$  ->  nicht korrekt  
 
 
 #### ADT Schlange (Queue)
