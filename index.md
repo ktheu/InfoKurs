@@ -85,7 +85,7 @@ ___________________________________________________________________
 
 __[ADT Liste](./Liste/Inhalte/liste.html)__ -
 __[Keller und Schlange](./KellerUndSchlange/Inhalte/kellerUndSchlange.md)__ -
-__[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/300_liste.ipynb)__ --
+__[Code](./Liste/code.md)__ --
 __[Aufgaben](./Liste/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Liste/Test/Musteraufgaben_Loesung.pdf)__
 
