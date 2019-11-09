@@ -29,8 +29,6 @@
 
 <body>
     <article class="markdown-body">
-
-
         <h2>Abstrakte Datentypen - Keller und Schlange</h2>
 
         <h4>ADT Keller (= Stapel, stack) </h4>
@@ -51,7 +49,6 @@ pop   :  entfernt oberstes Kellerelement
 
         <h4>Implementationsidee</h4>
         <p> Wir spendieren uns zur Verwaltung der Datenstruktur eine Variable <code>top</code>.</p>
-
 
         <img src="./keller1.png" width="200">
 
@@ -93,18 +90,13 @@ pop   :  entfernt oberstes Kellerelement
         <h4>Anwendungsbeispiel</h4>
 
         <p>Korrektheit der Klammerung mittels Keller bestimmen.</p>
-
-
         <p>\( (((a+b) \cdot c + (a+c) \cdot 2) -3) \cdot 5 \) &nbsp;&nbsp;&nbsp; korrekt </p>
-
         <p>\( (((a+b) \cdot c + (a+c) \cdot 2)) -3) \cdot 5 \) &nbsp;&nbsp;&nbsp; nicht korrekt</p>
-
 
         <h4>ADT Schlange (Queue)</h4>
 
         <p>Eine <em>Schlange</em> ist eine (ggf. leere) Folge von Elementen zusammen mit einem so genannten
-            (ggf. undefinierten) <em>Front-Element</em> .</p>
-
+            (ggf. undefinierten) <em>Front-Element</em>.</p>
         <p>Prinzip FIFO: First in, First Out</p>
 
         <h4>Schnittstelle des ADT Schlange</h4>
@@ -120,11 +112,7 @@ deq    :  entfernt vorderstes Element
 
         <p>Wir spendieren uns zur Verwaltung der Datenstruktur zwei Variablen <code>head</code> und <code>tail</code>
         </p>
-
-
-
         <img src="./schlange1.png" width="400">
-
 
         <details>
             <summary>Wie sollen wir verzeigern?</summary>
@@ -138,7 +126,6 @@ deq    :  entfernt vorderstes Element
         <details>
             <summary>Klasse Schlange</summary>
             <p>
-
                 <pre><code>class Schlange:
     def __init__(self):
         self.head = None
@@ -167,7 +154,6 @@ deq    :  entfernt vorderstes Element
         if self.empty(): raise RuntimeError("Fehler: Schlange ist leer")
         return self.head.inhalt
     </code></pre>
-
             </p>
         </details>
 
