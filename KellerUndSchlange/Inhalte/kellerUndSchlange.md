@@ -22,7 +22,7 @@ Wir spendieren uns zur Verwaltung der Datenstruktur eine Variable `top`.
 <img src="./keller1.png" width="200">
 
 
-<details><summary>Wie sollen wir verzeigern?</summary>
+<!-- <details><summary>Wie sollen wir verzeigern?</summary>
 <p>
 
 <img src="./keller2.png" width="200">
@@ -56,7 +56,7 @@ class Keller:
  
 
 ```
-</details>
+</details> -->
 
 #### Anwendungsbeispiel 
 
@@ -91,7 +91,7 @@ Wir spendieren uns zur Verwaltung der Datenstruktur zwei Variablen `head` und `t
 <img src="./schlange1.png" width="400">
 
 
-<details><summary>Wie sollen wir verzeigern?</summary>
+<!-- <details><summary>Wie sollen wir verzeigern?</summary>
 <p>
 
 <img src="./schlange2.png" width="400">
@@ -132,5 +132,5 @@ class Schlange:
 ```
 
 </p>
-</details>
+</details> -->
 
