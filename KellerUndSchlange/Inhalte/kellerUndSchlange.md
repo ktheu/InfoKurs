@@ -1,3 +1,10 @@
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
+config=TeX-MML-AM_CHTML"
+</script>
+
+
+
 ## Abstrakte Datentypen - Keller und Schlange
 
 #### ADT Keller  (= Stapel, stack)  
@@ -63,9 +70,9 @@ class Keller:
 Korrektheit der Klammerung mittels Keller bestimmen.
      
 
-$(((a+b) \cdot c + (a+c) \cdot 2) -3) \cdot 5$   ->  korrekt  
+$$(((a+b) \cdot c + (a+c) \cdot 2) -3) \cdot 5$$   ->  korrekt  
 
-$(((a+b) \cdot c + (a+c) \cdot 2)) -3) \cdot 5$  ->  nicht korrekt  
+$$(((a+b) \cdot c + (a+c) \cdot 2)) -3) \cdot 5$$  ->  nicht korrekt  
 
 
 #### ADT Schlange (Queue)
