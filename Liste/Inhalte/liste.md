@@ -14,7 +14,7 @@ ADTs bilden eine Spezifikation der Schnittstelle nach außen, indem sie Operatio
 #### ADT Liste
 
 Eine *Liste* ist eine (ggf. leere) Folge von Elementen zusammen mit einem so genannten 
-(ggf. undefinierten) aktuellen Element. 
+(ggf. undefinierten) *aktuellen Element*. 
 
 <img src="./bild1.png" width="600">
 
