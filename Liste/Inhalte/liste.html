@@ -7,6 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Infokurs</title>
     <link href="../../Css/github-markdown.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../Css/github-gist.css">
+    <script src="../../js/highlight.pack.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+
     <style>
         body {
             box-sizing: border-box;
@@ -16,8 +22,8 @@
             padding: 45px;
         }
     </style>
-     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 </head>
 
@@ -56,39 +62,39 @@ delete  : löscht das aktuelle Element, der Nachfolger wird zum aktuellen Elemen
         <p>Die Methoden sind noch nicht implementiert.</p>
 
 
-        <pre>
-class Liste:
+        <pre><code class="Python"> class Liste:
+
     ''' Eine Liste ist eine (ggf. leere) Folge von Elementen zusammen mit einem
     (ggf. undefinierten) aktuellen Element '''
 
     def empty(self):
     ''' liefert true, falls Liste leer '''
-    pass
+        pass
 
     def endpos(self):
     ''' liefert true, wenn die Liste abgearbeitet ist '''
-    pass
+        pass
 
     def reset(self):
     ''' das erste Listenelement wird aktuelles Element '''
-    pass
+        pass
 
     def advance(self):
     ''' der Nachfolger des aktuellen Elements wird aktuelles Element '''
-    pass
+        pass
 
     def elem(self):
     ''' liefert das aktuelle Element '''
-    pass
+        pass
 
     def insert(self, x):
     ''' Fügt x vor dem aktuellen Element ein, x wird zum neuen aktuellen Element. '''
-    pass
+        pass
 
     def delete(self):
     ''' löscht das aktuelle Element. Der Nachfolger wird neues aktuelles Element. '''
-    pass
-        </pre>
+        pass </code></pre>
+
 
         <h4>Implementationsidee</h4>
 
@@ -97,96 +103,47 @@ class Liste:
         <details>
             <summary>Die Klasse Eintrag</summary>
             <p>
-
-                <pre>
-class Eintrag:
+                <pre> <code>class Eintrag: 
     def __init__(self):
         self.inhalt = None
-        self.next = None    
-</pre>
-
+        self.next = None</code> </pre>
             </p>
         </details>
 
+        <h4>Implementation durch verkettete Einträge</h4>
+
+        <img src="./bild1.png" width="600">
+
+        <img src="./bild2.png" width="500">
+
+
+        <h4>Einfügen eines Elements</h4>
+        <p>Die Situation bei der Implementation von <code>insert</code>: </p>
+        <img src="./bild4.png" width="600">
+
         <p>
-                When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-                \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
-              </p>
-        <p>
-            \( (((a+b) \cdot c + (a+c) \cdot 2) -3) \cdot 5 \) -> korrekt
+            <details>
+                <summary>Welches Problem entsteht?</summary>
+                <p>
+                    Wie kann man den Zeiger, der auf das aktuelle Element zeigt, auf x umbiegen?
+                </p>
+            </details>
         </p>
-        <p> \( (((a+b) \cdot c + (a+c) \cdot 2)) -3) \cdot 5 \) -> nicht korrekt</p>
+
+        <h4>Lösung für das insert-Problem</h4>
 
 
+        <img src="./bild5.png" width="600">
 
-    </article>
+        <p><code>pos</code> zeigt auf den Listen-Eintrag vor dem aktuellen Element.</p>
 
-   
+        <p><code>anf</code>zeigt auf einen Dummy-Eintrag vor dem ersten Element.</p>
 
-</body>
+        <h4>Genauere Spezifikation des Verhaltens der Liste</h4>
 
-</html>
-
-
-
-
-
-
-<!-- 
-
-
-
-
-#### 
-
-Implementation durch verkettete Einträge
-
-<img src="./bild1.png" width="600">
-
-<img src="./bild2.png" width="600">
-
-<details>
-    <summary>Die Klasse Eintrag</summary>
-    <p>
-
-        ```python
-        class Eintrag:
-        def __init__(self):
-        self.inhalt = None
-        self.next = None
-        ```
-    </p>
-</details>
-
-
-#### Einfügen eines Elements
-
-Die Situation bei der Implementation von `insert`:
-
-<img src="./bild4.png" width="600">
-
-<details>
-    <summary>Welches Problem entsteht?</summary>
-    <p>
-
-        Wie kann man den Zeiger, der auf das aktuelle Element zeigt, auf x umbiegen?
-    </p>
-</details>
-
-#### Lösung für das insert-Problem
-
-<img src="./bild5.png" width="600">
-
-`pos` zeigt auf den Listen-Eintrag vor dem aktuellen Element.
-
-`anf` zeigt auf einen Dummy-Eintrag vor dem ersten Element.
-
-#### Genauere Spezifikation des Verhaltens der Liste
-
-Mit `assert` Anweisungen können wir unsere Vorgaben präzisieren und unsere Implementation überprüfen.
-
-```python
-li = Liste()
+        <p>Mit <code>assert</code> Anweisungen können wir unsere Vorgaben präzisieren und unsere Implementation
+            überprüfen.</p>
+        <pre><code class="python">li = Liste()
 assert li.empty()
 assert li.endpos()
 li.insert('A')
@@ -208,51 +165,84 @@ li.delete()
 assert li.endpos()
 li.reset()
 li.delete()
-assert li.empty()
-```
-**Beachte**:
-Bei einer nicht-leeren Liste können wir, wenn das aktuelle Element das letzte Element der Liste ist, mit
-`advance()` noch einen Schritt vorangehen. Danach ist `endpos()` True, `pos` zeigt auf das letzte Element und
-das aktuelle Element ist schon "jenseits der Liste".
+assert li.empty()</code></pre>
 
+        <p>
+            <strong>Beachte</strong>:
+             Bei einer nicht-leeren Liste können wir, wenn das aktuelle Element das letzte Element der Liste ist, mit
+            <code>advance</code> noch einen Schritt vorangehen. Danach ist <code>endpos</code> True,
+            <code>pos</code> zeigt auf das letzte Element und  das aktuelle Element ist schon "jenseits der Liste".
+        </p>
 
-
-<details>
-    <summary><strong>Implementation</strong></summary>
-    <p>
-
-        ```python
-        class Liste:
-        def __init__(self):
+        <details>
+                <summary><strong>Implementation</strong></summary>
+                <p>
+            
+                <pre><code> class Liste:
+    def __init__(self):
         self.anf = Eintrag()
         self.pos = self.anf
 
-        def empty(self):
+    def empty(self):
         return self.anf.next is None
 
-        def endpos(self):
+    def endpos(self):
         return self.pos.next is None
 
-        def reset(self):
+    def reset(self):
         self.pos = self.anf
 
-        def advance(self):
+    def advance(self):
         if self.endpos(): raise RuntimeError("Fehler: Liste am Ende")
         self.pos = self.pos.next
 
-        def elem(self):
+    def elem(self):
         if self.endpos(): raise RuntimeError("Fehler: Liste am Ende")
         return self.pos.next.inhalt
 
-        def insert(self, x):
+    def insert(self, x):
         hilf = Eintrag()
         hilf.inhalt = x
         hilf.next = self.pos.next
         self.pos.next = hilf
 
-        def delete(self):
+    def delete(self):
         if self.endpos(): raise RuntimeError("Fehler: Liste am Ende")
         self.pos.next = self.pos.next.next
-        ```
-    </p>
-</details> -->
+                </code></pre>
+                </p>
+            </details> 
+    </article>
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- 
+
+
+
+
+#### 
+
+
+
+
+
+
+
+
+
+
+
+```python
+
+```
+
+
+
+
