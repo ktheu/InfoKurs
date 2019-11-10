@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Infokurs</title>
+  <link href="../../Css/github-markdown.css" rel="stylesheet">
+  <style>
+    body {
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 45px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <article class="markdown-body">
+    <h2>Quiz: ADT Liste</h2>
+
+    <p>Wir bezeichnen die Einträge der Liste mit Indizes nach dem folgenden Muster: </p>
+
+    <img src="bild1.png" width="400">
+
+    <hr>
+
+    <!-- ------------------------------------- -->
+    <h4>Aufgabe 1</h4>
+
+    <pre><code>a = Liste()
+a.insert(1)
+a.insert(2)
+a.reset()
+a.advance()
+a.insert(3)
+a.advance()
+a.delete()
+a.insert(4)
+a.reset()
+a.insert(6)</code></pre>
+
+    <p> Welche Zahlenfolge findet sich in den Listenlementen (mit blank getrennt, ohne das Dummy-Element am
+      Anfang)?
+    </p>
+    <p><input id="q00" size="10"></p>
+
+    <p>Gib den Index des Elements an, auf das der Zeiger <code>pos</code> zeigt.</p>
+    <p><input id="q01" size="1"></p>
+
+    <button type="button" onclick="checkanswer(0)">Check</button>&nbsp;<span id="a0"></span></p>
+    <hr>
+    <!-- ------------------------------------- -->
+    <h4>Aufgabe 2</h4>
+
+    <pre><code>a = Liste()
+a.insert(3)
+a.advance()
+a.insert(2)
+a.insert(5)
+a.insert(3)
+a.reset()
+a.advance()
+a.delete()
+a.insert(4)
+a.advance()</code></pre>
+
+    <p> Welche Zahlenfolge findet sich in den Listenlementen (mit blank getrennt, ohne das Dummy-Element am
+      Anfang)?
+    </p>
+    <p><input id="q10" size="10"></p>
+
+    <p>Gib den Index des Elements an, auf das der Zeiger <code>pos</code> zeigt.</p>
+    <p><input id="q11" size="1"></p>
+
+    <button type="button" onclick="checkanswer(1)">Check</button>&nbsp;<span id="a1"></span></p>
+    <hr>
+
+
+  </article>
+</body>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+</script>
+<script type="text/javascript" src="check.js"></script>
+
+</html>
