@@ -7,6 +7,12 @@ a[0].push("0");
 a[1] = [];    
 a[1].push("3 4 5 2");
 a[1].push("2");
+
+a[2] = [];
+a[2].push("None b b d d")
+
+a[3] = [];
+a[3].push("e d e")
  
 
 

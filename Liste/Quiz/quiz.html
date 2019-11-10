@@ -77,8 +77,74 @@ a.advance()</code></pre>
 
     <button type="button" onclick="checkanswer(1)">Check</button>&nbsp;<span id="a1"></span></p>
     <hr>
+       <!-- ------------------------------------- -->
+
+     <p>Die Klasse <code>Verweisbox</code>hat einen Inhalt und zwei Zeiger <code>unten</code> und <code>oben</code>.
+  
+
+     <pre><code> class VerweisBox:
+   def __init__(self, inhalt, unten=None, oben=None):
+      self.inhalt = inhalt
+      self.unten = unten
+      self.oben = oben
+      if unten is not None: self.unten.oben = self
+      if oben  is not None: self.oben.unten = self
+
+  def __str__(self):
+      return self.inhalt</code></pre>
 
 
+      <p>Dem Konstruktor werden Inhalt und optional weitere Verweisboxen für unten und oben übergeben. Beispiele:
+      </p>
+
+      <pre><code>a = VerweisBox('a')</code></pre> 
+      <p>ergibt:</p> 
+
+      <img src="./bild2.png" width="200">
+
+      <pre><code>a = Verweisbox('a')
+b = Verweisbox('b',a)
+      </code></pre> 
+      <p>ergibt:</p>
+      <img src="./bild3.png" width="300">
+
+      <hr>
+   <!-- ------------------------------------- -->
+   <h4>Aufgabe 3</h4>
+
+   <pre><code>a = VerweisBox('a')
+b = VerweisBox('b')
+c = VerweisBox('c',a,b)
+d = VerweisBox('d',b,c)
+print(a.unten)
+print(b.unten.oben)
+print(b.oben.oben.oben)
+print(c.unten)
+print(c.oben.oben.unten.unten.unten)</code></pre>
+
+   <p> Was erscheint auf der Konsole? (Ausgaben mit Leerzeichen trennen)  </p>  
+   <p><input id="q20" size="10"></p>
+  
+   <button type="button" onclick="checkanswer(2)">Check</button>&nbsp;<span id="a2"></span></p>
+   <hr>
+   <!-- ------------------------------------- -->
+
+      <!-- ------------------------------------- -->
+  <h4>Aufgabe 4</h4>
+
+      <pre><code>a = VerweisBox('a')
+d = VerweisBox('d',a)
+e = VerweisBox('e',d,a)
+print(a.unten.unten.oben)
+print(d.oben.unten)
+print(e.oben.unten.unten.oben)</code></pre>
+   
+      <p> Was erscheint auf der Konsole? (Ausgaben mit Leerzeichen trennen)  </p>  
+      <p><input id="q30" size="10"></p>
+     
+      <button type="button" onclick="checkanswer(3)">Check</button>&nbsp;<span id="a3"></span></p>
+      <hr>
+      <!-- ------------------------------------- -->
   </article>
 </body>
 
