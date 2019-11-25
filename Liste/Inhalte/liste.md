@@ -67,9 +67,92 @@ class Liste:
         pass
 ```
 
-#### Implementationsidee
+#### Genauere Spezifikation des Verhaltens der Liste
 
-Implementation durch verkettete Einträge
+Mit `assert` Anweisungen können wir unsere Vorgaben präzisieren und unsere Implementation überprüfen.
+
+```python
+li = Liste()
+assert li.empty()
+assert li.endpos()
+# Fehler bei li.elem(), li.advance(), li.delete()
+li.insert('A')
+assert not li.empty()
+assert not li.endpos()
+assert li.elem() == 'A'
+li.advance()
+assert li.endpos()
+# Fehler bei li.elem(), li.advance(), li.delete()
+li.insert('B')
+assert not li.endpos()
+li.advance()
+li.insert('C')
+li.reset()
+assert li.elem() == 'A'
+li.advance()
+li.delete()
+assert li.elem() == 'C'
+li.delete()
+assert li.endpos()
+li.reset()
+li.delete()
+assert li.empty()
+```
+**Beachte**: 
+Bei einer nicht-leeren Liste können wir, wenn das aktuelle Element das letzte Element der Liste ist, mit
+`advance` noch einen Schritt vorangehen. Danach ist `endpos` True, das aktuelle Element ist dann
+undefiniert und `elem`, `advance`, und `delete` erzeugen einen Fehler.
+
+<details><summary><strong>Implementation mittels Python-List</strong></summary>
+ 
+
+```python
+class Liste:
+
+    def __init__(self):
+        self.a = []
+        self.akt = -1     # Index des aktuelles Element
+
+    def empty(self):
+        return len(self.a) == 0
+
+    def endpos(self):
+        return self.empty() or self.akt == len(self.a)
+
+    def advance(self):
+        if self.endpos(): raise RuntimeError("Fehler in advance: Am Ende der Liste")
+        self.akt += 1
+
+    def elem(self):
+        if self.endpos(): raise RuntimeError("Fehler in elem: Am Ende der Liste")
+        return self.a[self.akt]
+
+    def insert(self, x):
+        if self.empty():
+            self.akt = 0
+        self.a.insert(self.akt,x)
+
+    def delete(self):
+        if self.endpos(): raise RuntimeError("Fehler in delete: Am Ende der Liste")
+        del self.a[self.akt]
+        if self.empty(): self.akt = -1
+
+    def reset(self):
+        if not self.empty(): self.akt = 0
+
+```
+
+Die Implementation hat den Nachteil, dass die Methoden `insert` und `delete` im worst case eine Laufzeit `O(n)` haben.
+
+
+
+ 
+</details>
+
+
+#### Implementationsidee: Verkettete Einträge
+
+
 
 <img src="./bild1.png" width="600">
 
@@ -109,43 +192,8 @@ Wie kann man den Zeiger, der auf das aktuelle Element zeigt, auf x umbiegen?
 
 `anf` zeigt auf einen Dummy-Eintrag vor dem ersten Element.
 
-#### Genauere Spezifikation des Verhaltens der Liste
 
-Mit `assert` Anweisungen können wir unsere Vorgaben präzisieren und unsere Implementation überprüfen.
-
-```python
-li = Liste()
-assert li.empty()
-assert li.endpos()
-li.insert('A')
-assert not li.empty()
-assert not li.endpos()
-assert li.elem() == 'A'
-li.advance()
-assert li.endpos()
-li.insert('B')
-assert not li.endpos()
-li.advance()
-li.insert('C')
-li.reset()
-assert li.elem() == 'A'
-li.advance()
-li.delete()
-assert li.elem() == 'C'
-li.delete()
-assert li.endpos()
-li.reset()
-li.delete()
-assert li.empty()
-```
-**Beachte**: 
-Bei einer nicht-leeren Liste können wir, wenn das aktuelle Element das letzte Element der Liste ist, mit
-`advance()` noch einen Schritt vorangehen. Danach ist `endpos()` True, `pos` zeigt auf das letzte Element und
-das aktuelle Element ist schon "jenseits der Liste".
-
- 
-
-<details><summary><strong>Implementation</strong></summary>
+<details><summary><strong>Implementation durch verkettete Einträge</strong></summary>
 <p>
 
 ```python
