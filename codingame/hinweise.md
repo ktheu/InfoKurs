@@ -30,7 +30,7 @@ fname = input()
 ```
 wird zu
 ```
-f = open("input1.txt");   
+f = open("input.txt");   
 
 n = int(f.readline()) 
 ext, mt = f.readline().split()
