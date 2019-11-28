@@ -178,4 +178,4 @@ __[Repl 115 Übungen](https://repl.it/classroom/invite/WvQZMq1)__
 
 ***
 
-__[Links](links.md)__ - __[News](news.md)__  - __[Bewertung](bewertung.md)__
+__[Links](links.md)__ - __[News](news.md)__  - __[Bewertung](bewertung.md)__ - [Klausur](.\2019-20-Inf12-1-B_loesung.pdf)
