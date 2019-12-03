@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Kein Markdown, weil Mathe-Tex vorkommt -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -156,6 +156,30 @@ deq    :  entfernt vorderstes Element
     </code></pre>
             </p>
         </details>
+
+
+    <h4>Keller und Schlange in Python </h4>
+
+    <p>Für den Keller nutzen wir die Python-List mit den Methoden <code>append</code> und <code>pop</code></p>
+
+    <pre>
+a = []
+a.append(4)
+a.append(5)
+x = a.pop()
+</pre>
+
+   <p>Für die Schlange nutzen wir die Funktion  <code>deque</code> aus dem Modul <code>collections</code> 
+mit den Methoden <code>append</code> und <code>popleft</code></p>
+
+
+<pre>
+from collections import deque
+a = [5, 4, 6]
+q = deque(a)    #  macht aus der Liste eine Schlange
+q.append(7)
+x = q.popleft()
+</pre>
 
     </article>
 </body>
