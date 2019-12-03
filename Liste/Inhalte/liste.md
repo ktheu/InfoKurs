@@ -103,6 +103,23 @@ Bei einer nicht-leeren Liste können wir, wenn das aktuelle Element das letzte E
 `advance` noch einen Schritt vorangehen. Danach ist `endpos` True, das aktuelle Element ist dann
 undefiniert und `elem`, `advance`, und `delete` erzeugen einen Fehler.
 
+
+#### Die typische Schleife
+
+Die Funktionalität von `endpos` ist so gewählt, dass wir mit der folgenden Schleife durch alle
+Elemente der Liste gehen:
+
+```
+a = Liste()
+...            # füge Sachen in die Liste ein
+a.reset()
+while not a.endpos():
+    x = a.elem()
+    print(x)   # oder machwas mit x
+    a.advance()
+```
+
+
 <details><summary><strong>Implementation mittels Python-List</strong></summary>
  
 
@@ -230,4 +247,4 @@ class Liste:
         self.pos.next = self.pos.next.next
 ```
 </p>
-</details>
+</details>`
