@@ -1,5 +1,5 @@
 let name = "liste";
-a = new Array(2); 
+a = []; 
 a[0] = [];
 a[0].push("6 2 3 4");
 a[0].push("0");
@@ -16,6 +16,14 @@ a[3].push("e d e")
 
 a[4] = [];
 a[4].push("4 5 3 6 2 7 1 8 0 9")
+
+a[5] = [];
+a[5].push("Keller")
+a[5].push("4 3 8 7 6 2 1 0")
+
+a[6] = [];
+a[6].push("Schlange")
+a[6].push("0 1 2 3 4 6 7 8")
 
  
 
