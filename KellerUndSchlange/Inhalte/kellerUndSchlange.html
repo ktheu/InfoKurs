@@ -135,14 +135,14 @@ deq    :  entfernt vorderstes Element
         return self.head is None
 
     def enq(self, x):
+        tmp = Eintrag()
+        tmp.inhalt = x
         if self.empty():
-            self.head = Eintrag()
-            self.tail = self.head
+            self.head = tmp
+            self.tail = tmp
         else:
-            self.tail.next = Eintrag()
-            self.tail = self.tail.next
-        self.tail.inhalt = x
-        self.tail.next = None
+            self.tail.next = tmp
+            self.tail = tmp
 
     def deq(self):
         if self.empty(): raise RuntimeError("Fehler: Schlange ist leer")
