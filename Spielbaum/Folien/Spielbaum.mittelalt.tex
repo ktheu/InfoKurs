@@ -139,6 +139,36 @@ Mit diesen Funktionen können wir die Funktionen maximize und minimize implement
 der konkreten Instanz des MinMax-Problems.
 \end{frame}
 
+\begin{frame}[fragile]
+\begin{lstlisting}[basicstyle=\tiny]
+inf = float('inf')
+def maximize(state):
+    if terminal_test(state):
+        return None,evaluation(state)
+    v, bestChild = -inf, None
+    for child in nextstates(state):
+        _,utility = minimize(child)
+        if utility > v:
+            bestChild,v = child,utility
+    return bestChild,v
+
+def minimize(state):
+    if terminal_test(state):
+        return None,evaluation(state)
+    v, bestChild = inf, None
+    for child in nextstates(state):
+        _,utility = maximize(child)
+        if utility < v:
+            bestChild,v = child,utility
+    return bestChild,v
+
+# bester folgezug für maximizer nach state
+bestnext, _ = maximize(state)
+
+# bester folgezug für minimizer nach state
+bestnext, _ = minimize(state)
+\end{lstlisting} 
+\end{frame}
 
 \begin{frame}[fragile]
  
@@ -185,6 +215,34 @@ usw.
 
 \end{frame}
 
+\begin{frame}[fragile]
+Beispiel: Liste mit Zahlen, d.h. die Felder des Spielfeldes werden von 0 bis 8 durchnummeriert.
+\begin{lstlisting} [basicstyle=\tiny]
+def nextstates(state): $\pause$
+    temp = []
+    for i in range(9):
+        if i not in state:
+            temp.append(state+[i])
+    return temp    $\pause$
+
+def evaluation(state): 
+    '''
+    state: Stellung
+    returns: Zahl, die den Wert der Stellung wiedergibt
+       +1 Maximizer gewinnt, -1 Minimizer gewinnt, 0 Sonst
+    '''
+    # your code here
+    pass
+
+def terminal_test(state):  $\pause$
+    w = evaluation(state)
+    return w $==$ 1 or w $==$ -1 or len(state) $==$ 9 
+
+
+\end{lstlisting} 
+\end{frame}
+
+
 
 \begin{frame}[fragile]
 Der Alpha-Beta Algorithmus versucht Teile des Baumes abzuschneiden (pruning), die erkennbar nicht mehr durchsucht werden müssen.
@@ -199,6 +257,45 @@ Dazu wird jedem Knoten ein $\alpha$  und ein $\beta$-Wert mitgegeben, die im Ver
 werden und die es gestatten, ein Kriterium zu formulieren, wann das pruning erfolgen kann.
 \end{frame}
 
+
+\begin{frame}[fragile]
+Der Alpha-Beta-Algorithmus \\
+\begin{minipage}[t]{7.5cm}
+\begin{lstlisting}[basicstyle=\tiny]
+inf = float('inf')
+def maximize(state,alpha,beta):
+    if terminal_test(state):
+        return None,evaluation(state)
+    v, bestChild = -inf, None
+    for child in nextstates(state):
+        _,utility = minimize(child,alpha,beta)
+        if utility > v:
+            v, bestChild = utility, child
+        if v >= beta:
+            break
+        if v > alpha:
+            alpha = v
+    return bestChild, v
+
+def minimize(state,alpha,beta):
+    if terminal_test(state):
+        return None,evaluation(state)
+    v, bestChild = inf, None
+    for child in nextstates(state):
+        _,utility = maximize(child,alpha,beta)
+        if utility < v:
+            v, bestChild = utility, child
+        if v <= alpha:
+            break
+        if v < beta:
+            beta = v
+    return bestChild, v 
+
+# bester folgezug für maximizer nach state
+bestnext, _ = maximize(state,-inf,inf)
+\end{lstlisting}  
+\end{minipage} 
+\end{frame}
 
 \begin{frame}[fragile]
 Vereinfachte Notation zur Durchführung des Alpha-Beta-Algorithmus:

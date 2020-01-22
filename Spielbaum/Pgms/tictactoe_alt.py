@@ -101,22 +101,25 @@ def showMuster():
     print()
 
    
-st = []
-print('Spieler beginnt mit x ...  ')
-while not terminal_test(st):
-    print('-----')
-    show(st)
-    showMuster()
-    print()
-    zahl = int(input("Bitte eine Zahl eingeben(0-8):"))
-    st.append(zahl)
-    if not terminal_test(st):
-        st,_ = minimize(st)
-
-show(st)
-if evaluation(st) == 1: print("Spieler x hat gewonnen")
-elif evaluation(st) == -1: print("Spieler o (= Computer) hat gewonnen")
-else: print("Unentschieden")
+def play():
+    state = []
+    i = 0
+    while not terminal_test(state):
+        showMuster()
+        if i % 2==0:
+            z = int(input("Eingabe Spieler x: "))
+            state.append(z)
+        else:
+            state, _ = minimize(state)
+        show(state)
+        i += 1
+        
+    if evaluation(state) == 1:
+        print("Spieler x hat gewonnen")
+    elif evaluation(state) == -1:
+        print("Computer hat gewonnen")
+    else:
+        print("Unentschieden")
     
 
     
