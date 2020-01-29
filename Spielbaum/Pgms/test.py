@@ -1,10 +1,4 @@
-i = 6
-a = 'x' if (i % 2 == 0) else 'o'
-    
-
-#gewinnSets = []
-#for s in gewinnStrings:
-#    tmp = {int(c) for c in s}
-#    gewinnSets.append(tmp)
-#    
-
+x = input("Bitte was eingeben")
+i = 5
+i = i + 5
+print("Eingabe: " + x)

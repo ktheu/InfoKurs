@@ -70,9 +70,9 @@ def evaluation(state):
     maxzuege = set(state[::2])
     minzuege = set(state[1::2])
     for g in gewinn:
-        if g.issubset(maxzuege):
+        if g <= maxzuege:   # is subset
             return 1
-        if g.issubset(minzuege):
+        if g <= minzuege:
             return -1
     return 0
 

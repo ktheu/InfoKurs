@@ -29,12 +29,8 @@ Im User-Interface gibt man die Nummer der Spalte für den nächsten Stein an.
 
 '''
 inf = float('inf')
-pruneCount = 0
-visitCount = 0
 
 def maximize(state, alpha=-inf, beta=inf, bremse=4):
-    global pruneCount
-    global visitCount
 
     if bremse == 0 or terminal_test(state):
         return None, evaluation(state)
@@ -42,13 +38,10 @@ def maximize(state, alpha=-inf, beta=inf, bremse=4):
     best_st, best_k = None, -inf
 
     for st in nextstates(state):
-        visitCount += 1
         _, k = minimize(st, alpha, beta, bremse-1)
-       
         if k > best_k:
             best_st, best_k = st, k
         if best_k >= beta:
-            pruneCount+=1
             break
         if best_k > alpha:
             alpha = best_k
@@ -56,22 +49,18 @@ def maximize(state, alpha=-inf, beta=inf, bremse=4):
 
 
 def minimize(state, alpha=-inf, beta=inf, bremse=4):
-    global pruneCount
-    global visitCount
 
     if bremse == 0 or terminal_test(state):
         return None, evaluation(state)
 
     best_st, best_k = None, inf
-    for st in nextstates(state): 
-    
-        visitCount += 1
+    for st in nextstates(state)[::-1]:
        
         _, k = maximize(st, alpha, beta, bremse-1)
+        if bremse == 8: print(st, k)
         if k < best_k:
             best_st, best_k = st, k
         if best_k <= alpha:
-            pruneCount+=1
             break
         if best_k < beta:
             beta = best_k
@@ -128,6 +117,54 @@ def muster(board):
     tmp.append(''.join(board[13:38:6]))
     tmp.append(''.join(board[20:39:6]))
     return tmp
+    
+def muster2(board):
+    ''' Liste aller Stringmuster (horizontal, vertikal, diagonal) mit Mindestlänge 4 '''
+    tmp = []
+    for i in range(0,42,7):   # horizontal
+        tmp.append(''.join(board[i:i+7]))
+     
+    for i in range(7):        # vertikal
+        tmp.append(''.join(board[i::7]))
+    
+    # diagonal nach links
+    border = [i for i in range(42) if i < 7 or i % 7 == 6]
+    for i in border:
+       if lenL(i) >= 4:
+            tmp.append(diaL(board,i)) 
+
+    # diagonal nach rechts   
+    border = [i for i in range(42) if i < 7 or i % 7 == 0]  
+    for i in border:
+       if lenR(i) >= 4:
+            tmp.append(diaR(board,i))  
+    
+    return tmp
+
+# --- Hilfsfunktionen für muster ------
+def lenL(nr):
+    ''' Länge des Strings diagonal nach links unten, ausgehend von nr '''
+    col, row  = nr % 7, nr // 7
+    return min(6-row-1,col) + 1
+
+def lenR(nr):
+    ''' Länge des Strings diagonal nach rechts unten, ausgehend von nr '''
+    col, row  = nr % 7, nr // 7
+    return min(6-row,7-col) 
+
+def diaL(board,nr):
+    ''' String diagonal nach links unten, ausgehend von nr '''
+    k = lenL(nr)
+    end = nr + 6*(k-1)+1
+    return ''.join(board[nr:end:6])
+
+def diaR(board,nr):
+    ''' String diagonal nach rechts unten, ausgehend von nr '''
+    k = lenR(nr)
+    end = nr + 8*(k-1)+1
+    return ''.join(board[nr:end:8])
+
+# --- Ende der Hilfsfunktionen für muster -----
 
 
 def nextstates(state):
@@ -140,6 +177,7 @@ def nextstates(state):
     for i in free(board):     # für jeden verfügbaren Platz
         tmp.append(state+[i])
     return tmp
+
 
 def evaluation(state):
     '''
@@ -206,8 +244,9 @@ def free(board):
                break
     return tmp
 
-def play(bremse=8):
+def play():
     ''' Mensch spielt zuerst '''
+
     i = 0
     k = None         # Bewertung
     x = None         # letzter Zug
@@ -226,8 +265,9 @@ def play(bremse=8):
             if tuple(state) in buch:
                 state = buch[tuple(state)]
             else:
-                state, k = minimize(state,bremse)
-           
+                state, k = minimize(state,bremse=8)
+       
+        
         board = getBoard(state)
         showBoard(board)
         print("Zug: ",x,"Bewertung: ", k)
@@ -241,7 +281,7 @@ def play(bremse=8):
     else:
         print("Unentschieden")
 
-def playC(bremse=8):
+def playC():
     ''' Computer spielt zuerst '''
     state = []
     i = 0
@@ -249,15 +289,17 @@ def playC(bremse=8):
     x = None
     while not terminal_test(state):
         board = getBoard(state)
-           
+        #showNr()
+         
         if i % 2==1:
             x = int(input("Eingabe Spieler o: "))
             state.append(freeIn(board,x))
+
         else:
             if tuple(state) in buch:
                 state = buch[tuple(state)]
             else:
-                state, k = maximize(state,bremse)
+                state, k = maximize(state,bremse=8)
            
         board = getBoard(state)
         showBoard(board)
@@ -275,37 +317,14 @@ def playC(bremse=8):
 
 buch = {tuple():[38],(38,):[38,37]}   # Eröffnungsbuch
 
-#showNr()
-
-'''
-state = [38,37,31,24,30,17,23,10,3,16,39,32,40]
-minimize auf diesen state dauert lange, obwohl die Antwort klar ist.
-Das liegt an der Reihenfolge, mit denen die nextstates bearbeitet werden.
-geht man die Liste von hinten durch, geht es schneller, denn jetzt wird gepruned.
-for st in nextstates(state)[::-1]:
-
-
-pruneCount, visitCount: 53987 292386
-pruneCount, visitCount:  7336  24767   bei umgekehrter Reihenfolge
-
-Die folgenden Versuche bringen allerdings nichts:
-for st in sorted(nextstates(state), key = lambda x : minimize(x,bremse=1)[1],reverse=True):
-for st in sorted(nextstates(state), key = lambda x : maximize(x,bremse=1)[1]):
-'''
-
-#state = [38,37,30]
-
-
 showNr()
 
-state = [38,37,31,24,30,17,23,10,3,16,39,32,40]
+#state = [38,37,31,24,30,17,23,10,3,16,39,32,40]
+
+state = [38,37,30]
+
+
 board = getBoard(state)
 showBoard(board)
-print(minimize(state,bremse=2))
-#for st in nextstates(state):
-    #print(maximize(st,bremse=2))
-#print(pruneCount, visitCount)
-
-
-
+#print(minimize(state,bremse=8))
 
