@@ -1,40 +1,7 @@
-# -*- coding: utf-8 -*-
-'''
-Das Spiel besteht aus 7 Spalten, die jeweils mit bis zu 6 Steinen 
-gefüllt werden können.
-Eine Stellung wird repräsentiert durch eine Liste von Zahlen
-von 0 bis 41, die jeweils angeben, in welcher Reihenfolge Steine
-auf die jeweilige Position gekommen sind. 
-    
- 0  1  2  3  4  5  6 
- 7  8  9 10 11 12 13 
-14 15 16 17 18 19 20 
-21 22 23 24 25 26 27 
-28 29 30 31 32 33 34 
-35 36 37 38 39 40 41 
-
-Der erste Stein ist 'x'.
-Die Liste [38,37,30] repräsentiert also die folgende Stellung:
-
-. . . . . . . 
-. . . . . . . 
-. . . . . . . 
-. . . . . . . 
-. . x . . . . 
-. . o x . . . 
-=============
-0 1 2 3 4 5 6
-
-Im User-Interface gibt man die Nummer der Spalte für den nächsten Stein an.
-
-'''
 inf = float('inf')
-pruneCount = 0
-visitCount = 0
 
-def maximize(state, alpha=-inf, beta=inf, bremse=4):
-    global pruneCount
-    global visitCount
+
+def maximize(state, alpha=-inf, beta=inf, bremse=6):
 
     if bremse == 0 or terminal_test(state):
         return None, evaluation(state)
@@ -42,40 +9,33 @@ def maximize(state, alpha=-inf, beta=inf, bremse=4):
     best_st, best_k = None, -inf
 
     for st in nextstates(state):
-        visitCount += 1
         _, k = minimize(st, alpha, beta, bremse-1)
-       
+
         if k > best_k:
             best_st, best_k = st, k
         if best_k >= beta:
-            pruneCount+=1
             break
         if best_k > alpha:
             alpha = best_k
     return best_st, best_k
 
 
-def minimize(state, alpha=-inf, beta=inf, bremse=4):
-    global pruneCount
-    global visitCount
+def minimize(state, alpha=-inf, beta=inf, bremse=6):
 
     if bremse == 0 or terminal_test(state):
         return None, evaluation(state)
 
     best_st, best_k = None, inf
-    for st in nextstates(state): 
-    
-        visitCount += 1
-       
+    for st in nextstates(state):
         _, k = maximize(st, alpha, beta, bremse-1)
         if k < best_k:
             best_st, best_k = st, k
         if best_k <= alpha:
-            pruneCount+=1
             break
         if best_k < beta:
             beta = best_k
     return best_st, best_k
+
 
 def showNr():
     ''' printed die Nummerierung der Felder '''
@@ -85,8 +45,10 @@ def showNr():
         print('{:2d}'.format(i), end=' ')
     print()
 
-def getBoard(state):  
-    ''' wandelt state in ein board um '''
+
+def getBoard(state):
+    ''' wandelt state in ein board um 
+        ein board ist eine Liste mit 42 Zeichen, entweder x, o oder ein Punkt.'''
     tmp = list('.'*42)
     for i in range(len(state)):
         if i % 2 == 0:
@@ -94,6 +56,7 @@ def getBoard(state):
         else:
             tmp[state[i]] = 'o'
     return tmp
+
 
 def showBoard(board):
     ''' printed board '''
@@ -105,9 +68,10 @@ def showBoard(board):
     print('='*13)
     print('0 1 2 3 4 5 6')
 
+
 def muster(board):
     tmp = []
-    for i in range(0,42,7):
+    for i in range(0, 42, 7):
         tmp.append(''.join(board[i:i+7]))  # horizontal
     for i in range(7):
         tmp.append(''.join(board[i::7]))   # vertikal
@@ -119,8 +83,8 @@ def muster(board):
     tmp.append(''.join(board[1:42:8]))
     tmp.append(''.join(board[2:35:8]))
     tmp.append(''.join(board[3:28:8]))
-   
-    # diagonale muster nach rechts unten 
+
+    # diagonale muster nach rechts unten
     tmp.append(''.join(board[3:22:6]))
     tmp.append(''.join(board[4:29:6]))
     tmp.append(''.join(board[5:36:6]))
@@ -140,6 +104,7 @@ def nextstates(state):
     for i in free(board):     # für jeden verfügbaren Platz
         tmp.append(state+[i])
     return tmp
+
 
 def evaluation(state):
     '''
@@ -179,61 +144,72 @@ def evaluation(state):
             w += -5
     return w
 
+
 def terminal_test(state):
     w = evaluation(state)
     return w == inf or w == -inf or len(state) == 42
+
 
 def colNrs(i):
     '''
     i: int,  0 <= i <= 6
     returns: Liste der Platznummern für Spalte i, von unten nach oben
     '''
-    return [35+i-7*r for r in range(0,6)]
+    return [35+i-7*r for r in range(0, 6)]
 
-def freeIn(board,i):
+
+def freeIn(board, i):
     ''' returns: nächster freier Platz in Spalte i '''
     for j in colNrs(i):
         if board[j] == '.':
             return j
 
+
 def free(board):
     ''' liste der möglichen nächsten positionen '''
     tmp = []
     for i in range(7):
-       for j in colNrs(i):
-           if board[j] == '.':
-               tmp.append(j)
-               break
+        for j in colNrs(i):
+            if board[j] == '.':
+                tmp.append(j)
+                break
     return tmp
 
-def play(bremse=8):
-    ''' Mensch spielt zuerst '''
-    i = 0
-    k = None         # Bewertung
-    x = None         # letzter Zug
 
+def play():
+    ''' Spieler beginnt und spielt x.
+    Computer ist Nachziehener und min-Spieler mit o.
+    '''
+
+    BREMSE = 8
     state = []
     board = getBoard(state)
     showBoard(board)
 
+    i = 0
     while not terminal_test(state):
-         
-        if i % 2==0:
-            x = int(input("Eingabe Spieler (0-6): "))
-            state.append(freeIn(board,x))
+
+        if i % 2 == 0:
+            x = int(input("Eingabe Spieler x (0-6): "))
+            state.append(freeIn(board, x))
+            board = getBoard(state)
+            showBoard(board)
+            print("Spieler x hat gezogen",
+                  state[-1] % 7, " - Bewertung:", evaluation(state))
 
         else:
             if tuple(state) in buch:
                 state = buch[tuple(state)]
+                k = "Buchzug"
             else:
-                state, k = minimize(state,bremse)
-           
-        board = getBoard(state)
-        showBoard(board)
-        print("Zug: ",x,"Bewertung: ", k)
+                state, k = minimize(state, bremse=BREMSE)
+            board = getBoard(state)
+            showBoard(board)
+            print("Computer o hat gezogen",
+                  state[-1] % 7, " - Bewertung:", evaluation(state), "- min-Wert:", k)
+
         i = i+1
 
-    showBoard(board)
     if evaluation(state) == inf:
         print("Spieler x hat gewonnen")
     elif evaluation(state) == -inf:
@@ -241,31 +217,40 @@ def play(bremse=8):
     else:
         print("Unentschieden")
 
-def playC(bremse=8):
-    ''' Computer spielt zuerst '''
+
+def playC():
+    ''' Computer beginn, ist max-Spieler und setzt x.
+    Mensch ist Nachziehender und spielt o.
+    '''
+    BREMSE = 8
     state = []
-    i = 0
-    k = None
-    x = None
+    board = getBoard(state)
+
+    i = 0     # Zähler für Spielerwechsel
     while not terminal_test(state):
-        board = getBoard(state)
-           
-        if i % 2==1:
-            x = int(input("Eingabe Spieler o: "))
-            state.append(freeIn(board,x))
+
+        if i % 2 == 1:
+            x = int(input("Eingabe Spieler o (0-6)"))
+            state.append(freeIn(board, x))
+            board = getBoard(state)
+            showBoard(board)
+            print("Spieler o hat gezogen",
+                  state[-1] % 7, " - Bewertung:", evaluation(state))
+
         else:
             if tuple(state) in buch:
                 state = buch[tuple(state)]
+                k = "Buchzug"
             else:
-                state, k = maximize(state,bremse)
-           
-        board = getBoard(state)
-        showBoard(board)
-        print("Zug: ",x,"Bewertung: ", k)
+                state, k = maximize(state, bremse=BREMSE)
+            board = getBoard(state)
+            showBoard(board)
+            print("Computer x hat gezogen",
+                  state[-1] % 7, " - Bewertung:", evaluation(state), "- max-Wert:", k)
+
         i = i+1
 
-    showBoard(board)
-    if evaluation(state) == inf:
+    if evaluation(state) == -inf:
         print("Spieler o hat gewonnen")
     elif evaluation(state) == inf:
         print("Computer hat gewonnen")
@@ -273,39 +258,6 @@ def playC(bremse=8):
         print("Unentschieden")
 
 
-buch = {tuple():[38],(38,):[38,37]}   # Eröffnungsbuch
+buch = {tuple(): [38], (38,): [38, 37]}   # Eröffnungsbuch
 
-#showNr()
-
-'''
-state = [38,37,31,24,30,17,23,10,3,16,39,32,40]
-minimize auf diesen state dauert lange, obwohl die Antwort klar ist.
-Das liegt an der Reihenfolge, mit denen die nextstates bearbeitet werden.
-geht man die Liste von hinten durch, geht es schneller, denn jetzt wird gepruned.
-for st in nextstates(state)[::-1]:
-
-
-pruneCount, visitCount: 53987 292386
-pruneCount, visitCount:  7336  24767   bei umgekehrter Reihenfolge
-
-Die folgenden Versuche bringen allerdings nichts:
-for st in sorted(nextstates(state), key = lambda x : minimize(x,bremse=1)[1],reverse=True):
-for st in sorted(nextstates(state), key = lambda x : maximize(x,bremse=1)[1]):
-'''
-
-#state = [38,37,30]
-
-
-showNr()
-
-state = [38,37,31,24,30,17,23,10,3,16,39,32,40]
-board = getBoard(state)
-showBoard(board)
-print(minimize(state,bremse=2))
-#for st in nextstates(state):
-    #print(maximize(st,bremse=2))
-#print(pruneCount, visitCount)
-
-
-
-
+play()
