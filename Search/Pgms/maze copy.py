@@ -21,13 +21,24 @@ def getStartAndGoal():
 def goaltest(state):
     return grid[state[0]][state[1]]  == 'E'
 
+def free(state):
+    return grid[state[0]][state[1]] != '#'
+
 def nextstates(state):
-    x, y = state
+    '''
+    returns: Liste mit angrenzenden freien Tupeln.
+    '''
     tmp = []
-    for xd, yd in dirs:
-        xn, yn = x+xd, y+yd
-        if 0 <= xn < zeilen and 0 <= yn < spalten and grid[xn][yn] != '#':
-            tmp.append((xn,yn))
+    x, y = state
+    links, rechts, oben, unten = (x,y-1), (x,y+1), (x-1,y), (x+1,y)
+    linksfrei = (y > 0 and free(links))
+    rechtsfrei = (y < spalten and free(rechts))
+    obenfrei = (x > 0 and free(oben))
+    untenfrei = (x < zeilen and free(unten))
+    if obenfrei: tmp.append(oben)
+    if untenfrei: tmp.append(unten)
+    if linksfrei: tmp.append(links)
+    if rechtsfrei: tmp.append(rechts)
     return tmp
 
 def reconstructPath(prev,state):
@@ -92,19 +103,17 @@ def dfs(s):
                 frontier.append(v)
                 prev[v] = state
 
-
-
 def h(state):
+    ''' Euklidsche-Distanz '''
+    x1, y1 = state
+    x2, y2 = goalstate
+    return ((x1-x2)**2 + (y1-y2)**2)**0.5
+
+def h2(state):
     ''' Manhatten-Distanz '''
     x1, y1 = state
     x2, y2 = goalstate
     return abs(x1-x2) + abs(y1-y2)
-
-def h2(state):
-    ''' Euklidsche-Distanz '''
-    x1, y1 = state
-    x2, y2 = goalstate
-    return ((x1-x2)**2 + (y1-y2)**2)**0.5   
     
 from heapq import heappop, heappush
 def greedy(s):
@@ -137,15 +146,12 @@ def astar(s):
                 heappush(frontier,(g[v]+h(v),v))
                 prev[v] = state
                 
-f = open('maze03.txt')  
-lines = f.read().splitlines()
-
+with open ('maze02.txt') as f:    
+    lines = f.read().splitlines()
+    
 grid = [list(s) for s in lines]
 zeilen, spalten = len(grid), len(grid[0])
 startstate, goalstate = getStartAndGoal()
-
-N, E, S, W  = (-1,0), (0,1), (1,0), (0,-1)
-dirs = [N,E,S,W]
 
 prev, explored = bfs(startstate)     # bfs, dfs, greedy, astar
 path, weglaenge = reconstructPath(prev,goalstate)
