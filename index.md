@@ -88,7 +88,8 @@ __[Keller und Schlange](./KellerUndSchlange/Inhalte/kellerUndSchlange.html)__ -
 __[Code](./Liste/code.md)__ -
 __[Quiz](./Liste/Quiz/quiz.html)__ --
 __[Aufgaben](./Liste/Test/Musteraufgaben.pdf)__ -
-__[Lösungen](./Liste/Test/Musteraufgaben_Loesung.pdf)__
+__[Lösungen](./Liste/Test/Musteraufgaben_Loesung.pdf)__ -
+__[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIH7asB4wFcftC0OZ2BH1Mad)__ 
 
 __[ADT Baum](./Baum/Folien/Baum.pdf)__ -
 __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/310_Baum.ipynb)__ --
