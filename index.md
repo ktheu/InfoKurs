@@ -151,6 +151,17 @@ __[Backtracking](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/ma
 ___________________________________________________________________
 
 
+__[Neuronale Netze - Grundlagen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn01.ipynb)__ - 
+__[Tensoren](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn02_tensoren.ipynb)__ - 
+__[Pytorch](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn03_fashion.ipynb)__ - 
+__[Fashion MNIST](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn04_fashion_conv.ipynb)__ -
+__[CNN](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn05_convolutions.ipynb)__ - 
+__[Architekturen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn06_architekturen.ipynb)__
+
+__________________________________________________
+
+
+
 __[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)__
 
 __[Endliche Automaten und Formale Sprachen](./Automaten/Inhalte/automaten.html)__ --
