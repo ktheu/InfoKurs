@@ -156,7 +156,9 @@ __[Tensoren](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master
 __[Pytorch](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn03_fashion.ipynb)__ - 
 __[Fashion MNIST](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn04_fashion_conv.ipynb)__ -
 __[Fashion MNIST CNN](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn05_convolutions.ipynb)__ - 
-__[Architekturen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn06_architekturen.ipynb)__
+__[Architekturen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn06_architekturen.ipynb)__ --
+__[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGPUkaj3G4gBfXMJO4NSeMv)__
+
 
 __________________________________________________
 
