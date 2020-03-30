@@ -155,7 +155,7 @@ __[Neuronale Netze - Grundlagen](https://nbviewer.jupyter.org/github/ktheu/KursN
 __[Tensoren](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn02_tensoren.ipynb)__ - 
 __[Pytorch](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn03_fashion.ipynb)__ - 
 __[Fashion MNIST](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn04_fashion_conv.ipynb)__ -
-__[CNN](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn05_convolutions.ipynb)__ - 
+__[Fashion MNIST CNN](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn05_convolutions.ipynb)__ - 
 __[Architekturen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn06_architekturen.ipynb)__
 
 __________________________________________________
