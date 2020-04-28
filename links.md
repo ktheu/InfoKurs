@@ -22,3 +22,13 @@
   
 * [AlphaGo vs Lee Sedol](https://www.youtube.com/watch?v=jGyCsVhtW0M)
 
+
+
+* P = NP? 
+  * [P vs. NP and the computational complexity zoo](https://www.youtube.com/watch?v=YX40hbAHx3s&amp;t=11s)
+  * [Beyond Computation: The P vs NP Problem - Michael Sipser](https://www.youtube.com/watch?v=msp2y_Y5MLE)
+  * [P vs. NP - An Introduction](https://www.youtube.com/watch?v=OY41QYPI8cw)
+ 
+ 
+ 
+
