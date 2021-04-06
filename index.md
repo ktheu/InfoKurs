@@ -69,15 +69,14 @@ __[Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md)__
 
 __[Sort in Python](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/282_sort_in_python.ipynb)__ --
 __[Aufgaben](./Sort_In_Python/test/Musteraufgaben.pdf)__ -
-__[Lösungen](./Sort_In_Python/test/Musteraufgaben_Loesung.pdf)__ -
-__[Repl](https://repl.it/classroom/invite/bKpWO7g)__
+__[Lösungen](./Sort_In_Python/test/Musteraufgaben_Loesung.pdf)__ 
+ 
 
 ___________________________________________________________________
 
 __[Klassen und Objekte](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/290_klassen.ipynb)__ --
 __[Aufgaben](./Klassen/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Klassen/Test/Musteraufgaben_Loesung.pdf)__ -
-__[Repl](https://repl.it/classroom/invite/fEsya8a)__ -
 __[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnMqGKvnU0LZxYcmUQdb9o)__
 
 ___________________________________________________________________
@@ -191,8 +190,8 @@ __[Codingame](https://www.codingame.com/home)__  - __[Code](./codingame/index.md
 
 __[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb-informatik/)__
 
-__[Repl 115 Übungen](https://repl.it/classroom/invite/WvQZMq1)__
 
 ***
 
-__[Links](links.md)__ - __[News](news.md)__  - __[Bewertung](bewertung.md)__  
+__[Links](links.md)__ 
+<!-- - __[News](news.md)__  - __[Bewertung](bewertung.md)__   -->
