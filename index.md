@@ -3,7 +3,8 @@
 
 ### Inhalte
  
-__[Python](./Python/python.md)__  - __[Merkhilfe](./Merkhilfe/Merkhilfe.pdf)__
+__[Python](./Python/python.md)__  
+<!-- - __[Merkhilfe](./Merkhilfe/Merkhilfe.pdf)__ -->
 
 
 ***
