@@ -99,6 +99,10 @@ __[Lösungen](./Baum/Test/Musteraufgaben_Loesung.pdf)__
 __[Suchbaum](./Suchbaum/Folien/Suchbaum.pdf)__ -
 __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/320_Suchbaum.ipynb)__ 
 
+----
+
+
+
 __[Spielbaum: MinMax- und AlphaBeta-Algorithmus](./Spielbaum/Folien/Spielbaum.pdf)__ -
 __[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/330_Spielbaum.ipynb)__ --
 __[Aufgaben](./Spielbaum/Test/Musteraufgaben.pdf)__ -
@@ -187,7 +191,7 @@ __[Aufgaben](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master
 
 ___________________________________________________________________
 
-__[Codingame](https://www.codingame.com/home)__  - __[Code](./codingame/index.md)__
+__[Codingame](https://www.codingame.com/home)__  
 
 __[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb-informatik/)__
 
