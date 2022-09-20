@@ -5,7 +5,7 @@
 
 ***
 
-__[Grundlagen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/grundlagen/grundlagen.ipynb)  [colab](https://colab.research.google.com/github/ktheu/Infokurs/blob/master/grundlagen.ipynb)__
+__[Grundlagen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/grundlagen/grundlagen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/grundlagen/grundlagen.ipynb)__
 <!-- __[Aufgaben](./grundlagen/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./grundlagen/Test/Musteraufgaben_Loesung.pdf)__ - -->
 <!-- __[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIEWrOs_xzsUvMsEE4OX-b03)__ -->
