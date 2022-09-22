@@ -6,9 +6,6 @@
 ***
 
 __[Grundlagen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/grundlagen/grundlagen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/grundlagen/grundlagen.ipynb)__
-<!-- __[Aufgaben](./grundlagen/Test/Musteraufgaben.pdf)__ -
-__[Lösungen](./grundlagen/Test/Musteraufgaben_Loesung.pdf)__ - -->
-<!-- __[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIEWrOs_xzsUvMsEE4OX-b03)__ -->
 
 
 __[Bedingungen, Schleifen, Strings](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/bedingungen/bedingungen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/bedingungen/bedingungen.ipynb)__
@@ -20,7 +17,7 @@ __[Funktionen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/f
 __[Listen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/lists/lists.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/lists/lists.ipynb)__
 
 
-__[Dictionaries](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/dictionaries/dictionaries.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/dictionaries/dictionaries.ipynb)__
+__[Dictionaries](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/dictionaries/dicts.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/dictionaries/dicts.ipynb)__
 
 ----
 
