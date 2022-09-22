@@ -20,10 +20,11 @@ __[Funktionen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/f
 __[Listen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/lists/lists.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/lists/lists.ipynb)__
 
 
+__[Dictionaries](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/dictionaries/dictionaries.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/dictionaries/dictionaries.ipynb)__
+
+----
+
 __[Tupel](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/tuples/tuple.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/tuples/tuple.ipynb)__
-
-
-__[Dictionaries](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/070_dicts.ipynb)__  
 
 
 __[Sets](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/075_sets.ipynb)__  
