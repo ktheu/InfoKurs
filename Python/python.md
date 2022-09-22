@@ -21,7 +21,7 @@ __[Funktionen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/f
 <!-- __[Aufgaben](./functions/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./functions/Test/Musteraufgaben_Loesung.pdf)__  -->
 
-__[Stringvergleich, Königssuche](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/031_Stringvergleich.ipynb)__ --
+<!-- __[Stringvergleich, Königssuche](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/031_Stringvergleich.ipynb)__ --
 __[Aufgaben](./stringvergleich/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./stringvergleich/Test/Musteraufgaben_Loesung.pdf)__ 
 
@@ -32,7 +32,7 @@ __[Lösungen](./stringmethoden/Test/Musteraufgaben_Loesung.pdf)__
 
 __[Import](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/045_import.ipynb)__ --
 __[Aufgaben](./import/Test/Musteraufgaben.pdf)__ -
-__[Lösungen](./import/Test/Musteraufgaben_Loesung.pdf)__ 
+__[Lösungen](./import/Test/Musteraufgaben_Loesung.pdf)__  -->
 
 
 __[Tuples](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/050_tupel.ipynb)__ --
