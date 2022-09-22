@@ -17,9 +17,9 @@ __[Lösungen](./schleifen/Test/Musteraufgaben_Loesung.pdf)__ - -->
 <!-- __[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIELf6Acf6d-0GCsLjJtbYSg)__ -->
 
 
-__[Funktionen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/030_funktionen.ipynb)__ --
-__[Aufgaben](./functions/Test/Musteraufgaben.pdf)__ -
-__[Lösungen](./functions/Test/Musteraufgaben_Loesung.pdf)__ 
+__[Funktionen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/functions/funktionen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/functions/funktionen.ipynb)__
+<!-- __[Aufgaben](./functions/Test/Musteraufgaben.pdf)__ -
+__[Lösungen](./functions/Test/Musteraufgaben_Loesung.pdf)__  -->
 
 __[Stringvergleich, Königssuche](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/031_Stringvergleich.ipynb)__ --
 __[Aufgaben](./stringvergleich/Test/Musteraufgaben.pdf)__ -
