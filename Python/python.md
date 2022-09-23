@@ -28,6 +28,9 @@ __[Tupel](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/tupel.
 
 __[Sets](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/sets.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/sets.ipynb)__
 
+__[reguläre Ausdrücke](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/regulaereAusdruecke.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/regulaereAusdruecke.ipynb)__
+
+
 
 
 
