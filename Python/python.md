@@ -5,26 +5,26 @@
 
 ***
 
-__[Grundlagen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/grundlagen/grundlagen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/grundlagen/grundlagen.ipynb)__
+__[Grundlagen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/grundlagen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/grundlagen.ipynb)__
 
 
-__[Bedingungen, Schleifen, Strings](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/bedingungen/bedingungen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/bedingungen/bedingungen.ipynb)__
+__[Bedingungen, Schleifen, Strings](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/bedingungen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/bedingungen.ipynb)__
 
 
-__[Funktionen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/functions/funktionen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/functions/funktionen.ipynb)__
+__[Funktionen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/funktionen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/funktionen.ipynb)__
 
 
-__[Listen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/lists/lists.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/lists/lists.ipynb)__
+__[Listen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/listen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/listen.ipynb)__
 
 
-__[Dictionaries](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/dictionaries/dicts.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/dictionaries/dicts.ipynb)__
+__[Dictionaries](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/dicts.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/dicts.ipynb)__
 
 ----
 
-__[Tupel](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/tuples/tuple.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/tuples/tuple.ipynb)__
+__[Tupel](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/tupel.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/tupel.ipynb)__
 
 
-__[Sets](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/075_sets.ipynb)__  
+__[Sets](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/sets.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/sets.ipynb)__
 
 
 <!-- __[Comprehensions](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/080_comprehensions.ipynb)__ --
