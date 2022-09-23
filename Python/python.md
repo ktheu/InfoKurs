@@ -19,6 +19,8 @@ __[Listen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/liste
 
 __[Dictionaries](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/dicts.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/dicts.ipynb)__
 
+__[Zufall](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/random.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/random.ipynb)__
+
 ----
 
 __[Tupel](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/tupel.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/tupel.ipynb)__
@@ -27,19 +29,7 @@ __[Tupel](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/tupel.
 __[Sets](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/sets.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/sets.ipynb)__
 
 
-<!-- __[Comprehensions](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/080_comprehensions.ipynb)__ --
-__[Aufgaben](./comprehensions/Test/Musteraufgaben.pdf)__ -
-__[Lösungen](./comprehensions/Test/Musteraufgaben_Loesung.pdf)__ -->
 
-<!-- *** -->
-
-<!-- __[Das Modul random: Zufall](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/092_random.ipynb)__
-
-__[Das Modul datetime: Datum und Zeit](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/090_datetime.ipynb)__
-
-__[Das Modul turtle: Turtle-Grafik](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/090_turtle.ipynb)__
-
-__[Das Modul re: Reguläre Ausdrücke](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/100_regulaereAusdruecke.ipynb)__ -->
 
 
 
