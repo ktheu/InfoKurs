@@ -3,6 +3,10 @@
 
 [OpenHPI](https://open.hpi.de/courses/pythonjunior-schule2022) - [Folien](./openHpi/inhalte.md)
 
+[W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp)
+
+[Replit](https://replit.com/)
+
 ***
 
 __[Grundlagen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/grundlagen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/grundlagen.ipynb)__
