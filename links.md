@@ -7,6 +7,9 @@
   * [Python Standard Library](https://docs.python.org/3/library/index.html#library-index)
   * [W3C Python Tutorial](https://www.w3schools.com/python/default.asp)
 
+* Replit
+  * (InfokursA)[https://replit.com/teams/join/cjkhhkrgmhfnahjwkdllbrapjbywzebu-InfokursA]
+
 * Sort
    * [Obama at Google](https://www.youtube.com/watch?v=k4RRi_ntQc8)
    * [BubbleSort Dance](https://www.youtube.com/watch?v=lyZQPjUT5B4)
