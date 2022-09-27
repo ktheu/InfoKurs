@@ -39,6 +39,8 @@ __[itertools](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/it
 
 __[numpy](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/numpy.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/numpy.ipynb)__
 
+__[pil](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/pil.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/pil.ipynb)__
+
 
 
 
