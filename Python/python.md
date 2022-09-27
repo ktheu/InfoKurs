@@ -34,7 +34,11 @@ __[Sets](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/sets.ip
 
 __[reguläre Ausdrücke](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/regulaereAusdruecke.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/regulaereAusdruecke.ipynb)__
 
-__[iterTools](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/itertools.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/itertools.ipynb)__
+__[itertools](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/itertools.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/itertools.ipynb)__
+
+
+__[numpy](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/numpy.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/numpy.ipynb)__
+
 
 
 
