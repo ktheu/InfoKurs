@@ -29,3 +29,5 @@
 * TSP-Algorithmen (Traveling Salesman Problem): greedy, 2Opt, simulated annealing
 * Knapsack-Algorithmen: greedy, dynamische Programmierung
 * Backtracking: 8-Damen-Problem
+
+
