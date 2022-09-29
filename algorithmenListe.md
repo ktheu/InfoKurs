@@ -18,7 +18,8 @@
 * Baum-Traversierungen: dfs (=Tiefensuche), bfs (=Breitensuche)
 * Such-Algorithmen: bfs, dfs, greedy, A*, beamsearch
 * Graphen: Algorithmus von Floyd-Warshall
-* Graphen: Erreichbarkeit, Zusammenhangskomponenten in ungerichteten Graphen
+* Graphen: Erreichbarkeit - cg: robot reach
+* Graphen: Zusammenhangskomponenten in ungerichteten Graphen 
 * Graphen: Topologische Sortierung
 * Graphen: Starke Zusammenhangskomponenten
 * Graphen: kürzeste Wege: bfs
