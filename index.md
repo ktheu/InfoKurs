@@ -14,18 +14,10 @@ __[Algorithmus und Programm](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-
 __[Aufgaben](./Algorithmus/Aufgaben/Musteraufgaben.pdf)__ -
 __[Lösungen](./Algorithmus/Aufgaben/Musteraufgaben_Loesung.pdf)__ 
 
-__[Rekursion](./Rekursion/Folien/Rekursion.pdf)__ -
-__[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/210_rekursion.ipynb)__ -
-__[rekursive Zeichnungen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/212_turtle_rekursion.ipynb)__ --
+__[Rekursion](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Rekursion/rekursion.ipynb)__ -
 __[Aufgaben](./Rekursion/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Rekursion/Test/Musteraufgaben_Loesung.pdf)__ 
 
-
-__[Mandelbrot-Menge](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/215_mandelbrot.ipynb)__ --
-__[Aufgaben](./Mandelbrot/Test/Musteraufgaben.pdf)__ -
-__[Lösungen](./Mandelbrot/Test/Musteraufgaben_Loesung.pdf)__ -
-__[Videos]("https://www.youtube.com/watch?v=vfVT_xom8Cc")__ -
-__[Xaos](./Xaos/Xaos.zip)__
 
 ***
 
