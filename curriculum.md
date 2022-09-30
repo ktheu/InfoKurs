@@ -1,8 +1,10 @@
-* Einfache Algorithmen (collatz, pledge, euklid, sieb des eratosthenes, binäre suche )
-* Rekursion (euklid, binäre suche, türme von hanoi)
-* Codierung ganzer Zahlen: Dual- und Hexadezimalzahlen, Zweierkomplement
+## Beispielthemen zum Curriculum
+
+* Einfache Algorithmen (Collatz, Pledge, Euklid, Sieb des Eratosthenes, Binäre Suche )
+* Rekursion (Euklid, binäre Suche, Türme von Hanoi)
+* Codierung ganzer Zahlen: Dual- und Hexadezimalzahlen, Zweierkomplement für negative Zahlen
 * Codierung von Zeichen: ASCII, Unicode, UTF-8
-* Huffman-Algorithmus
+* Huffman-Algorithmus zur Kompression von Daten
 
 * Laufzeitbetrachtungen: Komplexität, O-Notation
 * Laufzeitbetrachtungen am Beispiel der Sortieralgorithmen: SelectionSort, BubbleSort, MergeSort, QuickSort, HeapSort
@@ -31,33 +33,13 @@
 * Grammatiken
 * Turingmaschinen und Berechenbarkeit
 
-* Datenbanken mit SQL
+* Neuronale Netze1: Perceptron, Sigmoid, Relu, Computationgraph, Gradient Descent, Forward-/Backward-propagation
+* Neuronale Netze2: Tensoren, Pytorch, CNNs
 
-* neuronale Netze
+* Datenbanken1: ER-Modell, Anomalien, Normalformen
+* Datenbanken2: SQL
 
 
---------------------------------------------
-
-* Rekursion
-* Codierung und Kompression von Daten  
-
-* Komplexität von Algorithmen (O-Notation)
-* Sortieralgorithmen
-
-* Objektorientierte Programmierung  
-* Abstrakte Datentypen: Liste, Schlange, Keller
-
-* Suchverfahren
-* Bäume und Graphen
-
-* ausgewählte Algorithmen 
-
-* Endliche Automaten und formale Sprachen
-
-* Datenbanken mit SQL
-
--------------------------------------
-  
    
 
 
