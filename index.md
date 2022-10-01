@@ -27,8 +27,7 @@ __[Aufgaben](./Codierung/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Codierung/Test/Musteraufgaben_Loesung.pdf)__
 
 
-__[ASCII, Unicode und UTF-8](./Unicode/Folien/Unicode.pdf)__ --
-__[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/230_unicode.ipynb)__ --
+__[ASCII, Unicode, UTF-8](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Unicode/unicode.ipynb)__ -
 __[Aufgaben](./Unicode/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Unicode/Test/Musteraufgaben_Loesung.pdf)__
 
