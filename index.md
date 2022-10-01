@@ -22,7 +22,7 @@ __[Lösungen](./Rekursion/Test/Musteraufgaben_Loesung.pdf)__
 ***
 
 
-__[Rekursion](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Codierung/codierung.ipynb)__ -
+__[Codierung ganzer Zahlen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Codierung/codierung.ipynb)__ -
 __[Aufgaben](./Codierung/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Codierung/Test/Musteraufgaben_Loesung.pdf)__
 
