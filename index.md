@@ -49,13 +49,13 @@ __[Lösungen](./Komplexitaet/Test/Musteraufgaben_Loesung.pdf)__
 
 __[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/folien/Sort.pdf)__ -
 __[HeapSort](./HeapSort/Folien/HeapSort.pdf)__ -
-__[Code](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/master/Sort/sort.ipynb)__ -
+__[Code](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Sort/sort.ipynb)__ -
 __[Aufgaben](./Sort/test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)__ -
 __[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFjt8gEHQO--Am87hO0zfix)__
 
 
-__[Sort in Python](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/master/Sort/sort_in_python.ipynb)__ --
+__[Sort in Python](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Sort/sort_in_python.ipynb)__ --
 __[Aufgaben](./Sort/test/SortInPython.pdf)__ -
 __[Lösungen](./Sort/test/SortInPythonL.pdf)__ 
  
