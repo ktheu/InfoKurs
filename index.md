@@ -42,8 +42,7 @@ __[Lösungen](./Huffman/Test/Musteraufgaben_Loesung.pdf)__
 ___________________________________________________________________
 
 
-__[Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf)__ --
-__[Quiz](./Komplexitaet/Quiz/index.html)__ --
+__[Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf)__ -
 __[Aufgaben](./Komplexitaet/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Komplexitaet/Test/Musteraufgaben_Loesung.pdf)__
 
