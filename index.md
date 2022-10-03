@@ -43,7 +43,7 @@ ___________________________________________________________________
 
 
 __[Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf)__ -
-__[Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md)__
+__[Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md)__ -
 __[Aufgaben](./Komplexitaet/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Komplexitaet/Test/Musteraufgaben_Loesung.pdf)__
 
@@ -55,7 +55,7 @@ __[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)__ -
 __[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFjt8gEHQO--Am87hO0zfix)__
 
 
-__[Sort in Python](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Sort/sort_in_python.ipynb)__ --
+__[Sort in Python](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Sort/sort_in_python.ipynb)__ -
 __[Aufgaben](./Sort/test/SortInPython.pdf)__ -
 __[Lösungen](./Sort/test/SortInPythonL.pdf)__ 
  
