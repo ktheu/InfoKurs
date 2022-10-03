@@ -43,23 +43,21 @@ ___________________________________________________________________
 
 
 __[Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf)__ -
+__[Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md)__
 __[Aufgaben](./Komplexitaet/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Komplexitaet/Test/Musteraufgaben_Loesung.pdf)__
 
 __[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/folien/Sort.pdf)__ -
-__[HeapSort](./HeapSort/Folien/HeapSort.pdf)__ --
-__[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/280_sort.ipynb)__ --
-__[Quiz](./Sort/Quiz/index.html)__ --
-__[Laufzeitmessung](./Sort/Quiz/laufzeitmessung.html)__ --
+__[HeapSort](./HeapSort/Folien/HeapSort.pdf)__ -
+__[Code](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/master/Sort/sort.ipynb)__ -
 __[Aufgaben](./Sort/test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)__ -
 __[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFjt8gEHQO--Am87hO0zfix)__
 
-__[Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md)__
 
-__[Sort in Python](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/282_sort_in_python.ipynb)__ --
-__[Aufgaben](./Sort_In_Python/test/Musteraufgaben.pdf)__ -
-__[Lösungen](./Sort_In_Python/test/Musteraufgaben_Loesung.pdf)__ 
+__[Sort in Python](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/master/Sort/sort_in_python.ipynb)__ --
+__[Aufgaben](./Sort/test/SortInPython.pdf)__ -
+__[Lösungen](./Sort/test/SortInPythonL.pdf)__ 
  
 
 ___________________________________________________________________
