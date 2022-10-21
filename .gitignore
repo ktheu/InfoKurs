@@ -12,4 +12,5 @@
 *.code-workspace
 *.ipynb_checkpoints
 test.py
+Loesungen/*
 
