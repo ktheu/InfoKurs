@@ -14,9 +14,11 @@ __[Algorithmus und Programm](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-
 __[Aufgaben](./Algorithmus/Aufgaben/Musteraufgaben.pdf)__ -
 __[Lösungen](./Algorithmus/Aufgaben/Musteraufgaben_Loesung.pdf)__ 
 
-__[Rekursion](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Rekursion/rekursion.ipynb)__ -
+__[Rekursion](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)__ -
 __[Aufgaben](./Rekursion/Test/Musteraufgaben.pdf)__ -
-__[Lösungen](./Rekursion/Test/Musteraufgaben_Loesung.pdf)__ 
+__[Lösungen](./Rekursion/Test/Musteraufgaben_Loesung.pdf)__ - 
+__[c](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Rekursion/rekursion.ipynb)__
+__[s](https://nbviewer.org/format/slides/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)__
 
 
 ***
