@@ -25,6 +25,9 @@ div.input_area {
 div.inner_cell>div.text_cell_render.rendered_html>pre {
     margin: 0px;
     font-weight: bold;
+    font-size: larger;
+    background-color: #f0f0f0;
+
 }
 
 div.inner_cell>div.text_cell_render.rendered_html>pre>code {
