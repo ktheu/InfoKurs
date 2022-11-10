@@ -24,11 +24,9 @@ __[Mandelbrotmenge](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rek
 ***
 
 
-__[Codierung ganzer Zahlen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb)__
+__[Codierung ganzer Zahlen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb)__ -
 __[Aufgaben](./Codierung/Test/Musteraufgaben.pdf)__ -
 __[Lösungen](./Codierung/Test/Musteraufgaben_Loesung.pdf)__ 
-<!-- __[c](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Codierung/codierung.ipynb)__ 
-__[s](https://nbviewer.org/format/slides/github/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb)__ -->
 
 
 __[ASCII, Unicode, UTF-8](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Unicode/unicode.ipynb)__ -
