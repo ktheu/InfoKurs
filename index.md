@@ -10,7 +10,7 @@ __[Python](./Python/python.md)__
 ***
 
 <!-- __[Algorithmus und Programm](./Algorithmus/Folien/Algorithmus.pdf)__ - -->
-__[Algorithmus und Programm](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Algorithmus/algorithmus.ipynb) - 
+__[Algorithmus und Programm](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Algorithmus/algorithmus.ipynb)__ - 
 __[Aufgaben](./Algorithmus/Aufgaben/Musteraufgaben.pdf)__ -
 __[Lösungen](./Algorithmus/Aufgaben/Musteraufgaben_Loesung.pdf)__ 
 <!-- -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Algorithmus/algorithmus.ipynb)__ - -->
