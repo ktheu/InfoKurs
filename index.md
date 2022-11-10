@@ -4,21 +4,18 @@
 ### Inhalte
  
 __[Python](./Python/python.md)__  
-<!-- - __[Merkhilfe](./Merkhilfe/Merkhilfe.pdf)__ -->
 
 
 ***
 
-<!-- __[Algorithmus und Programm](./Algorithmus/Folien/Algorithmus.pdf)__ - -->
 __[Algorithmus und Programm](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Algorithmus/algorithmus.ipynb)__ - 
 __[Aufgaben](./Algorithmus/Aufgaben/Musteraufgaben.pdf)__ -
 __[Lösungen](./Algorithmus/Aufgaben/Musteraufgaben_Loesung.pdf)__ 
-<!-- -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Algorithmus/algorithmus.ipynb)__ - -->
 
 __[Rekursion](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)__ -
 __[Aufgaben](./Rekursion/Test/Musteraufgaben.pdf)__ -
-__[Lösungen](./Rekursion/Test/Musteraufgaben_Loesung.pdf)__ 
-__[rekursive Bilder](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursiveBilder.ipynb)__ -
+__[Lösungen](./Rekursion/Test/Musteraufgaben_Loesung.pdf)__ -
+__[rekursive Bilder](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursiveBilder.ipynb)__ 
 
 
 ***
