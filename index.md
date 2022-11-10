@@ -10,15 +10,16 @@ __[Python](./Python/python.md)__
 ***
 
 <!-- __[Algorithmus und Programm](./Algorithmus/Folien/Algorithmus.pdf)__ - -->
-__[Algorithmus und Programm](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Algorithmus/algorithmus.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Algorithmus/algorithmus.ipynb)__ -
+__[Algorithmus und Programm](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Algorithmus/algorithmus.ipynb) - 
 __[Aufgaben](./Algorithmus/Aufgaben/Musteraufgaben.pdf)__ -
 __[Lösungen](./Algorithmus/Aufgaben/Musteraufgaben_Loesung.pdf)__ 
+<!-- -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Algorithmus/algorithmus.ipynb)__ - -->
 
 __[Rekursion](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)__ -
 __[Aufgaben](./Rekursion/Test/Musteraufgaben.pdf)__ -
-__[Lösungen](./Rekursion/Test/Musteraufgaben_Loesung.pdf)__ - 
-__[c](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Rekursion/rekursion.ipynb)__
-__[s](https://nbviewer.org/format/slides/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)__
+__[Lösungen](./Rekursion/Test/Musteraufgaben_Loesung.pdf)__ 
+<!-- __[c](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Rekursion/rekursion.ipynb)__
+__[s](https://nbviewer.org/format/slides/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)__ -->
 
 
 ***
@@ -26,9 +27,9 @@ __[s](https://nbviewer.org/format/slides/github/ktheu/InfoKurs/blob/gh-pages/Rek
 
 __[Codierung ganzer Zahlen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb)__
 __[Aufgaben](./Codierung/Test/Musteraufgaben.pdf)__ -
-__[Lösungen](./Codierung/Test/Musteraufgaben_Loesung.pdf)__ -
-__[c](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Codierung/codierung.ipynb)__ 
-__[s](https://nbviewer.org/format/slides/github/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb)__
+__[Lösungen](./Codierung/Test/Musteraufgaben_Loesung.pdf)__ 
+<!-- __[c](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Codierung/codierung.ipynb)__ 
+__[s](https://nbviewer.org/format/slides/github/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb)__ -->
 
 
 __[ASCII, Unicode, UTF-8](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Unicode/unicode.ipynb)__ -
