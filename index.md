@@ -130,7 +130,7 @@ __[Lösungen](./Graphen/Test/Musteraufgaben_Loesung.pdf)__ --
 __[BWInf](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/361_GraphenAufgaben.ipynb)__ --
 __[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHVtFQLF07HdrmbLI7dARgs)__
 
-__[TSP](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/370_TSP.ipynb)__
+__[TSP](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/TSP/TSP.ipynb)__
 
 __[Rucksack](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/375_Rucksack.ipynb)__ --
 __[Aufgaben](./Rucksack/Test/Musteraufgaben.pdf)__ -
