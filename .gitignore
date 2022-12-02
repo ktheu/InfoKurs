@@ -11,6 +11,7 @@
 .idea/workspace.xml
 *.code-workspace
 *.ipynb_checkpoints
+*Untitled*
 test.py
 Loesungen/*
 
