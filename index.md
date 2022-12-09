@@ -20,7 +20,7 @@
 **[Codierung ganzer Zahlen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb)** -
 **[Aufgaben](./Codierung/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Codierung/Test/Musteraufgaben_Loesung.pdf)** -
-**[x](./Codierung/aufgaben.ipynb)**
+**[x](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Codierung/aufgaben.ipynb)**
 
 **[ASCII, Unicode, UTF-8](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb) - [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Unicode/unicode.ipynb)** -
 **[Aufgaben](./Unicode/Test/Musteraufgaben.pdf)** -
