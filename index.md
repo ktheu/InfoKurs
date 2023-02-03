@@ -39,8 +39,8 @@
 
 **[Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf)** -
 **[Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md)** -
-**[Aufgaben](./Komplexitaet/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Komplexitaet/Test/Musteraufgaben_Loesung.pdf)**
+**[Aufgaben](./Komplexitaet/Aufgaben/Musteraufgaben.pdf)** -
+**[Lösungen](./Komplexitaet/Aufgaben/Musteraufgaben_Loesung.pdf)**
 
 **[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/folien/Sort.pdf)** -
 **[HeapSort](./HeapSort/Folien/HeapSort.pdf)** -
