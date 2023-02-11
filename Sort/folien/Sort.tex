@@ -67,13 +67,13 @@ Selection Sort
 \begin{lstlisting} 
 def selection_sort(a):
     for i in range(len(a)-1):
-        pos = i
-        min = a[i]
+        best = i
+        best_val = a[i]
         for j in range(i+1,len(a)):
-            if a[j] < min:
-                pos = j
-                min = a[j]
-        a[pos], a[i] = a[i], a[pos]
+            if a[j] < best_val:
+                best = j
+                best_val = a[j]
+        a[best],a[i] = a[i],a[best]
  \end{lstlisting} 
 \end{frame}
 
