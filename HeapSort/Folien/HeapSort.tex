@@ -56,7 +56,7 @@ child {node {~~~~}
 };
 \end{tikzpicture} 
 
-Ein \textit{binärer Baum} ist entweder leer oder besteht aus einem Knoten, dem zwei binäre Bäume zugeordnet sind. \pause Dieser heißt dann \textit{Vater} des linken bzw. rechten Teilbaums. \pause Ein Knoten ohne Vater heißt \textit{Wurzel}. \pause Die Knoten, die x zum Vater haben, sind seine \textit{Söhne}. Knoten ohne Söhne heißen
+Ein \textit{binärer Baum} ist entweder leer oder besteht aus einem Knoten, dem zwei binäre Bäume zugeordnet sind. \pause Dieser heißt dann der \textit{Elternknoten} des linken bzw. rechten Teilbaums. \pause Ein Knoten ohne einen Elternknoten heißt \textit{Wurzel}. \pause Die Knoten, die x als Elternknoten haben, sind seine \textit{Kinder}. Knoten ohne Kinder heißen
  \textit{Blätter}. \pause
 
 Im Beispiel hat der Baum 4 Ebenen. Die Wurzel ist auf Ebene 0, die zwei rechten Blätter sind auf Ebene 3.
@@ -67,7 +67,7 @@ Im Beispiel hat der Baum 4 Ebenen. Die Wurzel ist auf Ebene 0, die zwei rechten 
 Ein \textit{Heap} ist ein binärer Baum für den gilt:  
 \begin{itemize}
 \item Jeder Knoten enthält einen Schlüssel \\ \pause
-\item Schlüssel im Vater $\le$ Schlüssel im Sohn \\ \pause 
+\item Schlüssel im Elternknoten $\le$ Schlüssel im Kind \\ \pause 
 \item Alle Ebenen sind vollständig gefüllt, bis auf die letzte, die muss von links beginnend gefüllt sein. \pause
 \end{itemize}
 
@@ -108,9 +108,9 @@ child {node {58}}
 Index: & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10
 \end{tabular}
 
-linker Sohn von Knoten i: ~~~\pause 2i+1  \\
-rechter Sohn von Knoten i:  ~\pause 2i+2  \\
-Vater von Knoten i: ~~~~~~~~~ \pause (i$-$1)//2
+linkes Kind von Knoten i: ~~~\pause 2i+1  \\
+rechtes Kind von Knoten i:  ~\pause 2i+2  \\
+Elternknoten von Knoten i: ~~~~~~~~~ \pause (i$-$1)//2
 
 \end{frame}
 
@@ -283,9 +283,9 @@ child {node {49}}
 
 
 letzter Knoten: ~~~~~\pause a[len(a)-1] \\ \pause 
-Vater des letzten Knotens: \pause a[(len(a)-2)//2] \pause 
+Elternknoten des letzten Knotens: \pause a[(len(a)-2)//2] \pause 
 
-Beginne beim Vater des letzten Knotens. Gehe von dort rückwärts Ebene für Ebene durch und rufe den Elementen jeweils \textit{sift} zu.
+Beginne beim Elternknoten des letzten Knotens. Gehe von dort rückwärts Ebene für Ebene durch und rufe den Elementen jeweils \textit{sift} zu.
 \end{frame}
 
 \begin{frame}[fragile]
