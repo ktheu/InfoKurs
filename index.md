@@ -46,8 +46,9 @@
 **[HeapSort](./HeapSort/Folien/HeapSort.pdf)** -
 **[Code](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Sort/sort.ipynb)** -
 **[Aufgaben](./Sort/test/Musteraufgaben.pdf)** -
-**[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)** -
-**[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFjt8gEHQO--Am87hO0zfix)**
+**[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)**
+
+<!-- **[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFjt8gEHQO--Am87hO0zfix)** -->
 
 **[Sort in Python](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Sort/sort_in_python.ipynb)** -
 **[Aufgaben](./Sort/test/SortInPython.pdf)** -
