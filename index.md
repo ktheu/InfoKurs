@@ -25,7 +25,8 @@
 
 **[ASCII, Unicode, UTF-8](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb)** -
 **[Aufgaben](./Unicode/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Unicode/Test/Musteraufgaben_Loesung.pdf)**
+**[Lösungen](./Unicode/Test/Musteraufgaben_Loesung.pdf)** -
+**[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnHeHDg3UBiXcU8y7VJXlh)**
 
 **[QR-Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/235_qrcode.ipynb)**
 
