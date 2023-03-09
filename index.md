@@ -168,6 +168,6 @@
 
 **[Links](links.md)**
 
-<!-- [KlausurA](./2022-23-Inf11-1-A_Loesung.pdf) - [KlausurB](./2022-23-Inf11-1-B_Loesung.pdf) -->
+[KlausurA](./2022-23-Inf11-2-A_Loesung.pdf)
 
 <!-- - __[News](news.md)__  - __[Bewertung](bewertung.md)__   -->
