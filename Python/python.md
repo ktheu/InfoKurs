@@ -1,62 +1,35 @@
 ### Python
 
-
 [OpenHPI](https://open.hpi.de/courses/pythonjunior-schule2022) - [Folien](./openHpi/inhalte.md)
 
 [W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp)
 
-[Replit](https://replit.com/)
+[Replit](https://replit.com/) - [JupyterLab](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/jupyterlab.ipynb)
 
-***
+---
 
-__[Grundlagen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/grundlagen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/grundlagen.ipynb)__
+**[Grundlagen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/grundlagen.ipynb) - [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/grundlagen.ipynb)**
 
+**[Bedingungen, Schleifen, Strings](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/bedingungen.ipynb) - [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/bedingungen.ipynb)**
 
-__[Bedingungen, Schleifen, Strings](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/bedingungen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/bedingungen.ipynb)__
+**[Funktionen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/funktionen.ipynb) - [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/funktionen.ipynb)**
 
+**[Listen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/listen.ipynb) - [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/listen.ipynb)**
 
-__[Funktionen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/funktionen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/funktionen.ipynb)__
+**[Dictionaries](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/dicts.ipynb) - [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/dicts.ipynb)**
 
+**[Zufall](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/random.ipynb) - [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/random.ipynb)**
 
-__[Listen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/listen.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/listen.ipynb)__
+---
 
+**[Tupel](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/tupel.ipynb) - [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/tupel.ipynb)**
 
-__[Dictionaries](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/dicts.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/dicts.ipynb)__
+**[Sets](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/sets.ipynb) - [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/sets.ipynb)**
 
-__[Zufall](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/random.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/random.ipynb)__
+**[reguläre Ausdrücke](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/regulaereAusdruecke.ipynb) - [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/regulaereAusdruecke.ipynb)**
 
-----
+**[itertools](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/itertools.ipynb) - [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/itertools.ipynb)**
 
-__[Tupel](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/tupel.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/tupel.ipynb)__
+**[numpy](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/numpy.ipynb) - [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/numpy.ipynb)**
 
-
-__[Sets](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/sets.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/sets.ipynb)__
-
-__[reguläre Ausdrücke](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/regulaereAusdruecke.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/regulaereAusdruecke.ipynb)__
-
-__[itertools](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/itertools.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/itertools.ipynb)__
-
-
-__[numpy](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/numpy.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/numpy.ipynb)__
-
-__[pil](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/pil.ipynb) -  [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/pil.ipynb)__
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**[pil](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/pil.ipynb) - [colab](https://colab.research.google.com/github/ktheu/InfoKurs/blob/master/Python/pil.ipynb)**
