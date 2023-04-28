@@ -1,6 +1,6 @@
 ### Inhalte
 
-**[Python](./Python/python.md)** - **[Uebungen](https://github.com/ktheu/PythonUebungen/blob/master/index.md)**
+**[Python](./Python/python.md)** - **[Uebungen](https://github.com/ktheu/PythonUebungen/blob/master/readme.md)**
 
 ---
 
