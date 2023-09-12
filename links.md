@@ -7,8 +7,8 @@
   * [Python Standard Library](https://docs.python.org/3/library/index.html#library-index)
   * [W3C Python Tutorial](https://www.w3schools.com/python/default.asp)
 
-* Replit
-  * [InfokursA](https://replit.com/teams/join/cjkhhkrgmhfnahjwkdllbrapjbywzebu-InfokursA)
+<!-- * Replit
+  * [InfokursA](https://replit.com/teams/join/cjkhhkrgmhfnahjwkdllbrapjbywzebu-InfokursA) -->
 
 * Sort
    * [Obama at Google](https://www.youtube.com/watch?v=k4RRi_ntQc8)
@@ -30,7 +30,7 @@
   * [Beyond Computation: The P vs NP Problem - Michael Sipser](https://www.youtube.com/watch?v=msp2y_Y5MLE)
   * [P vs. NP - An Introduction](https://www.youtube.com/watch?v=OY41QYPI8cw)
 
-
+<!-- 
 ---
 ### Links für Colab und Slides
 
@@ -47,7 +47,7 @@ Um ein Notebook im Slides-Modus zu öffen in den nbviewer-Link vor github einfü
 format/slides
 Beispiel: https://nbviewer.org/format/slides/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb#/   
 
-```
+``` -->
 
  
  

@@ -163,7 +163,6 @@
 ---
 
 **[Codingame](https://www.codingame.com/home)**
-
 **[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb-informatik/)**
 
 ---
