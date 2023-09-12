@@ -112,7 +112,7 @@
 
 ---
 
-**[Graphen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/360_Graphen.ipynb)** -
+**[Graphen](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Graphen/Graphen.ipynb)** -
 **[Aufgaben](./Graphen/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Graphen/Test/Musteraufgaben_Loesung.pdf)** --
 **[BWInf](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/361_GraphenAufgaben.ipynb)** --
