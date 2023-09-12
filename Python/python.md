@@ -1,8 +1,8 @@
 ### Python
 
-[W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp)
+[Installation](installation.md)
 
-[Replit](https://replit.com/) - [JupyterLab](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/jupyterlab.ipynb)
+[JupyterLab](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/jupyterlab.ipynb)
 
 ---
 
