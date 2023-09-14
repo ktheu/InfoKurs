@@ -65,9 +65,10 @@
 
 ---
 
-**[Graphen - Teil1](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Graphen1/Graphen1.ipynb)** -
+**[Graphen1](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Graphen1/Graphen1.ipynb)** -
 **[Aufgaben](./Graphen1/Aufgaben/Musteraufgaben.pdf)** -
 **[Lösungen](./Graphen1/Aufgaben/Musteraufgaben_Loesung.pdf)**
+
 ---
 
 **[ADT Liste](./Liste/Inhalte/liste.md)** -
