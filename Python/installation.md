@@ -10,9 +10,11 @@ Python hat einen interaktiven und einen script-Modus. Für den interaktiven Modu
 
 ### Für den Kurs benötigst du Accounts bei:
 
-Codingame: https://www.codingame.com/home
-Replit: https://replit.com/
-Bwinf: https://pms.bwinf.de/app/PMS    
+[Codingame](https://www.codingame.com/home)
+
+[Replit](https://replit.com/)
+
+[Bwinf](https://pms.bwinf.de/app/PMS)  
 
 
 
