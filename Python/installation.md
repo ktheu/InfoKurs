@@ -8,4 +8,13 @@ Python hat einen interaktiven und einen script-Modus. Für den interaktiven Modu
 4. Installiere VSCode Extension für Python
 
 
+### Für den Kurs benötigst du Accounts bei:
+
+Codingame: https://www.codingame.com/home
+Replit: https://replit.com/
+Bwinf: https://pms.bwinf.de/app/PMS    
+
+
+
+
 
