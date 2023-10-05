@@ -1,6 +1,6 @@
 ### Inhalte
 
-**[Python](./Python/python.md)** 
+**[Python](./Python/python.md)**  -  **[PythonLernen](./PythonLernen/index.md)** 
 
 ---
 
@@ -65,7 +65,7 @@
 
 ---
 
-**[Graphen1](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Graphen1/Graphen1.ipynb)** -
+
 **[Aufgaben](./Graphen1/Aufgaben/Musteraufgaben.pdf)** -
 **[Lösungen](./Graphen1/Aufgaben/Musteraufgaben_Loesung.pdf)**
 
