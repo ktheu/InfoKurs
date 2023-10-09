@@ -1,11 +1,5 @@
 ### Python
 
-[Installation](installation.md)
-
-[JupyterLab](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/jupyterlab.ipynb)
-
----
-
 **[Grundlagen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/grundlagen.ipynb)**
 
 **[Bedingungen, Schleifen, Strings](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Python/bedingungen.ipynb)**

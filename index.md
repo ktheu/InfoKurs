@@ -1,6 +1,6 @@
 ### Inhalte
 
-**[Python](./Python/python.md)**  -  **[PythonLernen](./PythonLernen/index.md)** 
+**[Python](./Python/python.md)**  
 
 ---
 
