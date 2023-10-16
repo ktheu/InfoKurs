@@ -1,8 +1,6 @@
 ### Inhalte
 
-**[Python](./Python/python.md)**  
 
----
 
 **[Algorithmus und Programm](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Algorithmus/algorithmus.ipynb)** -
 **[Aufgaben](./Algorithmus/Aufgaben/Musteraufgaben.pdf)** -
