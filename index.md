@@ -65,7 +65,8 @@
 
 **[Graphen1](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Graphen1/Graphen1.ipynb)** -
 **[Aufgaben](./Graphen1/Aufgaben/Musteraufgaben.pdf)** -
-**[Lösungen](./Graphen1/Aufgaben/Musteraufgaben_Loesung.pdf)**
+**[Lösungen](./Graphen1/Aufgaben/Musteraufgaben_Loesung.pdf)** -
+**[Vidoes](./Graphen1/videos.md)**
 
 ---
 
