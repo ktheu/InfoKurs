@@ -160,9 +160,10 @@
 
 ---
 
-**[Datenbanken](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/601_db_entwurf.ipynb)** -
-**[SQL](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/602_db_sqlite.ipynb)** -
-**[Aufgaben](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/605_db_aufgaben.ipynb)**
+**[Datenbanken](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_entwurf.ipynb)** -
+**[SQL](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_sqlite.ipynb)** -
+**[Aufgaben](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben.ipynb)** -
+**[Lösungen](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben_loes.ipynb)**
 
 ---
 
