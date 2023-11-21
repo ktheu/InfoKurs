@@ -70,10 +70,10 @@
 
 ---
 
-**[ADT Liste](./Liste/Inhalte/liste.md)** -
+**[ADT Liste]([./Liste/Inhalte/liste.md](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Liste/liste.ipynb))** -
 **[Keller und Schlange](./KellerUndSchlange/Inhalte/kellerUndSchlange.html)** -
 **[Code](./Liste/code.md)** -
-**[Quiz](./Liste/Quiz/quiz.html)** --
+<!-- **[Quiz](./Liste/Quiz/quiz.html)** -- -->
 **[Aufgaben](./Liste/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Liste/Test/Musteraufgaben_Loesung.pdf)** -
 **[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIH7asB4wFcftC0OZ2BH1Mad)**
