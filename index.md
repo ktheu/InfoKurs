@@ -71,7 +71,7 @@
 ---
 
 **[ADT Liste](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Liste/liste.ipynb)** -
-**[Keller und Schlange](./KellerUndSchlange/Inhalte/kellerUndSchlange.html)** -
+**[Keller und Schlange](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/KellerUndSchlange/keller_schlange.ipynb)** -
 **[Aufgaben](./Liste/Aufgaben/Musteraufgaben.pdf)** -
 **[Lösungen](./Liste/Aufgaben/Musteraufgaben_Loesung.pdf)** -
 **[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIH7asB4wFcftC0OZ2BH1Mad)**
