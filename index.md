@@ -70,7 +70,7 @@
 
 ---
 
-**[ADT Liste]([./Liste/Inhalte/liste.md](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Liste/liste.ipynb))** -
+**[ADT Liste](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Liste/liste.ipynb)** -
 **[Keller und Schlange](./KellerUndSchlange/Inhalte/kellerUndSchlange.html)** -
 **[Aufgaben](./Liste/Aufgaben/Musteraufgaben.pdf)** -
 **[Lösungen](./Liste/Aufgaben/Musteraufgaben_Loesung.pdf)** -
