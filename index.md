@@ -76,8 +76,7 @@
 **[Lösungen](./Liste/Aufgaben/Musteraufgaben_Loesung.pdf)** -
 **[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIH7asB4wFcftC0OZ2BH1Mad)**
 
-**[ADT Baum](./Baum/Folien/Baum.pdf)** -
-**[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/310_Baum.ipynb)** --
+**[ADT Baum](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Baum/baum.ipynb)** -
 **[Aufgaben](./Baum/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Baum/Test/Musteraufgaben_Loesung.pdf)**
 
