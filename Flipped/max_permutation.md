@@ -1,6 +1,6 @@
 ### Maximum Permutation Problem
 
-[Problemstellung](https://youtu.be/LMQ4d7biEuQ) - [Beispiel](https://youtu.be/pg_WADq6P90)
+[Problemstellung](https://youtu.be/Rdp_fl50GSI) - [Beispiel](https://youtu.be/CU2eECLB0J8)
 
 Bestimme nach dem Verfahren aus dem Unterricht die Menge der erfüllbaren Wünsche für folgende Probleminstanzen:
 
