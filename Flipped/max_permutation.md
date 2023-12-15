@@ -17,4 +17,5 @@ Bestimme nach dem Verfahren aus dem Unterricht die Menge der erfüllbaren Wünsc
 **Lösungen**
 
    A1: 0 1 2 5 7
+   
    A2: 1 5 8
