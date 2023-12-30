@@ -77,11 +77,11 @@
 **[Lösungen](./Liste/Aufgaben/Musteraufgaben_Loesung.pdf)** -
 **[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIH7asB4wFcftC0OZ2BH1Mad)**
 
-**[ADT Baum](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Baum/baum.ipynb)** -
+**[Binärer Baum](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Baum/baum.ipynb)** -
 **[Aufgaben](./Baum/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Baum/Test/Musteraufgaben_Loesung.pdf)**
 
-**[Suchbaum](./Suchbaum/Folien/Suchbaum.pdf)** -
+**[Binärer Suchbaum](./Suchbaum/Folien/Suchbaum.pdf)** -
 **[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/320_Suchbaum.ipynb)**
 
 ---
