@@ -77,8 +77,8 @@
 **[Lösungen](./Liste/Aufgaben/Musteraufgaben_Loesung.pdf)** -
 **[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIH7asB4wFcftC0OZ2BH1Mad)**
 
-**[Binärer Baum](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Baum/baum.ipynb)** -
-**[Binärer Suchbaum](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Suchbaum/binaererSuchbaum.ipynb)** -
+**[Binärer Baum](https://github.com/ktheu/InfoKurs/blob/gh-pages/Baum/baum.ipynb)** -
+**[Binärer Suchbaum](https://github.com/ktheu/InfoKurs/blob/gh-pages/Suchbaum/binaererSuchbaum.ipynb)** -
 **[Aufgaben](./Baum/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Baum/Test/Musteraufgaben_Loesung.pdf)**
 
