@@ -79,8 +79,8 @@
 
 **[Binärer Baum](https://github.com/ktheu/InfoKurs/blob/gh-pages/Baum/baum.ipynb)** -
 **[Binärer Suchbaum](https://github.com/ktheu/InfoKurs/blob/gh-pages/Suchbaum/binaererSuchbaum.ipynb)** -
-**[Aufgaben](./Baum/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Baum/Test/Musteraufgaben_Loesung.pdf)**
+**[Aufgaben](./Baum/Aufgaben/Musteraufgaben.pdf)** -
+**[Lösungen](./Baum/Aufgaben/Musteraufgaben_Loesung.pdf)**
 
 <!-- **[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/320_Suchbaum.ipynb)** -->
 
