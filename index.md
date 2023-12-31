@@ -88,7 +88,8 @@
 
 **[Kryptologie](https://github.com/ktheu/InfoKurs/blob/gh-pages/Kryptologie/kryptologie.ipynb)** -
 **[Aufgaben](./Kryptologie/Aufgaben/Musteraufgaben.pdf)** -
-**[Lösungen](./Kryptologie/Aufgaben/Musteraufgaben_Loesung.pdf)** -
+**[Lösungen](./Kryptologie/Aufgaben/Musteraufgaben_Loesung.pdf)** 
+
 ---
 
 **[Spielbaum: MinMax- und AlphaBeta-Algorithmus](./Spielbaum/Folien/Spielbaum.pdf)** -
