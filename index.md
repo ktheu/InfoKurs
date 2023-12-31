@@ -86,6 +86,10 @@
 
 ---
 
+**[Kryptologie](https://github.com/ktheu/InfoKurs/blob/gh-pages/Kryptologie/kryptologie.ipynb)** 
+
+---
+
 **[Spielbaum: MinMax- und AlphaBeta-Algorithmus](./Spielbaum/Folien/Spielbaum.pdf)** -
 **[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/330_Spielbaum.ipynb)** --
 **[Aufgaben](./Spielbaum/Test/Musteraufgaben.pdf)** -
@@ -97,7 +101,7 @@
 **[Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb)** --
 **[Aufgaben](./Search/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Search/Test/Musteraufgaben_Loesung.pdf)** -
-**[BWInf](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/341_Search_Aufgaben.ipynb)** -
+<!-- **[BWInf](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/341_Search_Aufgaben.ipynb)** - -->
 **[Videos Search](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHZ1gl7gdyAEUSkmpC-Keqh)** -
 **[Videos Maze](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFzRUfHNvJz9u0iUYdrBkJf)** -
 **[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGQatNznsjpbxSSiIKLM_J2)**
@@ -165,6 +169,8 @@
 
 ---
 
+
+
 **[Flipped](./Flipped/index.md)**
 
 
@@ -172,6 +178,6 @@
 
 **[Links](links.md)**
 
-[KlausurA](./2023-24-Inf11_12_1-A_Loesung.pdf) 
+<!-- [KlausurA](./2023-24-Inf11_12_1-A_Loesung.pdf)  -->
 
 <!-- - __[News](news.md)__  - __[Bewertung](bewertung.md)__   -->
