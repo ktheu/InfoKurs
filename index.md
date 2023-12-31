@@ -86,7 +86,9 @@
 
 ---
 
-**[Kryptologie](https://github.com/ktheu/InfoKurs/blob/gh-pages/Kryptologie/kryptologie.ipynb)** 
+**[Kryptologie](https://github.com/ktheu/InfoKurs/blob/gh-pages/Kryptologie/kryptologie.ipynb)** -
+**[Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/Kryptologie/aufgaben.ipynb)** -
+**[Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Kryptologie/loesungen.ipynb)** 
 
 ---
 
