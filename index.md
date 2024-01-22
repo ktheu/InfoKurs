@@ -103,7 +103,6 @@
 **[Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb)** --
 **[Aufgaben](./Search/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Search/Test/Musteraufgaben_Loesung.pdf)** -
-<!-- **[BWInf](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/341_Search_Aufgaben.ipynb)** - -->
 **[Videos Search](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHZ1gl7gdyAEUSkmpC-Keqh)** -
 **[Videos Maze](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFzRUfHNvJz9u0iUYdrBkJf)** -
 **[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGQatNznsjpbxSSiIKLM_J2)**
