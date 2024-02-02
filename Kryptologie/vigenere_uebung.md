@@ -8,7 +8,7 @@ Bestimme zunächst die Schlüssellänge mit
 
 Rekonstruiere dann den Schlüssel: [Schlüsselrekonstruktion](https://kryptografie.de/kryptografie/kryptoanalyse/2-3-2-brechen-von-vigenere-mittels-schluesselrekonstruktion.htm)
 
-Eingabe dort: z.B. 12,3,7  - Schlüssellänge 12, beginnend bei Buchstabe 3, Gebirge um 7 nach links verschoben.
+Eingabe dort: z.B. 12,3,7  - Schlüssellänge 12, beginnend bei Buchstabe 3, Gebirge um 7-1 nach links verschoben.
 Wenn die Häufigkeitsgebirge übereinstimmen, ist der über 'a' stehende Buchstabe der nächste Buchstabe im Schlüssel.
 
 
