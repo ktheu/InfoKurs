@@ -92,6 +92,14 @@
 
 ---
 
+**[Datenbanken](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_entwurf.ipynb)** -
+**[SQL](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_sqlite_new.ipynb)** -
+**[Aufgaben](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben.ipynb)** -
+**[Lösungen](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben_loes.ipynb)**
+
+---
+
+
 **[Spielbaum: MinMax- und AlphaBeta-Algorithmus](./Spielbaum/Folien/Spielbaum.pdf)** -
 **[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/330_Spielbaum.ipynb)** --
 **[Aufgaben](./Spielbaum/Test/Musteraufgaben.pdf)** -
@@ -163,10 +171,7 @@
 
 ---
 
-**[Datenbanken](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_entwurf.ipynb)** -
-**[SQL](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_sqlite.ipynb)** -
-**[Aufgaben](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben.ipynb)** -
-**[Lösungen](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben_loes.ipynb)**
+
 
 ---
 
