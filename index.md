@@ -94,8 +94,9 @@
 
 **[Datenbanken](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_entwurf.ipynb)** -
 **[SQL](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_sqlite_new.ipynb)** -
-**[Aufgaben](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben.ipynb)** -
-**[Lösungen](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben_loes.ipynb)**
+**[SQL-Übungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/sql_uebungen.ipynb)** -
+**[Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben.ipynb)** -
+**[Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben_loes.ipynb)**
 
 ---
 
@@ -168,10 +169,6 @@
 **[Turingmaschine und Berechenbarkeit](Turingmaschinen/Inhalte/turingmaschinen.html)** --
 **[Aufgaben](./Turingmaschinen/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Turingmaschinen/Test/Musteraufgaben_Loesung.pdf)**
-
----
-
-
 
 ---
 
