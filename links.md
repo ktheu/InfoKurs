@@ -30,6 +30,9 @@
   * [Beyond Computation: The P vs NP Problem - Michael Sipser](https://www.youtube.com/watch?v=msp2y_Y5MLE)
   * [P vs. NP - An Introduction](https://www.youtube.com/watch?v=OY41QYPI8cw)
 
+* Blockchain und Bitcoin
+  * [Blockchain 1](https://andersbrownworth.com/blockchain/hash) - [Blockchain 2](https://andersbrownworth.com/blockchain/public-private-keys/keys) - [Bitcoin](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
+
 <!-- 
 ---
 ### Links für Colab und Slides
