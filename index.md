@@ -108,7 +108,7 @@
 
 ---
 
-**[Search: bfs, dfs, greedy, A\*](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/340_Search.ipynb)** --
+**[Search: bfs, greedy, A*](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search/Search.ipynb)** --
 **[Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb)** --
 **[Aufgaben](./Search/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Search/Test/Musteraufgaben_Loesung.pdf)** -
