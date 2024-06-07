@@ -2762,3 +2762,5 @@ def createDB():
     mitglieder_fuellen()
     teilnehmer_fuellen()
     andere_tabellen_fuellen()
+
+createDB()
