@@ -2,7 +2,7 @@
 
 
 
-**[Algorithmus und Programm](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Algorithmus/algorithmus.ipynb)** -
+**[Algorithmus und Programm](https://github.com/ktheu/InfoKurs/blob/gh-pages/Algorithmus/algorithmus.ipynb)** -
 **[Aufgaben](./Algorithmus/Aufgaben/Musteraufgaben.pdf)** -
 **[Lösungen](./Algorithmus/Aufgaben/Musteraufgaben_Loesung.pdf)**
 
