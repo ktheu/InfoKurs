@@ -6,7 +6,7 @@
 **[Aufgaben](./Algorithmus/Aufgaben/Musteraufgaben.pdf)** -
 **[Lösungen](./Algorithmus/Aufgaben/Musteraufgaben_Loesung.pdf)**
 
-**[Rekursion](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)** -
+**[Rekursion](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)** -
 **[Aufgaben](./Rekursion/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Rekursion/Test/Musteraufgaben_Loesung.pdf)**
 
