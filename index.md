@@ -28,7 +28,7 @@
 
 **[Die Lochkarte](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/240_lochkarte.ipynb)** -->
 
-**[Huffman-Algorithmus](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Huffman/huffman.ipynb)** -
+**[Huffman-Algorithmus](https://github.com/ktheu/InfoKurs/blob/gh-pages/Huffman/huffman.ipynb)** -
 **[Aufgaben](./Huffman/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Huffman/Test/Musteraufgaben_Loesung.pdf)**
 
@@ -41,13 +41,13 @@
 
 **[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/folien/Sort.pdf)** -
 **[HeapSort](./HeapSort/Folien/HeapSort.pdf)** -
-**[Code](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Sort/sort.ipynb)** -
+**[Code](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort/sort.ipynb)** -
 **[Aufgaben](./Sort/test/Musteraufgaben.pdf)** -
 **[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)**
 
 <!-- **[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFjt8gEHQO--Am87hO0zfix)** -->
 
-**[Sort in Python](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Sort/sort_in_python.ipynb)** -
+**[Sort in Python](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort/sort_in_python.ipynb)** -
 **[Aufgaben](./Sort/test/SortInPython.pdf)** -
 **[Lösungen](./Sort/test/SortInPythonL.pdf)**
 
