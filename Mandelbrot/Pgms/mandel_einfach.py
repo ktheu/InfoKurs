@@ -23,7 +23,7 @@ screen.tracer(0,0)
 t = Turtle()
 t.hideturtle()
 
-iterationen = 10
+iterationen = 3
 schritt = 0.005
 x = -2.0
 while x < 0.45:     # -2.0 <= x <= 0.45

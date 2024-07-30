@@ -11,7 +11,7 @@
 **[Lösungen](./Rekursion/Test/Musteraufgaben_Loesung.pdf)**
 
 **[Rekursive Bilder](https://github.com/ktheu/InfoKurs/blob/gh-pages/Turtle/turtle.ipynb)** -
-**[Mandelbrotmenge](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/mandelbrot.ipynb)**
+**[Mandelbrotmenge](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/mandelbrot.ipynb)**
 
 ---
 
