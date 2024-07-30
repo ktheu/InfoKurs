@@ -17,18 +17,16 @@
 
 **[Codierung ganzer Zahlen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb)** -
 **[Aufgaben](./Codierung/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Codierung/Test/Musteraufgaben_Loesung.pdf)** -
-
-<!-- **[x](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Codierung/aufgaben.ipynb)** -->
+**[Lösungen](./Codierung/Test/Musteraufgaben_Loesung.pdf)** 
 
 **[ASCII, Unicode, UTF-8](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb)** -
 **[Aufgaben](./Unicode/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Unicode/Test/Musteraufgaben_Loesung.pdf)** -
 **[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnHeHDg3UBiXcU8y7VJXlh)**
-
+<!-- 
 **[QR-Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/235_qrcode.ipynb)**
 
-**[Die Lochkarte](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/240_lochkarte.ipynb)**
+**[Die Lochkarte](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/240_lochkarte.ipynb)** -->
 
 **[Huffman-Algorithmus](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Huffman/huffman.ipynb)** -
 **[Aufgaben](./Huffman/Test/Musteraufgaben.pdf)** -
