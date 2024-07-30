@@ -15,7 +15,7 @@
 
 ---
 
-**[Codierung ganzer Zahlen](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb)** -
+**[Codierung ganzer Zahlen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb)** -
 **[Aufgaben](./Codierung/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Codierung/Test/Musteraufgaben_Loesung.pdf)** -
 
