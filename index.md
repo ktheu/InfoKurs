@@ -19,7 +19,7 @@
 **[Aufgaben](./Codierung/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Codierung/Test/Musteraufgaben_Loesung.pdf)** 
 
-**[ASCII, Unicode, UTF-8](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb)** -
+**[ASCII, Unicode, UTF-8](https://github.com/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb)** -
 **[Aufgaben](./Unicode/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Unicode/Test/Musteraufgaben_Loesung.pdf)** -
 **[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnHeHDg3UBiXcU8y7VJXlh)**
