@@ -1,16 +1,1 @@
-Die Tiefensuche ist nicht geeignet, um den kürzesten Weg zu finden.
-
-```
-def dfs(s):
-    frontier =  [startstate]
-    prev = {startstate:None}
-    while frontier:
-        state = frontier.pop()  
-        if goaltest(state):
-            return prev,state
-        for v in nextstates(state):
-            if v not in prev:
-                frontier.append(v)
-                prev[v] = state
-    return None, None
-```
+Um eine Instanz des Online-Spiels zu lösen, müssen wir den goalstate auf (1,2,3,4,5,6,7,8,0) ändern und uns nach dem shuffle, die Nummern anzeigen lassen.
