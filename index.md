@@ -53,11 +53,10 @@
 
 ---
 
-**[Klassen und Objekte](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Klassen/klassen.ipynb)** -
+**[Klassen und Objekte](https://github.com/ktheu/InfoKurs/blob/gh-pages/Klassen/klassen.ipynb)** -
 **[Aufgaben](./Klassen/Test/Musteraufgaben.pdf)** -
 **[Lösungen](./Klassen/Test/Musteraufgaben_Loesung.pdf)** -
 **[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnMqGKvnU0LZxYcmUQdb9o)**
-<!-- **[Beispiel](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Klassen/fantastic.ipynb)** - -->
 
 ---
 
