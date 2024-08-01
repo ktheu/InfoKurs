@@ -7,8 +7,8 @@
 **[Lösungen](./Algorithmus/Aufgaben/Musteraufgaben_Loesung.pdf)**
 
 **[Rekursion](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)** -
-**[Aufgaben](./Rekursion/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Rekursion/Test/Musteraufgaben_Loesung.pdf)**
+**[Aufgaben](./Rekursion/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Rekursion/Aufgaben/aufgaben_loes.pdf)**
 
 **[Rekursive Bilder](https://github.com/ktheu/InfoKurs/blob/gh-pages/Turtle/turtle.ipynb)** -
 **[Mandelbrotmenge](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/mandelbrot.ipynb)**
