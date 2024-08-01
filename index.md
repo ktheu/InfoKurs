@@ -60,15 +60,9 @@
 
 ---
 
-**[Graphen1](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Graphen1/Graphen1.ipynb)** -
-**[Aufgaben](./Graphen1/Aufgaben/Musteraufgaben.pdf)** -
-**[Lösungen](./Graphen1/Aufgaben/Musteraufgaben_Loesung.pdf)** -
-**[Videos](./Graphen1/videos.md)**
 
----
-
-**[ADT Liste](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Liste/liste.ipynb)** -
-**[Keller und Schlange](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/KellerUndSchlange/keller_schlange.ipynb)** -
+**[ADT Liste](https://github.com/ktheu/InfoKurs/blob/gh-pages/Liste/liste.ipynb)** -
+**[Keller und Schlange](https://github.com/ktheu/InfoKurs/blob/gh-pages/KellerUndSchlange/keller_schlange.ipynb)** -
 **[Aufgaben](./Liste/Aufgaben/Musteraufgaben.pdf)** -
 **[Lösungen](./Liste/Aufgaben/Musteraufgaben_Loesung.pdf)** -
 **[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIH7asB4wFcftC0OZ2BH1Mad)**
@@ -77,6 +71,15 @@
 **[Binärer Suchbaum](https://github.com/ktheu/InfoKurs/blob/gh-pages/Suchbaum/binaererSuchbaum.ipynb)** -
 **[Aufgaben](./Baum/Aufgaben/Musteraufgaben.pdf)** -
 **[Lösungen](./Baum/Aufgaben/Musteraufgaben_Loesung.pdf)**
+
+---
+
+**[Graphen1](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Graphen1/Graphen1.ipynb)** -
+**[Aufgaben](./Graphen1/Aufgaben/Musteraufgaben.pdf)** -
+**[Lösungen](./Graphen1/Aufgaben/Musteraufgaben_Loesung.pdf)** -
+**[Videos](./Graphen1/videos.md)**
+
+
 
 <!-- **[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/320_Suchbaum.ipynb)** -->
 
