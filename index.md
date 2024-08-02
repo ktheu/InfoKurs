@@ -108,30 +108,10 @@
 
 ---
 
-
-<!-- **[TSP](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/TSP/TSP.ipynb)**
-
-**[Rucksack](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/375_Rucksack.ipynb)** --
-**[Aufgaben](./Rucksack/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Rucksack/Test/Musteraufgaben_Loesung.pdf)** -->
-
----
-<!-- 
-**[Backtracking](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/380_backtracking.ipynb)**
-
----
-
-**[Neuronale Netze - Grundlagen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn01.ipynb)** -
-**[Tensoren](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn02_tensoren.ipynb)** -
-**[Pytorch](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn03_fashion.ipynb)** -
-**[Fashion MNIST](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn04_fashion_conv.ipynb)** -
-**[Fashion MNIST CNN](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn05_convolutions.ipynb)** -
-**[Architekturen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn06_architekturen.ipynb)** --
-**[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGPUkaj3G4gBfXMJO4NSeMv)** -->
-
----
-
 **[P = NP?](./NP/Folien/NP.pdf)**
+
+---
+
 **[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)**
 
 **[Endliche Automaten und Formale Sprachen](./Automaten/Inhalte/automaten.html)** --
@@ -157,3 +137,23 @@
 <!-- [KlausurA](./2023-24-Inf11_12_2-A_Loesung.pdf)  -->
 
 
+
+<!-- **[TSP](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/TSP/TSP.ipynb)**
+
+**[Rucksack](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/375_Rucksack.ipynb)** --
+**[Aufgaben](./Rucksack/Test/Musteraufgaben.pdf)** -
+**[Lösungen](./Rucksack/Test/Musteraufgaben_Loesung.pdf)** -->
+
+
+<!-- 
+**[Backtracking](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/380_backtracking.ipynb)**
+
+---
+
+**[Neuronale Netze - Grundlagen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn01.ipynb)** -
+**[Tensoren](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn02_tensoren.ipynb)** -
+**[Pytorch](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn03_fashion.ipynb)** -
+**[Fashion MNIST](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn04_fashion_conv.ipynb)** -
+**[Fashion MNIST CNN](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn05_convolutions.ipynb)** -
+**[Architekturen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn06_architekturen.ipynb)** --
+**[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGPUkaj3G4gBfXMJO4NSeMv)** -->
