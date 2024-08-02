@@ -58,7 +58,7 @@
 **[Keller und Schlange](https://github.com/ktheu/InfoKurs/blob/gh-pages/KellerUndSchlange/keller_schlange.ipynb)** -
 **[Aufgaben](./Liste/Aufgaben/aufgaben.pdf)** -
 **[Lösungen](./Liste/Aufgaben/aufgaben_loes.pdf)** -
-**[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIH7asB4wFcftC0OZ2BH1Mad)**
+**[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIH7asB4wFcftC0OZ2BH1Mad)**
 
 **[Binärer Baum](https://github.com/ktheu/InfoKurs/blob/gh-pages/Baum/baum.ipynb)** -
 **[Binärer Suchbaum](https://github.com/ktheu/InfoKurs/blob/gh-pages/Suchbaum/binaererSuchbaum.ipynb)** -
