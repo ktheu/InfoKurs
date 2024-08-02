@@ -67,6 +67,14 @@
 
 ---
 
+**[Search: bfs, greedy, A*](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search/Search.ipynb)** -
+**[Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb)** -
+**[Aufgaben](./Search/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Search/Aufgaben/aufgaben_loes.pdf)** -
+**[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGQatNznsjpbxSSiIKLM_J2)**
+
+---
+
 **[Graphen1](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Graphen1/Graphen1.ipynb)** -
 **[Aufgaben](./Graphen1/Aufgaben/Musteraufgaben.pdf)** -
 **[Lösungen](./Graphen1/Aufgaben/Musteraufgaben_Loesung.pdf)** -
@@ -100,15 +108,7 @@
 
 ---
 
-**[Search: bfs, greedy, A*](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search/Search.ipynb)** --
-**[Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb)** --
-**[Aufgaben](./Search/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Search/Test/Musteraufgaben_Loesung.pdf)** -
-**[Videos Search](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHZ1gl7gdyAEUSkmpC-Keqh)** -
-**[Videos Maze](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFzRUfHNvJz9u0iUYdrBkJf)** -
-**[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGQatNznsjpbxSSiIKLM_J2)**
 
----
 
 **[P = NP?](./NP/Folien/NP.pdf)**
 
