@@ -21,21 +21,17 @@
 **[Aufgaben](./Unicode/Aufgaben/aufgaben.pdf)** -
 **[Lösungen](./Unicode/Aufgaben/aufgaben_loes.pdf)** -
 **[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnHeHDg3UBiXcU8y7VJXlh)**
-<!-- 
-**[QR-Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/235_qrcode.ipynb)**
-
-**[Die Lochkarte](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/240_lochkarte.ipynb)** -->
 
 **[Huffman-Algorithmus](https://github.com/ktheu/InfoKurs/blob/gh-pages/Huffman/huffman.ipynb)** -
-**[Aufgaben](./Huffman/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Huffman/Test/Musteraufgaben_Loesung.pdf)**
+**[Aufgaben](./Huffman/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Huffman/Aufgaben/aufgaben_loes.pdf)**
 
 ---
 
 **[Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf)** -
 **[Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md)** -
-**[Aufgaben](./Komplexitaet/Aufgaben/Musteraufgaben.pdf)** -
-**[Lösungen](./Komplexitaet/Aufgaben/Musteraufgaben_Loesung.pdf)**
+**[Aufgaben](./Komplexitaet/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Komplexitaet/Aufgaben/aufgaben_loes.pdf)**
 
 **[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/folien/Sort.pdf)** -
 **[HeapSort](./HeapSort/Folien/HeapSort.pdf)** -
