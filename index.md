@@ -110,9 +110,9 @@
 
 **[P = NP?](./NP/Folien/NP.pdf)**
 
----
-
 **[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)**
+
+---
 
 **[Endliche Automaten und Formale Sprachen](./Automaten/Inhalte/automaten.html)** --
 **[Aufgaben](./Automaten/Aufgaben/aufgaben.pdf)** -
