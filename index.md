@@ -1,10 +1,8 @@
 ### Inhalte
 
-
-
 **[Algorithmus und Programm](https://github.com/ktheu/InfoKurs/blob/gh-pages/Algorithmus/algorithmus.ipynb)** -
-**[Aufgaben](./Algorithmus/Aufgaben/Musteraufgaben.pdf)** -
-**[Lösungen](./Algorithmus/Aufgaben/Musteraufgaben_Loesung.pdf)**
+**[Aufgaben](./Algorithmus/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Algorithmus/Aufgaben/aufgaben_loes.pdf)**
 
 **[Rekursion](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)** -
 **[Aufgaben](./Rekursion/Aufgaben/aufgaben.pdf)** -
