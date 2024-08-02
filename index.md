@@ -62,8 +62,8 @@
 
 **[Binärer Baum](https://github.com/ktheu/InfoKurs/blob/gh-pages/Baum/baum.ipynb)** -
 **[Binärer Suchbaum](https://github.com/ktheu/InfoKurs/blob/gh-pages/Suchbaum/binaererSuchbaum.ipynb)** -
-**[Aufgaben](./Baum/Aufgaben/Musteraufgaben.pdf)** -
-**[Lösungen](./Baum/Aufgaben/Musteraufgaben_Loesung.pdf)**
+**[Aufgaben](./Baum/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Baum/Aufgaben/aufgaben_loes.pdf)**
 
 ---
 
