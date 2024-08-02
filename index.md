@@ -68,8 +68,8 @@
 ---
 
 **[Hashing](./Hashing/Folien/Hashing.pdf)** -
-**[Aufgaben](./Hashing/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Hashing/Test/Musteraufgaben_Loesung.pdf)**
+**[Aufgaben](./Hashing/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Hashing/Aufgaben/aufgaben_loes.pdf)**
 
 ---
 
@@ -95,8 +95,8 @@
 ---
 
 **[Kryptologie](https://github.com/ktheu/InfoKurs/blob/gh-pages/Kryptologie/kryptologie.ipynb)** -
-**[Aufgaben](./Kryptologie/Aufgaben/Musteraufgaben.pdf)** -
-**[Lösungen](./Kryptologie/Aufgaben/Musteraufgaben_Loesung.pdf)** 
+**[Aufgaben](./Kryptologie/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Kryptologie/Aufgaben/aufgaben_loes.pdf)** 
 
 ---
 
