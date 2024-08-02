@@ -67,6 +67,12 @@
 
 ---
 
+**[Hashing](./Hashing/Folien/Hashing.pdf)** -
+**[Aufgaben](./Hashing/Test/Musteraufgaben.pdf)** -
+**[Lösungen](./Hashing/Test/Musteraufgaben_Loesung.pdf)**
+
+---
+
 **[Search: bfs, greedy, A*](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search/Search.ipynb)** -
 **[Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb)** -
 **[Aufgaben](./Search/Aufgaben/aufgaben.pdf)** -
@@ -102,25 +108,15 @@
 
 ---
 
-**[P = NP?](./NP/Folien/NP.pdf)**
 
----
-
-**[Hashing](./Hashing/Folien/Hashing.pdf)** -
-**[Aufgaben](./Hashing/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Hashing/Test/Musteraufgaben_Loesung.pdf)**
-
----
-
-
-**[TSP](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/TSP/TSP.ipynb)**
+<!-- **[TSP](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/TSP/TSP.ipynb)**
 
 **[Rucksack](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/375_Rucksack.ipynb)** --
 **[Aufgaben](./Rucksack/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Rucksack/Test/Musteraufgaben_Loesung.pdf)**
+**[Lösungen](./Rucksack/Test/Musteraufgaben_Loesung.pdf)** -->
 
 ---
-
+<!-- 
 **[Backtracking](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/380_backtracking.ipynb)**
 
 ---
@@ -131,10 +127,11 @@
 **[Fashion MNIST](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn04_fashion_conv.ipynb)** -
 **[Fashion MNIST CNN](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn05_convolutions.ipynb)** -
 **[Architekturen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn06_architekturen.ipynb)** --
-**[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGPUkaj3G4gBfXMJO4NSeMv)**
+**[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGPUkaj3G4gBfXMJO4NSeMv)** -->
 
 ---
 
+**[P = NP?](./NP/Folien/NP.pdf)**
 **[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)**
 
 **[Endliche Automaten und Formale Sprachen](./Automaten/Inhalte/automaten.html)** --
@@ -151,10 +148,7 @@
 
 ---
 
-
-
 **[Flipped](./Flipped/index.md)**
-
 
 ---
 
