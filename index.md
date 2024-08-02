@@ -74,7 +74,6 @@
 **[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGQatNznsjpbxSSiIKLM_J2)**
 
 
-
 **[Spielbaum: MinMax- und AlphaBeta-Algorithmus](./Spielbaum/Folien/Spielbaum.pdf)** -
 **[Code](https://github.com/ktheu/InfoKurs/blob/gh-pages/Spielbaum/spielbaum.ipynb)** --
 **[Aufgaben](./Spielbaum/Aufgaben/aufgaben.pdf)** -
@@ -82,14 +81,10 @@
 
 ---
 
-**[Graphen1](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Graphen1/Graphen1.ipynb)** -
-**[Aufgaben](./Graphen1/Aufgaben/Musteraufgaben.pdf)** -
-**[Lösungen](./Graphen1/Aufgaben/Musteraufgaben_Loesung.pdf)** -
-**[Videos](./Graphen1/videos.md)**
-
-
-
-<!-- **[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/320_Suchbaum.ipynb)** -->
+**[Graphen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Graphen/graphen.ipynb)** -
+**[Aufgaben](./Graphen/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Graphen/Aufgaben/aufgaben_loes.pdf)** -
+**[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHVtFQLF07HdrmbLI7dARgs)**
 
 ---
 
@@ -105,11 +100,7 @@
 **[Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben.ipynb)** -
 **[Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben_loes.ipynb)**
 
-
-
 ---
-
-
 
 **[P = NP?](./NP/Folien/NP.pdf)**
 
@@ -121,11 +112,6 @@
 
 ---
 
-**[Graphen](https://nbviewer.jupyter.org/github/ktheu/InfoKurs/blob/gh-pages/Graphen/Graphen.ipynb)** -
-**[Aufgaben](./Graphen/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Graphen/Test/Musteraufgaben_Loesung.pdf)** --
-**[BWInf](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/361_GraphenAufgaben.ipynb)** --
-**[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHVtFQLF07HdrmbLI7dARgs)**
 
 **[TSP](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/TSP/TSP.ipynb)**
 
