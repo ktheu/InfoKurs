@@ -47,8 +47,8 @@
 ---
 
 **[Klassen und Objekte](https://github.com/ktheu/InfoKurs/blob/gh-pages/Klassen/klassen.ipynb)** -
-**[Aufgaben](./Klassen/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Klassen/Test/Musteraufgaben_Loesung.pdf)** -
+**[Aufgaben](./Klassen/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Klassen/Aufgaben/aufgaben_loes.pdf)** -
 **[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnMqGKvnU0LZxYcmUQdb9o)**
 
 ---
