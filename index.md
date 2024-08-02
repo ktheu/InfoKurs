@@ -56,8 +56,8 @@
 
 **[ADT Liste](https://github.com/ktheu/InfoKurs/blob/gh-pages/Liste/liste.ipynb)** -
 **[Keller und Schlange](https://github.com/ktheu/InfoKurs/blob/gh-pages/KellerUndSchlange/keller_schlange.ipynb)** -
-**[Aufgaben](./Liste/Aufgaben/Musteraufgaben.pdf)** -
-**[Lösungen](./Liste/Aufgaben/Musteraufgaben_Loesung.pdf)** -
+**[Aufgaben](./Liste/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Liste/Aufgaben/aufgaben_loes.pdf)** -
 **[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIH7asB4wFcftC0OZ2BH1Mad)**
 
 **[Binärer Baum](https://github.com/ktheu/InfoKurs/blob/gh-pages/Baum/baum.ipynb)** -
