@@ -18,8 +18,8 @@
 **[Lösungen](./Codierung/Aufgaben/aufgaben_loes.pdf)** 
 
 **[ASCII, Unicode, UTF-8](https://github.com/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb)** -
-**[Aufgaben](./Unicode/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Unicode/Test/Musteraufgaben_Loesung.pdf)** -
+**[Aufgaben](./Unicode/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Unicode/Aufgaben/aufgaben_loes.pdf)** -
 **[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnHeHDg3UBiXcU8y7VJXlh)**
 <!-- 
 **[QR-Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/235_qrcode.ipynb)**
