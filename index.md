@@ -33,17 +33,17 @@
 **[Aufgaben](./Komplexitaet/Aufgaben/aufgaben.pdf)** -
 **[Lösungen](./Komplexitaet/Aufgaben/aufgaben_loes.pdf)**
 
-**[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/folien/Sort.pdf)** -
+**[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/Folien/Sort.pdf)** -
 **[HeapSort](./HeapSort/Folien/HeapSort.pdf)** -
 **[Code](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort/sort.ipynb)** -
-**[Aufgaben](./Sort/test/Musteraufgaben.pdf)** -
-**[Lösungen](./Sort/test/Musteraufgaben_Loesung.pdf)**
+**[Aufgaben](./Sort/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Sort/Aufgaben/aufgaben_loes.pdf)**
 
 <!-- **[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFjt8gEHQO--Am87hO0zfix)** -->
 
-**[Sort in Python](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort/sort_in_python.ipynb)** -
-**[Aufgaben](./Sort/test/SortInPython.pdf)** -
-**[Lösungen](./Sort/test/SortInPythonL.pdf)**
+**[Sort in Python](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort_in_Python/sort_in_python.ipynb)** -
+**[Aufgaben](./Sort_in_Python/test/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Sort_in_Python/test/Aufgaben/aufgaben_loes.pdf)**
 
 ---
 
