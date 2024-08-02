@@ -14,8 +14,8 @@
 ---
 
 **[Codierung ganzer Zahlen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb)** -
-**[Aufgaben](./Codierung/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Codierung/Test/Musteraufgaben_Loesung.pdf)** 
+**[Aufgaben](./Codierung/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Codierung/Aufgaben/aufgaben_loes.pdf)** 
 
 **[ASCII, Unicode, UTF-8](https://github.com/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb)** -
 **[Aufgaben](./Unicode/Test/Musteraufgaben.pdf)** -
