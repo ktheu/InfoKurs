@@ -71,7 +71,14 @@
 **[Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb)** -
 **[Aufgaben](./Search/Aufgaben/aufgaben.pdf)** -
 **[Lösungen](./Search/Aufgaben/aufgaben_loes.pdf)** -
-**[Videos Aufgaben](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGQatNznsjpbxSSiIKLM_J2)**
+**[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGQatNznsjpbxSSiIKLM_J2)**
+
+
+
+**[Spielbaum: MinMax- und AlphaBeta-Algorithmus](./Spielbaum/Folien/Spielbaum.pdf)** -
+**[Code](https://github.com/ktheu/InfoKurs/blob/gh-pages/Spielbaum/spielbaum.ipynb)** --
+**[Aufgaben](./Spielbaum/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Spielbaum/Aufgaben/aufgaben_loes.pdf)**
 
 ---
 
@@ -98,13 +105,7 @@
 **[Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben.ipynb)** -
 **[Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben_loes.ipynb)**
 
----
 
-
-**[Spielbaum: MinMax- und AlphaBeta-Algorithmus](./Spielbaum/Folien/Spielbaum.pdf)** -
-**[Code](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/330_Spielbaum.ipynb)** --
-**[Aufgaben](./Spielbaum/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Spielbaum/Test/Musteraufgaben_Loesung.pdf)**
 
 ---
 
