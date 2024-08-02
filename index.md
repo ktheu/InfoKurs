@@ -115,16 +115,16 @@
 **[Halteproblem](./Halteproblem/Inhalte/halteproblem.html)**
 
 **[Endliche Automaten und Formale Sprachen](./Automaten/Inhalte/automaten.html)** --
-**[Aufgaben](./Automaten/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Automaten/Test/Musteraufgaben_Loesung.pdf)**
+**[Aufgaben](./Automaten/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Automaten/Aufgaben/aufgaben_loes.pdf)**
 
 **[Grammatiken](./Grammatiken/Inhalte/grammatiken.html)** --
-**[Aufgaben](./Grammatiken/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Grammatiken/Test/Musteraufgaben_Loesung.pdf)**
+**[Aufgaben](./Grammatiken/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Grammatiken/Aufgaben/aufgaben_loes.pdf)**
 
 **[Turingmaschine und Berechenbarkeit](Turingmaschinen/Inhalte/turingmaschinen.html)** --
-**[Aufgaben](./Turingmaschinen/Test/Musteraufgaben.pdf)** -
-**[Lösungen](./Turingmaschinen/Test/Musteraufgaben_Loesung.pdf)**
+**[Aufgaben](./Turingmaschinen/Aufgaben/aufgaben.pdf)** -
+**[Lösungen](./Turingmaschinen/Aufgaben/aufgaben_loes.pdf)**
 
 ---
 
