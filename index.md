@@ -12,8 +12,6 @@
 **[Mandelbrotmenge](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/mandelbrot.ipynb)**
 
 ---
-**[Digitalisierung von Bildern](https://github.com/ktheu/InfoKurs/blob/gh-pages/BildDigital/digi_bild_aufgaben.ipynb)** 
-
 **[Codierung ganzer Zahlen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb)** -
 **[Aufgaben](./Codierung/Aufgaben/aufgaben.pdf)** -
 **[Lösungen](./Codierung/Aufgaben/aufgaben_loes.pdf)** 
