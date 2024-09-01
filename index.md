@@ -86,7 +86,7 @@
 
 ---
 
-**[Graphen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Graphen/graphen.ipynb)** -
+**[Graphen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Graphen/graphen1.ipynb)** -
 **[Aufgaben](./Graphen/Aufgaben/aufgaben.pdf)** -
 **[Lösungen](./Graphen/Aufgaben/aufgaben_loes.pdf)** -
 **[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHVtFQLF07HdrmbLI7dARgs)**
