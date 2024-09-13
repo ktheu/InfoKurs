@@ -1,10 +1,10 @@
-**[Python-Schnipsel](./schnipsel.ipynb)**
+- [Python-Schnipsel](./schnipsel.ipynb)
 
 ### Inhalte
 
 - [Algorithmus und Programm](https://github.com/ktheu/InfoKurs/blob/gh-pages/Algorithmus/algorithmus.ipynb) -
-- [Aufgaben](./Algorithmus/Aufgaben/aufgaben.pdf) -
-- [Lösungen](./Algorithmus/Aufgaben/aufgaben_loes.pdf)
+[Aufgaben](./Algorithmus/Aufgaben/aufgaben.pdf) -
+[Lösungen](./Algorithmus/Aufgaben/aufgaben_loes.pdf)
 
 - [Durchlaufen einer Liste, lineare Suche](./LineareSuche/lineareSuche.ipynb) - [Aufgaben](./LineareSuche/Aufgaben/aufgaben.pdf) - [Lösungen](./LineareSuche/Aufgaben/aufgaben_loes.pdf)
 
