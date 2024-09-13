@@ -14,47 +14,46 @@
 [Aufgaben](./Rekursion/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Rekursion/Aufgaben/aufgaben_loes.pdf)
 
-**[Rekursive Bilder](https://github.com/ktheu/InfoKurs/blob/gh-pages/Turtle/turtle.ipynb)** -
-**[Mandelbrotmenge](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/mandelbrot.ipynb)**
-
----
-**[Codierung ganzer Zahlen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb)** -
-**[Aufgaben](./Codierung/Aufgaben/aufgaben.pdf)** -
-**[Lösungen](./Codierung/Aufgaben/aufgaben_loes.pdf)** 
-
-**[ASCII, Unicode, UTF-8](https://github.com/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb)** -
-**[Aufgaben](./Unicode/Aufgaben/aufgaben.pdf)** -
-**[Lösungen](./Unicode/Aufgaben/aufgaben_loes.pdf)** -
-**[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnHeHDg3UBiXcU8y7VJXlh)**
-
-**[Huffman-Algorithmus](https://github.com/ktheu/InfoKurs/blob/gh-pages/Huffman/huffman.ipynb)** -
-**[Aufgaben](./Huffman/Aufgaben/aufgaben.pdf)** -
-**[Lösungen](./Huffman/Aufgaben/aufgaben_loes.pdf)**
+- [Rekursive Bilder](https://github.com/ktheu/InfoKurs/blob/gh-pages/Turtle/turtle.ipynb) -
+[Mandelbrotmenge](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/mandelbrot.ipynb)
 
 ---
 
-**[Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf)** -
-**[Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md)** -
-**[Aufgaben](./Komplexitaet/Aufgaben/aufgaben.pdf)** -
-**[Lösungen](./Komplexitaet/Aufgaben/aufgaben_loes.pdf)**
+- [Codierung ganzer Zahlen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb) -
+[Aufgaben](./Codierung/Aufgaben/aufgaben.pdf) - [Lösungen](./Codierung/Aufgaben/aufgaben_loes.pdf)
+ 
 
-**[SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/Folien/Sort.pdf)** -
-**[HeapSort](./HeapSort/Folien/HeapSort.pdf)** -
-**[Code](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort/sort.ipynb)** -
-**[Aufgaben](./Sort/Aufgaben/aufgaben.pdf)** -
-**[Lösungen](./Sort/Aufgaben/aufgaben_loes.pdf)** -
-**[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFjt8gEHQO--Am87hO0zfix)**
+- [ASCII, Unicode, UTF-8](https://github.com/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb) -
+[Aufgaben](./Unicode/Aufgaben/aufgaben.pdf) - [Lösungen](./Unicode/Aufgaben/aufgaben_loes.pdf) -
+[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnHeHDg3UBiXcU8y7VJXlh)
 
-**[Sort in Python](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort_in_Python/sort_in_python.ipynb)** -
-**[Aufgaben](./Sort_in_Python/Aufgaben/aufgaben.pdf)** -
-**[Lösungen](./Sort_in_Python/Aufgaben/aufgaben_loes.pdf)**
+- [Huffman-Algorithmus](https://github.com/ktheu/InfoKurs/blob/gh-pages/Huffman/huffman.ipynb) -
+[Aufgaben](./Huffman/Aufgaben/aufgaben.pdf) - [Lösungen](./Huffman/Aufgaben/aufgaben_loes.pdf)
 
 ---
 
-**[Klassen und Objekte](https://github.com/ktheu/InfoKurs/blob/gh-pages/Klassen/klassen.ipynb)** -
-**[Aufgaben](./Klassen/Aufgaben/aufgaben.pdf)** -
-**[Lösungen](./Klassen/Aufgaben/aufgaben_loes.pdf)** -
-**[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnMqGKvnU0LZxYcmUQdb9o)**
+- [Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf) - 
+[Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md) -
+[Aufgaben](./Komplexitaet/Aufgaben/aufgaben.pdf) -
+[Lösungen](./Komplexitaet/Aufgaben/aufgaben_loes.pdf)
+
+- [SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/Folien/Sort.pdf) -
+[HeapSort](./HeapSort/Folien/HeapSort.pdf) -
+[Code](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort/sort.ipynb) -
+[Aufgaben](./Sort/Aufgaben/aufgaben.pdf) -
+[Lösungen](./Sort/Aufgaben/aufgaben_loes.pdf) -
+[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFjt8gEHQO--Am87hO0zfix)
+
+- [Sort in Python](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort_in_Python/sort_in_python.ipynb) -
+[Aufgaben](./Sort_in_Python/Aufgaben/aufgaben.pdf) -
+[Lösungen](./Sort_in_Python/Aufgaben/aufgaben_loes.pdf)
+
+---
+
+- [Klassen und Objekte](https://github.com/ktheu/InfoKurs/blob/gh-pages/Klassen/klassen.ipynb) -
+[Aufgaben](./Klassen/Aufgaben/aufgaben.pdf) -
+[Lösungen](./Klassen/Aufgaben/aufgaben_loes.pdf) -
+[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnMqGKvnU0LZxYcmUQdb9o)
 
 ---
 
