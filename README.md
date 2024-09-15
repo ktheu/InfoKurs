@@ -6,7 +6,7 @@
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/Aufgaben/aufgaben.pdf) -
 [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/Aufgaben/aufgaben_loes.pdf)
 
-- [Durchlaufen einer Liste, lineare Suche](./LineareSuche/lineareSuche.ipynb) - [Aufgaben](./LineareSuche/Aufgaben/aufgaben.pdf) - [Lösungen](./LineareSuche/Aufgaben/aufgaben_loes.pdf)
+- [Durchlaufen einer Liste, lineare Suche](https://github.com/ktheu/Brueckenkurs/blob/main/LineareSuche/lineareSuche.ipynb) - [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/LineareSuche/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/LineareSuche/Aufgaben/aufgaben_loes.pdf)
 
 - [Binäre Suche](./BinaereSuche/binaereSuche.ipynb)
 
