@@ -2,10 +2,9 @@
 
 ### Inhalte
 
-<!-- - [Algorithmus und Programm](https://github.com/ktheu/InfoKurs/blob/gh-pages/Algorithmus/algorithmus.ipynb) - -->
 - [Algorithmus und Programm](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/algorithmus.ipynb) -
-[Aufgaben](./Algorithmus/Aufgaben/aufgaben.pdf) -
-[Lösungen](./Algorithmus/Aufgaben/aufgaben_loes.pdf)
+[Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/Aufgaben/aufgaben.pdf) -
+[Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/Aufgaben/aufgaben_loes.pdf)
 
 - [Durchlaufen einer Liste, lineare Suche](./LineareSuche/lineareSuche.ipynb) - [Aufgaben](./LineareSuche/Aufgaben/aufgaben.pdf) - [Lösungen](./LineareSuche/Aufgaben/aufgaben_loes.pdf)
 
