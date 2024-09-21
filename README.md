@@ -19,12 +19,12 @@
 
 
 - [Graphen 2](https://github.com/ktheu/InfoKurs/blob/gh-pages/Graphen/graphen2.ipynb) - 
-- [Aufgaben](./Graphen/Aufgaben2/aufgaben.pdf) -
-- [Lösungen](./Graphen/Aufgaben2/aufgaben_loes.pdf)
+[Aufgaben](./Graphen/Aufgaben2/aufgaben.pdf) -
+[Lösungen](./Graphen/Aufgaben2/aufgaben_loes.pdf)
 
 - [Backtracking](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking.ipynb) - 
-- [Aufgaben](./Backtracking/Aufgaben/aufgaben.pdf) -
-- [Lösungen](./Backtracking/Aufgaben/aufgaben_loes.pdf)
+[Aufgaben](./Backtracking/Aufgaben/aufgaben.pdf) -
+[Lösungen](./Backtracking/Aufgaben/aufgaben_loes.pdf)
 
 ---
 
