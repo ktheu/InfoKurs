@@ -18,7 +18,7 @@
 [Mandelbrotmenge](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/mandelbrot.ipynb)
 
 
-- [Graphen 2](https://github.com/ktheu/InfoKurs/blob/gh-pages/Graphen/graphen2.ipynb) - 
+- [Graphen I](https://github.com/ktheu/InfoKurs/blob/gh-pages/Graphen/graphen2.ipynb) - 
 [Aufgaben](./Graphen/Aufgaben2/aufgaben.pdf) -
 [Lösungen](./Graphen/Aufgaben2/aufgaben_loes.pdf)
 
