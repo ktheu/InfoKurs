@@ -8,7 +8,7 @@
 
 - [Durchlaufen einer Liste, lineare Suche](https://github.com/ktheu/Brueckenkurs/blob/main/LineareSuche/lineareSuche.ipynb) - [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/LineareSuche/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/LineareSuche/Aufgaben/aufgaben_loes.pdf)
 
-- [Binäre Suche](./BinaereSuche/binaereSuche.ipynb)
+- [Binäre Suche](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/binaereSuche.ipynb)
 
 - [Rekursion](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb) -
 [Aufgaben](./Rekursion/Aufgaben/aufgaben.pdf) -
@@ -16,6 +16,15 @@
 
 - [Rekursive Bilder](https://github.com/ktheu/InfoKurs/blob/gh-pages/Turtle/turtle.ipynb) -
 [Mandelbrotmenge](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/mandelbrot.ipynb)
+
+
+- [Graphen 2](https://github.com/ktheu/InfoKurs/blob/gh-pages/Graphen/graphen2.ipynb) - 
+- [Aufgaben](./Graphen/Aufgaben2/aufgaben.pdf) -
+- [Lösungen](./Graphen/Aufgaben2/aufgaben_loes.pdf)
+
+- [Backtracking](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking.ipynb) - 
+- [Aufgaben](./Backtracking/Aufgaben/aufgaben.pdf) -
+- [Lösungen](./Backtracking/Aufgaben/aufgaben_loes.pdf)
 
 ---
 
