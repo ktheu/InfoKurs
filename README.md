@@ -1,4 +1,4 @@
-- [Python-Schnipsel](./schnipsel.ipynb)
+Klausur am 29.11.2024
 
 ### Inhalte
 
