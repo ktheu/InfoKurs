@@ -36,7 +36,7 @@ Klausur am 29.11.2024
 [Aufgaben](./Unicode/Aufgaben/aufgaben.pdf) - [Lösungen](./Unicode/Aufgaben/aufgaben_loes.pdf) -
 [Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnHeHDg3UBiXcU8y7VJXlh)
 
-- [Huffman-Algorithmus](https://github.com/ktheu/Brueckenkurs/blob/gh-pages/Huffman/huffman.ipynb) -
+- [Huffman-Algorithmus](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/huffman.ipynb) -
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/Aufgaben/aufgaben_loes.pdf)
 
 ---
