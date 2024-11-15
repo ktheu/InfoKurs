@@ -23,8 +23,9 @@ Klausur am 29.11.2024
 
 <!-- - [Codierung ganzer Zahlen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb) - -->
 <!-- [Aufgaben](./Codierung/Aufgaben/aufgaben.pdf) - [Lösungen](./Codierung/Aufgaben/aufgaben_loes.pdf) -->
-
-- [Bits und Bytes, Zahlsysteme](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/huffman.ipyn) - [Aufgaben](./BitsUndBytes/Aufgaben/aufgaben.pdf) - [Lösungen](./BitsUndBytes/Aufgaben/aufgaben_loes.pdf)
+- [Bits und Bytes, Zahlsysteme](https://github.com/ktheu/Brueckenkurs/blob/main/BitsUndBytes/bitsUndbytes.ipynb) 
+    - [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/BitsUndBytes/Aufgaben/aufgaben.pdf) 
+    - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/BitsUndBytes/Aufgaben/aufgaben_loes.pdf)
 
 - [Zweierkomplement](./Zweierkomplement/zweierkomplement.ipynb) - [Aufgaben](./Zweierkomplement/aufgaben.pdf) - [Lösungen](./Zweierkomplement/aufgaben_loes.pdf)
  
