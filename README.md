@@ -6,31 +6,23 @@ Klausur am 29.11.2024
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/Aufgaben/aufgaben.pdf) -
 [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/Aufgaben/aufgaben_loes.pdf)
 
-- [Durchlaufen einer Liste, lineare Suche](https://github.com/ktheu/Brueckenkurs/blob/main/LineareSuche/lineareSuche.ipynb) - [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/LineareSuche/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/LineareSuche/Aufgaben/aufgaben_loes.pdf)
+- [Durchlaufen einer Liste, lineare Suche](https://github.com/ktheu/Brueckenkurs/blob/main/LineareSuche/lineareSuche.ipynb) - 
+[Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/LineareSuche/Aufgaben/aufgaben.pdf) - 
+[Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/LineareSuche/Aufgaben/aufgaben_loes.pdf)
 
+----
 
+- [Bits und Bytes, Zahlsysteme](https://github.com/ktheu/Brueckenkurs/blob/main/BitsUndBytes/bitsUndbytes.ipynb) - 
+[Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/BitsUndBytes/Aufgaben/aufgaben.pdf) - 
+ [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/BitsUndBytes/Aufgaben/aufgaben_loes.pdf)
 
-
-<!-- - [Graphen 1](https://github.com/ktheu/InfoKurs/blob/gh-pages/Graphen/graphen2.ipynb) - 
-[Aufgaben](./Graphen/Aufgaben2/aufgaben.pdf) -
-[Lösungen](./Graphen/Aufgaben2/aufgaben_loes.pdf)
-
-- [Backtracking](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking.ipynb) - 
-[Aufgaben](./Backtracking/Aufgaben/aufgaben.pdf) -
-[Lösungen](./Backtracking/Aufgaben/aufgaben_loes.pdf) -->
-
----
-
-<!-- - [Codierung ganzer Zahlen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb) - -->
-<!-- [Aufgaben](./Codierung/Aufgaben/aufgaben.pdf) - [Lösungen](./Codierung/Aufgaben/aufgaben_loes.pdf) -->
-- [Bits und Bytes, Zahlsysteme](https://github.com/ktheu/Brueckenkurs/blob/main/BitsUndBytes/bitsUndbytes.ipynb) - [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/BitsUndBytes/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/BitsUndBytes/Aufgaben/aufgaben_loes.pdf)
-
-- [Zweierkomplement](./Zweierkomplement/zweierkomplement.ipynb) - [Aufgaben](./Zweierkomplement/aufgaben.pdf) - [Lösungen](./Zweierkomplement/aufgaben_loes.pdf)
+- [Zweierkomplement](https://github.com/ktheu/Brueckenkurs/blob/main/Zweierkomplement/zweierkomplement.ipynb) - 
+[Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Zweierkomplement/aufgaben.pdf) - 
+[Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Zweierkomplement/aufgaben_loes.pdf)
  
-
 - [ASCII, Unicode, UTF-8](https://github.com/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb) -
-[Aufgaben](./Unicode/Aufgaben/aufgaben.pdf) - [Lösungen](./Unicode/Aufgaben/aufgaben_loes.pdf) -
-[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnHeHDg3UBiXcU8y7VJXlh)
+[Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Unicode/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Unicode/Aufgaben/aufgaben_loes.pdf) -
+<!-- [Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnHeHDg3UBiXcU8y7VJXlh) -->
 
 - [Huffman-Algorithmus](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/huffman.ipynb) -
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/Aufgaben/aufgaben_loes.pdf)
@@ -176,3 +168,19 @@ Klausur am 29.11.2024
 **[Fashion MNIST CNN](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn05_convolutions.ipynb)** -
 **[Architekturen](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/810_nn06_architekturen.ipynb)** --
 **[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGPUkaj3G4gBfXMJO4NSeMv)** -->
+
+
+
+
+<!-- - [Graphen 1](https://github.com/ktheu/InfoKurs/blob/gh-pages/Graphen/graphen2.ipynb) - 
+[Aufgaben](./Graphen/Aufgaben2/aufgaben.pdf) -
+[Lösungen](./Graphen/Aufgaben2/aufgaben_loes.pdf)
+
+- [Backtracking](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking.ipynb) - 
+[Aufgaben](./Backtracking/Aufgaben/aufgaben.pdf) -
+[Lösungen](./Backtracking/Aufgaben/aufgaben_loes.pdf) -->
+
+---
+
+<!-- - [Codierung ganzer Zahlen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb) - -->
+<!-- [Aufgaben](./Codierung/Aufgaben/aufgaben.pdf) - [Lösungen](./Codierung/Aufgaben/aufgaben_loes.pdf) -->
