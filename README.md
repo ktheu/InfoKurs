@@ -46,7 +46,7 @@ Klausur am 29.11.2024
 [Aufgaben](./Komplexitaet/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Komplexitaet/Aufgaben/aufgaben_loes.pdf)
 
-- [SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/Folien/Sort.pdf) -
+- [SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/folien/Sort.pdf) -
 [HeapSort](./HeapSort/Folien/HeapSort.pdf) -
 [Code](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort/sort.ipynb) -
 [Aufgaben](./Sort/Aufgaben/aufgaben.pdf) -
