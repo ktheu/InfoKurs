@@ -1,29 +1,44 @@
 
-#### Algorithmus und Programm
+  
+#### Algorthmus und Programm
+  - [Euclid's Algorithm](https://www.codingame.com/training/easy/euclids-algorithm) 
 
-  - OnBoarding (bedingte Anweisung)
-  - The Descent (lineare Suche)
-  - Power-of-thor-episode-1 (bedingte Anweisung)
-  - Temperatures (lineare Suche)
-  - Horse Racing duals (Liste sortieren, lineare Suche)
-  - The River I
-  - Crazy List (Liste von Zahlen einlesen, bedingte Anweisungen, Länge und Index von Listen, Mathematik)
-
-
-#### Rekursion
-  - [Binary String Sorting](https://www.codingame.com/contribute/view/1595417af6f02ce8c92161feacb11f60b0c13) Clash
-   
 
 #### Codierung ganzer Zahlen
 
   - [Binary to Hex](https://www.codingame.com/ide/demo/11093691a7060777d9969d173b5d57227b520ad)  Clash, 
   - [Binary Multiplication](https://www.codingame.com/contribute/view/84232a5e0f865b681cc19eea0b870ccc64f3b) Clash
   - [Binary Art](https://www.codingame.com/ide/demo/11055102d8f54c578b24d1a3ee64f2d1d4726be) Clash
-  - [Binary Integer Arithmetic](https://www.codingame.com/contribute/view/18670ea87c100bb4c14233603e962057ed0) Clash
-  - [Binary Stair](https://www.codingame.com/contribute/view/48611019cf3a06416d56721ba2e47a6e07ae) Clash
-  - [Binary Palindrome](https://www.codingame.com/contribute/view/58260c32d33e781196f1891a0602b8b672b6a) Clash
+  - [Binary Integer Arithmetic](https://www.codingame.com/ide/demo/730021a5a6b5e576d532e7a1774220f6431279) Clash
+  - [Binary Stair](https://www.codingame.com/ide/demo/837745057a7af204e170266f3cf3ee855dede7) Clash
+  - [Binary Palindrome](https://www.codingame.com/ide/demo/1004865ae6e789f55d4e876dba90a3b9f7d1c1c) Clash
+  - [Mistaken Decimal Addition](https://www.codingame.com/ide/demo/969723dd34305f89f39deb90ea3d21e64d870f) Clash
 
 
+#### Fehlererkennende Codierungen
+
+  - [Credit Card Verifier](https://www.codingame.com/training/easy/credit-card-verifier-luhns-algorithm)
+  - [ISBN Check Digit](https://www.codingame.com/training/easy/isbn-check-digit)
+
+
+#### Lineare Suche
+  - [The Descent](https://www.codingame.com/training/easy/the-descent)      
+  - [Defibrillators](https://www.codingame.com/ide/puzzle/defibrillators)
+
+
+#### Binäre Suche
+  - [Shadows of the Knight 1](https://www.codingame.com/ide/puzzle/shadows-of-the-knight-episode-1)
+
+
+#### Rekursion
+
+  - [Fibonacci's Rabbit](https://www.codingame.com/training/easy/fibonaccis-rabbit)
+  - [Binary String Sorting](https://www.codingame.com/contribute/view/1595417af6f02ce8c92161feacb11f60b0c13) Clash
+  - [Number Derivation](https://www.codingame.com/ide/puzzle/number-derivation)
+
+#### Backtracking
+
+  - [Treasure Hunt](https://www.codingame.com/training/easy/treasure-hunt) 
 
 [Clash-Suche](https://codingame.tools) 
 
@@ -36,14 +51,13 @@ Noch einzuordnen:
 Sudoku-Validator: grid, 2D numpy
 Ulam Spiral: Sieb des Eratosthenes, Rekursion, 2D numpy
 
+#### Rekursion
+  
 
 #### Rekursion
 Number derivation (auch für Sieb des Eratosthenes)
 Robot reach (grid)
 
-#### Binäre Suche
-
-[Shadows of the Knight 1](https://www.codingame.com/ide/puzzle/shadows-of-the-knight-episode-1)
 
 #### Keller (Stacks)
 [Brackets Ultimate Edition](https://www.codingame.com/training/medium/brackets-ultimate-edition)
@@ -72,13 +86,12 @@ The Labyrinth
 [A-star exercice](https://www.codingame.com/training/medium/a-star-exercise)
  
 
-### Euklidscher Algorithmus
-[GCD](https://www.codingame.com/contribute/view/238173bf46bc1c66441235dd8c351757be)
+
 
 #### Minimax AlphaBeta
 [Minimax Simple Example](https://www.codingame.com/training/expert/minimax-simple-example)
 Minimax Exercise
 
+#### Mathematik Muster
+Crazy List
 
-#### Umrechnung Dual-Dezimal
-[Mistaken Decimal Addition](https://www.codingame.com/ide/demo/969723dd34305f89f39deb90ea3d21e64d870f)
