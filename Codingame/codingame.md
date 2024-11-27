@@ -1,6 +1,6 @@
 ## Codingame Aufgaben
 
-#### Top 3: (Stand 27.11.2024)
+#### Top 3:  
   1. N.N 
   2. N.N
   3. N.N
