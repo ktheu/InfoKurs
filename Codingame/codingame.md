@@ -17,7 +17,7 @@ Löse der Reihe nach die folgenden Codingame Puzzles (ohne KI-Hilfe).
   7.  [Folding Paper](https://www.codingame.com/ide/demo/969723dd34305f89f39deb90ea3d21e64d870f)
   8.  [Next Growing Number](https://www.codingame.com/training/easy/next-growing-number)
   9.  [Defibrillators](https://www.codingame.com/ide/puzzle/defibrillators)
-  10. [Credit Card Verifier][https://www.codingame.com/training/easy/credit-card-verifier-luhns-algorithm]
+  10. [Credit Card Verifier](https://www.codingame.com/training/easy/credit-card-verifier-luhns-algorithm)
   11. [Pirate's Treasure](https://www.codingame.com/training/easy/pirates-treasure)
   12. [May the Triforce be with you](https://www.codingame.com/training/easy/may-the-triforce-be-with-you)
   13. [Darts](https://www.codingame.com/training/easy/darts)
