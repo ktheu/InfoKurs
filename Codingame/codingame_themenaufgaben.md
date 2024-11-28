@@ -24,6 +24,8 @@
 #### Lineare Suche
   - [The Descent](https://www.codingame.com/training/easy/the-descent)      
   - [Defibrillators](https://www.codingame.com/ide/puzzle/defibrillators)
+  - [Temperatures](https://www.codingame.com/training/easy/temperatures) 
+  - [Horse Racing duals](https://www.codingame.com/training/easy/horse-racing-duals) 
 
 
 #### Binäre Suche
