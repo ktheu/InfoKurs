@@ -1,8 +1,8 @@
 ## Codingame Aufgaben
 
 #### Top 3:  
-  1. N.N 
-  2. N.N
+  1. Aalisha M. - 5 
+  2. Martin V. - 3
   3. N.N
 
 

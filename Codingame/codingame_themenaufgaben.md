@@ -1,4 +1,5 @@
-
+#### Grundlagen
+  -  [Folding Paper](https://www.codingame.com/training/easy/folding-paperf)
   
 #### Algorthmus und Programm
   - [Euclid's Algorithm](https://www.codingame.com/training/easy/euclids-algorithm) 
