@@ -33,6 +33,10 @@
   - [Shadows of the Knight 1](https://www.codingame.com/ide/puzzle/shadows-of-the-knight-episode-1)
 
 
+#### Sortieren
+  - [Darts](https://www.codingame.com/training/easy/darts)
+
+
 #### Rekursion
 
   - [Fibonacci's Rabbit](https://www.codingame.com/training/easy/fibonaccis-rabbit)
