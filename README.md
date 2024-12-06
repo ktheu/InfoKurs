@@ -1,5 +1,3 @@
-Klausur am 29.11.2024
-
 ### Inhalte
 
 - [Algorithmus und Programm](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/algorithmus.ipynb) -
@@ -20,10 +18,9 @@ Klausur am 29.11.2024
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Zweierkomplement/aufgaben.pdf) - 
 [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Zweierkomplement/aufgaben_loes.pdf)
  
-- [ASCII, Unicode, UTF-8](https://github.com/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb) -
-[Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Unicode/Aufgaben/aufgaben.pdf) - 
-[Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Unicode/Aufgaben/aufgaben_loes.pdf) 
-<!-- [Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIHnHeHDg3UBiXcU8y7VJXlh) -->
+- [ASCII, Unicode, UTF-8](https://github.com/ktheu/Brueckenkurs/blob/main/Unicode/unicode.ipynb) -
+[Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Unicode/aufgaben.pdf) - 
+[Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Unicode/aufgaben_loes.pdf)
 
 - [Huffman-Algorithmus](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/huffman.ipynb) -
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/Aufgaben/aufgaben_loes.pdf)
