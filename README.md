@@ -143,7 +143,7 @@
 
 - [Links](links.md)
 
-<!-- [KlausurA](./2023-24-Inf11_12_2-A_Loesung.pdf)  -->
+- [Klausur](./2024-25-Brue_1-A_loes.pdf) 
 
 
 
