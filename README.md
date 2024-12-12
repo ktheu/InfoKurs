@@ -26,8 +26,12 @@
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/Aufgaben/aufgaben_loes.pdf)
 
 ---
+ 
+- [Funktionen](https://github.com/ktheu/PythonThemen/blob/main/funktionen/funktionen.ipynb) -
+[Aufgaben](https://github.com/ktheu/PythonThemen/blob/main/funktionen/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/PythonThemen/blob/main/funktionen/Aufgaben/aufgaben_loes.pdf)
 
-- [Binäre Suche](./BinaereSuche/binaereSuche.ipynb) -  [Aufgaben](./BinaereSuche/Aufgaben/aufgaben.pdf) - [Lösungen](./BinaereSuche/Aufgaben/aufgaben_loes.pdf)
+- [BinaereSuche](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/binaereSuche.ipynb) -
+[Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/Aufgaben/aufgaben_loes.pdf)
 
 - [Rekursion](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb) -
 [Aufgaben](./Rekursion/Aufgaben/aufgaben.pdf) -
