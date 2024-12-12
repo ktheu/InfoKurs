@@ -28,7 +28,7 @@
 ---
  
 - [Funktionen](https://github.com/ktheu/PythonThemen/blob/main/funktionen/funktionen.ipynb) -
-[Aufgaben](https://github.com/ktheu/PythonThemen/blob/main/funktionen/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/PythonThemen/blob/main/funktionen/Aufgaben/aufgaben_loes.pdf)
+[Aufgaben](https://github.com/ktheu/PythonThemen/blob/main/funktionen/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/PythonThemen/blob/main/funktionen/aufgaben_loes.pdf)
 
 - [BinaereSuche](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/binaereSuche.ipynb) -
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/Aufgaben/aufgaben_loes.pdf)
