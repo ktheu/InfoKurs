@@ -153,7 +153,7 @@
 
 - [Links](links.md)
 
-- [Klausur](./2024-25-Brue_1-A_loes.pdf) 
+
 
 
 
