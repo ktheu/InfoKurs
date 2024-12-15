@@ -39,6 +39,8 @@
 - [BinaereSuche](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/binaereSuche.ipynb) -
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/Aufgaben/aufgaben_loes.pdf)
 
+----
+
 - [Rekursion](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb) -
 [Aufgaben](./Rekursion/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Rekursion/Aufgaben/aufgaben_loes.pdf)
@@ -47,7 +49,7 @@
 [Aufgaben](./Turtle/aufgaben.pdf) -
 [Lösungen](./Turtle/aufgaben_loes.pdf)
 
-- [Mandelbrotmenge](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/mandelbrot.ipynb)
+- [Mandelbrotmenge](https://github.com/ktheu/InfoKurs/blob/gh-pages/Mandelbrot/mandelbrot.ipynb)
 
 ---
 
