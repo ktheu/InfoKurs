@@ -44,7 +44,10 @@
 [Lösungen](./Rekursion/Aufgaben/aufgaben_loes.pdf)
 
 - [Rekursive Bilder](https://github.com/ktheu/InfoKurs/blob/gh-pages/Turtle/turtle.ipynb) -
-[Mandelbrotmenge](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/mandelbrot.ipynb)
+[Aufgaben](./Turtle/aufgaben.pdf) -
+[Lösungen](./Turtle/aufgaben_loes.pdf)
+
+- [Mandelbrotmenge](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/mandelbrot.ipynb)
 
 ---
 
