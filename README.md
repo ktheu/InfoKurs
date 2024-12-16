@@ -49,7 +49,9 @@
 [Aufgaben](./Turtle/aufgaben.pdf) -
 [Lösungen](./Turtle/aufgaben_loes.pdf)
 
-- [Mandelbrotmenge](https://github.com/ktheu/InfoKurs/blob/gh-pages/Mandelbrot/mandelbrot.ipynb)
+- [Mandelbrotmenge](https://github.com/ktheu/InfoKurs/blob/gh-pages/Mandelbrot/mandelbrot.ipynb) -
+[Aufgaben](./Mandelbrot/aufgaben.pdf) -
+[Lösungen](./Mandelbrot/aufgaben_loes.pdf)
 
 ---
 
