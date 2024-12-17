@@ -55,7 +55,7 @@
 
 ---
 
-- [Komplexität]((https://github.com/ktheu/InfoKurs/blob/gh-pages/Komplexitaet/komplexitaet.ipynb) -
+- [Komplexität](https://github.com/ktheu/InfoKurs/blob/gh-pages/Komplexitaet/komplexitaet.ipynb) -
 [Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md) -
 [Aufgaben](./Komplexitaet/aufgaben.pdf) -
 [Lösungen](./Komplexitaet/aufgaben_loes.pdf)
