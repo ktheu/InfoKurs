@@ -197,5 +197,3 @@
 
 ---
 
-<!-- - [Codierung ganzer Zahlen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Codierung/codierung.ipynb) - -->
-<!-- [Aufgaben](./Codierung/Aufgaben/aufgaben.pdf) - [Lösungen](./Codierung/Aufgaben/aufgaben_loes.pdf) -->
