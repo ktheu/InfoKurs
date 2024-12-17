@@ -55,10 +55,10 @@
 
 ---
 
-- [Komplexität](./Komplexitaet/Folien/Komplexitaet.pdf) - 
+- [Komplexität]((https://github.com/ktheu/InfoKurs/blob/gh-pages/Komplexitaet/komplexitaet.ipynb) -
 [Komplexität einiger Python-Operationen](./Komplexitaet/operationen.md) -
-[Aufgaben](./Komplexitaet/Aufgaben/aufgaben.pdf) -
-[Lösungen](./Komplexitaet/Aufgaben/aufgaben_loes.pdf)
+[Aufgaben](./Komplexitaet/aufgaben.pdf) -
+[Lösungen](./Komplexitaet/aufgaben_loes.pdf)
 
 - [SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/folien/Sort.pdf) -
 [HeapSort](./HeapSort/Folien/HeapSort.pdf) -
