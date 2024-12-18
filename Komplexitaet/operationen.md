@@ -24,7 +24,7 @@ Operation      Beispiel    Komplexität (average case)
 store          s.add('Thorben')  O(1)
 delete         s.remove('Lena')  O(1)
 length         len(s)            O(1)
-contains       'Thorben' in s    O(1)
+lookkup        'Thorben' in s    O(1)
 ```
 
 #### Dictionary (Hashtable)
@@ -36,7 +36,7 @@ index          m['Lena']         O(1)
 store          m['Thorben'] = 2  O(1)
 length         len(m)            O(1)
 delete         del m['Thorben']  O(1)
-contains       'Lena' in m       O(1)
+lookup         'Lena' in m       O(1)
 ```
 
 #### Heap (PriorityQueue) 
