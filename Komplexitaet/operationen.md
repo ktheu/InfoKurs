@@ -13,7 +13,7 @@ pop last       a.pop()           O(1)
 pop first      a.pop(0)          O(n)
 insert         a.insert(7,'A')   O(n)
 delete         a.delete('B')     O(n)
-contains       'C' in a          O(n)
+lookup         'C' in a          O(n)
 ```
 
 #### Set (Hashset)
@@ -24,7 +24,7 @@ Operation      Beispiel    Komplexität (average case)
 store          s.add('Thorben')  O(1)
 delete         s.remove('Lena')  O(1)
 length         len(s)            O(1)
-lookkup        'Thorben' in s    O(1)
+lookup         'Thorben' in s    O(1)
 ```
 
 #### Dictionary (Hashtable)
@@ -49,5 +49,4 @@ store          heappush(a,42)    O(log(n))
 delete         heappop(a)        O(log(n))
 ```
 
-weitere Infos zur Komplexität von Pythonoperationen: 
-__[hier](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)__ und __[hier](https://wiki.python.org/moin/TimeComplexity)__
+Weitere Infos zur Komplexität von Pythonoperationen [hier](https://wiki.python.org/moin/TimeComplexity)
