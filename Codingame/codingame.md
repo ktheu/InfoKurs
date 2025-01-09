@@ -2,8 +2,9 @@
 
 #### Top 3:  
   1. Aalisha M. - 5 
-  2. Martin V. - 3
-  3. N.N
+  2. Martha K. - 5
+  3. Martin V. - 3
+ 
 
 
 Löse der Reihe nach die folgenden Codingame Puzzles (ohne KI-Hilfe).
