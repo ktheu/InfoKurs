@@ -1,5 +1,7 @@
 ### Inhalte
 
+Klausur am 28.3.2025
+
 - [Algorithmus und Programm](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/algorithmus.ipynb) -
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/Aufgaben/aufgaben.pdf) -
 [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/Aufgaben/aufgaben_loes.pdf)
