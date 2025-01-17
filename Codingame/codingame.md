@@ -3,7 +3,7 @@
 #### Top 3:  
   1. Aalisha M. - 5 
   2. Martha K. - 5
-  3. Martin V. - 3
+  3. Jannik E. - 5
  
 
 
