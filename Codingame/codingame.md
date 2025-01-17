@@ -1,9 +1,10 @@
 ## Codingame Aufgaben
 
 #### Top 3:  
-  1. Aalisha M. - 5 
-  2. Martha K. - 5
-  3. Jannik E. - 5
+  1. Sahith M. - 6
+  2. Aalisha M. - 5 
+  3. Martha K. - 5
+
  
 
 
@@ -15,7 +16,7 @@ Löse der Reihe nach die folgenden Codingame Puzzles (ohne KI-Hilfe).
   4.  [Horse Racing duals](https://www.codingame.com/training/easy/horse-racing-duals)  
   5.  [The River I](https://www.codingame.com/training/easy/the-river-i-)
   6.  [Euclid's Algorithm](https://www.codingame.com/training/easy/euclids-algorithm)
-  7.  [Folding Paper](https://www.codingame.com/training/easy/folding-paperf)
+  7.  [Folding Paper](https://www.codingame.com/training/easy/folding-paper)
   8.  [Next Growing Number](https://www.codingame.com/training/easy/next-growing-number)
   9.  [Defibrillators](https://www.codingame.com/ide/puzzle/defibrillators)
   10. [Credit Card Verifier](https://www.codingame.com/training/easy/credit-card-verifier-luhns-algorithm)
