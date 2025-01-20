@@ -5,13 +5,11 @@
   2. Aalisha M. - 5 
   3. Martha K. - 5
 
- 
-
 
 Löse der Reihe nach die folgenden Codingame Puzzles (ohne KI-Hilfe).
 
   1.  [The Descent](https://www.codingame.com/training/easy/the-descent)  
-  2.  [Power-of-thor-episode-1](https://www.codingame.com/training/easy/power-of-thor-episode-1)  
+  2.  [Power-of-Thor-episode-1](https://www.codingame.com/training/easy/power-of-thor-episode-1)  
   3.  [Temperatures](https://www.codingame.com/training/easy/temperatures)  
   4.  [Horse Racing duals](https://www.codingame.com/training/easy/horse-racing-duals)  
   5.  [The River I](https://www.codingame.com/training/easy/the-river-i-)

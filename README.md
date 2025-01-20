@@ -101,11 +101,13 @@ Klausur am 28.3.2025
 
 ---
 
-- [Search: bfs, greedy, A*](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search/Search.ipynb) -
+[Search-Bfs](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search_Bfs/search_bfs.ipynb)
+
+<!-- - [Search: bfs, greedy, A*](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search/Search.ipynb) -
 [Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb) -
 [Aufgaben](./Search/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Search/Aufgaben/aufgaben_loes.pdf) -
-[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGQatNznsjpbxSSiIKLM_J2)
+[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGQatNznsjpbxSSiIKLM_J2) -->
 
 
 - [Spielbaum: MinMax- und AlphaBeta-Algorithmus](./Spielbaum/Folien/Spielbaum.pdf) -
