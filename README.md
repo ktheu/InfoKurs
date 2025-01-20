@@ -102,7 +102,7 @@ Klausur am 28.3.2025
 ---
 
 - [Search-Bfs](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search_Bfs/search_bfs.ipynb) - 
-  [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search_Bfs_Beispiele/bfs_beipspiele.ipynb)
+  [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search_Bfs_Beispiele/bfs_beispiele.ipynb)
 
 <!-- - [Search: bfs, greedy, A*](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search/Search.ipynb) -
 [Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb) -
