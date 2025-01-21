@@ -85,12 +85,13 @@ Robot reach (grid)
 [Moves in Maze](https://www.codingame.com/ide/puzzle/moves-in-maze)
 [6 Degrees of Kevin Bacon](https://www.codingame.com/ide/puzzle/six-degrees-of-kevin-bacon)
 [Paper Labyrinth](https://www.codingame.com/ide/puzzle/paper-labyrinth) 
-Knights Jam
-11 Puzzle
+
+
 The Labyrinth
 
 #### Search A-Star
 [A-star exercice](https://www.codingame.com/training/medium/a-star-exercise)
+11 Puzzle
  
 
 
