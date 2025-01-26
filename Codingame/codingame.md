@@ -1,9 +1,10 @@
 ## Codingame Aufgaben
 
 #### Top 3:  
-  1. Sahith M. - 6
-  2. Aalisha M. - 5 
-  3. Martha K. - 5
+  1. Leander K. - 15
+  2. Sahith M. - 6
+  3. Aalisha M. - 5 
+ 
 
 
 Löse der Reihe nach die folgenden Codingame Puzzles (ohne KI-Hilfe).
