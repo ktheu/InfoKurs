@@ -107,6 +107,9 @@ Klausur am 28.3.2025
 - [Search-A*](https://github.com/ktheu/InfoKurs/blob/gh-pages/search_astar/search_astar.ipynb) -
    [Beamsearch](https://github.com/ktheu/InfoKurs/blob/gh-pages/search_beamsearch/search_beamsearch.ipynb)
 
+- [Backtracking](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking.ipynb) - 
+  [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking_beispiele.ipynb)
+
 <!-- - [Search: bfs, greedy, A*](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search/Search.ipynb) -
 [Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb) -
 [Aufgaben](./Search/Aufgaben/aufgaben.pdf) -
