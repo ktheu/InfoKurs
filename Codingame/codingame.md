@@ -2,8 +2,9 @@
 
 #### Top 3:  
   1. Leander K. - 15
-  2. Sahith M. - 6
-  3. Aalisha M. - 5 
+  2. Julian H. -8
+  3. Sahith M. - 6
+  
  
 
 
