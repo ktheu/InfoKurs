@@ -110,7 +110,8 @@ Klausur am 28.3.2025
 - [Backtracking](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking.ipynb) - 
   [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking_beispiele.ipynb)
 
-- [Dynamisches Programmieren](https://github.com/ktheu/InfoKurs/blob/gh-pages/DP/dp.ipynb)  
+- [Dynamisches Programmieren](https://github.com/ktheu/InfoKurs/blob/gh-pages/DP/dp.ipynb) -  
+  [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/DP/dp_beispiele.ipynb)  
 
 <!-- - [Search: bfs, greedy, A*](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search/Search.ipynb) -
 [Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb) -
