@@ -2,7 +2,7 @@
 
 #### Top 3:  
   1. Leander K. - 15
-  2. Julian H. - 8
+  2. Julian H. - 11
   3. Sahith M. - 6
   
  
