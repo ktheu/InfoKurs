@@ -111,8 +111,8 @@ Klausur am 28.3.2025
   [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking_beispiele.ipynb)
 
 - [Dynamisches Programmieren](https://github.com/ktheu/InfoKurs/blob/gh-pages/DP/dp.ipynb) - 
-  [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/DP/dp_beispiele.ipynb) -
-  [Beispiele2](https://github.com/ktheu/InfoKurs/blob/gh-pages/DP/dp_beispiele2.ipynb)
+  [Tabulation und Parent Pointer](https://github.com/ktheu/InfoKurs/blob/gh-pages/DP/dp_tab.ipynb) -
+  [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/DP/dp_beispiele.ipynb)
 
 <!-- - [Search: bfs, greedy, A*](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search/Search.ipynb) -
 [Maze](https://nbviewer.jupyter.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb) -
