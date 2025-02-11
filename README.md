@@ -62,9 +62,8 @@ Klausur am 28.3.2025
 [Aufgaben](./Komplexitaet/aufgaben.pdf) -
 [Lösungen](./Komplexitaet/aufgaben_loes.pdf)
 
-- [SelectionSort, BubbleSort, MergeSort, QuickSort](./Sort/folien/Sort.pdf) -
-[HeapSort](./HeapSort/Folien/HeapSort.pdf) -
-[Code](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort/sort.ipynb) -
+- [SelectionSort, BubbleSort, InsertionSort, MergeSort, QuickSort](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort/sort.ipynb) -
+[HeapSort](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort/heapsort.ipynb) -
 [Aufgaben](./Sort/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Sort/Aufgaben/aufgaben_loes.pdf) -
 [Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFjt8gEHQO--Am87hO0zfix)
