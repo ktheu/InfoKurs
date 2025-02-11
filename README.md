@@ -66,7 +66,7 @@ Klausur am 28.3.2025
 [HeapSort](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort/heapsort.ipynb) -
 [Aufgaben](./Sort/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Sort/Aufgaben/aufgaben_loes.pdf) -
-[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIFjt8gEHQO--Am87hO0zfix)
+
 
 - [Sort in Python](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort_in_Python/sort_in_python.ipynb) -
 [Aufgaben](./Sort_in_Python/Aufgaben/aufgaben.pdf) -
