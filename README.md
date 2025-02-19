@@ -133,9 +133,9 @@ Klausur am 28.3.2025
 
 ---
 
-- [Kryptologie](https://github.com/ktheu/InfoKurs/blob/gh-pages/Kryptologie/kryptologie.ipynb) -
-[Aufgaben](./Kryptologie/Aufgaben/aufgaben.pdf) -
-[Lösungen](./Kryptologie/Aufgaben/aufgaben_loes.pdf) 
+- [Kryptologie](https://github.com/ktheu/PythonThemen/blob/gh-pages/Kryptologie/kryptologie.ipynb) -
+[Aufgaben](https://github.com/ktheu/PythonThemen/blob/main/PythonThemen/aufgaben.pdf) -
+[Lösungen](https://github.com/ktheu/PythonThemen/blob/main/PythonThemen/aufgaben_loes.pdf)
 
 ---
 
