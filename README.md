@@ -83,8 +83,8 @@ Klausur am 28.3.2025
 - [ADT Liste](https://github.com/ktheu/InfoKurs/blob/gh-pages/Liste/liste.ipynb) -
 [Keller und Schlange](https://github.com/ktheu/InfoKurs/blob/gh-pages/KellerUndSchlange/keller_schlange.ipynb) -
 [Aufgaben](./Liste/Aufgaben/aufgaben.pdf) -
-[Lösungen](./Liste/Aufgaben/aufgaben_loes.pdf) -
-[Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIH7asB4wFcftC0OZ2BH1Mad)
+[Lösungen](./Liste/Aufgaben/aufgaben_loes.pdf) 
+
 
 - [Binärer Baum](https://github.com/ktheu/InfoKurs/blob/gh-pages/Baum/baum.ipynb) -
 [Binärer Suchbaum](https://github.com/ktheu/InfoKurs/blob/gh-pages/Suchbaum/binaererSuchbaum.ipynb) -
