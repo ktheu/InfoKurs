@@ -119,8 +119,7 @@ Klausur am 28.3.2025
 [Videos](https://www.youtube.com/playlist?list=PLWeMgMhRDsIGQatNznsjpbxSSiIKLM_J2) -->
 
 
-- [Spielbaum: MinMax- und AlphaBeta-Algorithmus](./Spielbaum/Folien/Spielbaum.pdf) -
-[Code](https://github.com/ktheu/InfoKurs/blob/gh-pages/Spielbaum/spielbaum.ipynb) -
+[Spielbaum: MinMax- und AlphaBeta-Algorithmus](https://github.com/ktheu/InfoKurs/blob/gh-pages/Spielbaum/spielbaum.ipynb) -
 [Aufgaben](./Spielbaum/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Spielbaum/Aufgaben/aufgaben_loes.pdf)
 
