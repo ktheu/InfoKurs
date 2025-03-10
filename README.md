@@ -93,7 +93,7 @@ Klausur am 28.3.2025
 
 ---
 
-- [Hashing](./Hashing/Folien/Hashing.pdf) -
+- [Hashing](https://github.com/ktheu/InfoKurs/blob/gh-pages/Hashing/hashing.ipynb) -
 [Aufgaben](./Hashing/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Hashing/Aufgaben/aufgaben_loes.pdf)
 
