@@ -20,12 +20,14 @@ Klausur am 28.3.2025
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Zweierkomplement/aufgaben.pdf) - 
 [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Zweierkomplement/aufgaben_loes.pdf)
  
-- [ASCII, Unicode, UTF-8](https://github.com/ktheu/Infokurs/blob/main/Unicode/unicode.ipynb) -
-[Aufgaben](https://github.com/ktheu/Infokurs/blob/main/Unicode/aufgaben.pdf) - 
-[Lösungen](https://github.com/ktheu/Infokurs/blob/main/Unicode/aufgaben_loes.pdf)
+- [ASCII, Unicode, UTF-8](https://github.com/ktheu/InfoKurs/blob/gh-pages/Unicode/unicode.ipynb) -
+[Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/Unicode/aufgaben.pdf) - 
+[Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Unicode/aufgaben_loes.pdf)
 
 - [Huffman-Algorithmus](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/huffman.ipynb) -
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/Huffman/Aufgaben/aufgaben_loes.pdf)
+
+
 
 ---
  
