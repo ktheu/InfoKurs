@@ -25,7 +25,7 @@ Klausur am 28.3.2025
 [Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Unicode/aufgaben_loes.pdf)
 
 - [Huffman-Algorithmus](https://github.com/ktheu/InfoKurs/blob/gh-pages/Huffman/huffman.ipynb) -
-[Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/aufgaben_loes.pdf)
+[Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/Huffman/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Huffman/aufgaben_loes.pdf)
 
 
 
