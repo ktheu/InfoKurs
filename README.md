@@ -31,8 +31,8 @@ Klausur am 28.3.2025
 
 ---
  
-- [Funktionen](https://github.com/ktheu/PythonThemen/blob/main/funktionen/funktionen.ipynb) -
-[Aufgaben](https://github.com/ktheu/PythonThemen/blob/main/funktionen/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/PythonThemen/blob/main/funktionen/aufgaben_loes.pdf)
+- [Funktionen](https://github.com/ktheu/Infokurs/blob/gh-pages/funktionen/funktionen.ipynb) -
+[Aufgaben](https://github.com/ktheu/Infokurs/blob/gh-pages/funktionen/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Infokurs/blob/gh-pages/funktionen/aufgaben_loes.pdf)
 
 - [Speicheradressen](https://github.com/ktheu/PythonThemen/blob/main/speicheradressen/speicheradressen.ipynb) -
 [Aufgaben](https://github.com/ktheu/PythonThemen/blob/main/speicheradressen/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/PythonThemen/blob/main/speicheradressen/aufgaben_loes.pdf)
