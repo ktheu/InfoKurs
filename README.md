@@ -45,8 +45,8 @@ Klausur am 28.3.2025
 ----
 
 - [Rekursion](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb) -
-[Aufgaben](./Rekursion/Aufgaben/aufgaben.pdf) -
-[Lösungen](./Rekursion/Aufgaben/aufgaben_loes.pdf)
+[Aufgaben](https://github.com/ktheu/Infokurs/blob/gh-pages/Rekursion/aufgaben.pdf) -
+[Lösungen](https://github.com/ktheu/Infokurs/blob/gh-pages/Rekursion/aufgaben_loes.pdf) 
 
 - [Rekursive Bilder](https://github.com/ktheu/InfoKurs/blob/gh-pages/Turtle/turtle.ipynb) -
 [Aufgaben](./Turtle/aufgaben.pdf) -
