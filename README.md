@@ -36,8 +36,8 @@ Klausur am 28.3.2025
 - [Speicheradressen](https://github.com/ktheu/Infokurs/blob/gh-pages/speicheradressen/speicheradressen.ipynb) -
 [Aufgaben](https://github.com/ktheu/Infokurs/blob/gh-pages/speicheradressen/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Infokurs/blob/gh-pages/speicheradressen/aufgaben_loes.pdf)
 
-- [Veränderbarkeit](https://github.com/ktheu/PythonThemen/blob/main/mutable/mutable.ipynb) -
-[Aufgaben](https://github.com/ktheu/PythonThemen/blob/main/mutable/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/PythonThemen/blob/main/mutable/aufgaben_loes.pdf)
+- [Veränderbarkeit](https://github.com/ktheu/Infokurs/blob/gh-pages/Veraenderbarkeit/veraenderbarkeit.ipynb) -
+[Aufgaben](https://github.com/ktheu/Infokurs/blob/gh-pages/Veraenderbarkeit/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Infokurs/blob/gh-pages/Veraenderbarkeit/aufgaben_loes.pdf)
 
 - [BinaereSuche](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/binaereSuche.ipynb) -
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/Aufgaben/aufgaben_loes.pdf)
