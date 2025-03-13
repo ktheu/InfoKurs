@@ -39,8 +39,8 @@ Klausur am 28.3.2025
 - [Veränderbarkeit](https://github.com/ktheu/Infokurs/blob/gh-pages/Veraenderbarkeit/veraenderbarkeit.ipynb) -
 [Aufgaben](https://github.com/ktheu/Infokurs/blob/gh-pages/Veraenderbarkeit/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Infokurs/blob/gh-pages/Veraenderbarkeit/aufgaben_loes.pdf)
 
-- [BinaereSuche](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/binaereSuche.ipynb) -
-[Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/Aufgaben/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Brueckenkurs/blob/main/BinaereSuche/Aufgaben/aufgaben_loes.pdf)
+- [BinaereSuche](https://github.com/Infokurs/blob/gh-pages/BinaereSuche/binaereSuche.ipynb) -
+[Aufgaben](https://github.com/ktheu/Infokurs/blob/gh-pages/BinaereSuche/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Infokurs/blob/gh-pages/BinaereSuche/aufgaben_loes.pdf)
 
 ----
 
