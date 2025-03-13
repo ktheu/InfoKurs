@@ -28,7 +28,6 @@ Klausur am 28.3.2025
 [Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/Huffman/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Huffman/aufgaben_loes.pdf)
 
 
-
 ---
  
 - [Funktionen](https://github.com/ktheu/Infokurs/blob/gh-pages/funktionen/funktionen.ipynb) -
