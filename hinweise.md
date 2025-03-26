@@ -13,6 +13,10 @@ Universität Stuttgart - [Schülerseminar Mathematik](https://www.f08.uni-stuttg
 
 Universität Stuttgart - [Korrespondenzzirkel Mathematik](https://www.f08.uni-stuttgart.de/schulen/schuelerzirkel-mathematik/korrespondenzzirkel/) - ab Klasse 7
 
+KIT - [Veranstaltungen für Studieninteressierte](https://www.sle.kit.edu/wirueberuns/veranstaltungskalender.php)
+
+MINT-Kolleg BW - [Online Brückenkurse](https://obki.mint-kolleg.kit.edu/obkrouter.php#HOME)
+
 
 
 
