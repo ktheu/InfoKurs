@@ -31,7 +31,7 @@ Klausur am 28.3.2025
 ---
  
 - [Funktionen](https://github.com/ktheu/Infokurs/blob/gh-pages/funktionen/funktionen.ipynb) -
-[Aufgaben](https://github.com/ktheu/Infokurs/blob/gh-pages/funktionen/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Infokurs/blob/gh-pages/funktionen/aufgaben_loes.pdf)
+[Aufgaben](https://github.com/ktheu/Infokurs/blob/gh-pages/funktionen/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Infokurs/blob/gh-pages/funktionen/aufgaben_loes.pdf) - [Übungen](https://github.com/ktheu/Infokurs/blob/gh-pages/funktionen/funktionen_uebungen.ipynb) 
 
 - [Speicheradressen](https://github.com/ktheu/Infokurs/blob/gh-pages/speicheradressen/speicheradressen.ipynb) -
 [Aufgaben](https://github.com/ktheu/Infokurs/blob/gh-pages/speicheradressen/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/Infokurs/blob/gh-pages/speicheradressen/aufgaben_loes.pdf)
