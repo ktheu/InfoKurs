@@ -39,5 +39,5 @@ class Vorhang:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    vorhang = Vorhang(root, transparency=0.90)  # 50% Transparenz
+    vorhang = Vorhang(root, transparency=0.95)  # 50% Transparenz
     vorhang.run()
