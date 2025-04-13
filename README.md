@@ -171,9 +171,7 @@
 
 - [Links](links.md)
 
-----
 
-[Klausur](./Klausur.pdf)
 
 
 
