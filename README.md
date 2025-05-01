@@ -64,7 +64,8 @@
 - [SelectionSort, BubbleSort, InsertionSort, MergeSort, QuickSort](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort/sort.ipynb) -
 [HeapSort](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort/heapsort.ipynb) -
 [Aufgaben](./Sort/Aufgaben/aufgaben.pdf) -
-[Lösungen](./Sort/Aufgaben/aufgaben_loes.pdf) 
+[Lösungen](./Sort/Aufgaben/aufgaben_loes.pdf) -
+[Übung](./Sort/sort_zeitmessung.ipynb)
 
 - [Sort in Python](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort_in_Python/sort_in_python.ipynb) -
 [Aufgaben](./Sort_in_Python/Aufgaben/aufgaben.pdf) -
@@ -170,10 +171,6 @@
 ---
 
 - [Links](links.md)
-
-
-
-
 
 
 
