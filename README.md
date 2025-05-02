@@ -165,7 +165,7 @@
 [Lösungen](./Turingmaschinen/Aufgaben/aufgaben_loes.pdf)
 
 ---
-
+ 
 - [Flipped](./Flipped/index.md)
 
 ---
