@@ -26,6 +26,7 @@ Löse der Reihe nach die folgenden Codingame Puzzles (ohne KI-Hilfe).
   14. [Blowing Fuse](https://www.codingame.com/training/easy/blowing-fuse)
   15. [Bank Robbers](https://www.codingame.com/training/easy/bank-robbers)
   16. [Blowing Fuse](https://www.codingame.com/training/easy/blowing-fuse)
+  17. [May the triforce be with you](https://www.codingame.com/training/easy/may-the-triforce-be-with-you)
 
 
 
