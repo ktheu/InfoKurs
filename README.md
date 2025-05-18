@@ -147,7 +147,7 @@
 
 ---
 
-- [P = NP?](./NP/Folien/NP.pdf)
+- [P = NP?](./NP/Folien/NP.pdf) - [Videos](https://youtube.com/playlist?list=PLWeMgMhRDsIECPDyBynkza5Zq1Myw23ZO&si=i6JCF5WvkFEPxiMC)
 
 - [Halteproblem](./Halteproblem/Inhalte/halteproblem.html)
 
