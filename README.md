@@ -157,7 +157,7 @@
 [Aufgaben](./Automaten/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Automaten/Aufgaben/aufgaben_loes.pdf)
 
-- [Grammatiken](./Grammatiken/Inhalte/grammatiken.html) -
+- [Grammatiken](https://github.com/ktheu/InfoKurs/blob/gh-pages/Grammatiken/grammatiken.ipynb) -
 [Aufgaben](./Grammatiken/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Grammatiken/Aufgaben/aufgaben_loes.pdf)
 
