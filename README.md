@@ -161,7 +161,7 @@
 [Aufgaben](./Grammatiken/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Grammatiken/Aufgaben/aufgaben_loes.pdf)
 
-- [Turingmaschine und Berechenbarkeit](Turingmaschinen/Inhalte/turingmaschinen.html) -
+- [Turingmaschine und Berechenbarkeit](https://github.com/ktheu/InfoKurs/blob/gh-pages/Turingmaschinen/turingmaschinen.ipynb)  -
 [Aufgaben](./Turingmaschinen/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Turingmaschinen/Aufgaben/aufgaben_loes.pdf)
 
