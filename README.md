@@ -153,7 +153,7 @@
 
 ---
 
-- [Endliche Automaten und Formale Sprachen](./Automaten/Inhalte/automaten.html) -
+- [Endliche Automaten und Formale Sprachen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Automaten/automaten.ipynb) -
 [Aufgaben](./Automaten/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Automaten/Aufgaben/aufgaben_loes.pdf)
 
