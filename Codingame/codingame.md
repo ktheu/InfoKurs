@@ -25,6 +25,9 @@ Löse der Reihe nach die folgenden Codingame Puzzles (ohne KI-Hilfe).
   13. [Darts](https://www.codingame.com/training/easy/darts)
   14. [Blowing Fuse](https://www.codingame.com/training/easy/blowing-fuse)
   15. [Bank Robbers](https://www.codingame.com/training/easy/bank-robbers)
+  16. [Card Counting when easily distracted](https://www.codingame.com/training/easy/card-counting-when-easily-distracted)
+  17. [Queen Control](https://www.codingame.com/training/easy/queen-control)
+  18. [Shoot Enemy Aircraft](https://www.codingame.com/training/easy/shoot-enemy-aircraft)
 
 
 
