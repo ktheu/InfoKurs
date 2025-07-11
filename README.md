@@ -69,7 +69,8 @@
 
 - [Sort in Python](https://github.com/ktheu/InfoKurs/blob/gh-pages/Sort_in_Python/sort_in_python.ipynb) -
 [Aufgaben](./Sort_in_Python/Aufgaben/aufgaben.pdf) -
-[Lösungen](./Sort_in_Python/Aufgaben/aufgaben_loes.pdf)
+[Lösungen](./Sort_in_Python/Aufgaben/aufgaben_loes.pdf) -
+[Übungen](./Sort_in_Python/sort_in_python_uebungen.ipynb)
 
 ---
 
