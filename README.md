@@ -170,7 +170,9 @@
 
 Machine Learning
 
-[Naiver Bayes](./NaiverBayes/naiver_bayes.ipynb) - [MovieReview](./NaiverBayes/moviereview.ipynb) - [Satz von Bayes](./NaiverBayes/satz_von_bayes.ipynb)
+- [Naiver Bayes](./NaiverBayes/naiver_bayes.ipynb) - [MovieReview](./NaiverBayes/moviereview.ipynb) - [Satz von Bayes](./NaiverBayes/satz_von_bayes.ipynb)
+
+
 
 ---
 
