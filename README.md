@@ -107,7 +107,9 @@
    [Beamsearch](https://github.com/ktheu/InfoKurs/blob/gh-pages/search_beamsearch/search_beamsearch.ipynb)
 
 - [Backtracking](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking.ipynb) - 
-  [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking_beispiele.ipynb)
+  [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking_beispiele.ipynb) -
+  [Aufgaben](./Backtracking/Aufgaben/aufgaben.pdf) -
+  [Lösungen](./Backtracking/Aufgaben/aufgaben_loes.pdf)
 
 - [Dynamisches Programmieren](https://github.com/ktheu/InfoKurs/blob/gh-pages/DP/dp.ipynb) - 
   [Tabulation und Parent Pointer](https://github.com/ktheu/InfoKurs/blob/gh-pages/DP/dp_tab.ipynb) -
