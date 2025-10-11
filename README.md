@@ -179,6 +179,9 @@ Machine Learning
 - [Entscheidungsbäume](./DecisionTrees/decision_trees.ipynb)
 
 
+---
+
+- [Git](./git/git.ipynb)
 
 ---
 
