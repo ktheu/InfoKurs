@@ -181,7 +181,7 @@ Machine Learning
 
 ---
 
-- [Git](./git/git.ipynb)
+- [Git](./Git/git.ipynb)
 
 ---
 
