@@ -181,7 +181,7 @@ Machine Learning
 
 ---
 
-- [Git](./Git/git.ipynb) - [Github](./Github/github.md)  
+- [Git](./Git/git.ipynb) - [Github](./Github/github.ipynb)
 ---
 
 - [Flipped](./Flipped/index.md)
