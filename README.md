@@ -183,14 +183,11 @@ Machine Learning
 
 - [Git](./Git/git.ipynb)
 
----
-
- 
 - [Flipped](./Flipped/index.md)
 
----
-
 - [Links](links.md)
+
+- [Tagebuch](tagebuch.md)
 
 
 
