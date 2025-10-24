@@ -25,7 +25,7 @@
 \fancypagestyle{ErsteSeite}{
    \fancyhf{}
    \fancyhead[L]{Merkhilfe}
-   \fancyhead[R]{v08.09.2025}
+   \fancyhead[R]{v24.10.2025}
 }
 \begin{document}
 \parskip 4pt
@@ -93,19 +93,35 @@ s = 'gerade' if x % 2 $==$ 0 else 'ungerade'
 \end{lstlisting}
 \newpage
 \begin{lstlisting}
+# while-Schleife
+x = 0:
+while x < 10:
+	x+=1
+	
+while True:
+   if x $==$ 20:
+   	  break
+   x+=1
+   
+# for-Schleife mit range
+for i in range(5):     # 0,1,2,3,4
+for i in range(2,5):   # 2,3,4
+for i in range(2,9,2): # 2,4,6,8
+for i in range(3,-1,-1): # 3,2,1,0
+
+# break: Scheifenabbruch, hinter der Schleife gehts weiter
+# continue: sofort nächster Schleifendurchgang
+
 # Strings  
 s = ''          # leerer String
 s = 'Hallo' , s = "Hallo"
 k = len(s)      # Länge des Strings
 s = s1 + s2     # Konkatenieren
 s1 = 3*s        # Vervielfachen   
-
 s1 = s.upper(), s.lower()   # alles in Klein-/Großbuchstaben
 k = s.count('abi')          # Vorkommen zählen
 s1 = s.replace('abi','oha') # Teilstrings ersetzen
-
-b = 'abi' in s          # Teilstring vorhanden?
-b = 'abi' not in s      # Teilstring nicht vorhanden?
+b = 'abi' in s, 'abi' not in s        # Teilstring vorhanden?
 
 # Indexing bei Strings
 s[0], s[1]         # erstes, zweites Zeichen
@@ -118,12 +134,11 @@ s[2:], s[:-2]    # außer ersten 2, letzten 2 Zeichen
 s[1:5]           # Teilstring von Index 1 bis (ausschließlich) 5
 
 # Schleifen durch Strings
-for i in range(len(s)): # Variable i läuft durch Index
-    print(s[i])
-    
+for i in range(len(s)): # Variable i läuft durch Index  
 for c in s:             # Variable c läuft durch Zeichen
-    print(c)
-
+\end{lstlisting}
+\newpage
+\begin{lstlisting}
 # Funktionen
 def calc(x, y):  # Kopf mit Name und Parametern x und y
     z = x + y         
@@ -135,9 +150,7 @@ a = calc(2,4)  # Aufruf mit den Argumenten 2 und 4
 k = ord('a')           # Unicode-Zahl 
 c = chr(65)            # Zeichen zur Unicode-Zahl
 max(a), min(a), sum(a) # bei Listen oder Tuples von Zahlen
-\end{lstlisting}
-\newpage
-\begin{lstlisting}
+
 # Listen
 a = []      # leere Liste
 a = [1,2,3],  a = ['Montag', 'Dienstag'] 
@@ -153,8 +166,7 @@ x = a.pop()  # hinten was herausnehmen
 # Liste sortieren
 b = sorted(a),  b = sorted(a, reverse=True)
 
-# Indexing und Slicing wie bei Strings
-# Scheifen durch Listen wie bei Strings
+# Indexing, Slicing und Schleifen wie bei Strings
 
 # String s in Wortliste aufteilen
 a = s.split()
@@ -184,7 +196,6 @@ for k in m:                      # alle keys durchlaufen
     print(k, m[k]) 
 
 \end{lstlisting}
-\newpage
 \begin{lstlisting}
 # Tuple
 t = (3,1,6)
@@ -195,7 +206,6 @@ len(t)      # Länge des Tuples
 
 a = list(tup)     # Tuple in Liste umwandeln
 tup = tuple(a)    # Liste in Tuple umwandeln
-
 m = {(1,2): 10, (3,4): 20} # Tuples können keys von dicts sein
 
 # Zufall
