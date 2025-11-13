@@ -7,6 +7,7 @@
 - 16.10.2025 - Klassen und Objekte - Von Klassendiagramm bis (ausschließlich) Datenkapselung
 - 23.10.2025 - Klassen und Objekte - Von Datenkapselung bis Ende, Übungen
 - 06.11.2025 - ADT Liste bis einschließlich erste Übung
+- 13.11.2025 - ADT Liste bis Implementation von endpos 
 -----
 
 Basiskurs
