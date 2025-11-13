@@ -13,3 +13,4 @@ Basiskurs
 
 - 09.10.2025 - Rekursion - von Türme von Hanoi bis vor Memoization
 - 23.10.2025 - Rekursion - von Memoization bis Ende, Komplexität bis einschließlich Wachstumskurven 
+- 03.11.2025 - Komplexität bis Ende - Sortieralgorithmen: Selectionsort, Bubblesort. 
