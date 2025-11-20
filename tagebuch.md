@@ -9,7 +9,6 @@
 - 06.11.2025 - ADT Liste bis einschließlich erste Übung
 - 13.11.2025 - ADT Liste bis Implementation von endpos 
 - 20.11.2025 - Fertigstellung Implementation ADT Liste bis einschließlich Verweisbox, Übungen
-
 -----
 
 Basiskurs
