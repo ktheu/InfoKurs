@@ -16,3 +16,4 @@ Basiskurs
 - 09.10.2025 - Rekursion - von Türme von Hanoi bis vor Memoization
 - 23.10.2025 - Rekursion - von Memoization bis Ende, Komplexität bis einschließlich Wachstumskurven 
 - 13.11.2025 - Komplexität bis Ende - Sortieralgorithmen: Selectionsort, Bubblesort bis vor Implementation
+- 27.11.2025 - Sortieralgorithmen -  Bubblesort (fertig), Insertionssort, Mergesort.
