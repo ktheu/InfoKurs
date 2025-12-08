@@ -23,4 +23,4 @@ Basiskurs
 
 -----
 
-[Notenschlüssel](https://ktheu-notenschluessel.streamlit.app/)  
+[Notenschlüssel](https://notenschluessel.streamlit.app/)  
