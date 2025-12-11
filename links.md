@@ -21,10 +21,10 @@
   * [Google](https://www.youtube.com/watch?v=XKu_SEDAykw)
  
 
-* Spielbaum 
-  [Zusammenarbeit, Part5, 8:23](https://courses.edx.org/courses/BerkeleyX/CS188x_1/1T2013/courseware/e388ea8629ff4228845b54d70ffc8afd/8616451481ba41d4a40afcf13bc8ab1c/?activate_block_id=i4x%3A%2F%2FBerkeleyX%2FCS188x_1%2Fsequential%2F8616451481ba41d4a40afcf13bc8ab1c)
+<!-- * Spielbaum 
+  [Zusammenarbeit, Part5, 8:23](https://courses.edx.org/courses/BerkeleyX/CS188x_1/1T2013/courseware/e388ea8629ff4228845b54d70ffc8afd/8616451481ba41d4a40afcf13bc8ab1c/?activate_block_id=i4x%3A%2F%2FBerkeleyX%2FCS188x_1%2Fsequential%2F8616451481ba41d4a40afcf13bc8ab1c) -->
   
-* [AlphaGo vs Lee Sedol](https://www.youtube.com/watch?v=jGyCsVhtW0M)
+* [AlphaGo vs Lee Sedol](https://www.youtube.com/watch?v=WXuK6gekU1Y&t=98s)
 
 * P = NP? 
   * [P vs. NP and the computational complexity zoo](https://www.youtube.com/watch?v=YX40hbAHx3s&amp;t=11s)
