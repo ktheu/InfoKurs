@@ -11,6 +11,7 @@
 - 20.11.2025 - Fertigstellung Implementation ADT Liste bis einschließlich Verweisbox, Übungen
 - 27.11.2025 - ADT Keller und ADT Schlange 
 - 04.12.2025 - Binärer Baum bis einschließlich Traversierungen
+- 11.12.2025 - Binärer Baum bis Ende, Übungen
 -----
 
 Basiskurs
@@ -19,6 +20,7 @@ Basiskurs
 - 23.10.2025 - Rekursion - von Memoization bis Ende, Komplexität bis einschließlich Wachstumskurven 
 - 13.11.2025 - Komplexität bis Ende - Sortieralgorithmen: Selectionsort, Bubblesort bis vor Implementation
 - 27.11.2025 - Sortieralgorithmen -  Bubblesort (fertig), Insertionssort, Mergesort.
+- 11.12.2015 - Entfall
 
 
 -----
