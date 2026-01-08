@@ -12,6 +12,8 @@
 - 27.11.2025 - ADT Keller und ADT Schlange 
 - 04.12.2025 - Binärer Baum bis einschließlich Traversierungen
 - 11.12.2025 - Binärer Baum bis Ende, Übungen
+- 18.12.2025 - Übungsstunde für die Klausur
+- 08.01.2026 - Klausur 
 -----
 
 Basiskurs
@@ -21,6 +23,7 @@ Basiskurs
 - 13.11.2025 - Komplexität bis Ende - Sortieralgorithmen: Selectionsort, Bubblesort bis vor Implementation
 - 27.11.2025 - Sortieralgorithmen -  Bubblesort (fertig), Insertionssort, Mergesort.
 - 11.12.2015 - Entfall
+- 08.01.2026 - Sortieralgorithmen - Quicksort, Beginn Zeitmessung für Sortieralgorithmen
 
 
 -----
