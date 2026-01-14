@@ -1,6 +1,6 @@
 ### Inhalte
 
-Klausur: 8.1.2026
+Klausur: 16.4.2026
 
 - [Algorithmus und Programm](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/algorithmus.ipynb) -
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/Aufgaben/aufgaben.pdf) -
@@ -191,6 +191,8 @@ Machine Learning
 - [Links](links.md)
 
 - [Tagebuch](tagebuch.md)
+
+- [Klausur Wahlfach](./2025-26-Inf_12_1-A_loes.pdf) - [Klausur Basiskurs](./2025-26-Inf_Basis_1-A_loes.pdf)
 
 
 
