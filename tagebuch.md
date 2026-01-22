@@ -14,6 +14,8 @@
 - 11.12.2025 - Binärer Baum bis Ende, Übungen
 - 18.12.2025 - Übungsstunde für die Klausur
 - 08.01.2026 - Klausur 
+- 15.01.2026 - Rückgabe Klausur, Suchbaum
+- 22.10.2026 - Hashing
 -----
 
 Basiskurs
@@ -24,6 +26,7 @@ Basiskurs
 - 27.11.2025 - Sortieralgorithmen -  Bubblesort (fertig), Insertionssort, Mergesort.
 - 11.12.2015 - Entfall
 - 08.01.2026 - Sortieralgorithmen - Quicksort, Beginn Zeitmessung für Sortieralgorithmen
+- 22.01.2026 - Übungsaufgaben mit Codingame
 
 
 -----
