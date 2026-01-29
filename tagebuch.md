@@ -16,6 +16,7 @@
 - 08.01.2026 - Klausur 
 - 15.01.2026 - Rückgabe Klausur, Suchbaum
 - 22.10.2026 - Hashing
+- 29.01.2026 - Graphen1 - bis vor Algorithmus von Floyd-Warshall
 -----
 
 Basiskurs
