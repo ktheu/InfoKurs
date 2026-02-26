@@ -18,6 +18,7 @@
 - 22.10.2026 - Hashing
 - 29.01.2026 - Graphen1 - bis vor Algorithmus von Floyd-Warshall
 - 12.02.2026 - Graphen1 - Algorithmus von Floyd-Warshall bis vor die Übung
+- 26.02.2026 - Jugendwettbewerb Informatik - Runde 1
 -----
 
 Basiskurs
@@ -29,6 +30,7 @@ Basiskurs
 - 11.12.2015 - Entfall
 - 08.01.2026 - Sortieralgorithmen - Quicksort, Beginn Zeitmessung für Sortieralgorithmen
 - 22.01.2026 - Übungsaufgaben mit Codingame
+- 26.02.2026 - HeapSort
 
 
 -----
