@@ -192,9 +192,9 @@ Machine Learning
 
 - [Tagebuch](tagebuch.md)
 
-- [Klausur Wahlfach](./2025-26-Inf_12_1-A_loes.pdf) - [Klausur Basiskurs](./2025-26-Inf_Basis_1-A_loes.pdf)
+<!-- - [Klausur Wahlfach](./2025-26-Inf_12_1-A_loes.pdf) - [Klausur Basiskurs](./2025-26-Inf_Basis_1-A_loes.pdf)
 
-
+ -->
 
 <!-- **[TSP](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/TSP/TSP.ipynb)**
 
