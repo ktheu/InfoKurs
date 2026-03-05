@@ -19,6 +19,7 @@
 - 29.01.2026 - Graphen1 - bis vor Algorithmus von Floyd-Warshall
 - 12.02.2026 - Graphen1 - Algorithmus von Floyd-Warshall bis vor die Übung
 - 26.02.2026 - Jugendwettbewerb Informatik - Runde 1
+- 05.03.2026 - Graphen1 - Übung zu Floyd-Warshall, Graphen als Adjazenzlisten bis vor Erreichbarkeit 
 -----
 
 Basiskurs
