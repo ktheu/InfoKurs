@@ -20,6 +20,7 @@
 - 12.02.2026 - Graphen1 - Algorithmus von Floyd-Warshall bis vor die Übung
 - 26.02.2026 - Jugendwettbewerb Informatik - Runde 1
 - 05.03.2026 - Graphen1 - Übung zu Floyd-Warshall, Graphen als Adjazenzlisten bis vor Erreichbarkeit 
+- 12.03.2026 - Graphen1 - Erreichbarkeit, dfs, pre-postvisit Nummern, topologische Sortierung 
 -----
 
 Basiskurs
@@ -32,6 +33,7 @@ Basiskurs
 - 08.01.2026 - Sortieralgorithmen - Quicksort, Beginn Zeitmessung für Sortieralgorithmen
 - 22.01.2026 - Übungsaufgaben mit Codingame
 - 26.02.2026 - HeapSort
+- 12.03.2026 - Aufbau HeapSort in O(n), Vergleich Sortieralgorithmen, Sort in Python
 
 
 -----
