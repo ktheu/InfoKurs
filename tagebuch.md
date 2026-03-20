@@ -21,6 +21,7 @@
 - 26.02.2026 - Jugendwettbewerb Informatik - Runde 1
 - 05.03.2026 - Graphen1 - Übung zu Floyd-Warshall, Graphen als Adjazenzlisten bis vor Erreichbarkeit 
 - 12.03.2026 - Graphen1 - Erreichbarkeit, dfs, pre-postvisit Nummern, topologische Sortierung 
+- 19.03.2026 - Graphen2 - Breitensuche, Dijkstra, Bellman-Ford 
 -----
 
 Basiskurs
