@@ -154,8 +154,8 @@ Klausur: 16.4.2026
 
 - [P = NP?](./NP/Folien/NP.pdf) - [Videos](https://youtube.com/playlist?list=PLWeMgMhRDsIECPDyBynkza5Zq1Myw23ZO&si=i6JCF5WvkFEPxiMC)
 
-- [Halteproblem](./Halteproblem/Inhalte/halteproblem.html)
-
+- [Halteproblem](https://github.com/ktheu/InfoKurs/blob/gh-pages/Halteproblem/halteproblem.ipynb) 
+ 
 ---
 
 - [Endliche Automaten und Formale Sprachen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Automaten/automaten.ipynb) -
