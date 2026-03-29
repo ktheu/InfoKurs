@@ -22,6 +22,7 @@
 - 05.03.2026 - Graphen1 - Übung zu Floyd-Warshall, Graphen als Adjazenzlisten bis vor Erreichbarkeit 
 - 12.03.2026 - Graphen1 - Erreichbarkeit, dfs, pre-postvisit Nummern, topologische Sortierung 
 - 19.03.2026 - Graphen2 - Breitensuche, Dijkstra, Bellman-Ford 
+- 26.03.2026 - Übungen zur Klausur, Themen der Klausur: Suchbaum, Hashing, Graphen bis einschließlich Bellman-Ford
 -----
 
 Basiskurs
@@ -35,6 +36,7 @@ Basiskurs
 - 22.01.2026 - Übungsaufgaben mit Codingame
 - 26.02.2026 - HeapSort
 - 12.03.2026 - Aufbau HeapSort in O(n), Vergleich Sortieralgorithmen, Sort in Python
+- 26.03.2026 - Übungen zur Klausur, Themen der Klausur: Quicksort, Heapsort, Vergleich Sortieralgorithmen, Sort in Python
 
 
 -----
