@@ -166,9 +166,9 @@ Klausur: 16.4.2026
 [Aufgaben](./Grammatiken/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Grammatiken/Aufgaben/aufgaben_loes.pdf)
 
-- [Turingmaschine und Berechenbarkeit](https://github.com/ktheu/InfoKurs/blob/gh-pages/Turingmaschinen/turingmaschinen.ipynb)  -
+<!-- - [Turingmaschine und Berechenbarkeit](https://github.com/ktheu/InfoKurs/blob/gh-pages/Turingmaschinen/turingmaschinen.ipynb)  -
 [Aufgaben](./Turingmaschinen/Aufgaben/aufgaben.pdf) -
-[Lösungen](./Turingmaschinen/Aufgaben/aufgaben_loes.pdf)
+[Lösungen](./Turingmaschinen/Aufgaben/aufgaben_loes.pdf) -->
 
 ---
 
