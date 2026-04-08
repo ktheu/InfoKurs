@@ -166,6 +166,10 @@ Klausur: 16.4.2026
 [Aufgaben](./Grammatiken/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Grammatiken/Aufgaben/aufgaben_loes.pdf)
 
+
+- [Kellerautomaten](https://github.com/ktheu/InfoKurs/blob/gh-pages/Kellerautomaten/kellerautomaten.ipynb) - [Aufgaben](./Kellerautomaten/Aufgaben/aufgaben.pdf) -
+[Lösungen](./Kellerautomaten/Aufgaben/aufgaben_loes.pdf)
+
 <!-- - [Turingmaschine und Berechenbarkeit](https://github.com/ktheu/InfoKurs/blob/gh-pages/Turingmaschinen/turingmaschinen.ipynb)  -
 [Aufgaben](./Turingmaschinen/Aufgaben/aufgaben.pdf) -
 [Lösungen](./Turingmaschinen/Aufgaben/aufgaben_loes.pdf) -->
