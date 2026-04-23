@@ -1,6 +1,5 @@
 ### Inhalte
 
-Klausur: 16.4.2026
 
 - [Algorithmus und Programm](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/algorithmus.ipynb) -
 [Aufgaben](https://github.com/ktheu/Brueckenkurs/blob/main/Algorithmus/Aufgaben/aufgaben.pdf) -
