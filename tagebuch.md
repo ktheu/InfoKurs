@@ -23,6 +23,7 @@
 - 12.03.2026 - Graphen1 - Erreichbarkeit, dfs, pre-postvisit Nummern, topologische Sortierung 
 - 19.03.2026 - Graphen2 - Breitensuche, Dijkstra, Bellman-Ford 
 - 26.03.2026 - Übungen zur Klausur, Themen der Klausur: Suchbaum, Hashing, Graphen bis einschließlich Bellman-Ford
+- 16.04.2026 - Klausur 
 -----
 
 Basiskurs
