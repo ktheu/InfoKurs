@@ -38,6 +38,7 @@ Basiskurs
 - 26.02.2026 - HeapSort
 - 12.03.2026 - Aufbau HeapSort in O(n), Vergleich Sortieralgorithmen, Sort in Python
 - 26.03.2026 - Übungen zur Klausur, Themen der Klausur: Quicksort, Heapsort, Vergleich Sortieralgorithmen, Sort in Python
+- 23.04.2026 - Rückgabe Klausur, Jugendwettbewerb Informatik - Runde 2
 
 
 -----
