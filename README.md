@@ -26,6 +26,12 @@
 - [Huffman-Algorithmus](https://github.com/ktheu/InfoKurs/blob/gh-pages/Huffman/huffman.ipynb) -
 [Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/Huffman/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Huffman/aufgaben_loes.pdf)
 
+---
+
+- [Logik und Schaltungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Logik_und_Schaltungen/logik_und_schaltungen.ipynb) -
+[Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/Logik_und_Schaltungen/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Logik_und_Schaltungen/aufgaben_loes.pdf)
+
+
 
 ---
  
