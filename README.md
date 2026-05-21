@@ -201,7 +201,7 @@ Machine Learning
 
 - [Tagebuch](tagebuch.md)
 
-- [Klausur Wahlfach](./2025-26-Inf_12_2-A_loes.pdf) - [Klausur Basiskurs](./2025-26-Inf_Basis11_2_loes.pdf)  
+- [Klausur Wahlfach](./2025-26-Inf_12_2-A_loes.pdf)  
 
  
 
