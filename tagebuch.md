@@ -24,6 +24,7 @@
 - 19.03.2026 - Graphen2 - Breitensuche, Dijkstra, Bellman-Ford 
 - 26.03.2026 - Übungen zur Klausur, Themen der Klausur: Suchbaum, Hashing, Graphen bis einschließlich Bellman-Ford
 - 16.04.2026 - Klausur 
+- 21.05.2026 - Rückgabe Klausur, Graphen - Minimaler Spannbaum: Kruskal, Prim
 -----
 
 Basiskurs
