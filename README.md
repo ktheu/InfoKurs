@@ -31,7 +31,8 @@
 - [Logik und Schaltungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/LogikUndSchaltungen/LogikUndSchaltungen.ipynb) -
 [Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/LogikUndSchaltungen/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/LogikUndSchaltungen/aufgaben_loes.pdf)
 
-
+- [Funktionsweise eines Rechners](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rechner/Rechner.ipynb) -
+[Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rechner/aufgaben.pdf) - [Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Rechner/aufgaben_loes.pdf)
 
 ---
  
