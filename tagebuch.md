@@ -43,6 +43,7 @@ Basiskurs
 - 23.04.2026 - Rückgabe Klausur, Jugendwettbewerb Informatik - Runde 2
 - 30.04.2026 - Graphen - Minimaler Spannbaum: Kruskal, Prim
 - 07.05.2026 - Mandelbrotmenge, rekursive Bilder
+- 18.06.2026 - Search bfs: Breitensuche am Beispiel Maze, Girlande, 8Puzzle 
 
 
 
