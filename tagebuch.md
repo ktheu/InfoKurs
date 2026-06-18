@@ -25,6 +25,7 @@
 - 26.03.2026 - Übungen zur Klausur, Themen der Klausur: Suchbaum, Hashing, Graphen bis einschließlich Bellman-Ford
 - 16.04.2026 - Klausur 
 - 21.05.2026 - Rückgabe Klausur, Graphen - Minimaler Spannbaum: Kruskal, Prim
+- 11.06.2026 - P = NP? 
 -----
 
 Basiskurs
@@ -40,7 +41,9 @@ Basiskurs
 - 12.03.2026 - Aufbau HeapSort in O(n), Vergleich Sortieralgorithmen, Sort in Python
 - 26.03.2026 - Übungen zur Klausur, Themen der Klausur: Quicksort, Heapsort, Vergleich Sortieralgorithmen, Sort in Python
 - 23.04.2026 - Rückgabe Klausur, Jugendwettbewerb Informatik - Runde 2
+- 30.04.2026 - Graphen - Minimaler Spannbaum: Kruskal, Prim
 - 07.05.2026 - Mandelbrotmenge, rekursive Bilder
+
 
 
 -----
