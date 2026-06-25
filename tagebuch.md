@@ -26,6 +26,7 @@
 - 16.04.2026 - Klausur 
 - 21.05.2026 - Rückgabe Klausur, Graphen - Minimaler Spannbaum: Kruskal, Prim
 - 11.06.2026 - P = NP? 
+- 18.06.2026 - Spielbaum: Minimax, Alpha-Beta-Pruning, Tic-Tac-Toe, 4-Gewinnt
 -----
 
 Basiskurs
