@@ -201,8 +201,8 @@ Machine Learning
 - [Links](links.md)
 
 - [Tagebuch](tagebuch.md)
-
-- [Klausur Wahlfach](./2025-26-Inf_12_2-A_loes.pdf)  
+<!-- 
+- [Klausur Wahlfach](./2025-26-Inf_12_2-A_loes.pdf)   -->
 
  
 
