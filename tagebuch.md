@@ -37,7 +37,7 @@ Basiskurs
 - 23.10.2025 - Rekursion - von Memoization bis Ende, Komplexität bis einschließlich Wachstumskurven 
 - 13.11.2025 - Komplexität bis Ende - Sortieralgorithmen: Selectionsort, Bubblesort bis vor Implementation
 - 27.11.2025 - Sortieralgorithmen -  Bubblesort (fertig), Insertionssort, Mergesort.
-- 11.12.2015 - Entfall
+- 11.12.2025 - Entfall
 - 08.01.2026 - Sortieralgorithmen - Quicksort, Beginn Zeitmessung für Sortieralgorithmen
 - 22.01.2026 - Übungsaufgaben mit Codingame
 - 26.02.2026 - HeapSort
@@ -48,6 +48,7 @@ Basiskurs
 - 07.05.2026 - Mandelbrotmenge, rekursive Bilder
 - 18.06.2026 - Search bfs: Breitensuche am Beispiel Maze, Girlande, 8Puzzle 
 - 02.07.2026 - Weitere Beispiele für Breitensuche: Tubes, Schiebeparkplatz
+- 09.07.2026 - A-Star Algorithmus mit Maze und 8-Puzzle
 
 
 
