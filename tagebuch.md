@@ -27,6 +27,8 @@
 - 21.05.2026 - Rückgabe Klausur, Graphen - Minimaler Spannbaum: Kruskal, Prim
 - 11.06.2026 - P = NP? 
 - 18.06.2026 - Spielbaum: Minimax, Alpha-Beta-Pruning, Tic-Tac-Toe, 4-Gewinnt
+- 25.06.2026 - Halteproblem, Postschen Korrespondenzproblem 
+
 -----
 
 Basiskurs
@@ -45,6 +47,7 @@ Basiskurs
 - 30.04.2026 - Graphen - Minimaler Spannbaum: Kruskal, Prim
 - 07.05.2026 - Mandelbrotmenge, rekursive Bilder
 - 18.06.2026 - Search bfs: Breitensuche am Beispiel Maze, Girlande, 8Puzzle 
+- 02.07.2026 - Weitere Beispiele für Breitensuche: Tubes, Schiebeparkplatz
 
 
 
