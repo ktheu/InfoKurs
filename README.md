@@ -150,11 +150,11 @@
 
 ---
 
-- [Datenbanken](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_entwurf.ipynb) -
-[SQL](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_sqlite.ipynb) -
-[SQL-Übungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/sql_uebungen.ipynb) -
-[Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben.ipynb) -
-[Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben_loes.ipynb)
+- [Datenbanken](https://github.com/ktheu/InfoKurs/blob/gh-pages/DatenbankenCurr/datenbanken.ipynb) -
+<!-- [SQL](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_sqlite.ipynb) -
+[SQL-Übungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/sql_uebungen.ipynb) - -->
+[Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/DatenbankenCurr/aufgaben.pdf) -
+[Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/DatenbankenCurr/aufgaben_loes.pdf)
 
 ---
 
