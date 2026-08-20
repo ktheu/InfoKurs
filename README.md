@@ -150,7 +150,7 @@
 
 ---
 
-- [Datenbanken](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/datenbanken.ipynb) -
+- [Datenbanken](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_entwurf.ipynb) -
 [Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben.ipynb) -
 [Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben_loes.ipynb)
 
