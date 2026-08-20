@@ -154,7 +154,7 @@
 [Aufgaben](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben.ipynb) -
 [Lösungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/aufgaben_loes.ipynb)
 
-[SQL](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_sqlite.ipynb) -
+- [SQL](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/db_sqlite.ipynb) -
 [SQL-Übungen](https://github.com/ktheu/InfoKurs/blob/gh-pages/Datenbanken/sql_uebungen.ipynb) -
 
 ---
